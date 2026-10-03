@@ -1,0 +1,4649 @@
+{
+  "schema": "korea2050.guro1.survey-grid.v1",
+  "generated_on": "2026-09-30",
+  "status": "provisional_boundary_and_local_linear_coordinates",
+  "administrative_dong": "서울특별시 구로구 구로1동",
+  "administrative_code": "1153052000",
+  "boundary_source": "https://github.com/vuski/admdongkor/blob/master/ver20260701/HangJeongDong_ver20260701.geojson",
+  "boundary_source_date": "2026-07-01",
+  "boundary_wgs84_lon_lat": [
+    [
+      126.88015348817628,
+      37.487343991276035
+    ],
+    [
+      126.88065885796262,
+      37.48596867912071
+    ],
+    [
+      126.87810202777688,
+      37.486293244200816
+    ],
+    [
+      126.87737098250149,
+      37.48595927254646
+    ],
+    [
+      126.87708423791456,
+      37.485838319784314
+    ],
+    [
+      126.87634106273006,
+      37.485605691050424
+    ],
+    [
+      126.87551864141894,
+      37.48547790623311
+    ],
+    [
+      126.87532225619574,
+      37.485448204938834
+    ],
+    [
+      126.87474246807251,
+      37.485382052103006
+    ],
+    [
+      126.87515172604859,
+      37.48648498874046
+    ],
+    [
+      126.87528596030073,
+      37.48853290104539
+    ],
+    [
+      126.87278030864226,
+      37.4888035514669
+    ],
+    [
+      126.87004643523657,
+      37.491917829173246
+    ],
+    [
+      126.86965324450638,
+      37.492517416932415
+    ],
+    [
+      126.8696124460348,
+      37.49340113495198
+    ],
+    [
+      126.86890824425872,
+      37.49510029279732
+    ],
+    [
+      126.86830577620667,
+      37.49510381307537
+    ],
+    [
+      126.86819345326795,
+      37.49552577662323
+    ],
+    [
+      126.86802841881283,
+      37.49706166449342
+    ],
+    [
+      126.86841076768047,
+      37.496442830463394
+    ],
+    [
+      126.87120603984867,
+      37.49696369871408
+    ],
+    [
+      126.8718327033247,
+      37.497275746063075
+    ],
+    [
+      126.87291000436387,
+      37.49781326797791
+    ],
+    [
+      126.8733200269927,
+      37.49799120766659
+    ],
+    [
+      126.87509684349268,
+      37.498669170876646
+    ],
+    [
+      126.87834842240092,
+      37.499810341945
+    ],
+    [
+      126.88016411374056,
+      37.50008397948085
+    ],
+    [
+      126.8801243897364,
+      37.50000783205674
+    ],
+    [
+      126.87986569922258,
+      37.499396934391335
+    ],
+    [
+      126.87977016074824,
+      37.49906518558935
+    ],
+    [
+      126.87973655575931,
+      37.49893994641305
+    ],
+    [
+      126.87971324328082,
+      37.498851942083284
+    ],
+    [
+      126.87968064742216,
+      37.49868952737262
+    ],
+    [
+      126.87967182306441,
+      37.49864441338096
+    ],
+    [
+      126.87963502593348,
+      37.49843465555346
+    ],
+    [
+      126.87961196889452,
+      37.49827341759832
+    ],
+    [
+      126.87959155213687,
+      37.498065584530075
+    ],
+    [
+      126.87957919750075,
+      37.49790652094667
+    ],
+    [
+      126.87957130708432,
+      37.49780337371576
+    ],
+    [
+      126.87956560674986,
+      37.49772321347823
+    ],
+    [
+      126.87956888961979,
+      37.49749802761909
+    ],
+    [
+      126.87957323709077,
+      37.49731439972802
+    ],
+    [
+      126.8795804795971,
+      37.497177251797574
+    ],
+    [
+      126.87958329665474,
+      37.49712404168102
+    ],
+    [
+      126.879592563895,
+      37.497029448255205
+    ],
+    [
+      126.87985132638939,
+      37.49463771341577
+    ],
+    [
+      126.88000463596181,
+      37.49251357733048
+    ],
+    [
+      126.87998583869032,
+      37.49222166531193
+    ],
+    [
+      126.87998075097913,
+      37.49215291036344
+    ],
+    [
+      126.87982003866767,
+      37.49132394769115
+    ],
+    [
+      126.87991523383243,
+      37.48990030761533
+    ],
+    [
+      126.88000875039099,
+      37.48850820571184
+    ],
+    [
+      126.88013384049499,
+      37.48740132161624
+    ],
+    [
+      126.88015348817628,
+      37.487343991276035
+    ]
+  ],
+  "coordinate_system": {
+    "input": "WGS84 longitude, latitude",
+    "origin_lon_lat": [
+      126.868,
+      37.485
+    ],
+    "meters_per_degree_lon": 88433.66658856241,
+    "meters_per_degree_lat": 110986.88013258287,
+    "x_direction": "east",
+    "y_direction": "north",
+    "cell_size_m": 100,
+    "warning": "Local linear survey index only; not EPSG:5179, cadastral surveying, or final Unreal world placement."
+  },
+  "computed_polygon_area_m2": 1083276,
+  "official_guro_dong_page_area_m2": 1020000,
+  "area_discrepancy": "Unresolved; replace provisional boundary with verified official SHP before final placement.",
+  "cell_count": 137,
+  "cells": [
+    {
+      "id": "G1-E08-N16",
+      "e": 8,
+      "n": 16,
+      "local_bounds_m": [
+        800,
+        1600,
+        900,
+        1700
+      ],
+      "center_wgs84_lon_lat": [
+        126.8776117,
+        37.4998666
+      ],
+      "boundary_overlap_pct": 15.61,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E08-N16",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E09-N16",
+      "e": 9,
+      "n": 16,
+      "local_bounds_m": [
+        900,
+        1600,
+        1000,
+        1700
+      ],
+      "center_wgs84_lon_lat": [
+        126.8787425,
+        37.4998666
+      ],
+      "boundary_overlap_pct": 50.06,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E09-N16",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E10-N16",
+      "e": 10,
+      "n": 16,
+      "local_bounds_m": [
+        1000,
+        1600,
+        1100,
+        1700
+      ],
+      "center_wgs84_lon_lat": [
+        126.8798733,
+        37.4998666
+      ],
+      "boundary_overlap_pct": 40.97,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E10-N16",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E05-N15",
+      "e": 5,
+      "n": 15,
+      "local_bounds_m": [
+        500,
+        1500,
+        600,
+        1600
+      ],
+      "center_wgs84_lon_lat": [
+        126.8742194,
+        37.4989656
+      ],
+      "boundary_overlap_pct": 0.16,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E05-N15",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E06-N15",
+      "e": 6,
+      "n": 15,
+      "local_bounds_m": [
+        600,
+        1500,
+        700,
+        1600
+      ],
+      "center_wgs84_lon_lat": [
+        126.8753501,
+        37.4989656
+      ],
+      "boundary_overlap_pct": 26.82,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E06-N15",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E07-N15",
+      "e": 7,
+      "n": 15,
+      "local_bounds_m": [
+        700,
+        1500,
+        800,
+        1600
+      ],
+      "center_wgs84_lon_lat": [
+        126.8764809,
+        37.4989656
+      ],
+      "boundary_overlap_pct": 71.01,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E07-N15",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [
+            "north/guil8-diagonal-surface"
+          ],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E08-N15",
+      "e": 8,
+      "n": 15,
+      "local_bounds_m": [
+        800,
+        1500,
+        900,
+        1600
+      ],
+      "center_wgs84_lon_lat": [
+        126.8776117,
+        37.4989656
+      ],
+      "boundary_overlap_pct": 99.45,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E08-N15",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [
+            "north/guil8-diagonal-surface",
+            "north/depot-visible-strip"
+          ],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E09-N15",
+      "e": 9,
+      "n": 15,
+      "local_bounds_m": [
+        900,
+        1500,
+        1000,
+        1600
+      ],
+      "center_wgs84_lon_lat": [
+        126.8787425,
+        37.4989656
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E09-N15",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [
+            "north/depot-visible-strip"
+          ],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E10-N15",
+      "e": 10,
+      "n": 15,
+      "local_bounds_m": [
+        1000,
+        1500,
+        1100,
+        1600
+      ],
+      "center_wgs84_lon_lat": [
+        126.8798733,
+        37.4989656
+      ],
+      "boundary_overlap_pct": 39.05,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E10-N15",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E04-N14",
+      "e": 4,
+      "n": 14,
+      "local_bounds_m": [
+        400,
+        1400,
+        500,
+        1500
+      ],
+      "center_wgs84_lon_lat": [
+        126.8730886,
+        37.4980646
+      ],
+      "boundary_overlap_pct": 29.94,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E04-N14",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E05-N14",
+      "e": 5,
+      "n": 14,
+      "local_bounds_m": [
+        500,
+        1400,
+        600,
+        1500
+      ],
+      "center_wgs84_lon_lat": [
+        126.8742194,
+        37.4980646
+      ],
+      "boundary_overlap_pct": 79.78,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E05-N14",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [
+            "north/woobang-parking"
+          ],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E06-N14",
+      "e": 6,
+      "n": 14,
+      "local_bounds_m": [
+        600,
+        1400,
+        700,
+        1500
+      ],
+      "center_wgs84_lon_lat": [
+        126.8753501,
+        37.4980646
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E06-N14",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [
+            "north/woobang-parking",
+            "north/heights-parking-6",
+            "north/guil8-diagonal-surface"
+          ],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E07-N14",
+      "e": 7,
+      "n": 14,
+      "local_bounds_m": [
+        700,
+        1400,
+        800,
+        1500
+      ],
+      "center_wgs84_lon_lat": [
+        126.8764809,
+        37.4980646
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E07-N14",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [
+            "north/heights-parking-6",
+            "north/guil8-diagonal-surface",
+            "north/heights-east-road-surface",
+            "north/north-masked-area"
+          ],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E08-N14",
+      "e": 8,
+      "n": 14,
+      "local_bounds_m": [
+        800,
+        1400,
+        900,
+        1500
+      ],
+      "center_wgs84_lon_lat": [
+        126.8776117,
+        37.4980646
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E08-N14",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [
+            "north/north-masked-area",
+            "north/depot-visible-strip"
+          ],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E09-N14",
+      "e": 9,
+      "n": 14,
+      "local_bounds_m": [
+        900,
+        1400,
+        1000,
+        1500
+      ],
+      "center_wgs84_lon_lat": [
+        126.8787425,
+        37.4980646
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E09-N14",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [
+            "north/depot-visible-strip"
+          ],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E10-N14",
+      "e": 10,
+      "n": 14,
+      "local_bounds_m": [
+        1000,
+        1400,
+        1100,
+        1500
+      ],
+      "center_wgs84_lon_lat": [
+        126.8798733,
+        37.4980646
+      ],
+      "boundary_overlap_pct": 25.48,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E10-N14",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E00-N13",
+      "e": 0,
+      "n": 13,
+      "local_bounds_m": [
+        0,
+        1300,
+        100,
+        1400
+      ],
+      "center_wgs84_lon_lat": [
+        126.8685654,
+        37.4971636
+      ],
+      "boundary_overlap_pct": 3.04,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E00-N13",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E01-N13",
+      "e": 1,
+      "n": 13,
+      "local_bounds_m": [
+        100,
+        1300,
+        200,
+        1400
+      ],
+      "center_wgs84_lon_lat": [
+        126.8696962,
+        37.4971636
+      ],
+      "boundary_overlap_pct": 1.47,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E01-N13",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E02-N13",
+      "e": 2,
+      "n": 13,
+      "local_bounds_m": [
+        200,
+        1300,
+        300,
+        1400
+      ],
+      "center_wgs84_lon_lat": [
+        126.870827,
+        37.4971636
+      ],
+      "boundary_overlap_pct": 20.51,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E02-N13",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E03-N13",
+      "e": 3,
+      "n": 13,
+      "local_bounds_m": [
+        300,
+        1300,
+        400,
+        1400
+      ],
+      "center_wgs84_lon_lat": [
+        126.8719578,
+        37.4971636
+      ],
+      "boundary_overlap_pct": 69.38,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E03-N13",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [
+            "north/queens-main"
+          ],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E04-N13",
+      "e": 4,
+      "n": 13,
+      "local_bounds_m": [
+        400,
+        1300,
+        500,
+        1400
+      ],
+      "center_wgs84_lon_lat": [
+        126.8730886,
+        37.4971636
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E04-N13",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E05-N13",
+      "e": 5,
+      "n": 13,
+      "local_bounds_m": [
+        500,
+        1300,
+        600,
+        1400
+      ],
+      "center_wgs84_lon_lat": [
+        126.8742194,
+        37.4971636
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E05-N13",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E06-N13",
+      "e": 6,
+      "n": 13,
+      "local_bounds_m": [
+        600,
+        1300,
+        700,
+        1400
+      ],
+      "center_wgs84_lon_lat": [
+        126.8753501,
+        37.4971636
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E06-N13",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [
+            "north/heights-parking-6",
+            "north/heights-parking-5",
+            "north/guil8-diagonal-surface"
+          ],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E07-N13",
+      "e": 7,
+      "n": 13,
+      "local_bounds_m": [
+        700,
+        1300,
+        800,
+        1400
+      ],
+      "center_wgs84_lon_lat": [
+        126.8764809,
+        37.4971636
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E07-N13",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [
+            "north/heights-parking-6",
+            "north/heights-parking-5",
+            "north/heights-east-road-surface",
+            "north/north-masked-area"
+          ],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E08-N13",
+      "e": 8,
+      "n": 13,
+      "local_bounds_m": [
+        800,
+        1300,
+        900,
+        1400
+      ],
+      "center_wgs84_lon_lat": [
+        126.8776117,
+        37.4971636
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E08-N13",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [
+            "north/north-masked-area",
+            "north/depot-visible-strip"
+          ],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E09-N13",
+      "e": 9,
+      "n": 13,
+      "local_bounds_m": [
+        900,
+        1300,
+        1000,
+        1400
+      ],
+      "center_wgs84_lon_lat": [
+        126.8787425,
+        37.4971636
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E09-N13",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [
+            "north/depot-visible-strip"
+          ],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E10-N13",
+      "e": 10,
+      "n": 13,
+      "local_bounds_m": [
+        1000,
+        1300,
+        1100,
+        1400
+      ],
+      "center_wgs84_lon_lat": [
+        126.8798733,
+        37.4971636
+      ],
+      "boundary_overlap_pct": 24.73,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E10-N13",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E00-N12",
+      "e": 0,
+      "n": 12,
+      "local_bounds_m": [
+        0,
+        1200,
+        100,
+        1300
+      ],
+      "center_wgs84_lon_lat": [
+        126.8685654,
+        37.4962626
+      ],
+      "boundary_overlap_pct": 73.32,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E00-N12",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E01-N12",
+      "e": 1,
+      "n": 12,
+      "local_bounds_m": [
+        100,
+        1200,
+        200,
+        1300
+      ],
+      "center_wgs84_lon_lat": [
+        126.8696962,
+        37.4962626
+      ],
+      "boundary_overlap_pct": 95.12,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E01-N12",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E02-N12",
+      "e": 2,
+      "n": 12,
+      "local_bounds_m": [
+        200,
+        1200,
+        300,
+        1300
+      ],
+      "center_wgs84_lon_lat": [
+        126.870827,
+        37.4962626
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E02-N12",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E03-N12",
+      "e": 3,
+      "n": 12,
+      "local_bounds_m": [
+        300,
+        1200,
+        400,
+        1300
+      ],
+      "center_wgs84_lon_lat": [
+        126.8719578,
+        37.4962626
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E03-N12",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [
+            "north/queens-main",
+            "north/queens-west-annex"
+          ],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E04-N12",
+      "e": 4,
+      "n": 12,
+      "local_bounds_m": [
+        400,
+        1200,
+        500,
+        1300
+      ],
+      "center_wgs84_lon_lat": [
+        126.8730886,
+        37.4962626
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E04-N12",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E05-N12",
+      "e": 5,
+      "n": 12,
+      "local_bounds_m": [
+        500,
+        1200,
+        600,
+        1300
+      ],
+      "center_wgs84_lon_lat": [
+        126.8742194,
+        37.4962626
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E05-N12",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [
+            "north/guil8-diagonal-surface"
+          ],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E06-N12",
+      "e": 6,
+      "n": 12,
+      "local_bounds_m": [
+        600,
+        1200,
+        700,
+        1300
+      ],
+      "center_wgs84_lon_lat": [
+        126.8753501,
+        37.4962626
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E06-N12",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [
+            "north/heights-parking-3",
+            "north/heights-parking-2",
+            "north/sangseon-parking",
+            "north/guil8-diagonal-surface"
+          ],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E07-N12",
+      "e": 7,
+      "n": 12,
+      "local_bounds_m": [
+        700,
+        1200,
+        800,
+        1300
+      ],
+      "center_wgs84_lon_lat": [
+        126.8764809,
+        37.4962626
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E07-N12",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [
+            "north/heights-parking-3",
+            "north/heights-parking-2",
+            "north/heights-east-road-surface",
+            "north/north-masked-area"
+          ],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E08-N12",
+      "e": 8,
+      "n": 12,
+      "local_bounds_m": [
+        800,
+        1200,
+        900,
+        1300
+      ],
+      "center_wgs84_lon_lat": [
+        126.8776117,
+        37.4962626
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E08-N12",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [
+            "north/north-masked-area",
+            "north/depot-visible-strip"
+          ],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E09-N12",
+      "e": 9,
+      "n": 12,
+      "local_bounds_m": [
+        900,
+        1200,
+        1000,
+        1300
+      ],
+      "center_wgs84_lon_lat": [
+        126.8787425,
+        37.4962626
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E09-N12",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [
+            "north/depot-visible-strip"
+          ],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E10-N12",
+      "e": 10,
+      "n": 12,
+      "local_bounds_m": [
+        1000,
+        1200,
+        1100,
+        1300
+      ],
+      "center_wgs84_lon_lat": [
+        126.8798733,
+        37.4962626
+      ],
+      "boundary_overlap_pct": 32.51,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E10-N12",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E00-N11",
+      "e": 0,
+      "n": 11,
+      "local_bounds_m": [
+        0,
+        1100,
+        100,
+        1200
+      ],
+      "center_wgs84_lon_lat": [
+        126.8685654,
+        37.4953616
+      ],
+      "boundary_overlap_pct": 66.85,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E00-N11",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E01-N11",
+      "e": 1,
+      "n": 11,
+      "local_bounds_m": [
+        100,
+        1100,
+        200,
+        1200
+      ],
+      "center_wgs84_lon_lat": [
+        126.8696962,
+        37.4953616
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E01-N11",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E02-N11",
+      "e": 2,
+      "n": 11,
+      "local_bounds_m": [
+        200,
+        1100,
+        300,
+        1200
+      ],
+      "center_wgs84_lon_lat": [
+        126.870827,
+        37.4953616
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E02-N11",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E03-N11",
+      "e": 3,
+      "n": 11,
+      "local_bounds_m": [
+        300,
+        1100,
+        400,
+        1200
+      ],
+      "center_wgs84_lon_lat": [
+        126.8719578,
+        37.4953616
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E03-N11",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [
+            "north/guil10-west-surface"
+          ],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E04-N11",
+      "e": 4,
+      "n": 11,
+      "local_bounds_m": [
+        400,
+        1100,
+        500,
+        1200
+      ],
+      "center_wgs84_lon_lat": [
+        126.8730886,
+        37.4953616
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E04-N11",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [
+            "north/woosung-shop",
+            "north/middle-pitch",
+            "north/guil10-road-surface",
+            "north/guil10-west-surface",
+            "north/guil8-diagonal-surface",
+            "north/school-west-road-surface"
+          ],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E05-N11",
+      "e": 5,
+      "n": 11,
+      "local_bounds_m": [
+        500,
+        1100,
+        600,
+        1200
+      ],
+      "center_wgs84_lon_lat": [
+        126.8742194,
+        37.4953616
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E05-N11",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [
+            "north/middle-pitch",
+            "north/guil10-road-surface",
+            "north/guil8-diagonal-surface",
+            "north/school-east-road-surface"
+          ],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E06-N11",
+      "e": 6,
+      "n": 11,
+      "local_bounds_m": [
+        600,
+        1100,
+        700,
+        1200
+      ],
+      "center_wgs84_lon_lat": [
+        126.8753501,
+        37.4953616
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E06-N11",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [
+            "north/jugong-104-parking",
+            "north/guil10-road-surface",
+            "north/school-east-road-surface"
+          ],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E07-N11",
+      "e": 7,
+      "n": 11,
+      "local_bounds_m": [
+        700,
+        1100,
+        800,
+        1200
+      ],
+      "center_wgs84_lon_lat": [
+        126.8764809,
+        37.4953616
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E07-N11",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [
+            "north/jugong-104-parking",
+            "north/guil10-road-surface",
+            "north/heights-east-road-surface",
+            "north/north-masked-area"
+          ],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E08-N11",
+      "e": 8,
+      "n": 11,
+      "local_bounds_m": [
+        800,
+        1100,
+        900,
+        1200
+      ],
+      "center_wgs84_lon_lat": [
+        126.8776117,
+        37.4953616
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E08-N11",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [
+            "north/guil10-road-surface",
+            "north/north-masked-area",
+            "north/depot-visible-strip"
+          ],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E09-N11",
+      "e": 9,
+      "n": 11,
+      "local_bounds_m": [
+        900,
+        1100,
+        1000,
+        1200
+      ],
+      "center_wgs84_lon_lat": [
+        126.8787425,
+        37.4953616
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E09-N11",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [
+            "north/depot-visible-strip"
+          ],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E10-N11",
+      "e": 10,
+      "n": 11,
+      "local_bounds_m": [
+        1000,
+        1100,
+        1100,
+        1200
+      ],
+      "center_wgs84_lon_lat": [
+        126.8798733,
+        37.4953616
+      ],
+      "boundary_overlap_pct": 41.13,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E10-N11",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E00-N10",
+      "e": 0,
+      "n": 10,
+      "local_bounds_m": [
+        0,
+        1000,
+        100,
+        1100
+      ],
+      "center_wgs84_lon_lat": [
+        126.8685654,
+        37.4944606
+      ],
+      "boundary_overlap_pct": 2.46,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E00-N10",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E01-N10",
+      "e": 1,
+      "n": 10,
+      "local_bounds_m": [
+        100,
+        1000,
+        200,
+        1100
+      ],
+      "center_wgs84_lon_lat": [
+        126.8696962,
+        37.4944606
+      ],
+      "boundary_overlap_pct": 93.77,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E01-N10",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E02-N10",
+      "e": 2,
+      "n": 10,
+      "local_bounds_m": [
+        200,
+        1000,
+        300,
+        1100
+      ],
+      "center_wgs84_lon_lat": [
+        126.870827,
+        37.4944606
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E02-N10",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E03-N10",
+      "e": 3,
+      "n": 10,
+      "local_bounds_m": [
+        300,
+        1000,
+        400,
+        1100
+      ],
+      "center_wgs84_lon_lat": [
+        126.8719578,
+        37.4944606
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E03-N10",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [
+            "north/school-west-road-surface"
+          ],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E04-N10",
+      "e": 4,
+      "n": 10,
+      "local_bounds_m": [
+        400,
+        1000,
+        500,
+        1100
+      ],
+      "center_wgs84_lon_lat": [
+        126.8730886,
+        37.4944606
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E04-N10",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [
+            "north/woosung-shop",
+            "north/hyeonjin-B",
+            "north/guro1-church",
+            "north/middle-pitch",
+            "north/middle-courtyard",
+            "north/school-west-road-surface"
+          ],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E05-N10",
+      "e": 5,
+      "n": 10,
+      "local_bounds_m": [
+        500,
+        1000,
+        600,
+        1100
+      ],
+      "center_wgs84_lon_lat": [
+        126.8742194,
+        37.4944606
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E05-N10",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [
+            "north/middle-pitch",
+            "north/middle-courtyard",
+            "north/school-east-road-surface"
+          ],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E06-N10",
+      "e": 6,
+      "n": 10,
+      "local_bounds_m": [
+        600,
+        1000,
+        700,
+        1100
+      ],
+      "center_wgs84_lon_lat": [
+        126.8753501,
+        37.4944606
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E06-N10",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [
+            "north/jugong-104-parking",
+            "north/jugong-105-parking",
+            "north/school-east-road-surface"
+          ],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E07-N10",
+      "e": 7,
+      "n": 10,
+      "local_bounds_m": [
+        700,
+        1000,
+        800,
+        1100
+      ],
+      "center_wgs84_lon_lat": [
+        126.8764809,
+        37.4944606
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E07-N10",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [
+            "north/jugong-104-parking",
+            "north/jugong-105-parking"
+          ],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E08-N10",
+      "e": 8,
+      "n": 10,
+      "local_bounds_m": [
+        800,
+        1000,
+        900,
+        1100
+      ],
+      "center_wgs84_lon_lat": [
+        126.8776117,
+        37.4944606
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E08-N10",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [
+            "north/depot-visible-strip"
+          ],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E09-N10",
+      "e": 9,
+      "n": 10,
+      "local_bounds_m": [
+        900,
+        1000,
+        1000,
+        1100
+      ],
+      "center_wgs84_lon_lat": [
+        126.8787425,
+        37.4944606
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E09-N10",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [
+            "north/depot-visible-strip"
+          ],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E10-N10",
+      "e": 10,
+      "n": 10,
+      "local_bounds_m": [
+        1000,
+        1000,
+        1100,
+        1100
+      ],
+      "center_wgs84_lon_lat": [
+        126.8798733,
+        37.4944606
+      ],
+      "boundary_overlap_pct": 49.05,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E10-N10",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E01-N09",
+      "e": 1,
+      "n": 9,
+      "local_bounds_m": [
+        100,
+        900,
+        200,
+        1000
+      ],
+      "center_wgs84_lon_lat": [
+        126.8696962,
+        37.4935596
+      ],
+      "boundary_overlap_pct": 64.75,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E01-N09",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E02-N09",
+      "e": 2,
+      "n": 9,
+      "local_bounds_m": [
+        200,
+        900,
+        300,
+        1000
+      ],
+      "center_wgs84_lon_lat": [
+        126.870827,
+        37.4935596
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E02-N09",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E03-N09",
+      "e": 3,
+      "n": 9,
+      "local_bounds_m": [
+        300,
+        900,
+        400,
+        1000
+      ],
+      "center_wgs84_lon_lat": [
+        126.8719578,
+        37.4935596
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E03-N09",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [
+            "north/school-west-road-surface"
+          ],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E04-N09",
+      "e": 4,
+      "n": 9,
+      "local_bounds_m": [
+        400,
+        900,
+        500,
+        1000
+      ],
+      "center_wgs84_lon_lat": [
+        126.8730886,
+        37.4935596
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E04-N09",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [
+            "north/guro1-church",
+            "north/geunsang-palace-2"
+          ],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E05-N09",
+      "e": 5,
+      "n": 9,
+      "local_bounds_m": [
+        500,
+        900,
+        600,
+        1000
+      ],
+      "center_wgs84_lon_lat": [
+        126.8742194,
+        37.4935596
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E05-N09",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [
+            "north/high-ground",
+            "north/school-east-road-surface"
+          ],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E06-N09",
+      "e": 6,
+      "n": 9,
+      "local_bounds_m": [
+        600,
+        900,
+        700,
+        1000
+      ],
+      "center_wgs84_lon_lat": [
+        126.8753501,
+        37.4935596
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E06-N09",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [
+            "north/jugong-106-parking",
+            "north/school-east-road-surface"
+          ],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E07-N09",
+      "e": 7,
+      "n": 9,
+      "local_bounds_m": [
+        700,
+        900,
+        800,
+        1000
+      ],
+      "center_wgs84_lon_lat": [
+        126.8764809,
+        37.4935596
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E07-N09",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [
+            "north/jugong-106-parking"
+          ],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E08-N09",
+      "e": 8,
+      "n": 9,
+      "local_bounds_m": [
+        800,
+        900,
+        900,
+        1000
+      ],
+      "center_wgs84_lon_lat": [
+        126.8776117,
+        37.4935596
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E08-N09",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [
+            "north/depot-visible-strip"
+          ],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E09-N09",
+      "e": 9,
+      "n": 9,
+      "local_bounds_m": [
+        900,
+        900,
+        1000,
+        1000
+      ],
+      "center_wgs84_lon_lat": [
+        126.8787425,
+        37.4935596
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E09-N09",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [
+            "north/depot-visible-strip"
+          ],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E10-N09",
+      "e": 10,
+      "n": 9,
+      "local_bounds_m": [
+        1000,
+        900,
+        1100,
+        1000
+      ],
+      "center_wgs84_lon_lat": [
+        126.8798733,
+        37.4935596
+      ],
+      "boundary_overlap_pct": 54.94,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "cell_id": "G1-E10-N09",
+          "status": "plan_and_air_tile_viewscan",
+          "sources": [
+            "N-plan18",
+            "N-air18"
+          ],
+          "date": "2026-09-30",
+          "mapped_feature_ids": [],
+          "detail_status": "partial; not a complete building/entrance/access survey"
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E01-N08",
+      "e": 1,
+      "n": 8,
+      "local_bounds_m": [
+        100,
+        800,
+        200,
+        900
+      ],
+      "center_wgs84_lon_lat": [
+        126.8696962,
+        37.4926586
+      ],
+      "boundary_overlap_pct": 51.51,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E01-N08",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "retention-initial50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E02-N08",
+      "e": 2,
+      "n": 8,
+      "local_bounds_m": [
+        200,
+        800,
+        300,
+        900
+      ],
+      "center_wgs84_lon_lat": [
+        126.870827,
+        37.4926586
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E02-N08",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "school30",
+            "retention-initial50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E03-N08",
+      "e": 3,
+      "n": 8,
+      "local_bounds_m": [
+        300,
+        800,
+        400,
+        900
+      ],
+      "center_wgs84_lon_lat": [
+        126.8719578,
+        37.4926586
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "plan_view_first_pass",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E03-N08",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "school30",
+            "shinyeong50",
+            "retention-initial50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E04-N08",
+      "e": 4,
+      "n": 8,
+      "local_bounds_m": [
+        400,
+        800,
+        500,
+        900
+      ],
+      "center_wgs84_lon_lat": [
+        126.8730886,
+        37.4926586
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "plan_view_first_pass",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E04-N08",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "school30",
+            "shinyeong50",
+            "retention-initial50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E05-N08",
+      "e": 5,
+      "n": 8,
+      "local_bounds_m": [
+        500,
+        800,
+        600,
+        900
+      ],
+      "center_wgs84_lon_lat": [
+        126.8742194,
+        37.4926586
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "plan_view_first_pass",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E05-N08",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "school30",
+            "shinyeong50",
+            "retention-initial50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E06-N08",
+      "e": 6,
+      "n": 8,
+      "local_bounds_m": [
+        600,
+        800,
+        700,
+        900
+      ],
+      "center_wgs84_lon_lat": [
+        126.8753501,
+        37.4926586
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "plan_view_first_pass",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E06-N08",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "shinyeong50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E07-N08",
+      "e": 7,
+      "n": 8,
+      "local_bounds_m": [
+        700,
+        800,
+        800,
+        900
+      ],
+      "center_wgs84_lon_lat": [
+        126.8764809,
+        37.4926586
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "plan_view_first_pass",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E07-N08",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "shinyeong50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E08-N08",
+      "e": 8,
+      "n": 8,
+      "local_bounds_m": [
+        800,
+        800,
+        900,
+        900
+      ],
+      "center_wgs84_lon_lat": [
+        126.8776117,
+        37.4926586
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "plan_view_first_pass",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E08-N08",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "shinyeong50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E09-N08",
+      "e": 9,
+      "n": 8,
+      "local_bounds_m": [
+        900,
+        800,
+        1000,
+        900
+      ],
+      "center_wgs84_lon_lat": [
+        126.8787425,
+        37.4926586
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E09-N08",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "shinyeong50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E10-N08",
+      "e": 10,
+      "n": 8,
+      "local_bounds_m": [
+        1000,
+        800,
+        1100,
+        900
+      ],
+      "center_wgs84_lon_lat": [
+        126.8798733,
+        37.4926586
+      ],
+      "boundary_overlap_pct": 60.06,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E10-N08",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "shinyeong50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E01-N07",
+      "e": 1,
+      "n": 7,
+      "local_bounds_m": [
+        100,
+        700,
+        200,
+        800
+      ],
+      "center_wgs84_lon_lat": [
+        126.8696962,
+        37.4917576
+      ],
+      "boundary_overlap_pct": 11.43,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E01-N07",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "retention-initial50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E02-N07",
+      "e": 2,
+      "n": 7,
+      "local_bounds_m": [
+        200,
+        700,
+        300,
+        800
+      ],
+      "center_wgs84_lon_lat": [
+        126.870827,
+        37.4917576
+      ],
+      "boundary_overlap_pct": 94.24,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E02-N07",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "school30",
+            "retention30",
+            "retention-initial50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E03-N07",
+      "e": 3,
+      "n": 7,
+      "local_bounds_m": [
+        300,
+        700,
+        400,
+        800
+      ],
+      "center_wgs84_lon_lat": [
+        126.8719578,
+        37.4917576
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "plan_view_first_pass",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E03-N07",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "school30",
+            "retention30",
+            "shinyeong50",
+            "retention-initial50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E04-N07",
+      "e": 4,
+      "n": 7,
+      "local_bounds_m": [
+        400,
+        700,
+        500,
+        800
+      ],
+      "center_wgs84_lon_lat": [
+        126.8730886,
+        37.4917576
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "plan_view_first_pass",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E04-N07",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "school30",
+            "retention30",
+            "shinyeong50",
+            "retention-initial50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E05-N07",
+      "e": 5,
+      "n": 7,
+      "local_bounds_m": [
+        500,
+        700,
+        600,
+        800
+      ],
+      "center_wgs84_lon_lat": [
+        126.8742194,
+        37.4917576
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "plan_view_first_pass",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E05-N07",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "school30",
+            "retention30",
+            "shinyeong50",
+            "retention-initial50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E06-N07",
+      "e": 6,
+      "n": 7,
+      "local_bounds_m": [
+        600,
+        700,
+        700,
+        800
+      ],
+      "center_wgs84_lon_lat": [
+        126.8753501,
+        37.4917576
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "plan_view_first_pass",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E06-N07",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "shinyeong50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E07-N07",
+      "e": 7,
+      "n": 7,
+      "local_bounds_m": [
+        700,
+        700,
+        800,
+        800
+      ],
+      "center_wgs84_lon_lat": [
+        126.8764809,
+        37.4917576
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "plan_view_first_pass",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E07-N07",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "shinyeong50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E08-N07",
+      "e": 8,
+      "n": 7,
+      "local_bounds_m": [
+        800,
+        700,
+        900,
+        800
+      ],
+      "center_wgs84_lon_lat": [
+        126.8776117,
+        37.4917576
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "plan_view_first_pass",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E08-N07",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "shinyeong50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E09-N07",
+      "e": 9,
+      "n": 7,
+      "local_bounds_m": [
+        900,
+        700,
+        1000,
+        800
+      ],
+      "center_wgs84_lon_lat": [
+        126.8787425,
+        37.4917576
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E09-N07",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "shinyeong50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E10-N07",
+      "e": 10,
+      "n": 7,
+      "local_bounds_m": [
+        1000,
+        700,
+        1100,
+        800
+      ],
+      "center_wgs84_lon_lat": [
+        126.8798733,
+        37.4917576
+      ],
+      "boundary_overlap_pct": 52.71,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E10-N07",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "shinyeong50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E02-N06",
+      "e": 2,
+      "n": 6,
+      "local_bounds_m": [
+        200,
+        600,
+        300,
+        700
+      ],
+      "center_wgs84_lon_lat": [
+        126.870827,
+        37.4908565
+      ],
+      "boundary_overlap_pct": 36.64,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E02-N06",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "retention30",
+            "retention50",
+            "retention-initial50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E03-N06",
+      "e": 3,
+      "n": 6,
+      "local_bounds_m": [
+        300,
+        600,
+        400,
+        700
+      ],
+      "center_wgs84_lon_lat": [
+        126.8719578,
+        37.4908565
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "plan_view_first_pass",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E03-N06",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "retention30",
+            "retention50",
+            "shinyeong50",
+            "retention-initial50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E04-N06",
+      "e": 4,
+      "n": 6,
+      "local_bounds_m": [
+        400,
+        600,
+        500,
+        700
+      ],
+      "center_wgs84_lon_lat": [
+        126.8730886,
+        37.4908565
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "plan_view_first_pass",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E04-N06",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "retention30",
+            "retention50",
+            "shinyeong50",
+            "retention-initial50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E05-N06",
+      "e": 5,
+      "n": 6,
+      "local_bounds_m": [
+        500,
+        600,
+        600,
+        700
+      ],
+      "center_wgs84_lon_lat": [
+        126.8742194,
+        37.4908565
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "plan_view_first_pass",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E05-N06",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "retention30",
+            "retention50",
+            "shinyeong50",
+            "retention-initial50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E06-N06",
+      "e": 6,
+      "n": 6,
+      "local_bounds_m": [
+        600,
+        600,
+        700,
+        700
+      ],
+      "center_wgs84_lon_lat": [
+        126.8753501,
+        37.4908565
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "plan_view_first_pass",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E06-N06",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "retention50",
+            "shinyeong50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E07-N06",
+      "e": 7,
+      "n": 6,
+      "local_bounds_m": [
+        700,
+        600,
+        800,
+        700
+      ],
+      "center_wgs84_lon_lat": [
+        126.8764809,
+        37.4908565
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "plan_view_first_pass",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E07-N06",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "retention50",
+            "shinyeong50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E08-N06",
+      "e": 8,
+      "n": 6,
+      "local_bounds_m": [
+        800,
+        600,
+        900,
+        700
+      ],
+      "center_wgs84_lon_lat": [
+        126.8776117,
+        37.4908565
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "plan_view_first_pass",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E08-N06",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "shinyeong50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E09-N06",
+      "e": 9,
+      "n": 6,
+      "local_bounds_m": [
+        900,
+        600,
+        1000,
+        700
+      ],
+      "center_wgs84_lon_lat": [
+        126.8787425,
+        37.4908565
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E09-N06",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "shinyeong50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E10-N06",
+      "e": 10,
+      "n": 6,
+      "local_bounds_m": [
+        1000,
+        600,
+        1100,
+        700
+      ],
+      "center_wgs84_lon_lat": [
+        126.8798733,
+        37.4908565
+      ],
+      "boundary_overlap_pct": 48.05,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E10-N06",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "shinyeong50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E02-N05",
+      "e": 2,
+      "n": 5,
+      "local_bounds_m": [
+        200,
+        500,
+        300,
+        600
+      ],
+      "center_wgs84_lon_lat": [
+        126.870827,
+        37.4899555
+      ],
+      "boundary_overlap_pct": 0.02,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E02-N05",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "retention30",
+            "retention50",
+            "retention-initial50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E03-N05",
+      "e": 3,
+      "n": 5,
+      "local_bounds_m": [
+        300,
+        500,
+        400,
+        600
+      ],
+      "center_wgs84_lon_lat": [
+        126.8719578,
+        37.4899555
+      ],
+      "boundary_overlap_pct": 66.67,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E03-N05",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "retention30",
+            "retention50",
+            "shinyeong50",
+            "retention-initial50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E04-N05",
+      "e": 4,
+      "n": 5,
+      "local_bounds_m": [
+        400,
+        500,
+        500,
+        600
+      ],
+      "center_wgs84_lon_lat": [
+        126.8730886,
+        37.4899555
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E04-N05",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "retention30",
+            "retention50",
+            "shinyeong50",
+            "retention-initial50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E05-N05",
+      "e": 5,
+      "n": 5,
+      "local_bounds_m": [
+        500,
+        500,
+        600,
+        600
+      ],
+      "center_wgs84_lon_lat": [
+        126.8742194,
+        37.4899555
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E05-N05",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "retention30",
+            "retention50",
+            "shinyeong50",
+            "retention-initial50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E06-N05",
+      "e": 6,
+      "n": 5,
+      "local_bounds_m": [
+        600,
+        500,
+        700,
+        600
+      ],
+      "center_wgs84_lon_lat": [
+        126.8753501,
+        37.4899555
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E06-N05",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "retention50",
+            "shinyeong50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E07-N05",
+      "e": 7,
+      "n": 5,
+      "local_bounds_m": [
+        700,
+        500,
+        800,
+        600
+      ],
+      "center_wgs84_lon_lat": [
+        126.8764809,
+        37.4899555
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E07-N05",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "retention50",
+            "shinyeong50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E08-N05",
+      "e": 8,
+      "n": 5,
+      "local_bounds_m": [
+        800,
+        500,
+        900,
+        600
+      ],
+      "center_wgs84_lon_lat": [
+        126.8776117,
+        37.4899555
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E08-N05",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "shinyeong50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E09-N05",
+      "e": 9,
+      "n": 5,
+      "local_bounds_m": [
+        900,
+        500,
+        1000,
+        600
+      ],
+      "center_wgs84_lon_lat": [
+        126.8787425,
+        37.4899555
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E09-N05",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "shinyeong50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E10-N05",
+      "e": 10,
+      "n": 5,
+      "local_bounds_m": [
+        1000,
+        500,
+        1100,
+        600
+      ],
+      "center_wgs84_lon_lat": [
+        126.8798733,
+        37.4899555
+      ],
+      "boundary_overlap_pct": 53.38,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E10-N05",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "shinyeong50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E03-N04",
+      "e": 3,
+      "n": 4,
+      "local_bounds_m": [
+        300,
+        400,
+        400,
+        500
+      ],
+      "center_wgs84_lon_lat": [
+        126.8719578,
+        37.4890545
+      ],
+      "boundary_overlap_pct": 7.19,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E03-N04",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "retention50",
+            "shinyeong50",
+            "retention-initial50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E04-N04",
+      "e": 4,
+      "n": 4,
+      "local_bounds_m": [
+        400,
+        400,
+        500,
+        500
+      ],
+      "center_wgs84_lon_lat": [
+        126.8730886,
+        37.4890545
+      ],
+      "boundary_overlap_pct": 78.21,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E04-N04",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "retention50",
+            "shinyeong50",
+            "retention-initial50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E05-N04",
+      "e": 5,
+      "n": 4,
+      "local_bounds_m": [
+        500,
+        400,
+        600,
+        500
+      ],
+      "center_wgs84_lon_lat": [
+        126.8742194,
+        37.4890545
+      ],
+      "boundary_overlap_pct": 94.98,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E05-N04",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "retention50",
+            "shinyeong50",
+            "retention-initial50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E06-N04",
+      "e": 6,
+      "n": 4,
+      "local_bounds_m": [
+        600,
+        400,
+        700,
+        500
+      ],
+      "center_wgs84_lon_lat": [
+        126.8753501,
+        37.4890545
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E06-N04",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "retention50",
+            "shinyeong50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E07-N04",
+      "e": 7,
+      "n": 4,
+      "local_bounds_m": [
+        700,
+        400,
+        800,
+        500
+      ],
+      "center_wgs84_lon_lat": [
+        126.8764809,
+        37.4890545
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E07-N04",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "retention50",
+            "shinyeong50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E08-N04",
+      "e": 8,
+      "n": 4,
+      "local_bounds_m": [
+        800,
+        400,
+        900,
+        500
+      ],
+      "center_wgs84_lon_lat": [
+        126.8776117,
+        37.4890545
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E08-N04",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "shinyeong50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E09-N04",
+      "e": 9,
+      "n": 4,
+      "local_bounds_m": [
+        900,
+        400,
+        1000,
+        500
+      ],
+      "center_wgs84_lon_lat": [
+        126.8787425,
+        37.4890545
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E09-N04",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "shinyeong50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E10-N04",
+      "e": 10,
+      "n": 4,
+      "local_bounds_m": [
+        1000,
+        400,
+        1100,
+        500
+      ],
+      "center_wgs84_lon_lat": [
+        126.8798733,
+        37.4890545
+      ],
+      "boundary_overlap_pct": 58.73,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E10-N04",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "shinyeong50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E05-N03",
+      "e": 5,
+      "n": 3,
+      "local_bounds_m": [
+        500,
+        300,
+        600,
+        400
+      ],
+      "center_wgs84_lon_lat": [
+        126.8742194,
+        37.4881535
+      ],
+      "boundary_overlap_pct": 0.13,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E05-N03",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "retention50",
+            "south50",
+            "southeast50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E06-N03",
+      "e": 6,
+      "n": 3,
+      "local_bounds_m": [
+        600,
+        300,
+        700,
+        400
+      ],
+      "center_wgs84_lon_lat": [
+        126.8753501,
+        37.4881535
+      ],
+      "boundary_overlap_pct": 60.06,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E06-N03",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "retention50",
+            "south50",
+            "southeast50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E07-N03",
+      "e": 7,
+      "n": 3,
+      "local_bounds_m": [
+        700,
+        300,
+        800,
+        400
+      ],
+      "center_wgs84_lon_lat": [
+        126.8764809,
+        37.4881535
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E07-N03",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "retention50",
+            "south50",
+            "southeast50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E08-N03",
+      "e": 8,
+      "n": 3,
+      "local_bounds_m": [
+        800,
+        300,
+        900,
+        400
+      ],
+      "center_wgs84_lon_lat": [
+        126.8776117,
+        37.4881535
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E08-N03",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "south50",
+            "southeast50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E09-N03",
+      "e": 9,
+      "n": 3,
+      "local_bounds_m": [
+        900,
+        300,
+        1000,
+        400
+      ],
+      "center_wgs84_lon_lat": [
+        126.8787425,
+        37.4881535
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E09-N03",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "south50",
+            "southeast50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E10-N03",
+      "e": 10,
+      "n": 3,
+      "local_bounds_m": [
+        1000,
+        300,
+        1100,
+        400
+      ],
+      "center_wgs84_lon_lat": [
+        126.8798733,
+        37.4881535
+      ],
+      "boundary_overlap_pct": 65.54,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E10-N03",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "south50",
+            "southeast50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E06-N02",
+      "e": 6,
+      "n": 2,
+      "local_bounds_m": [
+        600,
+        200,
+        700,
+        300
+      ],
+      "center_wgs84_lon_lat": [
+        126.8753501,
+        37.4872525
+      ],
+      "boundary_overlap_pct": 63.1,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E06-N02",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "retention50",
+            "south50",
+            "southeast50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E07-N02",
+      "e": 7,
+      "n": 2,
+      "local_bounds_m": [
+        700,
+        200,
+        800,
+        300
+      ],
+      "center_wgs84_lon_lat": [
+        126.8764809,
+        37.4872525
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E07-N02",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "retention50",
+            "south50",
+            "southeast50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E08-N02",
+      "e": 8,
+      "n": 2,
+      "local_bounds_m": [
+        800,
+        200,
+        900,
+        300
+      ],
+      "center_wgs84_lon_lat": [
+        126.8776117,
+        37.4872525
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E08-N02",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "south50",
+            "southeast50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E09-N02",
+      "e": 9,
+      "n": 2,
+      "local_bounds_m": [
+        900,
+        200,
+        1000,
+        300
+      ],
+      "center_wgs84_lon_lat": [
+        126.8787425,
+        37.4872525
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E09-N02",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "south50",
+            "southeast50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E10-N02",
+      "e": 10,
+      "n": 2,
+      "local_bounds_m": [
+        1000,
+        200,
+        1100,
+        300
+      ],
+      "center_wgs84_lon_lat": [
+        126.8798733,
+        37.4872525
+      ],
+      "boundary_overlap_pct": 78.93,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E10-N02",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "south50",
+            "southeast50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E06-N01",
+      "e": 6,
+      "n": 1,
+      "local_bounds_m": [
+        600,
+        100,
+        700,
+        200
+      ],
+      "center_wgs84_lon_lat": [
+        126.8753501,
+        37.4863515
+      ],
+      "boundary_overlap_pct": 73.43,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E06-N01",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "retention50",
+            "south50",
+            "southeast50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E07-N01",
+      "e": 7,
+      "n": 1,
+      "local_bounds_m": [
+        700,
+        100,
+        800,
+        200
+      ],
+      "center_wgs84_lon_lat": [
+        126.8764809,
+        37.4863515
+      ],
+      "boundary_overlap_pct": 100,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E07-N01",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "retention50",
+            "south50",
+            "southeast50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E08-N01",
+      "e": 8,
+      "n": 1,
+      "local_bounds_m": [
+        800,
+        100,
+        900,
+        200
+      ],
+      "center_wgs84_lon_lat": [
+        126.8776117,
+        37.4863515
+      ],
+      "boundary_overlap_pct": 80.59,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E08-N01",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "south50",
+            "southeast50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E09-N01",
+      "e": 9,
+      "n": 1,
+      "local_bounds_m": [
+        900,
+        100,
+        1000,
+        200
+      ],
+      "center_wgs84_lon_lat": [
+        126.8787425,
+        37.4863515
+      ],
+      "boundary_overlap_pct": 65.49,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E09-N01",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "south50",
+            "southeast50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E10-N01",
+      "e": 10,
+      "n": 1,
+      "local_bounds_m": [
+        1000,
+        100,
+        1100,
+        200
+      ],
+      "center_wgs84_lon_lat": [
+        126.8798733,
+        37.4863515
+      ],
+      "boundary_overlap_pct": 80.43,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E10-N01",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "south50",
+            "southeast50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E11-N01",
+      "e": 11,
+      "n": 1,
+      "local_bounds_m": [
+        1100,
+        100,
+        1200,
+        200
+      ],
+      "center_wgs84_lon_lat": [
+        126.8810041,
+        37.4863515
+      ],
+      "boundary_overlap_pct": 6.17,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E11-N01",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "southeast50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E05-N00",
+      "e": 5,
+      "n": 0,
+      "local_bounds_m": [
+        500,
+        0,
+        600,
+        100
+      ],
+      "center_wgs84_lon_lat": [
+        126.8742194,
+        37.4854505
+      ],
+      "boundary_overlap_pct": 0.23,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E05-N00",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "south50",
+            "southeast50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E06-N00",
+      "e": 6,
+      "n": 0,
+      "local_bounds_m": [
+        600,
+        0,
+        700,
+        100
+      ],
+      "center_wgs84_lon_lat": [
+        126.8753501,
+        37.4854505
+      ],
+      "boundary_overlap_pct": 46.24,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E06-N00",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "south50",
+            "southeast50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E07-N00",
+      "e": 7,
+      "n": 0,
+      "local_bounds_m": [
+        700,
+        0,
+        800,
+        100
+      ],
+      "center_wgs84_lon_lat": [
+        126.8764809,
+        37.4854505
+      ],
+      "boundary_overlap_pct": 26.52,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E07-N00",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "south50",
+            "southeast50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    },
+    {
+      "id": "G1-E08-N00",
+      "e": 8,
+      "n": 0,
+      "local_bounds_m": [
+        800,
+        0,
+        900,
+        100
+      ],
+      "center_wgs84_lon_lat": [
+        126.8776117,
+        37.4854505
+      ],
+      "boundary_overlap_pct": 0.71,
+      "survey_status": "plan_view_first_pass",
+      "survey_status_before_2026_09_30_full_plan": "unscanned",
+      "plan_view_observations_2026_09_30": [
+        {
+          "id": "G1-E08-N00",
+          "overview_status": "observed",
+          "detail_status": "partial_unverified",
+          "observation_region_ids": [
+            "south50",
+            "southeast50"
+          ]
+        }
+      ],
+      "detail_survey_status": "unverified"
+    }
+  ],
+  "latest_plan_view_status": {
+    "observed_on": "2026-09-30",
+    "overview_observed_cells": 137,
+    "ground_detail_complete_cells": 0,
+    "full_plan_coverage_cells": 138,
+    "additional_border_sliver": "G1-E03-N14",
+    "additional_border_sliver_overview_status": "unverified",
+    "evidence_files": [
+      "guro1_plan_north.json",
+      "guro1_plan_south.json"
+    ]
+  }
+}

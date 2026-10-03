@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 980" role="img" aria-labelledby="title desc">
+<title id="title">구로1동 100미터 조사 격자</title><desc id="desc">2026년 파생 행정동 경계를 임시로 사용한 좌표 색인. 파란 18칸은 신영상가 주변 9칸과 서쪽 인접 9칸의 평면지도 1차 확인 구간이며 다른 119칸은 미조사다. 출입구와 도로 높이, 정확한 시설 귀속은 미확인이다.</desc>
+<rect width="740" height="980" fill="#ffffff"/><text x="70" y="23" font-size="20" font-family="sans-serif" font-weight="600" fill="#17243c">구로1동 100m 조사 격자 · 임시</text>
+<defs><clipPath id="guro-boundary"><path d="M607.39 774.92 L629.73 851.24 L516.68 833.23 L484.36 851.77 L471.68 858.48 L438.82 871.39 L402.45 878.48 L393.77 880.13 L368.13 883.80 L386.23 822.59 L392.16 708.95 L281.37 693.93 L160.49 521.11 L143.10 487.83 L141.30 438.79 L110.16 344.50 L83.52 344.30 L78.55 320.89 L71.26 235.66 L88.16 270.00 L211.76 241.09 L239.47 223.78 L287.10 193.95 L305.23 184.07 L383.80 146.45 L527.57 83.12 L607.86 67.94 L606.10 72.16 L594.66 106.06 L590.44 124.47 L588.95 131.42 L587.92 136.31 L586.48 145.32 L586.09 147.82 L584.46 159.46 L583.44 168.41 L582.54 179.95 L582.00 188.77 L581.65 194.50 L581.39 198.95 L581.54 211.44 L581.73 221.63 L582.05 229.24 L582.18 232.20 L582.59 237.44 L594.03 370.17 L600.81 488.05 L599.98 504.24 L599.75 508.06 L592.64 554.06 L596.85 633.07 L600.99 710.32 L606.52 771.74 L607.39 774.92 Z"/></clipPath></defs>
+<path d="M607.39 774.92 L629.73 851.24 L516.68 833.23 L484.36 851.77 L471.68 858.48 L438.82 871.39 L402.45 878.48 L393.77 880.13 L368.13 883.80 L386.23 822.59 L392.16 708.95 L281.37 693.93 L160.49 521.11 L143.10 487.83 L141.30 438.79 L110.16 344.50 L83.52 344.30 L78.55 320.89 L71.26 235.66 L88.16 270.00 L211.76 241.09 L239.47 223.78 L287.10 193.95 L305.23 184.07 L383.80 146.45 L527.57 83.12 L607.86 67.94 L606.10 72.16 L594.66 106.06 L590.44 124.47 L588.95 131.42 L587.92 136.31 L586.48 145.32 L586.09 147.82 L584.46 159.46 L583.44 168.41 L582.54 179.95 L582.00 188.77 L581.65 194.50 L581.39 198.95 L581.54 211.44 L581.73 221.63 L582.05 229.24 L582.18 232.20 L582.59 237.44 L594.03 370.17 L600.81 488.05 L599.98 504.24 L599.75 508.06 L592.64 554.06 L596.85 633.07 L600.99 710.32 L606.52 771.74 L607.39 774.92 Z" fill="#eaf0f7" stroke="none"/>
+<g clip-path="url(#guro-boundary)">
+<rect x="220" y="555" width="50" height="50" fill="#7daff4" opacity="0.65"/>
+<rect x="220" y="505" width="50" height="50" fill="#7daff4" opacity="0.65"/>
+<rect x="220" y="455" width="50" height="50" fill="#7daff4" opacity="0.65"/>
+<rect x="270" y="555" width="50" height="50" fill="#7daff4" opacity="0.65"/>
+<rect x="270" y="505" width="50" height="50" fill="#7daff4" opacity="0.65"/>
+<rect x="270" y="455" width="50" height="50" fill="#7daff4" opacity="0.65"/>
+<rect x="320" y="555" width="50" height="50" fill="#7daff4" opacity="0.65"/>
+<rect x="320" y="505" width="50" height="50" fill="#7daff4" opacity="0.65"/>
+<rect x="320" y="455" width="50" height="50" fill="#7daff4" opacity="0.65"/>
+<rect x="370" y="555" width="50" height="50" fill="#7daff4" opacity="0.65"/>
+<rect x="370" y="505" width="50" height="50" fill="#7daff4" opacity="0.65"/>
+<rect x="370" y="455" width="50" height="50" fill="#7daff4" opacity="0.65"/>
+<rect x="420" y="555" width="50" height="50" fill="#7daff4" opacity="0.65"/>
+<rect x="420" y="505" width="50" height="50" fill="#7daff4" opacity="0.65"/>
+<rect x="420" y="455" width="50" height="50" fill="#7daff4" opacity="0.65"/>
+<rect x="470" y="555" width="50" height="50" fill="#7daff4" opacity="0.65"/>
+<rect x="470" y="505" width="50" height="50" fill="#7daff4" opacity="0.65"/>
+<rect x="470" y="455" width="50" height="50" fill="#7daff4" opacity="0.65"/>
+<line x1="70" y1="55" x2="70" y2="905" stroke="#7c899b" stroke-width="0.8"/>
+<line x1="120" y1="55" x2="120" y2="905" stroke="#7c899b" stroke-width="0.8"/>
+<line x1="170" y1="55" x2="170" y2="905" stroke="#7c899b" stroke-width="0.8"/>
+<line x1="220" y1="55" x2="220" y2="905" stroke="#7c899b" stroke-width="0.8"/>
+<line x1="270" y1="55" x2="270" y2="905" stroke="#7c899b" stroke-width="0.8"/>
+<line x1="320" y1="55" x2="320" y2="905" stroke="#7c899b" stroke-width="0.8"/>
+<line x1="370" y1="55" x2="370" y2="905" stroke="#7c899b" stroke-width="0.8"/>
+<line x1="420" y1="55" x2="420" y2="905" stroke="#7c899b" stroke-width="0.8"/>
+<line x1="470" y1="55" x2="470" y2="905" stroke="#7c899b" stroke-width="0.8"/>
+<line x1="520" y1="55" x2="520" y2="905" stroke="#7c899b" stroke-width="0.8"/>
+<line x1="570" y1="55" x2="570" y2="905" stroke="#7c899b" stroke-width="0.8"/>
+<line x1="620" y1="55" x2="620" y2="905" stroke="#7c899b" stroke-width="0.8"/>
+<line x1="670" y1="55" x2="670" y2="905" stroke="#7c899b" stroke-width="0.8"/>
+<line x1="70" y1="905" x2="670" y2="905" stroke="#7c899b" stroke-width="0.8"/>
+<line x1="70" y1="855" x2="670" y2="855" stroke="#7c899b" stroke-width="0.8"/>
+<line x1="70" y1="805" x2="670" y2="805" stroke="#7c899b" stroke-width="0.8"/>
+<line x1="70" y1="755" x2="670" y2="755" stroke="#7c899b" stroke-width="0.8"/>
+<line x1="70" y1="705" x2="670" y2="705" stroke="#7c899b" stroke-width="0.8"/>
+<line x1="70" y1="655" x2="670" y2="655" stroke="#7c899b" stroke-width="0.8"/>
+<line x1="70" y1="605" x2="670" y2="605" stroke="#7c899b" stroke-width="0.8"/>
+<line x1="70" y1="555" x2="670" y2="555" stroke="#7c899b" stroke-width="0.8"/>
+<line x1="70" y1="505" x2="670" y2="505" stroke="#7c899b" stroke-width="0.8"/>
+<line x1="70" y1="455" x2="670" y2="455" stroke="#7c899b" stroke-width="0.8"/>
+<line x1="70" y1="405" x2="670" y2="405" stroke="#7c899b" stroke-width="0.8"/>
+<line x1="70" y1="355" x2="670" y2="355" stroke="#7c899b" stroke-width="0.8"/>
+<line x1="70" y1="305" x2="670" y2="305" stroke="#7c899b" stroke-width="0.8"/>
+<line x1="70" y1="255" x2="670" y2="255" stroke="#7c899b" stroke-width="0.8"/>
+<line x1="70" y1="205" x2="670" y2="205" stroke="#7c899b" stroke-width="0.8"/>
+<line x1="70" y1="155" x2="670" y2="155" stroke="#7c899b" stroke-width="0.8"/>
+<line x1="70" y1="105" x2="670" y2="105" stroke="#7c899b" stroke-width="0.8"/>
+<line x1="70" y1="55" x2="670" y2="55" stroke="#7c899b" stroke-width="0.8"/>
+</g><path d="M607.39 774.92 L629.73 851.24 L516.68 833.23 L484.36 851.77 L471.68 858.48 L438.82 871.39 L402.45 878.48 L393.77 880.13 L368.13 883.80 L386.23 822.59 L392.16 708.95 L281.37 693.93 L160.49 521.11 L143.10 487.83 L141.30 438.79 L110.16 344.50 L83.52 344.30 L78.55 320.89 L71.26 235.66 L88.16 270.00 L211.76 241.09 L239.47 223.78 L287.10 193.95 L305.23 184.07 L383.80 146.45 L527.57 83.12 L607.86 67.94 L606.10 72.16 L594.66 106.06 L590.44 124.47 L588.95 131.42 L587.92 136.31 L586.48 145.32 L586.09 147.82 L584.46 159.46 L583.44 168.41 L582.54 179.95 L582.00 188.77 L581.65 194.50 L581.39 198.95 L581.54 211.44 L581.73 221.63 L582.05 229.24 L582.18 232.20 L582.59 237.44 L594.03 370.17 L600.81 488.05 L599.98 504.24 L599.75 508.06 L592.64 554.06 L596.85 633.07 L600.99 710.32 L606.52 771.74 L607.39 774.92 Z" fill="none" stroke="#1d4b7b" stroke-width="2"/>
+<text x="95" y="47" text-anchor="middle" font-size="12" font-family="monospace" fill="#334155">E00</text>
+<text x="145" y="47" text-anchor="middle" font-size="12" font-family="monospace" fill="#334155">E01</text>
+<text x="195" y="47" text-anchor="middle" font-size="12" font-family="monospace" fill="#334155">E02</text>
+<text x="245" y="47" text-anchor="middle" font-size="12" font-family="monospace" fill="#334155">E03</text>
+<text x="295" y="47" text-anchor="middle" font-size="12" font-family="monospace" fill="#334155">E04</text>
+<text x="345" y="47" text-anchor="middle" font-size="12" font-family="monospace" fill="#334155">E05</text>
+<text x="395" y="47" text-anchor="middle" font-size="12" font-family="monospace" fill="#334155">E06</text>
+<text x="445" y="47" text-anchor="middle" font-size="12" font-family="monospace" fill="#334155">E07</text>
+<text x="495" y="47" text-anchor="middle" font-size="12" font-family="monospace" fill="#334155">E08</text>
+<text x="545" y="47" text-anchor="middle" font-size="12" font-family="monospace" fill="#334155">E09</text>
+<text x="595" y="47" text-anchor="middle" font-size="12" font-family="monospace" fill="#334155">E10</text>
+<text x="645" y="47" text-anchor="middle" font-size="12" font-family="monospace" fill="#334155">E11</text>
+<text x="62" y="884.00" text-anchor="end" font-size="12" font-family="monospace" fill="#334155">N00</text>
+<text x="62" y="834.00" text-anchor="end" font-size="12" font-family="monospace" fill="#334155">N01</text>
+<text x="62" y="784.00" text-anchor="end" font-size="12" font-family="monospace" fill="#334155">N02</text>
+<text x="62" y="734.00" text-anchor="end" font-size="12" font-family="monospace" fill="#334155">N03</text>
+<text x="62" y="684.00" text-anchor="end" font-size="12" font-family="monospace" fill="#334155">N04</text>
+<text x="62" y="634.00" text-anchor="end" font-size="12" font-family="monospace" fill="#334155">N05</text>
+<text x="62" y="584.00" text-anchor="end" font-size="12" font-family="monospace" fill="#334155">N06</text>
+<text x="62" y="534.00" text-anchor="end" font-size="12" font-family="monospace" fill="#334155">N07</text>
+<text x="62" y="484.00" text-anchor="end" font-size="12" font-family="monospace" fill="#334155">N08</text>
+<text x="62" y="434.00" text-anchor="end" font-size="12" font-family="monospace" fill="#334155">N09</text>
+<text x="62" y="384.00" text-anchor="end" font-size="12" font-family="monospace" fill="#334155">N10</text>
+<text x="62" y="334.00" text-anchor="end" font-size="12" font-family="monospace" fill="#334155">N11</text>
+<text x="62" y="284.00" text-anchor="end" font-size="12" font-family="monospace" fill="#334155">N12</text>
+<text x="62" y="234.00" text-anchor="end" font-size="12" font-family="monospace" fill="#334155">N13</text>
+<text x="62" y="184.00" text-anchor="end" font-size="12" font-family="monospace" fill="#334155">N14</text>
+<text x="62" y="134.00" text-anchor="end" font-size="12" font-family="monospace" fill="#334155">N15</text>
+<text x="62" y="84.00" text-anchor="end" font-size="12" font-family="monospace" fill="#334155">N16</text>
+<circle cx="443.99" cy="523.11" r="6" fill="#dd4b39" stroke="#ffffff" stroke-width="2"/><text x="453.99" y="513.11" font-size="13" font-family="sans-serif" font-weight="600" fill="#a02f24">신영상가</text>
+<text x="70" y="937" font-size="13" font-family="sans-serif" fill="#334155">북 ↑ · 파란 18칸: 평면 1차 확인 · 경계: 임시 · 칸은 제작/스트리밍 단위가 아님</text>
+<text x="70" y="958" font-size="11" font-family="sans-serif" fill="#64748b">경계 원자료: SGIS / 가공: vuski/admdongkor (CC BY 4.0), 2026-07-01</text></svg>

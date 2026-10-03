@@ -1,0 +1,1708 @@
+{
+  "type": "FeatureCollection",
+  "schema": "guro1.south.visual-observation.v1",
+  "observed_on": "2026-09-30",
+  "scope": "남부 lat<37.493 및 요청 학교 대조",
+  "coordinate_system": "WGS84 longitude latitude",
+  "status": "visual_supplement_complete_detail_survey_incomplete",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "south/shinyeong-footprint",
+      "properties": {
+        "name": "신영상가",
+        "label": "신영상가",
+        "class": "commercial",
+        "category": "building",
+        "verification_status": "estimated",
+        "status": "추정",
+        "geometry_status": "visual_digitized_estimate",
+        "identity_status": "confirmed_name_address",
+        "observed_on": "2026-09-30",
+        "sourceURL": "https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&urlLevel=1&urlX=472672&urlY=1109020",
+        "source_urls": [
+          "https://place.map.kakao.com/14969389",
+          "https://map.naver.com/p/search/%EC%8B%A0%EC%98%81%EC%83%81%EA%B0%80?c=17.00,0,0,2,dh"
+        ],
+        "geometry_accuracy_m": 3,
+        "cell_ids": [
+          "G1-E07-N07"
+        ],
+        "digitization": {
+          "crs": "EPSG:5181 -> WGS84",
+          "center_wcongnamul": [
+            472672,
+            1109020
+          ],
+          "center_wtm": [
+            189068.8,
+            443608
+          ],
+          "screen_center_px": [
+            835,
+            360
+          ],
+          "metres_per_pixel": 0.25,
+          "tile_anchor": {
+            "url": "https://mts.kakaocdn.net/api/v1/tile/PNG_SKYH02/v23_nm3pb/latest/1/7868/3423.png",
+            "screen_topleft_px": [
+              848,
+              328
+            ],
+            "tile_size_px": 256,
+            "wtm_topleft": [
+              189072,
+              443616
+            ]
+          },
+          "outline_px": [
+            [
+              783,
+              324
+            ],
+            [
+              935,
+              321
+            ],
+            [
+              935,
+              344
+            ],
+            [
+              783,
+              383
+            ],
+            [
+              783,
+              324
+            ]
+          ],
+          "note": "카카오 일반지도 최대확대의 본체 흰색 도형 판독. 스카이뷰와 네이버 위성사진에서 동일 위치와 장변·사선 남측 외곽 대조. 옥상 돌출/차양 별도 미확정."
+        },
+        "notes": [
+          "구일로4길 30(구로동685-448). 현대연예인상가 검색결과도 같은 주소로 나타나지만 북측 남북장변 건물과 통합하지 않음.",
+          "수기 외곽 판독이므로 실측·현장확정 도형으로 표시 금지."
+        ],
+        "height_m": null,
+        "height_status": "unverified",
+        "entrances": null,
+        "entrance_status": "unverified",
+        "cell_assignment_method": "geometry_bbox_overlaps_cell_candidate; final builder should polygon-intersect"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.87624578,
+              37.49194214
+            ],
+            [
+              126.87667546,
+              37.49194935
+            ],
+            [
+              126.87667555,
+              37.49189754
+            ],
+            [
+              126.876246,
+              37.49180924
+            ],
+            [
+              126.87624578,
+              37.49194214
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "south/pumping-central-roof",
+      "properties": {
+        "name": "신구로빗물펌프장 중앙 건물 지붕",
+        "label": "신구로빗물펌프장 중앙 건물 지붕",
+        "category": "building",
+        "class": "industrial",
+        "verification_status": "estimated",
+        "status": "추정",
+        "geometry_status": "visual_digitized_estimate",
+        "identity_status": "observed_context_not_individual_building_named",
+        "observed_on": "2026-09-30",
+        "sourceURL": "https://place.map.kakao.com/10532334",
+        "source_urls": [
+          "https://map.kakao.com/",
+          "https://map.naver.com/p/search/%EC%8B%A0%EC%98%81%EC%83%81%EA%B0%80?c=15.00,0,0,2,dh",
+          "https://www.google.com/maps/@37.4905,126.8735,18z/data=!3m1!1e3"
+        ],
+        "geometry_accuracy_m": 5,
+        "digitization": {
+          "crs": "EPSG:5181 -> WGS84",
+          "tile_anchor": {
+            "url": "https://mts.kakaocdn.net/api/v1/tile/PNG_SKYH02/v23_nm3pb/latest/2/3933/1709.png",
+            "screen_topleft_px": [
+              862,
+              247.2
+            ],
+            "wtm_topleft": [
+              188752,
+              443552
+            ],
+            "metres_per_pixel": 0.5
+          },
+          "outline_px": [
+            [
+              805,
+              417
+            ],
+            [
+              840,
+              412
+            ],
+            [
+              849,
+              473
+            ],
+            [
+              861,
+              473
+            ],
+            [
+              869,
+              522
+            ],
+            [
+              832,
+              527
+            ],
+            [
+              805,
+              417
+            ]
+          ]
+        },
+        "notes": [
+          "지붕 투영 외곽으로 지상 footprint와 다를 수 있음.",
+          "Kakao POI는 북측 설비에 놓임. 중앙 흰색/회색 지붕 자체의 개별 건물명 미확인.",
+          "추정 건물 외곽, 출입구/층수/시설 내부 기능 미확인."
+        ],
+        "height_m": null,
+        "height_status": "unverified",
+        "entrances": null,
+        "entrance_status": "unverified",
+        "cell_ids": [
+          "G1-E03-N06",
+          "G1-E04-N06",
+          "G1-E03-N05",
+          "G1-E04-N05"
+        ],
+        "cell_assignment_method": "geometry_bbox_overlaps_cell_candidate; final builder should polygon-intersect"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.87249052,
+              37.49058754
+            ],
+            [
+              126.87268836,
+              37.49061028
+            ],
+            [
+              126.87273971,
+              37.49033553
+            ],
+            [
+              126.87280756,
+              37.4903356
+            ],
+            [
+              126.87285316,
+              37.4901149
+            ],
+            [
+              126.87264401,
+              37.49009215
+            ],
+            [
+              126.87249052,
+              37.49058754
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "south/pumping-south-roof",
+      "properties": {
+        "name": "펌프장 남측 부속동 지붕",
+        "label": "펌프장 남측 부속동 지붕",
+        "category": "building",
+        "class": "industrial",
+        "verification_status": "estimated",
+        "status": "추정",
+        "geometry_status": "visual_digitized_estimate",
+        "identity_status": "observed_context_not_individual_building_named",
+        "observed_on": "2026-09-30",
+        "sourceURL": "https://place.map.kakao.com/10532334",
+        "source_urls": [
+          "https://map.kakao.com/",
+          "https://map.naver.com/p/search/%EC%8B%A0%EC%98%81%EC%83%81%EA%B0%80?c=15.00,0,0,2,dh",
+          "https://www.google.com/maps/@37.4905,126.8735,18z/data=!3m1!1e3"
+        ],
+        "geometry_accuracy_m": 5,
+        "digitization": {
+          "crs": "EPSG:5181 -> WGS84",
+          "tile_anchor": {
+            "url": "https://mts.kakaocdn.net/api/v1/tile/PNG_SKYH02/v23_nm3pb/latest/2/3933/1709.png",
+            "screen_topleft_px": [
+              862,
+              247.2
+            ],
+            "wtm_topleft": [
+              188752,
+              443552
+            ],
+            "metres_per_pixel": 0.5
+          },
+          "outline_px": [
+            [
+              854,
+              583
+            ],
+            [
+              900,
+              578
+            ],
+            [
+              913,
+              659
+            ],
+            [
+              865,
+              666
+            ],
+            [
+              854,
+              583
+            ]
+          ]
+        },
+        "notes": [
+          "항공사진에서 확인한 청색 지붕. 개별 시설명 미확인.",
+          "지붕 투영 외곽이며 실측 지상 footprint는 미확인."
+        ],
+        "height_m": null,
+        "height_status": "unverified",
+        "entrances": null,
+        "entrance_status": "unverified",
+        "cell_ids": [
+          "G1-E04-N05",
+          "G1-E04-N04"
+        ],
+        "cell_assignment_method": "geometry_bbox_overlaps_cell_candidate; final builder should polygon-intersect"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.87276882,
+              37.48984
+            ],
+            [
+              126.87302885,
+              37.48986281
+            ],
+            [
+              126.87310297,
+              37.48949798
+            ],
+            [
+              126.87283165,
+              37.48946615
+            ],
+            [
+              126.87276882,
+              37.48984
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "south/retention-basin-ground",
+      "properties": {
+        "name": "신구로유수지 지상 영역",
+        "label": "신구로유수지 지상 영역",
+        "category": "green",
+        "class": "retention_basin_ground",
+        "verification_status": "estimated",
+        "status": "추정",
+        "geometry_status": "visual_digitized_estimate",
+        "identity_status": "observed_context_not_individual_building_named",
+        "observed_on": "2026-09-30",
+        "sourceURL": "https://place.map.kakao.com/10532334",
+        "source_urls": [
+          "https://map.kakao.com/",
+          "https://map.naver.com/p/search/%EC%8B%A0%EC%98%81%EC%83%81%EA%B0%80?c=15.00,0,0,2,dh",
+          "https://www.google.com/maps/@37.4905,126.8735,18z/data=!3m1!1e3"
+        ],
+        "geometry_accuracy_m": 8,
+        "digitization": {
+          "crs": "EPSG:5181 -> WGS84",
+          "tile_anchor": {
+            "url": "https://mts.kakaocdn.net/api/v1/tile/PNG_SKYH02/v23_nm3pb/latest/3/1965/854.png",
+            "screen_topleft_px": [
+              696,
+              314
+            ],
+            "wtm_topleft": [
+              188624,
+              443296
+            ],
+            "metres_per_pixel": 1
+          },
+          "outline_px": [
+            [
+              791,
+              44
+            ],
+            [
+              838,
+              53
+            ],
+            [
+              887,
+              77
+            ],
+            [
+              925,
+              105
+            ],
+            [
+              963,
+              155
+            ],
+            [
+              991,
+              188
+            ],
+            [
+              1025,
+              224
+            ],
+            [
+              1042,
+              273
+            ],
+            [
+              1018,
+              286
+            ],
+            [
+              950,
+              311
+            ],
+            [
+              876,
+              331
+            ],
+            [
+              823,
+              340
+            ],
+            [
+              808,
+              294
+            ],
+            [
+              800,
+              170
+            ],
+            [
+              791,
+              44
+            ]
+          ]
+        },
+        "notes": [
+          "관찰 영상은 대부분 갈색 초지/녹지와 배수시설이며 연속 수면으로 확인되지 않음. category water 사용 금지.",
+          "아래 물류센터와 도로를 제외한 지상 영역의 시각적 외곽. 법적 유수지 경계·제방 경계와 다를 수 있음.",
+          "Kakao 지도는 유수지 전체를 수면으로 칠하지만 항공사진에는 마른 지상과 시설이 보임. Google 일반지도 이름도 대조됨; Google 항공층은 화면에서 확인하지 못함."
+        ],
+        "height_m": null,
+        "height_status": "unverified",
+        "entrances": null,
+        "entrance_status": "unverified",
+        "cell_ids": [
+          "G1-E03-N07",
+          "G1-E04-N07",
+          "G1-E05-N07",
+          "G1-E06-N07",
+          "G1-E03-N06",
+          "G1-E04-N06",
+          "G1-E05-N06",
+          "G1-E06-N06",
+          "G1-E03-N05",
+          "G1-E04-N05",
+          "G1-E05-N05",
+          "G1-E06-N05",
+          "G1-E03-N04",
+          "G1-E04-N04",
+          "G1-E05-N04",
+          "G1-E06-N04"
+        ],
+        "cell_assignment_method": "geometry_bbox_overlaps_cell_candidate; final builder should polygon-intersect"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.87243812,
+              37.49147858
+            ],
+            [
+              126.87296972,
+              37.49139806
+            ],
+            [
+              126.87352416,
+              37.49118241
+            ],
+            [
+              126.87395427,
+              37.49093059
+            ],
+            [
+              126.87438471,
+              37.49048055
+            ],
+            [
+              126.87470182,
+              37.49018355
+            ],
+            [
+              126.87508681,
+              37.4898596
+            ],
+            [
+              126.87527977,
+              37.48941831
+            ],
+            [
+              126.87500859,
+              37.48930089
+            ],
+            [
+              126.87424007,
+              37.48907482
+            ],
+            [
+              126.87340363,
+              37.48889373
+            ],
+            [
+              126.87280449,
+              37.48881199
+            ],
+            [
+              126.87263418,
+              37.48922627
+            ],
+            [
+              126.87254182,
+              37.49034342
+            ],
+            [
+              126.87243812,
+              37.49147858
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "regions": [
+    {
+      "id": "school30",
+      "label": "구일초등학교/구일고 주변 30m 스카이뷰",
+      "screen": [
+        402,
+        48,
+        1219,
+        708
+      ],
+      "anchor": {
+        "screen": [
+          835,
+          360
+        ],
+        "wtm": [
+          188764,
+          443742.4
+        ],
+        "resolution": 0.5
+      },
+      "sourceURL": "https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&urlLevel=2&urlX=471910&urlY=1109356",
+      "observed_bbox_wgs84": [
+        [
+          126.87049882,
+          37.49149809
+        ],
+        [
+          126.87511305,
+          37.49447638
+        ]
+      ],
+      "cell_ids": [
+        "G1-E02-N10",
+        "G1-E03-N10",
+        "G1-E04-N10",
+        "G1-E05-N10",
+        "G1-E02-N09",
+        "G1-E03-N09",
+        "G1-E04-N09",
+        "G1-E05-N09",
+        "G1-E02-N08",
+        "G1-E03-N08",
+        "G1-E04-N08",
+        "G1-E05-N08",
+        "G1-E02-N07",
+        "G1-E03-N07",
+        "G1-E04-N07",
+        "G1-E05-N07"
+      ],
+      "observed_on": "2026-09-30",
+      "status": "overview_observed_detail_partial",
+      "notes": [
+        "화면 가시범위의 배치 관찰. 각 칸 전체·각 건물 실측 또는 출입구 확인 완료가 아님."
+      ],
+      "reopen_map_url": "https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&urlLevel=2&urlX=471910&urlY=1109356"
+    },
+    {
+      "id": "retention30",
+      "label": "펌프장 및 유수지 북부 30m 스카이뷰/일반지도",
+      "screen": [
+        402,
+        48,
+        1219,
+        708
+      ],
+      "anchor": {
+        "screen": [
+          862,
+          247.2
+        ],
+        "wtm": [
+          188752,
+          443552
+        ],
+        "resolution": 0.5
+      },
+      "sourceURL": "https://place.map.kakao.com/10532334",
+      "observed_bbox_wgs84": [
+        [
+          126.87021432,
+          37.48927409
+        ],
+        [
+          126.8748284,
+          37.4922524
+        ]
+      ],
+      "cell_ids": [
+        "G1-E02-N07",
+        "G1-E03-N07",
+        "G1-E04-N07",
+        "G1-E05-N07",
+        "G1-E02-N06",
+        "G1-E03-N06",
+        "G1-E04-N06",
+        "G1-E05-N06",
+        "G1-E02-N05",
+        "G1-E03-N05",
+        "G1-E04-N05",
+        "G1-E05-N05"
+      ],
+      "observed_on": "2026-09-30",
+      "status": "overview_observed_detail_partial",
+      "notes": [
+        "화면 가시범위의 배치 관찰. 각 칸 전체·각 건물 실측 또는 출입구 확인 완료가 아님."
+      ],
+      "reopen_map_url": "https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&urlLevel=2&urlX=471846&urlY=1108739"
+    },
+    {
+      "id": "retention50",
+      "label": "유수지·우성아파트·물류센터 50m 스카이뷰",
+      "screen": [
+        402,
+        48,
+        1219,
+        708
+      ],
+      "anchor": {
+        "screen": [
+          696,
+          314
+        ],
+        "wtm": [
+          188624,
+          443296
+        ],
+        "resolution": 1
+      },
+      "sourceURL": "https://map.kakao.com/",
+      "observed_bbox_wgs84": [
+        [
+          126.86804997,
+          37.48549107
+        ],
+        [
+          126.87727785,
+          37.49144766
+        ]
+      ],
+      "cell_ids": [
+        "G1-E02-N06",
+        "G1-E03-N06",
+        "G1-E04-N06",
+        "G1-E05-N06",
+        "G1-E06-N06",
+        "G1-E07-N06",
+        "G1-E02-N05",
+        "G1-E03-N05",
+        "G1-E04-N05",
+        "G1-E05-N05",
+        "G1-E06-N05",
+        "G1-E07-N05",
+        "G1-E03-N04",
+        "G1-E04-N04",
+        "G1-E05-N04",
+        "G1-E06-N04",
+        "G1-E07-N04",
+        "G1-E05-N03",
+        "G1-E06-N03",
+        "G1-E07-N03",
+        "G1-E06-N02",
+        "G1-E07-N02",
+        "G1-E06-N01",
+        "G1-E07-N01"
+      ],
+      "observed_on": "2026-09-30",
+      "status": "overview_observed_detail_partial",
+      "notes": [
+        "화면 가시범위의 배치 관찰. 각 칸 전체·각 건물 실측 또는 출입구 확인 완료가 아님."
+      ],
+      "reopen_map_url": "https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&urlLevel=3&urlX=471908&urlY=1108125"
+    },
+    {
+      "id": "south50",
+      "label": "남단 한일유앤아이·구로현대·광명대교 및 진출입 램프 50m 스카이뷰/일반지도",
+      "screen": [
+        402,
+        48,
+        1219,
+        708
+      ],
+      "anchor": {
+        "screen": [
+          834,
+          228
+        ],
+        "wtm": [
+          189068,
+          443040
+        ],
+        "resolution": 1
+      },
+      "sourceURL": "https://map.kakao.com/",
+      "observed_bbox_wgs84": [
+        [
+          126.87151511,
+          37.48241344
+        ],
+        [
+          126.88074289,
+          37.48836977
+        ]
+      ],
+      "cell_ids": [
+        "G1-E05-N03",
+        "G1-E06-N03",
+        "G1-E07-N03",
+        "G1-E08-N03",
+        "G1-E09-N03",
+        "G1-E10-N03",
+        "G1-E06-N02",
+        "G1-E07-N02",
+        "G1-E08-N02",
+        "G1-E09-N02",
+        "G1-E10-N02",
+        "G1-E06-N01",
+        "G1-E07-N01",
+        "G1-E08-N01",
+        "G1-E09-N01",
+        "G1-E10-N01",
+        "G1-E05-N00",
+        "G1-E06-N00",
+        "G1-E07-N00",
+        "G1-E08-N00"
+      ],
+      "observed_on": "2026-09-30",
+      "status": "overview_observed_detail_partial",
+      "notes": [
+        "화면 가시범위의 배치 관찰. 각 칸 전체·각 건물 실측 또는 출입구 확인 완료가 아님."
+      ],
+      "reopen_map_url": "https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&urlLevel=3&urlX=472673&urlY=1107270"
+    },
+    {
+      "id": "shinyeong50",
+      "label": "신영상가·주공·현대연예인·우성·남부 철도 50m 일반지도/스카이뷰",
+      "screen": [
+        402,
+        48,
+        1219,
+        708
+      ],
+      "anchor": {
+        "screen": [
+          646,
+          416
+        ],
+        "wtm": [
+          188880,
+          443552
+        ],
+        "resolution": 1
+      },
+      "sourceURL": "https://map.kakao.com/?q=%EC%8B%A0%EC%98%81%EC%83%81%EA%B0%80",
+      "observed_on": "2026-09-30",
+      "status": "overview_observed_detail_partial",
+      "notes": [
+        "신영상가 검색 후 50m 첫 화면으로 동측 철도와 아파트 배치 관찰. 건물 외곽 전체와 철도별 용도 확정은 아님."
+      ],
+      "observed_bbox_wgs84": [
+        [
+          126.87150431,
+          37.48872048
+        ],
+        [
+          126.88073287,
+          37.49467681
+        ]
+      ],
+      "cell_ids": [
+        "G1-E03-N10",
+        "G1-E04-N10",
+        "G1-E05-N10",
+        "G1-E06-N10",
+        "G1-E07-N10",
+        "G1-E08-N10",
+        "G1-E09-N10",
+        "G1-E10-N10",
+        "G1-E03-N09",
+        "G1-E04-N09",
+        "G1-E05-N09",
+        "G1-E06-N09",
+        "G1-E07-N09",
+        "G1-E08-N09",
+        "G1-E09-N09",
+        "G1-E10-N09",
+        "G1-E03-N08",
+        "G1-E04-N08",
+        "G1-E05-N08",
+        "G1-E06-N08",
+        "G1-E07-N08",
+        "G1-E08-N08",
+        "G1-E09-N08",
+        "G1-E10-N08",
+        "G1-E03-N07",
+        "G1-E04-N07",
+        "G1-E05-N07",
+        "G1-E06-N07",
+        "G1-E07-N07",
+        "G1-E08-N07",
+        "G1-E09-N07",
+        "G1-E10-N07",
+        "G1-E03-N06",
+        "G1-E04-N06",
+        "G1-E05-N06",
+        "G1-E06-N06",
+        "G1-E07-N06",
+        "G1-E08-N06",
+        "G1-E09-N06",
+        "G1-E10-N06",
+        "G1-E03-N05",
+        "G1-E04-N05",
+        "G1-E05-N05",
+        "G1-E06-N05",
+        "G1-E07-N05",
+        "G1-E08-N05",
+        "G1-E09-N05",
+        "G1-E10-N05",
+        "G1-E03-N04",
+        "G1-E04-N04",
+        "G1-E05-N04",
+        "G1-E06-N04",
+        "G1-E07-N04",
+        "G1-E08-N04",
+        "G1-E09-N04",
+        "G1-E10-N04"
+      ],
+      "reopen_map_url": "https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&urlLevel=3&urlX=472673&urlY=1109020"
+    },
+    {
+      "id": "retention-initial50",
+      "label": "안양천·사성교·유수지 북부 및 펌프장 초기 50m 화면",
+      "screen": [
+        402,
+        48,
+        985,
+        600
+      ],
+      "anchor": {
+        "screen": [
+          721,
+          301.2
+        ],
+        "wtm": [
+          188624,
+          443552
+        ],
+        "resolution": 1
+      },
+      "observed_bbox_wgs84": [
+        [
+          126.86776172,
+          37.48865509
+        ],
+        [
+          126.8743455,
+          37.49363583
+        ]
+      ],
+      "cell_ids": [
+        "G1-E01-N09",
+        "G1-E02-N09",
+        "G1-E03-N09",
+        "G1-E04-N09",
+        "G1-E05-N09",
+        "G1-E01-N08",
+        "G1-E02-N08",
+        "G1-E03-N08",
+        "G1-E04-N08",
+        "G1-E05-N08",
+        "G1-E01-N07",
+        "G1-E02-N07",
+        "G1-E03-N07",
+        "G1-E04-N07",
+        "G1-E05-N07",
+        "G1-E02-N06",
+        "G1-E03-N06",
+        "G1-E04-N06",
+        "G1-E05-N06",
+        "G1-E02-N05",
+        "G1-E03-N05",
+        "G1-E04-N05",
+        "G1-E05-N05",
+        "G1-E03-N04",
+        "G1-E04-N04",
+        "G1-E05-N04"
+      ],
+      "observed_on": "2026-09-30",
+      "status": "overview_observed_detail_partial",
+      "notes": [
+        "화면 가시범위의 배치 관찰. 칸 전체 상세 조사 완료가 아님."
+      ],
+      "reopen_map_url": "https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&urlLevel=3&urlX=471845&urlY=1108733"
+    },
+    {
+      "id": "southeast50",
+      "label": "남동 경계 끝칸 및 남부순환로·가마산로 램프 교차 50m 스카이뷰",
+      "screen": [
+        402,
+        48,
+        1219,
+        708
+      ],
+      "anchor": {
+        "screen": [
+          881,
+          226
+        ],
+        "wtm": [
+          189324,
+          443040
+        ],
+        "resolution": 1
+      },
+      "observed_bbox_wgs84": [
+        [
+          126.87387815,
+          37.48239797
+        ],
+        [
+          126.88310612,
+          37.48835411
+        ]
+      ],
+      "cell_ids": [
+        "G1-E05-N03",
+        "G1-E06-N03",
+        "G1-E07-N03",
+        "G1-E08-N03",
+        "G1-E09-N03",
+        "G1-E10-N03",
+        "G1-E06-N02",
+        "G1-E07-N02",
+        "G1-E08-N02",
+        "G1-E09-N02",
+        "G1-E10-N02",
+        "G1-E06-N01",
+        "G1-E07-N01",
+        "G1-E08-N01",
+        "G1-E09-N01",
+        "G1-E10-N01",
+        "G1-E11-N01",
+        "G1-E05-N00",
+        "G1-E06-N00",
+        "G1-E07-N00",
+        "G1-E08-N00"
+      ],
+      "observed_on": "2026-09-30",
+      "status": "overview_observed_detail_partial",
+      "notes": [
+        "화면 가시범위의 배치 관찰. 칸 전체 상세 조사 완료가 아님."
+      ],
+      "reopen_map_url": "https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&urlLevel=3&urlX=473195&urlY=1107265"
+    }
+  ],
+  "coverage": {
+    "south_cell_count": 67,
+    "overview_observed_cell_count": 67,
+    "detail_survey_complete_cell_count": 0,
+    "method": "grid_cell_center_inside_observed_visible_rectangle; overview only",
+    "warning": "67개 남부 칸의 가시 화면 배치 관찰과 수기 보완 4개를 제공한 것임. 67칸의 상세 건물 조사·도로폭 실측·출입구·높이 검증 완료를 의미하지 않음.",
+    "cells": [
+      {
+        "id": "G1-E01-N08",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "retention-initial50"
+        ]
+      },
+      {
+        "id": "G1-E02-N08",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "school30",
+          "retention-initial50"
+        ]
+      },
+      {
+        "id": "G1-E03-N08",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "school30",
+          "shinyeong50",
+          "retention-initial50"
+        ]
+      },
+      {
+        "id": "G1-E04-N08",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "school30",
+          "shinyeong50",
+          "retention-initial50"
+        ]
+      },
+      {
+        "id": "G1-E05-N08",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "school30",
+          "shinyeong50",
+          "retention-initial50"
+        ]
+      },
+      {
+        "id": "G1-E06-N08",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "shinyeong50"
+        ]
+      },
+      {
+        "id": "G1-E07-N08",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "shinyeong50"
+        ]
+      },
+      {
+        "id": "G1-E08-N08",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "shinyeong50"
+        ]
+      },
+      {
+        "id": "G1-E09-N08",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "shinyeong50"
+        ]
+      },
+      {
+        "id": "G1-E10-N08",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "shinyeong50"
+        ]
+      },
+      {
+        "id": "G1-E01-N07",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "retention-initial50"
+        ]
+      },
+      {
+        "id": "G1-E02-N07",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "school30",
+          "retention30",
+          "retention-initial50"
+        ]
+      },
+      {
+        "id": "G1-E03-N07",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "school30",
+          "retention30",
+          "shinyeong50",
+          "retention-initial50"
+        ]
+      },
+      {
+        "id": "G1-E04-N07",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "school30",
+          "retention30",
+          "shinyeong50",
+          "retention-initial50"
+        ]
+      },
+      {
+        "id": "G1-E05-N07",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "school30",
+          "retention30",
+          "shinyeong50",
+          "retention-initial50"
+        ]
+      },
+      {
+        "id": "G1-E06-N07",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "shinyeong50"
+        ]
+      },
+      {
+        "id": "G1-E07-N07",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "shinyeong50"
+        ]
+      },
+      {
+        "id": "G1-E08-N07",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "shinyeong50"
+        ]
+      },
+      {
+        "id": "G1-E09-N07",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "shinyeong50"
+        ]
+      },
+      {
+        "id": "G1-E10-N07",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "shinyeong50"
+        ]
+      },
+      {
+        "id": "G1-E02-N06",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "retention30",
+          "retention50",
+          "retention-initial50"
+        ]
+      },
+      {
+        "id": "G1-E03-N06",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "retention30",
+          "retention50",
+          "shinyeong50",
+          "retention-initial50"
+        ]
+      },
+      {
+        "id": "G1-E04-N06",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "retention30",
+          "retention50",
+          "shinyeong50",
+          "retention-initial50"
+        ]
+      },
+      {
+        "id": "G1-E05-N06",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "retention30",
+          "retention50",
+          "shinyeong50",
+          "retention-initial50"
+        ]
+      },
+      {
+        "id": "G1-E06-N06",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "retention50",
+          "shinyeong50"
+        ]
+      },
+      {
+        "id": "G1-E07-N06",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "retention50",
+          "shinyeong50"
+        ]
+      },
+      {
+        "id": "G1-E08-N06",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "shinyeong50"
+        ]
+      },
+      {
+        "id": "G1-E09-N06",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "shinyeong50"
+        ]
+      },
+      {
+        "id": "G1-E10-N06",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "shinyeong50"
+        ]
+      },
+      {
+        "id": "G1-E02-N05",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "retention30",
+          "retention50",
+          "retention-initial50"
+        ]
+      },
+      {
+        "id": "G1-E03-N05",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "retention30",
+          "retention50",
+          "shinyeong50",
+          "retention-initial50"
+        ]
+      },
+      {
+        "id": "G1-E04-N05",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "retention30",
+          "retention50",
+          "shinyeong50",
+          "retention-initial50"
+        ]
+      },
+      {
+        "id": "G1-E05-N05",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "retention30",
+          "retention50",
+          "shinyeong50",
+          "retention-initial50"
+        ]
+      },
+      {
+        "id": "G1-E06-N05",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "retention50",
+          "shinyeong50"
+        ]
+      },
+      {
+        "id": "G1-E07-N05",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "retention50",
+          "shinyeong50"
+        ]
+      },
+      {
+        "id": "G1-E08-N05",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "shinyeong50"
+        ]
+      },
+      {
+        "id": "G1-E09-N05",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "shinyeong50"
+        ]
+      },
+      {
+        "id": "G1-E10-N05",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "shinyeong50"
+        ]
+      },
+      {
+        "id": "G1-E03-N04",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "retention50",
+          "shinyeong50",
+          "retention-initial50"
+        ]
+      },
+      {
+        "id": "G1-E04-N04",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "retention50",
+          "shinyeong50",
+          "retention-initial50"
+        ]
+      },
+      {
+        "id": "G1-E05-N04",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "retention50",
+          "shinyeong50",
+          "retention-initial50"
+        ]
+      },
+      {
+        "id": "G1-E06-N04",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "retention50",
+          "shinyeong50"
+        ]
+      },
+      {
+        "id": "G1-E07-N04",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "retention50",
+          "shinyeong50"
+        ]
+      },
+      {
+        "id": "G1-E08-N04",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "shinyeong50"
+        ]
+      },
+      {
+        "id": "G1-E09-N04",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "shinyeong50"
+        ]
+      },
+      {
+        "id": "G1-E10-N04",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "shinyeong50"
+        ]
+      },
+      {
+        "id": "G1-E05-N03",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "retention50",
+          "south50",
+          "southeast50"
+        ]
+      },
+      {
+        "id": "G1-E06-N03",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "retention50",
+          "south50",
+          "southeast50"
+        ]
+      },
+      {
+        "id": "G1-E07-N03",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "retention50",
+          "south50",
+          "southeast50"
+        ]
+      },
+      {
+        "id": "G1-E08-N03",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "south50",
+          "southeast50"
+        ]
+      },
+      {
+        "id": "G1-E09-N03",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "south50",
+          "southeast50"
+        ]
+      },
+      {
+        "id": "G1-E10-N03",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "south50",
+          "southeast50"
+        ]
+      },
+      {
+        "id": "G1-E06-N02",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "retention50",
+          "south50",
+          "southeast50"
+        ]
+      },
+      {
+        "id": "G1-E07-N02",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "retention50",
+          "south50",
+          "southeast50"
+        ]
+      },
+      {
+        "id": "G1-E08-N02",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "south50",
+          "southeast50"
+        ]
+      },
+      {
+        "id": "G1-E09-N02",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "south50",
+          "southeast50"
+        ]
+      },
+      {
+        "id": "G1-E10-N02",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "south50",
+          "southeast50"
+        ]
+      },
+      {
+        "id": "G1-E06-N01",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "retention50",
+          "south50",
+          "southeast50"
+        ]
+      },
+      {
+        "id": "G1-E07-N01",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "retention50",
+          "south50",
+          "southeast50"
+        ]
+      },
+      {
+        "id": "G1-E08-N01",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "south50",
+          "southeast50"
+        ]
+      },
+      {
+        "id": "G1-E09-N01",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "south50",
+          "southeast50"
+        ]
+      },
+      {
+        "id": "G1-E10-N01",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "south50",
+          "southeast50"
+        ]
+      },
+      {
+        "id": "G1-E11-N01",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "southeast50"
+        ]
+      },
+      {
+        "id": "G1-E05-N00",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "south50",
+          "southeast50"
+        ]
+      },
+      {
+        "id": "G1-E06-N00",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "south50",
+          "southeast50"
+        ]
+      },
+      {
+        "id": "G1-E07-N00",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "south50",
+          "southeast50"
+        ]
+      },
+      {
+        "id": "G1-E08-N00",
+        "overview_status": "observed",
+        "detail_status": "partial_unverified",
+        "observation_region_ids": [
+          "south50",
+          "southeast50"
+        ]
+      }
+    ]
+  },
+  "source_comparison": {
+    "kakao": "일반지도와 최근 스카이뷰를 20m/30m/50m 축척에서 직접 관찰. 항공촬영일 메타데이터는 미확인.",
+    "naver": "신영상가 검색 위성지도 50m 화면 및 남단 한일유앤아이 검색 위성지도 100m 화면을 직접 관찰. 상가·유수지·남단 교차로 위치/방향 대조.",
+    "google": "남부 37.4905,126.8735,18z 일반지도 직접 관찰. 남부순환로·구일로·신구로펌프장·유수지 위치 표기 대조. 이 담당 세션에서 Google 항공층은 표시되지 않아 항공사진 관찰 근거로 사용하지 않음.",
+    "osm": "guro1_plan_2d.geojson 실제 외곽 좌표와 새 화면의 배치 대조; 측량 수준 좌표 정확도 확인이 아님."
+  },
+  "observations": [
+    {
+      "id": "south/elementary-layout",
+      "status": "observed_layout",
+      "label": "서울구일초등학교 외곽/배치",
+      "source_feature_ids": [
+        "way/250489312",
+        "way/250489313",
+        "way/250489314"
+      ],
+      "finding": "OSM 부지 및 건물 두 동이 새 항공 관찰의 북측 동서 장변+서측 남북 장변 L형 교사, 동측 남북 별관 배치와 대응. 중앙 운동장 구분. 추가 본체 외곽이 필요한 큰 누락은 확인되지 않음.",
+      "limitations": "교사 지상 footprint 미세 편차·출입구·층수·부지 담장 실측 미확인."
+    },
+    {
+      "id": "south/woosung-layout",
+      "status": "observed_layout",
+      "label": "구일우성아파트",
+      "source_feature_ids": [
+        "way/439886809",
+        "way/252997593",
+        "way/252997594",
+        "way/252997595",
+        "way/253000690",
+        "way/253000691",
+        "way/253000695"
+      ],
+      "finding": "북측 208/209/210동의 굽은 외곽과 중간 206/207/205동 및 남측201/202/203동 배치를 항공·표기와 대조. 서측 구일로와 동측 철도 사이에 단지 내부 도로/주차 구역이 존재.",
+      "limitations": "모든 동의 구석/돌출부를 개별 실측한 것은 아님. 내부도로 폭·통행 허용 미확인."
+    },
+    {
+      "id": "south/southern-layout",
+      "status": "observed_layout",
+      "label": "남단 한일유앤아이·물류시설·구로현대",
+      "source_feature_ids": [
+        "way/253002683",
+        "way/253002689",
+        "way/673832129"
+      ],
+      "finding": "물류센터 동측에 한일유앤아이 108~101동 배치, 그 동쪽 별도 구로현대/리츠빌, 남쪽 가마산로·광명대교 연결과 동쪽 남부순환로 램프를 Kakao/Naver에서 새 대조. 물류센터의 긴 건물 및 양 끝 원형 램프가 OSM 외곽과 대응.",
+      "limitations": "Kakao는 남동 단지를 구로현대로 표기함. OSM 구로현대로얄 명칭은 현행 정식명 재확인 전 출처 표기만 유지."
+    },
+    {
+      "id": "south/bridges-roads",
+      "status": "observed_layout",
+      "label": "사성교·광명대교·남단 램프",
+      "source_feature_ids": [
+        "way/71503007",
+        "way/71503072",
+        "way/313471718",
+        "way/252921539",
+        "way/252921548",
+        "way/520935926",
+        "way/555380145"
+      ],
+      "finding": "사성교는 하천/서부간선로를 동서로 가로지르고, 남단 광명대교는 가마산로에 연결됨. 구일로4길·구일로2길과 구일로는 아파트 내부/측면 도로로 구별됨. 남단 철도변 고가/램프의 배치가 공개 기하와 대응.",
+      "limitations": "도로 중심선과 실제 포장면은 다름. 폭·교량 높이·진입가능방향·램프 차로수 미확인."
+    },
+    {
+      "id": "south/tunnel-caution",
+      "status": "source_confirmed_surface_unverified",
+      "label": "서부간선지하도로",
+      "source_feature_ids": [
+        "way/975874973",
+        "way/975888370"
+      ],
+      "finding": "OSM layer=-4 지하도로. 항공사진에서 직접 관찰한 지상 포장면으로 표시해서는 안 됨.",
+      "limitations": "지상 사진은 지하 기하 확인 근거가 아님."
+    }
+  ],
+  "validation": {
+    "coordinate_transform_test": {
+      "source": "https://devtalk.kakao.com/t/topic/38086",
+      "input_wcongnamul": [
+        495285.98,
+        1129802.99
+      ],
+      "official_wgs84": [
+        126.97865669538913,
+        37.56682596942951
+      ],
+      "calculated_wgs84": [
+        126.9786567,
+        37.56682597
+      ],
+      "result": "official sample matched within rounded 1e-8 degree"
+    },
+    "polygon_count": 4,
+    "all_rings_closed": true,
+    "all_geometry_estimates": true,
+    "no_unverified_height_or_entrance_defaults": true
+  }
+}

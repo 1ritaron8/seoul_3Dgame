@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#143b40">
+  <title>구일 2050 · 미래 도시 계획도</title>
+  <link rel="stylesheet" href="/style.css">
+  <script type="module" src="/map.mjs"></script>
+</head>
+<body>
+  <a class="skip-link" href="#map">계획도로 바로 이동</a>
+  <header class="masthead">
+    <a class="identity" href="/" aria-label="구일 2050 계획도 홈">
+      <span class="identity-mark" aria-hidden="true">G<span>2050</span></span>
+      <span class="identity-copy"><span class="eyebrow">KOREA · URBAN FUTURES</span><strong>구일 <span>2050</span></strong></span>
+    </a>
+    <div class="masthead-note"><span class="status-dot"></span>미래 도시 시나리오<span class="divider">/</span>2D 계획도</div>
+  </header>
+  <main class="workspace">
+    <aside class="sidebar" aria-label="계획 설명과 선택한 구역">
+      <section class="intro">
+        <span class="eyebrow">도시의 위치는 보존하고, 생활은 새롭게</span>
+        <h1>오늘의 구일 위에<br><em>2050년의 일상.</em></h1>
+        <p>기존 도로와 건물 배치를 바탕으로 주거·학교·생활 중심지를 구상한 평면 계획도입니다.</p>
+        <div class="data-status" id="data-status" role="status">계획 데이터를 불러오고 있습니다.</div>
+      </section>
+      <section class="summary" aria-label="계획 구역 집계">
+        <div><strong id="residential-count">—</strong><span>주거 구역</span></div>
+        <div><strong id="school-count">—</strong><span>학교 구역</span></div>
+        <div><strong id="commercial-count">—</strong><span>상업 거점</span></div>
+        <div><strong id="building-count">—</strong><span>기존 건물</span></div>
+      </section>
+      <section class="zone-selector-section">
+        <label for="zone-select">살펴볼 구역</label>
+        <select id="zone-select" disabled><option value="">지도에서 구역을 선택하세요</option></select>
+      </section>
+      <section class="zone-detail" id="zone-detail" aria-live="polite">
+        <div class="detail-heading"><span class="section-number">01</span><span class="eyebrow">구역 상세</span></div>
+        <h2 id="zone-name">구일의 다음 장면</h2>
+        <p id="zone-description">지도에서 색이 칠해진 구역을 누르면 보존 요소와 2050년 계획을 확인하실 수 있습니다.</p>
+        <div class="detail-block"><h3><span class="detail-dot preserved"></span>현재 위치 · 보존 요소</h3><ul id="preservation-list"><li>원자료의 건물 윤곽과 도로 위치를 표시합니다.</li></ul></div>
+        <div class="detail-block"><h3><span class="detail-dot future"></span>2050 지상 · 창작 계획</h3><ul id="future-list"><li>색칠한 구역과 지붕 표현은 미래 설계 제안입니다.</li></ul></div>
+        <div class="detail-block"><h3><span class="detail-dot underground"></span>2050 지하 · 창작 계획</h3><ul id="underground-list"><li>지하 주차의 구상 범위만 표시하며, 입구 위치는 정하지 않았습니다.</li></ul></div>
+        <p class="detail-disclaimer">도로 폭·건물 높이·구조·지하 매설물은 이 도면만으로 확인할 수 없습니다. 주차장 입구와 진출입 동선은 현장 조사 후 정해야 합니다.</p>
+      </section>
+      <section class="source-section">
+        <div class="detail-heading"><span class="section-number">02</span><span class="eyebrow">자료와 해석</span></div>
+        <ul id="notices-list" class="notices"><li>행정 경계와 사업 인허가를 확정한 도면이 아닙니다.</li></ul>
+        <div id="sources" class="sources" aria-label="원자료 출처"></div>
+        <span class="revision">계획 시나리오 · 2026.10.03</span>
+      </section>
+    </aside>
+    <section class="map-panel" aria-label="구일 2050 평면도">
+      <div class="map-toolbar">
+        <div class="map-title"><span class="eyebrow">GUIL DISTRICT</span><h2>2050 공간 계획</h2></div>
+        <div class="mode-switch" role="group" aria-label="계획도 표시 모드">
+          <button type="button" id="ground-mode" aria-pressed="true">지상 계획</button>
+          <button type="button" id="underground-mode" aria-pressed="false">지하 계획</button>
+        </div>
+      </div>
+      <div class="mode-notice" id="mode-notice"><span class="notice-index">GROUND</span><span id="mode-description">기존 배치 위의 색칠·지붕선·명칭은 2050년 창작 계획입니다.</span></div>
+      <div class="map-stage" id="map-stage">
+        <svg id="map" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="구일 2050 평면 계획도. 방향키로 이동, 더하기와 빼기로 확대 및 축소, Home 키로 전체 보기." tabindex="0"></svg>
+        <div class="map-loading" id="map-loading"><span class="loading-ring" aria-hidden="true"></span><span id="loading-text">구일의 공간을 준비하고 있습니다.</span><button type="button" id="retry-button" hidden>다시 불러오기</button></div>
+        <div class="north-mark" aria-label="북쪽이 위입니다"><span>N</span><svg viewBox="0 0 24 36" aria-hidden="true"><path d="M12 2 3 31 12 25 21 31Z"/><path d="M12 2V25"/></svg></div>
+        <div class="map-controls" role="group" aria-label="지도 확대와 축소">
+          <button id="zoom-in" type="button" aria-label="지도 확대" title="확대">+</button>
+          <button id="zoom-out" type="button" aria-label="지도 축소" title="축소">−</button>
+          <button id="fit-view" type="button">전체 보기</button>
+        </div>
+        <div class="map-caption"><span id="zoom-level">100%</span><span>휠로 확대 · 드래그로 이동</span></div>
+        <div class="scale-bar" aria-label="지도 축척"><span id="scale-label">—</span><div id="scale-line"></div></div>
+      </div>
+      <div class="legend" aria-label="지도 범례">
+        <span><i class="legend-residential"></i>2050 주거</span><span><i class="legend-school"></i>2050 학교</span><span><i class="legend-commercial"></i>생활 중심지</span><span><i class="legend-footprint"></i>기존 건물 윤곽</span><span><i class="legend-rail"></i>철도</span><span id="underground-legend" hidden><i class="legend-hatch"></i>지하 구상 범위</span>
+      </div>
+      <footer class="map-footer"><span>경계는 계획용 잠정 범위입니다. 도로·선로 폭은 기호 표현이며 실제 폭을 뜻하지 않습니다.</span><span>기준 자료의 시점·정확도는 출처 확인이 필요합니다.</span></footer>
+    </section>
+  </main>
+</body>
+</html>

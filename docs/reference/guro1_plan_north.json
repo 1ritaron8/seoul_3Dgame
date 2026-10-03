@@ -1,0 +1,3939 @@
+{
+  "schema": "guro1.plan.north.v1",
+  "type": "FeatureCollection",
+  "region": "north lat >=37.493 (edge features kept whole)",
+  "observed_on": "2026-09-30",
+  "sources": [
+    {
+      "id": "N-plan18",
+      "service": "Naver basic",
+      "sourceURL": "https://map.pstatic.net/nrb/styles/basic/1790162807/{z}/{x}/{y}.png",
+      "z": 18,
+      "x": [
+        223454,
+        223463
+      ],
+      "y": [
+        101575,
+        101583
+      ],
+      "capture_date": "2026-09-30",
+      "source_date": "unknown",
+      "note": "공개 타일을 임시 폴더에서 조립, 직접 판독. 게임 텍스처로 사용하지 않음."
+    },
+    {
+      "id": "N-air18",
+      "service": "Naver satellite",
+      "sourceURL": "https://map.pstatic.net/nrb/styles/satellite/1790162807/{z}/{x}/{y}.jpg",
+      "z": 18,
+      "x": [
+        223454,
+        223463
+      ],
+      "y": [
+        101575,
+        101583
+      ],
+      "capture_date": "2026-09-30",
+      "source_date": "unknown"
+    },
+    {
+      "id": "K-ui-plan",
+      "service": "Kakao UI",
+      "sourceURL": "https://map.kakao.com/?q=구로우방아파트",
+      "tileURL": "https://mts.kakaocdn.net/api/v1/tile/PNG02/v24_gtqs4/latest/2/3938/1710.png",
+      "capture_date": "2026-09-30",
+      "extent_note": "우방/한국현대/현대의보/중앙구로하이츠/구로한신 북부중앙 화면",
+      "source_date": "unknown"
+    },
+    {
+      "id": "K-ui-air",
+      "service": "Kakao skyview UI",
+      "sourceURL": "https://map.kakao.com/?q=구로우방아파트",
+      "tileURL": "https://map.kakaocdn.net/map_skyview_hd/L2/3938/1710.jpg?v=160107",
+      "capture_date": "2026-09-30",
+      "source_date": "unknown"
+    },
+    {
+      "id": "G-ui-plan",
+      "service": "Google Maps UI",
+      "sourceURL": "https://www.google.com/maps/search/구로우방아파트",
+      "capture_date": "2026-09-30",
+      "extent_note": "북부중앙 단지/도로/철도 관계; 화면 TMap Mobility attribution",
+      "source_date": "unknown"
+    },
+    {
+      "id": "N-plan19",
+      "service": "Naver basic higher zoom",
+      "sourceURL": "https://map.pstatic.net/nrb/styles/basic/1790162807/{z}/{x}/{y}.png",
+      "z": 19,
+      "x": [
+        446917,
+        446920
+      ],
+      "y": [
+        203157,
+        203159
+      ],
+      "capture_date": "2026-09-30",
+      "source_date": "unknown"
+    },
+    {
+      "id": "OSM-common",
+      "service": "OpenStreetMap extracted common geometry",
+      "sourceURL": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+      "capture_date": "2026-09-30",
+      "source_date": "per-feature timestamp",
+      "note": "도로 중심선의 꺾임을 보존하기 위해 재사용; 이 자료 자체를 독립 지상측량으로 취급하지 않음."
+    }
+  ],
+  "limitations": [
+    "확인/추정은 지도에 보이는 형상의 존재/대략 배치에 관한 상태이며 지상 측량 검증 상태가 아니다.",
+    "수동 추출 7자리 좌표는 숫자 반올림 형식일 뿐 1cm 정확도를 뜻하지 않는다.",
+    "도로면은 지도 스타일의 면을 추출했으므로 정확한 차도·보도·필지 경계가 아니다.",
+    "건물 지붕은 항공 촬영각과 높이에 따라 지상 외곽과 어긋난다. 외곽 좌표는 기본지도 표현을 우선하였다.",
+    "Google 공개 타일 호출은403을 반환하여 UI에서 직접 보이는 범위를 대조했다.",
+    "세 서비스 표현의 원천 데이터 독립성을 확인하지 못했고 두 항공도 독립 현장측량이 아니다.",
+    "항공 인위적 비가시 영역에서는 OSM building 태그가 존재해도 실제 지도 교차확인된 건물로 승격하지 않는다.",
+    "이번에는 3D 높이/출입구/로드뷰를 확정하거나 2050 창작을 추가하지 않았다."
+  ],
+  "coverage": [
+    {
+      "cell_id": "G1-E08-N16",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E09-N16",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E10-N16",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E05-N15",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E06-N15",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E07-N15",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [
+        "north/guil8-diagonal-surface"
+      ],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E08-N15",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [
+        "north/guil8-diagonal-surface",
+        "north/depot-visible-strip"
+      ],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E09-N15",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [
+        "north/depot-visible-strip"
+      ],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E10-N15",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E04-N14",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E05-N14",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [
+        "north/woobang-parking"
+      ],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E06-N14",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [
+        "north/woobang-parking",
+        "north/heights-parking-6",
+        "north/guil8-diagonal-surface"
+      ],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E07-N14",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [
+        "north/heights-parking-6",
+        "north/guil8-diagonal-surface",
+        "north/heights-east-road-surface",
+        "north/north-masked-area"
+      ],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E08-N14",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [
+        "north/north-masked-area",
+        "north/depot-visible-strip"
+      ],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E09-N14",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [
+        "north/depot-visible-strip"
+      ],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E10-N14",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E00-N13",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E01-N13",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E02-N13",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E03-N13",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [
+        "north/queens-main"
+      ],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E04-N13",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E05-N13",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E06-N13",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [
+        "north/heights-parking-6",
+        "north/heights-parking-5",
+        "north/guil8-diagonal-surface"
+      ],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E07-N13",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [
+        "north/heights-parking-6",
+        "north/heights-parking-5",
+        "north/heights-east-road-surface",
+        "north/north-masked-area"
+      ],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E08-N13",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [
+        "north/north-masked-area",
+        "north/depot-visible-strip"
+      ],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E09-N13",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [
+        "north/depot-visible-strip"
+      ],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E10-N13",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E00-N12",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E01-N12",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E02-N12",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E03-N12",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [
+        "north/queens-main",
+        "north/queens-west-annex"
+      ],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E04-N12",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E05-N12",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [
+        "north/guil8-diagonal-surface"
+      ],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E06-N12",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [
+        "north/heights-parking-3",
+        "north/heights-parking-2",
+        "north/sangseon-parking",
+        "north/guil8-diagonal-surface"
+      ],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E07-N12",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [
+        "north/heights-parking-3",
+        "north/heights-parking-2",
+        "north/heights-east-road-surface",
+        "north/north-masked-area"
+      ],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E08-N12",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [
+        "north/north-masked-area",
+        "north/depot-visible-strip"
+      ],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E09-N12",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [
+        "north/depot-visible-strip"
+      ],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E10-N12",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E00-N11",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E01-N11",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E02-N11",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E03-N11",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [
+        "north/guil10-west-surface"
+      ],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E04-N11",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [
+        "north/woosung-shop",
+        "north/middle-pitch",
+        "north/guil10-road-surface",
+        "north/guil10-west-surface",
+        "north/guil8-diagonal-surface",
+        "north/school-west-road-surface"
+      ],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E05-N11",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [
+        "north/middle-pitch",
+        "north/guil10-road-surface",
+        "north/guil8-diagonal-surface",
+        "north/school-east-road-surface"
+      ],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E06-N11",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [
+        "north/jugong-104-parking",
+        "north/guil10-road-surface",
+        "north/school-east-road-surface"
+      ],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E07-N11",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [
+        "north/jugong-104-parking",
+        "north/guil10-road-surface",
+        "north/heights-east-road-surface",
+        "north/north-masked-area"
+      ],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E08-N11",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [
+        "north/guil10-road-surface",
+        "north/north-masked-area",
+        "north/depot-visible-strip"
+      ],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E09-N11",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [
+        "north/depot-visible-strip"
+      ],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E10-N11",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E00-N10",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E01-N10",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E02-N10",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E03-N10",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [
+        "north/school-west-road-surface"
+      ],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E04-N10",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [
+        "north/woosung-shop",
+        "north/hyeonjin-B",
+        "north/guro1-church",
+        "north/middle-pitch",
+        "north/middle-courtyard",
+        "north/school-west-road-surface"
+      ],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E05-N10",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [
+        "north/middle-pitch",
+        "north/middle-courtyard",
+        "north/school-east-road-surface"
+      ],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E06-N10",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [
+        "north/jugong-104-parking",
+        "north/jugong-105-parking",
+        "north/school-east-road-surface"
+      ],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E07-N10",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [
+        "north/jugong-104-parking",
+        "north/jugong-105-parking"
+      ],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E08-N10",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [
+        "north/depot-visible-strip"
+      ],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E09-N10",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [
+        "north/depot-visible-strip"
+      ],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E10-N10",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E01-N09",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E02-N09",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E03-N09",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [
+        "north/school-west-road-surface"
+      ],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E04-N09",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [
+        "north/guro1-church",
+        "north/geunsang-palace-2"
+      ],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E05-N09",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [
+        "north/high-ground",
+        "north/school-east-road-surface"
+      ],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E06-N09",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [
+        "north/jugong-106-parking",
+        "north/school-east-road-surface"
+      ],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E07-N09",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [
+        "north/jugong-106-parking"
+      ],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E08-N09",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [
+        "north/depot-visible-strip"
+      ],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E09-N09",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [
+        "north/depot-visible-strip"
+      ],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    },
+    {
+      "cell_id": "G1-E10-N09",
+      "status": "plan_and_air_tile_viewscan",
+      "sources": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "date": "2026-09-30",
+      "mapped_feature_ids": [],
+      "detail_status": "partial; not a complete building/entrance/access survey"
+    }
+  ],
+  "benchmarks": [
+    {
+      "label": "중앙구로하이츠 5동",
+      "target_osm_id": "way/252997567",
+      "method": "Naver z18 displayed footprint axis-aligned envelope vs OSM footprint envelope; schematic check only",
+      "naver_pixel_bbox": [
+        1281,
+        1117,
+        1454,
+        1154
+      ],
+      "osm_pixel_bbox": [
+        1281.44,
+        1118.45,
+        1451.06,
+        1153.46
+      ],
+      "naver_envelope_wgs84": [
+        [
+          126.8756157,
+          37.4973461
+        ],
+        [
+          126.8765438,
+          37.4971886
+        ]
+      ],
+      "envelope_center_offset_m": 0.63,
+      "mean_envelope_edge_difference_m": 0.64,
+      "observed_on": "2026-09-30",
+      "status": "schematic_alignment_check_not_positional_accuracy",
+      "source_ids": [
+        "N-plan18",
+        "OSM-common"
+      ]
+    },
+    {
+      "label": "중앙구로하이츠 4동",
+      "target_osm_id": "way/252997569",
+      "method": "Naver z18 displayed footprint axis-aligned envelope vs OSM footprint envelope; schematic check only",
+      "naver_pixel_bbox": [
+        1355,
+        1233,
+        1458,
+        1265
+      ],
+      "osm_pixel_bbox": [
+        1354.37,
+        1233.14,
+        1455.93,
+        1263.47
+      ],
+      "naver_envelope_wgs84": [
+        [
+          126.8760127,
+          37.4968524
+        ],
+        [
+          126.8765652,
+          37.4967162
+        ]
+      ],
+      "envelope_center_offset_m": 0.72,
+      "mean_envelope_edge_difference_m": 0.52,
+      "observed_on": "2026-09-30",
+      "status": "schematic_alignment_check_not_positional_accuracy",
+      "source_ids": [
+        "N-plan18",
+        "OSM-common"
+      ]
+    },
+    {
+      "label": "구로주공 104동",
+      "target_osm_id": "way/252997614",
+      "method": "Naver z18 displayed footprint axis-aligned envelope vs OSM footprint envelope; schematic check only",
+      "naver_pixel_bbox": [
+        1156,
+        1615,
+        1318,
+        1653
+      ],
+      "osm_pixel_bbox": [
+        1155.95,
+        1615.6,
+        1315.39,
+        1652.09
+      ],
+      "naver_envelope_wgs84": [
+        [
+          126.8749452,
+          37.4952265
+        ],
+        [
+          126.8758142,
+          37.4950648
+        ]
+      ],
+      "envelope_center_offset_m": 0.64,
+      "mean_envelope_edge_difference_m": 0.49,
+      "observed_on": "2026-09-30",
+      "status": "schematic_alignment_check_not_positional_accuracy",
+      "source_ids": [
+        "N-plan18",
+        "OSM-common"
+      ]
+    }
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "id": "north/queens-main",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.871984,
+              37.4968056
+            ],
+            [
+              126.8723756,
+              37.4966268
+            ],
+            [
+              126.8722093,
+              37.496431
+            ],
+            [
+              126.8718928,
+              37.4965842
+            ],
+            [
+              126.871984,
+              37.4968056
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "category": "building",
+        "name": "구일역영동퀸즈파크",
+        "label": "구일역영동퀸즈파크",
+        "class": "building_outline",
+        "type": "building_outline",
+        "confirmation_status": "추정",
+        "geometry_status": "manual_trace_of_map_representation_not_surveyed",
+        "observed_on": "2026-09-30",
+        "source_ids": [
+          "N-plan18",
+          "N-air18"
+        ],
+        "sourceURL": "https://map.pstatic.net/nrb/styles/basic/1790162807/18/223457/101579.png",
+        "coordinate_method": "WebMercator tile z18 pixel trace; rounded WGS84 7 decimals, rounding does not express positional accuracy",
+        "digitized_pixels": {
+          "origin_tile": [
+            223455,
+            101575
+          ],
+          "z": 18,
+          "points": [
+            [
+              604,
+              1244
+            ],
+            [
+              677,
+              1286
+            ],
+            [
+              646,
+              1332
+            ],
+            [
+              587,
+              1296
+            ]
+          ]
+        },
+        "cell_ids": [
+          "G1-E03-N13",
+          "G1-E03-N12"
+        ],
+        "height_status": "unverified",
+        "entrance_status": "unverified",
+        "access_status": "unverified",
+        "observation": "네이버 평면에서 별도 사각형 상가동, 네이버 항공에서 지붕을 확인. 기존 OSM 북부 building 목록에는 대응 외곽이 없음.",
+        "review_action": "add_if_no_existing_footprint",
+        "date": "2026-09-30"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "north/queens-west-annex",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.8717426,
+              37.4966438
+            ],
+            [
+              126.8718821,
+              37.4966438
+            ],
+            [
+              126.8718982,
+              37.4963204
+            ],
+            [
+              126.8717372,
+              37.4963204
+            ],
+            [
+              126.8717426,
+              37.4966438
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "category": "building",
+        "name": "퀸즈파크 서쪽 부속동(용도 미확인)",
+        "label": "퀸즈파크 서쪽 부속동(용도 미확인)",
+        "class": "building_outline",
+        "type": "building_outline",
+        "confirmation_status": "추정",
+        "geometry_status": "manual_trace_of_map_representation_not_surveyed",
+        "observed_on": "2026-09-30",
+        "source_ids": [
+          "N-plan18",
+          "N-air18"
+        ],
+        "sourceURL": "https://map.pstatic.net/nrb/styles/basic/1790162807/18/223457/101580.png",
+        "coordinate_method": "WebMercator tile z18 pixel trace; rounded WGS84 7 decimals, rounding does not express positional accuracy",
+        "digitized_pixels": {
+          "origin_tile": [
+            223455,
+            101575
+          ],
+          "z": 18,
+          "points": [
+            [
+              559,
+              1282
+            ],
+            [
+              585,
+              1282
+            ],
+            [
+              588,
+              1358
+            ],
+            [
+              558,
+              1358
+            ]
+          ]
+        },
+        "cell_ids": [
+          "G1-E03-N12"
+        ],
+        "height_status": "unverified",
+        "entrance_status": "unverified",
+        "access_status": "unverified",
+        "observation": "네이버 평면에 CU 표기가 겹치는 별도 남북 직사각형. 점포명만으로 동 전체 용도는 확정하지 않음.",
+        "review_action": "add_if_no_existing_footprint",
+        "date": "2026-09-30"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "north/woosung-shop",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.8727028,
+              37.4949499
+            ],
+            [
+              126.872912,
+              37.4950265
+            ],
+            [
+              126.8730462,
+              37.4949669
+            ],
+            [
+              126.8727136,
+              37.4946349
+            ],
+            [
+              126.8727028,
+              37.4949499
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "category": "building",
+        "name": "우성상가 표시 부근 건물",
+        "label": "우성상가 표시 부근 건물",
+        "class": "building_outline",
+        "type": "building_outline",
+        "confirmation_status": "추정",
+        "geometry_status": "manual_trace_of_map_representation_not_surveyed",
+        "observed_on": "2026-09-30",
+        "source_ids": [
+          "N-plan18",
+          "N-air18"
+        ],
+        "sourceURL": "https://map.pstatic.net/nrb/styles/basic/1790162807/18/223457/101581.png",
+        "coordinate_method": "WebMercator tile z18 pixel trace; rounded WGS84 7 decimals, rounding does not express positional accuracy",
+        "digitized_pixels": {
+          "origin_tile": [
+            223455,
+            101575
+          ],
+          "z": 18,
+          "points": [
+            [
+              738,
+              1680
+            ],
+            [
+              777,
+              1662
+            ],
+            [
+              802,
+              1676
+            ],
+            [
+              740,
+              1754
+            ]
+          ]
+        },
+        "cell_ids": [
+          "G1-E04-N11",
+          "G1-E04-N10"
+        ],
+        "height_status": "unverified",
+        "entrance_status": "unverified",
+        "access_status": "unverified",
+        "observation": "구로우성아파트 102동 동쪽 삼각형/다각형 상가 외곽이 표시되고 항공에서 작은 지붕이 보임. 모서리는 수목·라벨 영향으로 추정.",
+        "review_action": "add_if_no_existing_footprint",
+        "date": "2026-09-30"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "north/hyeonjin-B",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.8727887,
+              37.4944945
+            ],
+            [
+              126.8730462,
+              37.4945073
+            ],
+            [
+              126.8730569,
+              37.4944008
+            ],
+            [
+              126.8727833,
+              37.4943966
+            ],
+            [
+              126.8727887,
+              37.4944945
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "category": "building",
+        "name": "현진그린빌 B 표시동",
+        "label": "현진그린빌 B 표시동",
+        "class": "building_outline",
+        "type": "building_outline",
+        "confirmation_status": "추정",
+        "geometry_status": "manual_trace_of_map_representation_not_surveyed",
+        "observed_on": "2026-09-30",
+        "source_ids": [
+          "N-plan18",
+          "N-air18"
+        ],
+        "sourceURL": "https://map.pstatic.net/nrb/styles/basic/1790162807/18/223457/101581.png",
+        "coordinate_method": "WebMercator tile z18 pixel trace; rounded WGS84 7 decimals, rounding does not express positional accuracy",
+        "digitized_pixels": {
+          "origin_tile": [
+            223455,
+            101575
+          ],
+          "z": 18,
+          "points": [
+            [
+              754,
+              1787
+            ],
+            [
+              802,
+              1784
+            ],
+            [
+              804,
+              1809
+            ],
+            [
+              753,
+              1810
+            ]
+          ]
+        },
+        "cell_ids": [
+          "G1-E04-N10"
+        ],
+        "height_status": "unverified",
+        "entrance_status": "unverified",
+        "access_status": "unverified",
+        "observation": "학교 서쪽 가로형 부속 건물의 평면 외곽과 B 표기를 새 확인.",
+        "review_action": "add_if_no_existing_footprint",
+        "date": "2026-09-30"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "north/guro1-church",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.872676,
+              37.4941923
+            ],
+            [
+              126.8730032,
+              37.4942008
+            ],
+            [
+              126.8730086,
+              37.4938731
+            ],
+            [
+              126.872794,
+              37.4938731
+            ],
+            [
+              126.8727887,
+              37.493788
+            ],
+            [
+              126.8726653,
+              37.4938263
+            ],
+            [
+              126.872676,
+              37.4941923
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "category": "building",
+        "name": "구로1동성당 표시 건물",
+        "label": "구로1동성당 표시 건물",
+        "class": "building_outline",
+        "type": "building_outline",
+        "confirmation_status": "추정",
+        "geometry_status": "manual_trace_of_map_representation_not_surveyed",
+        "observed_on": "2026-09-30",
+        "source_ids": [
+          "N-plan18",
+          "N-air18"
+        ],
+        "sourceURL": "https://map.pstatic.net/nrb/styles/basic/1790162807/18/223457/101582.png",
+        "coordinate_method": "WebMercator tile z18 pixel trace; rounded WGS84 7 decimals, rounding does not express positional accuracy",
+        "digitized_pixels": {
+          "origin_tile": [
+            223455,
+            101575
+          ],
+          "z": 18,
+          "points": [
+            [
+              733,
+              1858
+            ],
+            [
+              794,
+              1856
+            ],
+            [
+              795,
+              1933
+            ],
+            [
+              755,
+              1933
+            ],
+            [
+              754,
+              1953
+            ],
+            [
+              731,
+              1944
+            ]
+          ]
+        },
+        "cell_ids": [
+          "G1-E04-N10",
+          "G1-E04-N09"
+        ],
+        "height_status": "unverified",
+        "entrance_status": "unverified",
+        "access_status": "unverified",
+        "observation": "구일고등학교 서쪽 종교시설 표기와 별도 건물 면. 높이·정문 미확인.",
+        "review_action": "observation_only_existing_geometry_preserved",
+        "integrate_geometry": false,
+        "date": "2026-09-30"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "north/geunsang-palace-2",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.8727994,
+              37.4937709
+            ],
+            [
+              126.8731105,
+              37.4937837
+            ],
+            [
+              126.8731159,
+              37.4933325
+            ],
+            [
+              126.8728101,
+              37.493307
+            ],
+            [
+              126.8727994,
+              37.4937709
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "category": "building",
+        "name": "근상프리즘팰리스 2 표시동",
+        "label": "근상프리즘팰리스 2 표시동",
+        "class": "building_outline",
+        "type": "building_outline",
+        "confirmation_status": "추정",
+        "geometry_status": "manual_trace_of_map_representation_not_surveyed",
+        "observed_on": "2026-09-30",
+        "source_ids": [
+          "N-plan18",
+          "N-air18"
+        ],
+        "sourceURL": "https://map.pstatic.net/nrb/styles/basic/1790162807/18/223457/101582.png",
+        "coordinate_method": "WebMercator tile z18 pixel trace; rounded WGS84 7 decimals, rounding does not express positional accuracy",
+        "digitized_pixels": {
+          "origin_tile": [
+            223455,
+            101575
+          ],
+          "z": 18,
+          "points": [
+            [
+              756,
+              1957
+            ],
+            [
+              814,
+              1954
+            ],
+            [
+              815,
+              2060
+            ],
+            [
+              758,
+              2066
+            ]
+          ]
+        },
+        "cell_ids": [
+          "G1-E04-N09"
+        ],
+        "height_status": "unverified",
+        "entrance_status": "unverified",
+        "access_status": "unverified",
+        "observation": "학교 서쪽 하단의 남북 긴 건물 외곽. 기존 OSM 작은 building part와 겹칠 수 있으므로 중복 부분은 통합 필요.",
+        "review_action": "observation_only_existing_geometry_preserved",
+        "integrate_geometry": false,
+        "date": "2026-09-30"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "north/middle-pitch",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.8736255,
+              37.4949925
+            ],
+            [
+              126.8743926,
+              37.4950137
+            ],
+            [
+              126.8744141,
+              37.494503
+            ],
+            [
+              126.873647,
+              37.4944817
+            ],
+            [
+              126.8736255,
+              37.4949925
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "category": "facility",
+        "name": "구일중학교 운동장",
+        "label": "구일중학교 운동장",
+        "class": "sports_ground",
+        "type": "sports_ground",
+        "confirmation_status": "확인",
+        "geometry_status": "manual_map_outline_approximate",
+        "observed_on": "2026-09-30",
+        "source_ids": [
+          "N-plan18",
+          "N-air18",
+          "K-ui-air"
+        ],
+        "sourceURL": "https://map.pstatic.net/nrb/styles/basic/1790162807/18/223458/101581.png",
+        "coordinate_method": "WebMercator tile z18 pixel trace; rounded WGS84 7 decimals, rounding does not express positional accuracy",
+        "digitized_pixels": {
+          "origin_tile": [
+            223455,
+            101575
+          ],
+          "z": 18,
+          "points": [
+            [
+              910,
+              1670
+            ],
+            [
+              1053,
+              1665
+            ],
+            [
+              1057,
+              1785
+            ],
+            [
+              914,
+              1790
+            ]
+          ]
+        },
+        "cell_ids": [
+          "G1-E04-N11",
+          "G1-E05-N11",
+          "G1-E04-N10",
+          "G1-E05-N10"
+        ],
+        "height_status": "unverified",
+        "entrance_status": "unverified",
+        "access_status": "unverified",
+        "observation": "평면 축구장/농구장 표기와 두 항공 화면에서 사각 운동장 면 확인. 실제 운동시설 규격이 아닌 보이는 운동장 면의 근사외곽.",
+        "date": "2026-09-30"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "north/high-ground",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.8736792,
+              37.4939837
+            ],
+            [
+              126.8746179,
+              37.4940093
+            ],
+            [
+              126.8746501,
+              37.4935411
+            ],
+            [
+              126.8737113,
+              37.4935113
+            ],
+            [
+              126.8736792,
+              37.4939837
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "category": "facility",
+        "name": "구일고등학교 운동장",
+        "label": "구일고등학교 운동장",
+        "class": "sports_ground",
+        "type": "sports_ground",
+        "confirmation_status": "확인",
+        "geometry_status": "manual_map_outline_approximate",
+        "observed_on": "2026-09-30",
+        "source_ids": [
+          "N-plan18",
+          "N-air18"
+        ],
+        "sourceURL": "https://map.pstatic.net/nrb/styles/basic/1790162807/18/223458/101582.png",
+        "coordinate_method": "WebMercator tile z18 pixel trace; rounded WGS84 7 decimals, rounding does not express positional accuracy",
+        "digitized_pixels": {
+          "origin_tile": [
+            223455,
+            101575
+          ],
+          "z": 18,
+          "points": [
+            [
+              920,
+              1907
+            ],
+            [
+              1095,
+              1901
+            ],
+            [
+              1101,
+              2011
+            ],
+            [
+              926,
+              2018
+            ]
+          ]
+        },
+        "cell_ids": [
+          "G1-E05-N09"
+        ],
+        "height_status": "unverified",
+        "entrance_status": "unverified",
+        "access_status": "unverified",
+        "observation": "구일고 본관 남쪽 독립 운동장. 평면은 회색면, 항공은 흙/트랙면으로 보임. 학교 부지와 운동장 면 구분.",
+        "date": "2026-09-30"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "north/middle-courtyard",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.8734968,
+              37.4944221
+            ],
+            [
+              126.8746716,
+              37.4944604
+            ],
+            [
+              126.874693,
+              37.4943455
+            ],
+            [
+              126.8735182,
+              37.494303
+            ],
+            [
+              126.8734968,
+              37.4944221
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "category": "facility",
+        "name": "구일중학교 남쪽 내부 포장공간",
+        "label": "구일중학교 남쪽 내부 포장공간",
+        "class": "school_courtyard",
+        "type": "school_courtyard",
+        "confirmation_status": "추정",
+        "geometry_status": "manual_trace_of_map_representation_not_surveyed",
+        "observed_on": "2026-09-30",
+        "source_ids": [
+          "N-plan18",
+          "N-air18"
+        ],
+        "sourceURL": "https://map.pstatic.net/nrb/styles/basic/1790162807/18/223458/101582.png",
+        "coordinate_method": "WebMercator tile z18 pixel trace; rounded WGS84 7 decimals, rounding does not express positional accuracy",
+        "digitized_pixels": {
+          "origin_tile": [
+            223455,
+            101575
+          ],
+          "z": 18,
+          "points": [
+            [
+              886,
+              1804
+            ],
+            [
+              1105,
+              1795
+            ],
+            [
+              1109,
+              1822
+            ],
+            [
+              890,
+              1832
+            ]
+          ]
+        },
+        "cell_ids": [
+          "G1-E04-N10",
+          "G1-E05-N10"
+        ],
+        "height_status": "unverified",
+        "entrance_status": "unverified",
+        "access_status": "unverified",
+        "observation": "중·고교 사이 포장 띠. 공공 통과 길이나 두 학교 연결 통로로 확정하지 않음.",
+        "date": "2026-09-30"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "north/woobang-parking",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.8743819,
+              37.4976738
+            ],
+            [
+              126.8748942,
+              37.4978462
+            ],
+            [
+              126.8749318,
+              37.4977951
+            ],
+            [
+              126.8744221,
+              37.4976227
+            ],
+            [
+              126.8743819,
+              37.4976738
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "category": "facility",
+        "name": "우방아파트 내부 주차·차로 면",
+        "label": "우방아파트 내부 주차·차로 면",
+        "class": "parking_surface",
+        "type": "parking_surface",
+        "confirmation_status": "추정",
+        "geometry_status": "manual_trace_of_map_representation_not_surveyed",
+        "observed_on": "2026-09-30",
+        "source_ids": [
+          "N-plan18",
+          "N-air18",
+          "K-ui-plan",
+          "K-ui-air",
+          "N-plan19"
+        ],
+        "sourceURL": "https://map.pstatic.net/nrb/styles/basic/1790162807/18/223459/101579.png",
+        "coordinate_method": "WebMercator tile z18 pixel trace; rounded WGS84 7 decimals, rounding does not express positional accuracy",
+        "digitized_pixels": {
+          "origin_tile": [
+            223455,
+            101575
+          ],
+          "z": 18,
+          "points": [
+            [
+              1051,
+              1040
+            ],
+            [
+              1146.5,
+              999.5
+            ],
+            [
+              1153.5,
+              1011.5
+            ],
+            [
+              1058.5,
+              1052
+            ]
+          ]
+        },
+        "cell_ids": [
+          "G1-E05-N14",
+          "G1-E06-N14"
+        ],
+        "height_status": "unverified",
+        "entrance_status": "unverified",
+        "access_status": "unverified",
+        "observation": "z19확대의 우방 중앙 U자 공간에서 실제 그려진 두 주차열 사이 띠를 새 추출. 아파트1동 지상 외곽·공원으로 해석하지 않음.",
+        "date": "2026-09-30"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "north/heights-parking-6",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.8757606,
+              37.4976397
+            ],
+            [
+              126.8765652,
+              37.497661
+            ],
+            [
+              126.8765706,
+              37.4973971
+            ],
+            [
+              126.8757391,
+              37.4973674
+            ],
+            [
+              126.8757606,
+              37.4976397
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "category": "facility",
+        "name": "중앙구로하이츠 6·5동 사이 주차면",
+        "label": "중앙구로하이츠 6·5동 사이 주차면",
+        "class": "parking_surface",
+        "type": "parking_surface",
+        "confirmation_status": "추정",
+        "geometry_status": "manual_trace_of_map_representation_not_surveyed",
+        "observed_on": "2026-09-30",
+        "source_ids": [
+          "N-plan18",
+          "N-air18",
+          "K-ui-plan",
+          "K-ui-air"
+        ],
+        "sourceURL": "https://map.pstatic.net/nrb/styles/basic/1790162807/18/223460/101579.png",
+        "coordinate_method": "WebMercator tile z18 pixel trace; rounded WGS84 7 decimals, rounding does not express positional accuracy",
+        "digitized_pixels": {
+          "origin_tile": [
+            223455,
+            101575
+          ],
+          "z": 18,
+          "points": [
+            [
+              1308,
+              1048
+            ],
+            [
+              1458,
+              1043
+            ],
+            [
+              1459,
+              1105
+            ],
+            [
+              1304,
+              1112
+            ]
+          ]
+        },
+        "cell_ids": [
+          "G1-E06-N14",
+          "G1-E07-N14",
+          "G1-E06-N13",
+          "G1-E07-N13"
+        ],
+        "height_status": "unverified",
+        "entrance_status": "unverified",
+        "access_status": "unverified",
+        "observation": "북측 T형동과 5동 사이 여러 줄 주차·차로 구획. 개별 주차칸까지 제작하지 않음.",
+        "date": "2026-09-30"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "north/heights-parking-5",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.875385,
+              37.4971205
+            ],
+            [
+              126.8766135,
+              37.4971503
+            ],
+            [
+              126.8766189,
+              37.4969077
+            ],
+            [
+              126.8752348,
+              37.4968907
+            ],
+            [
+              126.875385,
+              37.4971205
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "category": "facility",
+        "name": "중앙구로하이츠 5·3동 사이 주차면",
+        "label": "중앙구로하이츠 5·3동 사이 주차면",
+        "class": "parking_surface",
+        "type": "parking_surface",
+        "confirmation_status": "추정",
+        "geometry_status": "manual_trace_of_map_representation_not_surveyed",
+        "observed_on": "2026-09-30",
+        "source_ids": [
+          "N-plan18",
+          "N-air18",
+          "K-ui-plan",
+          "K-ui-air"
+        ],
+        "sourceURL": "https://map.pstatic.net/nrb/styles/basic/1790162807/18/223459/101579.png",
+        "coordinate_method": "WebMercator tile z18 pixel trace; rounded WGS84 7 decimals, rounding does not express positional accuracy",
+        "digitized_pixels": {
+          "origin_tile": [
+            223455,
+            101575
+          ],
+          "z": 18,
+          "points": [
+            [
+              1238,
+              1170
+            ],
+            [
+              1467,
+              1163
+            ],
+            [
+              1468,
+              1220
+            ],
+            [
+              1210,
+              1224
+            ]
+          ]
+        },
+        "cell_ids": [
+          "G1-E06-N13",
+          "G1-E07-N13"
+        ],
+        "height_status": "unverified",
+        "entrance_status": "unverified",
+        "access_status": "unverified",
+        "date": "2026-09-30"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "north/heights-parking-3",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.8750525,
+              37.4966396
+            ],
+            [
+              126.8766189,
+              37.4966736
+            ],
+            [
+              126.8766296,
+              37.4964523
+            ],
+            [
+              126.8750471,
+              37.4964097
+            ],
+            [
+              126.8750525,
+              37.4966396
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "category": "facility",
+        "name": "중앙구로하이츠 3·2동 사이 주차면",
+        "label": "중앙구로하이츠 3·2동 사이 주차면",
+        "class": "parking_surface",
+        "type": "parking_surface",
+        "confirmation_status": "추정",
+        "geometry_status": "manual_trace_of_map_representation_not_surveyed",
+        "observed_on": "2026-09-30",
+        "source_ids": [
+          "N-plan18",
+          "N-air18",
+          "K-ui-plan",
+          "K-ui-air"
+        ],
+        "sourceURL": "https://map.pstatic.net/nrb/styles/basic/1790162807/18/223459/101580.png",
+        "coordinate_method": "WebMercator tile z18 pixel trace; rounded WGS84 7 decimals, rounding does not express positional accuracy",
+        "digitized_pixels": {
+          "origin_tile": [
+            223455,
+            101575
+          ],
+          "z": 18,
+          "points": [
+            [
+              1176,
+              1283
+            ],
+            [
+              1468,
+              1275
+            ],
+            [
+              1470,
+              1327
+            ],
+            [
+              1175,
+              1337
+            ]
+          ]
+        },
+        "cell_ids": [
+          "G1-E06-N12",
+          "G1-E07-N12"
+        ],
+        "height_status": "unverified",
+        "entrance_status": "unverified",
+        "access_status": "unverified",
+        "date": "2026-09-30"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "north/heights-parking-2",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.8754011,
+              37.4961246
+            ],
+            [
+              126.8766242,
+              37.4961757
+            ],
+            [
+              126.8766296,
+              37.4960097
+            ],
+            [
+              126.8754226,
+              37.4959714
+            ],
+            [
+              126.8754011,
+              37.4961246
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "category": "facility",
+        "name": "중앙구로하이츠 2·1동 사이 주차면",
+        "label": "중앙구로하이츠 2·1동 사이 주차면",
+        "class": "parking_surface",
+        "type": "parking_surface",
+        "confirmation_status": "추정",
+        "geometry_status": "manual_trace_of_map_representation_not_surveyed",
+        "observed_on": "2026-09-30",
+        "source_ids": [
+          "N-plan18",
+          "N-air18",
+          "K-ui-plan",
+          "K-ui-air"
+        ],
+        "sourceURL": "https://map.pstatic.net/nrb/styles/basic/1790162807/18/223459/101580.png",
+        "coordinate_method": "WebMercator tile z18 pixel trace; rounded WGS84 7 decimals, rounding does not express positional accuracy",
+        "digitized_pixels": {
+          "origin_tile": [
+            223455,
+            101575
+          ],
+          "z": 18,
+          "points": [
+            [
+              1241,
+              1404
+            ],
+            [
+              1469,
+              1392
+            ],
+            [
+              1470,
+              1431
+            ],
+            [
+              1245,
+              1440
+            ]
+          ]
+        },
+        "cell_ids": [
+          "G1-E06-N12",
+          "G1-E07-N12"
+        ],
+        "height_status": "unverified",
+        "entrance_status": "unverified",
+        "access_status": "unverified",
+        "date": "2026-09-30"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "north/sangseon-parking",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.8748218,
+              37.4961246
+            ],
+            [
+              126.8755889,
+              37.4961416
+            ],
+            [
+              126.8755943,
+              37.4959969
+            ],
+            [
+              126.8748593,
+              37.4959629
+            ],
+            [
+              126.8748218,
+              37.4961246
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "category": "facility",
+        "name": "현대상선아파트 102·101동 사이 차로·주차면",
+        "label": "현대상선아파트 102·101동 사이 차로·주차면",
+        "class": "parking_surface",
+        "type": "parking_surface",
+        "confirmation_status": "추정",
+        "geometry_status": "manual_trace_of_map_representation_not_surveyed",
+        "observed_on": "2026-09-30",
+        "source_ids": [
+          "N-plan18",
+          "N-air18"
+        ],
+        "sourceURL": "https://map.pstatic.net/nrb/styles/basic/1790162807/18/223459/101580.png",
+        "coordinate_method": "WebMercator tile z18 pixel trace; rounded WGS84 7 decimals, rounding does not express positional accuracy",
+        "digitized_pixels": {
+          "origin_tile": [
+            223455,
+            101575
+          ],
+          "z": 18,
+          "points": [
+            [
+              1133,
+              1404
+            ],
+            [
+              1276,
+              1400
+            ],
+            [
+              1277,
+              1434
+            ],
+            [
+              1140,
+              1442
+            ]
+          ]
+        },
+        "cell_ids": [
+          "G1-E06-N12"
+        ],
+        "height_status": "unverified",
+        "entrance_status": "unverified",
+        "access_status": "unverified",
+        "observation": "층별 이용·주차 구획 수는 미확인.",
+        "date": "2026-09-30"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "north/jugong-104-parking",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.8748271,
+              37.4950095
+            ],
+            [
+              126.8759269,
+              37.4950435
+            ],
+            [
+              126.8759376,
+              37.494835
+            ],
+            [
+              126.8748379,
+              37.4948052
+            ],
+            [
+              126.8748271,
+              37.4950095
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "category": "facility",
+        "name": "구로주공 104동 남쪽 차로·주차면",
+        "label": "구로주공 104동 남쪽 차로·주차면",
+        "class": "parking_surface",
+        "type": "parking_surface",
+        "confirmation_status": "추정",
+        "geometry_status": "manual_trace_of_map_representation_not_surveyed",
+        "observed_on": "2026-09-30",
+        "source_ids": [
+          "N-plan18",
+          "N-air18"
+        ],
+        "sourceURL": "https://map.pstatic.net/nrb/styles/basic/1790162807/18/223459/101581.png",
+        "coordinate_method": "WebMercator tile z18 pixel trace; rounded WGS84 7 decimals, rounding does not express positional accuracy",
+        "digitized_pixels": {
+          "origin_tile": [
+            223455,
+            101575
+          ],
+          "z": 18,
+          "points": [
+            [
+              1134,
+              1666
+            ],
+            [
+              1339,
+              1658
+            ],
+            [
+              1341,
+              1707
+            ],
+            [
+              1136,
+              1714
+            ]
+          ]
+        },
+        "cell_ids": [
+          "G1-E06-N11",
+          "G1-E07-N11",
+          "G1-E06-N10",
+          "G1-E07-N10"
+        ],
+        "height_status": "unverified",
+        "entrance_status": "unverified",
+        "access_status": "unverified",
+        "date": "2026-09-30"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "north/jugong-105-parking",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.8748754,
+              37.4944392
+            ],
+            [
+              126.875959,
+              37.4944647
+            ],
+            [
+              126.8759698,
+              37.4942859
+            ],
+            [
+              126.8748915,
+              37.4942434
+            ],
+            [
+              126.8748754,
+              37.4944392
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "category": "facility",
+        "name": "구로주공 105동 남쪽 차로·주차면",
+        "label": "구로주공 105동 남쪽 차로·주차면",
+        "class": "parking_surface",
+        "type": "parking_surface",
+        "confirmation_status": "추정",
+        "geometry_status": "manual_trace_of_map_representation_not_surveyed",
+        "observed_on": "2026-09-30",
+        "source_ids": [
+          "N-plan18",
+          "N-air18"
+        ],
+        "sourceURL": "https://map.pstatic.net/nrb/styles/basic/1790162807/18/223459/101582.png",
+        "coordinate_method": "WebMercator tile z18 pixel trace; rounded WGS84 7 decimals, rounding does not express positional accuracy",
+        "digitized_pixels": {
+          "origin_tile": [
+            223455,
+            101575
+          ],
+          "z": 18,
+          "points": [
+            [
+              1143,
+              1800
+            ],
+            [
+              1345,
+              1794
+            ],
+            [
+              1347,
+              1836
+            ],
+            [
+              1146,
+              1846
+            ]
+          ]
+        },
+        "cell_ids": [
+          "G1-E06-N10",
+          "G1-E07-N10"
+        ],
+        "height_status": "unverified",
+        "entrance_status": "unverified",
+        "access_status": "unverified",
+        "date": "2026-09-30"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "north/jugong-106-parking",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.8749774,
+              37.4938901
+            ],
+            [
+              126.8759698,
+              37.4939412
+            ],
+            [
+              126.8759751,
+              37.4936986
+            ],
+            [
+              126.8749881,
+              37.493656
+            ],
+            [
+              126.8749774,
+              37.4938901
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "category": "facility",
+        "name": "구로주공 106동 남쪽 차로·주차면",
+        "label": "구로주공 106동 남쪽 차로·주차면",
+        "class": "parking_surface",
+        "type": "parking_surface",
+        "confirmation_status": "추정",
+        "geometry_status": "manual_trace_of_map_representation_not_surveyed",
+        "observed_on": "2026-09-30",
+        "source_ids": [
+          "N-plan18",
+          "N-air18"
+        ],
+        "sourceURL": "https://map.pstatic.net/nrb/styles/basic/1790162807/18/223459/101582.png",
+        "coordinate_method": "WebMercator tile z18 pixel trace; rounded WGS84 7 decimals, rounding does not express positional accuracy",
+        "digitized_pixels": {
+          "origin_tile": [
+            223455,
+            101575
+          ],
+          "z": 18,
+          "points": [
+            [
+              1162,
+              1929
+            ],
+            [
+              1347,
+              1917
+            ],
+            [
+              1348,
+              1974
+            ],
+            [
+              1164,
+              1984
+            ]
+          ]
+        },
+        "cell_ids": [
+          "G1-E06-N09",
+          "G1-E07-N09"
+        ],
+        "height_status": "unverified",
+        "entrance_status": "unverified",
+        "access_status": "unverified",
+        "date": "2026-09-30"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "north/guil10-road-surface",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.8735928,
+              37.4953415
+            ],
+            [
+              126.8740434,
+              37.4953585
+            ],
+            [
+              126.8747252,
+              37.4953887
+            ],
+            [
+              126.8747569,
+              37.495393
+            ],
+            [
+              126.8759912,
+              37.4954436
+            ],
+            [
+              126.8761736,
+              37.4954521
+            ],
+            [
+              126.8766886,
+              37.4954734
+            ],
+            [
+              126.8770695,
+              37.4954904
+            ],
+            [
+              126.8770587,
+              37.4956436
+            ],
+            [
+              126.8766779,
+              37.4956266
+            ],
+            [
+              126.8761629,
+              37.4956053
+            ],
+            [
+              126.8759805,
+              37.4955968
+            ],
+            [
+              126.8747365,
+              37.4955453
+            ],
+            [
+              126.8747038,
+              37.4955411
+            ],
+            [
+              126.8740337,
+              37.4955117
+            ],
+            [
+              126.8735831,
+              37.4954947
+            ],
+            [
+              126.8735928,
+              37.4953415
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "category": "road",
+        "name": "구일로10길 동쪽 차도·보도 띠",
+        "label": "구일로10길 동쪽 차도·보도 띠",
+        "class": "road_surface",
+        "type": "road_surface",
+        "confirmation_status": "추정",
+        "geometry_status": "osm_centerline_with_visual_reference_width_estimate",
+        "observed_on": "2026-09-30",
+        "source_ids": [
+          "N-plan18",
+          "N-air18",
+          "OSM-common"
+        ],
+        "sourceURL": "https://map.pstatic.net/nrb/styles/basic/1790162807/18/223458/101581.png",
+        "coordinate_method": "OSM centerline checked against Naver plan/air; map-estimated ribbon width",
+        "digitized_pixels": {
+          "origin_tile": [
+            223455,
+            101575
+          ],
+          "z": 18,
+          "points": [
+            [
+              903.9,
+              1588
+            ],
+            [
+              987.9,
+              1584
+            ],
+            [
+              1115,
+              1576.9
+            ],
+            [
+              1120.9,
+              1575.9
+            ],
+            [
+              1351,
+              1564
+            ],
+            [
+              1385,
+              1562
+            ],
+            [
+              1481,
+              1557
+            ],
+            [
+              1552,
+              1553
+            ],
+            [
+              1550,
+              1517
+            ],
+            [
+              1479,
+              1521
+            ],
+            [
+              1383,
+              1526
+            ],
+            [
+              1349,
+              1528
+            ],
+            [
+              1117.1,
+              1540.1
+            ],
+            [
+              1111,
+              1541.1
+            ],
+            [
+              986.1,
+              1548
+            ],
+            [
+              902.1,
+              1552
+            ]
+          ]
+        },
+        "cell_ids": [
+          "G1-E04-N11",
+          "G1-E05-N11",
+          "G1-E06-N11",
+          "G1-E07-N11",
+          "G1-E08-N11"
+        ],
+        "height_status": "unverified",
+        "entrance_status": "unverified",
+        "access_status": "unverified",
+        "observation": "학교 북측 동서도로의 지도상 도로 면. 차도/보도 경계를 구분한 실측 폴리곤이 아님. 확대 겹침검사에서 직선화가 건물을 침범하는 부분을 확인하여 기존 OSM 꺾은 중심선으로 맞춤.",
+        "width_estimate_m": [
+          14,
+          22
+        ],
+        "width_status": "map_representation_range_not_ground_measurement",
+        "review_action": "surface_overlay_existing_centerline",
+        "source_geometry_ids": [
+          "way/520810606",
+          "way/520810608"
+        ],
+        "date": "2026-09-30"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "north/guil10-west-surface",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.8716123,
+              37.4952776
+            ],
+            [
+              126.8718107,
+              37.4952861
+            ],
+            [
+              126.8720039,
+              37.4952946
+            ],
+            [
+              126.8735917,
+              37.4953627
+            ],
+            [
+              126.8735842,
+              37.4954734
+            ],
+            [
+              126.8719963,
+              37.4954053
+            ],
+            [
+              126.8718032,
+              37.4953968
+            ],
+            [
+              126.8716047,
+              37.4953883
+            ],
+            [
+              126.8716123,
+              37.4952776
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "category": "road",
+        "name": "구일로10길 서쪽 연결 도로 면",
+        "label": "구일로10길 서쪽 연결 도로 면",
+        "class": "road_surface",
+        "type": "road_surface",
+        "confirmation_status": "추정",
+        "geometry_status": "osm_centerline_with_visual_reference_width_estimate",
+        "observed_on": "2026-09-30",
+        "source_ids": [
+          "N-plan18",
+          "N-air18",
+          "OSM-common"
+        ],
+        "sourceURL": "https://map.pstatic.net/nrb/styles/basic/1790162807/18/223457/101581.png",
+        "coordinate_method": "OSM centerline checked against Naver plan/air; map-estimated ribbon width",
+        "digitized_pixels": {
+          "origin_tile": [
+            223455,
+            101575
+          ],
+          "z": 18,
+          "points": [
+            [
+              534.7,
+              1603
+            ],
+            [
+              571.7,
+              1601
+            ],
+            [
+              607.7,
+              1599
+            ],
+            [
+              903.7,
+              1583
+            ],
+            [
+              902.3,
+              1557
+            ],
+            [
+              606.3,
+              1573
+            ],
+            [
+              570.3,
+              1575
+            ],
+            [
+              533.3,
+              1577
+            ]
+          ]
+        },
+        "cell_ids": [
+          "G1-E03-N11",
+          "G1-E04-N11"
+        ],
+        "height_status": "unverified",
+        "entrance_status": "unverified",
+        "access_status": "unverified",
+        "width_estimate_m": [
+          9,
+          16
+        ],
+        "width_status": "map_representation_range_not_ground_measurement",
+        "review_action": "surface_overlay_existing_centerline",
+        "source_geometry_ids": [
+          "way/252921537"
+        ],
+        "observation": "undefined 확대 겹침검사에서 직선화가 건물을 침범하는 부분을 확인하여 기존 OSM 꺾은 중심선으로 맞춤.",
+        "date": "2026-09-30"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "north/guil8-diagonal-surface",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.8736373,
+              37.4953853
+            ],
+            [
+              126.8739173,
+              37.4956505
+            ],
+            [
+              126.8739769,
+              37.4957147
+            ],
+            [
+              126.8742607,
+              37.4959995
+            ],
+            [
+              126.8745235,
+              37.4962676
+            ],
+            [
+              126.8747542,
+              37.496497
+            ],
+            [
+              126.8748781,
+              37.4966208
+            ],
+            [
+              126.8752853,
+              37.4970422
+            ],
+            [
+              126.8758378,
+              37.4975865
+            ],
+            [
+              126.8760658,
+              37.4978185
+            ],
+            [
+              126.8765405,
+              37.4981866
+            ],
+            [
+              126.8766725,
+              37.4982913
+            ],
+            [
+              126.8766966,
+              37.4983062
+            ],
+            [
+              126.8774772,
+              37.4988072
+            ],
+            [
+              126.8776676,
+              37.4989033
+            ],
+            [
+              126.8775979,
+              37.4989893
+            ],
+            [
+              126.8774021,
+              37.4988897
+            ],
+            [
+              126.8766162,
+              37.4983862
+            ],
+            [
+              126.8765867,
+              37.4983671
+            ],
+            [
+              126.8764504,
+              37.498259
+            ],
+            [
+              126.8759703,
+              37.4978866
+            ],
+            [
+              126.875737,
+              37.4976504
+            ],
+            [
+              126.8751844,
+              37.4971052
+            ],
+            [
+              126.8747762,
+              37.4966838
+            ],
+            [
+              126.8746533,
+              37.4965608
+            ],
+            [
+              126.8744227,
+              37.4963306
+            ],
+            [
+              126.8741598,
+              37.4960624
+            ],
+            [
+              126.873875,
+              37.4957769
+            ],
+            [
+              126.8738165,
+              37.4957134
+            ],
+            [
+              126.8735386,
+              37.4954508
+            ],
+            [
+              126.8736373,
+              37.4953853
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "category": "road",
+        "name": "구일로8길 단지 사이 대각선 도로 면",
+        "label": "구일로8길 단지 사이 대각선 도로 면",
+        "class": "road_surface",
+        "type": "road_surface",
+        "confirmation_status": "추정",
+        "geometry_status": "osm_centerline_with_visual_reference_width_estimate",
+        "observed_on": "2026-09-30",
+        "source_ids": [
+          "N-plan18",
+          "N-air18",
+          "K-ui-plan",
+          "K-ui-air",
+          "G-ui-plan",
+          "OSM-common"
+        ],
+        "sourceURL": "https://map.pstatic.net/nrb/styles/basic/1790162807/18/223458/101581.png",
+        "coordinate_method": "OSM centerline checked against Naver plan/air; map-estimated ribbon width",
+        "digitized_pixels": {
+          "origin_tile": [
+            223455,
+            101575
+          ],
+          "z": 18,
+          "points": [
+            [
+              912.2,
+              1577.7
+            ],
+            [
+              964.4,
+              1515.4
+            ],
+            [
+              975.5,
+              1500.3
+            ],
+            [
+              1028.4,
+              1433.4
+            ],
+            [
+              1077.4,
+              1370.4
+            ],
+            [
+              1120.4,
+              1316.5
+            ],
+            [
+              1143.5,
+              1287.4
+            ],
+            [
+              1219.4,
+              1188.4
+            ],
+            [
+              1322.4,
+              1060.5
+            ],
+            [
+              1364.9,
+              1006
+            ],
+            [
+              1453.4,
+              919.5
+            ],
+            [
+              1478,
+              894.9
+            ],
+            [
+              1482.5,
+              891.4
+            ],
+            [
+              1628,
+              773.7
+            ],
+            [
+              1663.5,
+              751.1
+            ],
+            [
+              1650.5,
+              730.9
+            ],
+            [
+              1614,
+              754.3
+            ],
+            [
+              1467.5,
+              872.6
+            ],
+            [
+              1462,
+              877.1
+            ],
+            [
+              1436.6,
+              902.5
+            ],
+            [
+              1347.1,
+              990
+            ],
+            [
+              1303.6,
+              1045.5
+            ],
+            [
+              1200.6,
+              1173.6
+            ],
+            [
+              1124.5,
+              1272.6
+            ],
+            [
+              1101.6,
+              1301.5
+            ],
+            [
+              1058.6,
+              1355.6
+            ],
+            [
+              1009.6,
+              1418.6
+            ],
+            [
+              956.5,
+              1485.7
+            ],
+            [
+              945.6,
+              1500.6
+            ],
+            [
+              893.8,
+              1562.3
+            ]
+          ]
+        },
+        "cell_ids": [
+          "G1-E07-N15",
+          "G1-E08-N15",
+          "G1-E06-N14",
+          "G1-E07-N14",
+          "G1-E06-N13",
+          "G1-E05-N12",
+          "G1-E06-N12",
+          "G1-E04-N11",
+          "G1-E05-N11"
+        ],
+        "height_status": "unverified",
+        "entrance_status": "unverified",
+        "access_status": "unverified",
+        "observation": "대각선 아파트·학교 연결. 구일로8길 표기를 지도간 대조. 확대 겹침검사에서 직선화가 건물을 침범하는 부분을 확인하여 기존 OSM 꺾은 중심선으로 맞춤.",
+        "width_estimate_m": [
+          8,
+          15
+        ],
+        "width_status": "map_representation_range_not_ground_measurement",
+        "review_action": "surface_overlay_existing_centerline",
+        "source_geometry_ids": [
+          "way/252921540",
+          "way/520810607"
+        ],
+        "date": "2026-09-30"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "north/school-east-road-surface",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.8746608,
+              37.4954632
+            ],
+            [
+              126.8747145,
+              37.494463
+            ],
+            [
+              126.8747692,
+              37.493516
+            ],
+            [
+              126.8747263,
+              37.4934504
+            ],
+            [
+              126.8746839,
+              37.4933921
+            ],
+            [
+              126.8747773,
+              37.4933496
+            ],
+            [
+              126.8748207,
+              37.4934104
+            ],
+            [
+              126.8748744,
+              37.4934981
+            ],
+            [
+              126.8748218,
+              37.4944664
+            ],
+            [
+              126.8747681,
+              37.4954666
+            ],
+            [
+              126.8746608,
+              37.4954632
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "category": "road",
+        "name": "학교·구로주공 사이 남북 도로 면",
+        "label": "학교·구로주공 사이 남북 도로 면",
+        "class": "road_surface",
+        "type": "road_surface",
+        "confirmation_status": "추정",
+        "geometry_status": "osm_centerline_with_visual_reference_width_estimate",
+        "observed_on": "2026-09-30",
+        "source_ids": [
+          "N-plan18",
+          "N-air18",
+          "OSM-common"
+        ],
+        "sourceURL": "https://map.pstatic.net/nrb/styles/basic/1790162807/18/223459/101581.png",
+        "coordinate_method": "OSM centerline checked against Naver plan/air; map-estimated ribbon width",
+        "digitized_pixels": {
+          "origin_tile": [
+            223455,
+            101575
+          ],
+          "z": 18,
+          "points": [
+            [
+              1103,
+              1559.4
+            ],
+            [
+              1113,
+              1794.4
+            ],
+            [
+              1123.2,
+              2016.9
+            ],
+            [
+              1115.2,
+              2032.3
+            ],
+            [
+              1107.3,
+              2046
+            ],
+            [
+              1124.7,
+              2056
+            ],
+            [
+              1132.8,
+              2041.7
+            ],
+            [
+              1142.8,
+              2021.1
+            ],
+            [
+              1133,
+              1793.6
+            ],
+            [
+              1123,
+              1558.6
+            ]
+          ]
+        },
+        "cell_ids": [
+          "G1-E05-N11",
+          "G1-E06-N11",
+          "G1-E05-N10",
+          "G1-E06-N10",
+          "G1-E05-N09",
+          "G1-E06-N09"
+        ],
+        "height_status": "unverified",
+        "entrance_status": "unverified",
+        "access_status": "unverified",
+        "width_estimate_m": [
+          7,
+          13
+        ],
+        "width_status": "map_representation_range_not_ground_measurement",
+        "review_action": "surface_overlay_existing_centerline",
+        "source_geometry_ids": [
+          "way/252996795"
+        ],
+        "observation": "undefined 확대 겹침검사에서 직선화가 건물을 침범하는 부분을 확인하여 기존 OSM 꺾은 중심선으로 맞춤.",
+        "date": "2026-09-30"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "north/school-west-road-surface",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.8719566,
+              37.493685
+            ],
+            [
+              126.8721551,
+              37.493885
+            ],
+            [
+              126.8724663,
+              37.4942046
+            ],
+            [
+              126.8730671,
+              37.4948133
+            ],
+            [
+              126.8731529,
+              37.4949027
+            ],
+            [
+              126.8735724,
+              37.495321
+            ],
+            [
+              126.873633,
+              37.4953951
+            ],
+            [
+              126.8735429,
+              37.4954411
+            ],
+            [
+              126.8734855,
+              37.4953704
+            ],
+            [
+              126.8730682,
+              37.4949546
+            ],
+            [
+              126.8729823,
+              37.4948652
+            ],
+            [
+              126.8723815,
+              37.4942566
+            ],
+            [
+              126.8720704,
+              37.4939378
+            ],
+            [
+              126.8718719,
+              37.4937377
+            ],
+            [
+              126.8719566,
+              37.493685
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "category": "road",
+        "name": "학교 서쪽 대각선 도로 면",
+        "label": "학교 서쪽 대각선 도로 면",
+        "class": "road_surface",
+        "type": "road_surface",
+        "confirmation_status": "추정",
+        "geometry_status": "osm_centerline_with_visual_reference_width_estimate",
+        "observed_on": "2026-09-30",
+        "source_ids": [
+          "N-plan18",
+          "N-air18",
+          "OSM-common"
+        ],
+        "sourceURL": "https://map.pstatic.net/nrb/styles/basic/1790162807/18/223457/101582.png",
+        "coordinate_method": "OSM centerline checked against Naver plan/air; map-estimated ribbon width",
+        "digitized_pixels": {
+          "origin_tile": [
+            223455,
+            101575
+          ],
+          "z": 18,
+          "points": [
+            [
+              598.9,
+              1977.2
+            ],
+            [
+              635.9,
+              1930.2
+            ],
+            [
+              693.9,
+              1855.1
+            ],
+            [
+              805.9,
+              1712.1
+            ],
+            [
+              821.9,
+              1691.1
+            ],
+            [
+              900.1,
+              1592.8
+            ],
+            [
+              911.4,
+              1575.4
+            ],
+            [
+              894.6,
+              1564.6
+            ],
+            [
+              883.9,
+              1581.2
+            ],
+            [
+              806.1,
+              1678.9
+            ],
+            [
+              790.1,
+              1699.9
+            ],
+            [
+              678.1,
+              1842.9
+            ],
+            [
+              620.1,
+              1917.8
+            ],
+            [
+              583.1,
+              1964.8
+            ]
+          ]
+        },
+        "cell_ids": [
+          "G1-E04-N11",
+          "G1-E03-N10",
+          "G1-E04-N10",
+          "G1-E03-N09"
+        ],
+        "height_status": "unverified",
+        "entrance_status": "unverified",
+        "access_status": "unverified",
+        "width_estimate_m": [
+          7,
+          13
+        ],
+        "width_status": "map_representation_range_not_ground_measurement",
+        "review_action": "surface_overlay_existing_centerline",
+        "source_geometry_ids": [
+          "way/252921538"
+        ],
+        "observation": "undefined 확대 겹침검사에서 직선화가 건물을 침범하는 부분을 확인하여 기존 OSM 꺾은 중심선으로 맞춤.",
+        "date": "2026-09-30"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "north/heights-east-road-surface",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.8766618,
+              37.4978781
+            ],
+            [
+              126.8767637,
+              37.4978738
+            ],
+            [
+              126.8768227,
+              37.4955415
+            ],
+            [
+              126.8767208,
+              37.4955458
+            ],
+            [
+              126.8766618,
+              37.4978781
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "category": "road",
+        "name": "중앙구로하이츠 동쪽 내부 차로 띠",
+        "label": "중앙구로하이츠 동쪽 내부 차로 띠",
+        "class": "road_surface",
+        "type": "road_surface",
+        "confirmation_status": "추정",
+        "geometry_status": "manual_trace_of_map_representation_not_surveyed",
+        "observed_on": "2026-09-30",
+        "source_ids": [
+          "N-plan18",
+          "N-air18",
+          "K-ui-plan",
+          "K-ui-air"
+        ],
+        "sourceURL": "https://map.pstatic.net/nrb/styles/basic/1790162807/18/223460/101578.png",
+        "coordinate_method": "WebMercator tile z18 pixel trace; rounded WGS84 7 decimals, rounding does not express positional accuracy",
+        "digitized_pixels": {
+          "origin_tile": [
+            223455,
+            101575
+          ],
+          "z": 18,
+          "points": [
+            [
+              1476,
+              992
+            ],
+            [
+              1495,
+              993
+            ],
+            [
+              1506,
+              1541
+            ],
+            [
+              1487,
+              1540
+            ]
+          ]
+        },
+        "cell_ids": [
+          "G1-E07-N14",
+          "G1-E07-N13",
+          "G1-E07-N12",
+          "G1-E07-N11"
+        ],
+        "height_status": "unverified",
+        "entrance_status": "unverified",
+        "access_status": "unverified",
+        "observation": "단지 동쪽 남북 주차·차로가 보이나 가려진 영역 안의 연결은 미확인.",
+        "review_action": "surface_overlay_existing_centerline",
+        "date": "2026-09-30"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "north/north-masked-area",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.8767476,
+              37.4979206
+            ],
+            [
+              126.8772948,
+              37.4977249
+            ],
+            [
+              126.8777937,
+              37.4963672
+            ],
+            [
+              126.8776542,
+              37.4956224
+            ],
+            [
+              126.8773806,
+              37.4955032
+            ],
+            [
+              126.8768334,
+              37.4956096
+            ],
+            [
+              126.8767476,
+              37.4979206
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "category": "unknown",
+        "name": "항공에서 내부 판독 불가한 영역",
+        "label": "항공에서 내부 판독 불가한 영역",
+        "class": "unverified_mask",
+        "type": "unverified_mask",
+        "confirmation_status": "미확인",
+        "geometry_status": "reference_area_outline_interior_unverified",
+        "observed_on": "2026-09-30",
+        "source_ids": [
+          "N-air18",
+          "K-ui-air"
+        ],
+        "sourceURL": "https://map.pstatic.net/nrb/styles/basic/1790162807/18/223460/101578.png",
+        "coordinate_method": "WebMercator tile z18 pixel trace; rounded WGS84 7 decimals, rounding does not express positional accuracy",
+        "digitized_pixels": {
+          "origin_tile": [
+            223455,
+            101575
+          ],
+          "z": 18,
+          "points": [
+            [
+              1492,
+              982
+            ],
+            [
+              1594,
+              1028
+            ],
+            [
+              1687,
+              1347
+            ],
+            [
+              1661,
+              1522
+            ],
+            [
+              1610,
+              1550
+            ],
+            [
+              1508,
+              1525
+            ]
+          ]
+        },
+        "cell_ids": [
+          "G1-E07-N14",
+          "G1-E08-N14",
+          "G1-E07-N13",
+          "G1-E08-N13",
+          "G1-E07-N12",
+          "G1-E08-N12",
+          "G1-E07-N11",
+          "G1-E08-N11"
+        ],
+        "height_status": "unverified",
+        "entrance_status": "unverified",
+        "access_status": "unverified",
+        "observation": "Naver/Kakao 항공에서 인위적 모자이크/위장 표현. 공원·골프장·군사시설·특정 내부 건물명으로 확정하지 않음. 지도별 비가시 경계 자체도 근사.",
+        "review_action": "keep_hatched_unverified; do_not_treat_OSM_inside_as_visually_verified",
+        "date": "2026-09-30"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "north/depot-visible-strip",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.8779439,
+              37.4987803
+            ],
+            [
+              126.8783998,
+              37.4984058
+            ],
+            [
+              126.8791509,
+              37.4955883
+            ],
+            [
+              126.8790597,
+              37.4940987
+            ],
+            [
+              126.8787754,
+              37.4931623
+            ],
+            [
+              126.8779814,
+              37.4931623
+            ],
+            [
+              126.8781209,
+              37.4940987
+            ],
+            [
+              126.8780243,
+              37.4954181
+            ],
+            [
+              126.877799,
+              37.4965672
+            ],
+            [
+              126.8776274,
+              37.4972056
+            ],
+            [
+              126.8779439,
+              37.4987803
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "category": "railway",
+        "name": "구로차량기지 북부 선로 띠",
+        "label": "구로차량기지 북부 선로 띠",
+        "class": "rail_area_visible",
+        "type": "rail_area_visible",
+        "confirmation_status": "추정",
+        "geometry_status": "manual_trace_of_map_representation_not_surveyed",
+        "observed_on": "2026-09-30",
+        "source_ids": [
+          "N-plan18",
+          "N-air18"
+        ],
+        "sourceURL": "https://map.pstatic.net/nrb/styles/basic/1790162807/18/223461/101578.png",
+        "coordinate_method": "WebMercator tile z18 pixel trace; rounded WGS84 7 decimals, rounding does not express positional accuracy",
+        "digitized_pixels": {
+          "origin_tile": [
+            223455,
+            101575
+          ],
+          "z": 18,
+          "points": [
+            [
+              1715,
+              780
+            ],
+            [
+              1800,
+              868
+            ],
+            [
+              1940,
+              1530
+            ],
+            [
+              1923,
+              1880
+            ],
+            [
+              1870,
+              2100
+            ],
+            [
+              1722,
+              2100
+            ],
+            [
+              1748,
+              1880
+            ],
+            [
+              1730,
+              1570
+            ],
+            [
+              1688,
+              1300
+            ],
+            [
+              1656,
+              1150
+            ]
+          ]
+        },
+        "cell_ids": [
+          "G1-E08-N15",
+          "G1-E09-N15",
+          "G1-E08-N14",
+          "G1-E09-N14",
+          "G1-E08-N13",
+          "G1-E09-N13",
+          "G1-E08-N12",
+          "G1-E09-N12",
+          "G1-E08-N11",
+          "G1-E09-N11",
+          "G1-E08-N10",
+          "G1-E09-N10",
+          "G1-E08-N09",
+          "G1-E09-N09"
+        ],
+        "height_status": "unverified",
+        "entrance_status": "unverified",
+        "access_status": "unverified",
+        "observation": "다수 평행선로·분기 띠를 항공과 평면에서 확인. 선로별 정확도는 OSM 원기하를 사용. 포괄 면은 궤도 간격/통행성의 근거가 아님.",
+        "review_action": "background_corridor_keep_source_tracks",
+        "date": "2026-09-30"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "id": "north/guil8-east-corner-review",
+      "type": "geometry_review",
+      "status": "미확인",
+      "source_ids": [
+        "N-plan18",
+        "N-air18"
+      ],
+      "description": "북동 모서리 구일로8길 이외 내부도로 면의 정확한 귀속·연결이 불분명하여 추가 렌더 기하에서 제외. 확인된 구일로8길은 OSM 꺾은 중심선에 맞춘 도로 면으로 보존."
+    },
+    {
+      "id": "north/woobang-central-review",
+      "type": "geometry_review",
+      "status": "확인",
+      "source_ids": [
+        "N-plan19",
+        "N-air18",
+        "K-ui-air"
+      ],
+      "description": "z19 확대에서 우방 아파트 중앙 공간은 주차 구획·순환차로로 확인. 조경공원 polygon 추정을 제거하고 주차면 외곽을 다시 추출."
+    },
+    {
+      "id": "north/church-review",
+      "type": "existing_building_review",
+      "target_osm_ids": [
+        "way/252997585",
+        "way/1450066265"
+      ],
+      "status": "추정",
+      "description": "새 성당 외곽은 인접 OSM 건물과 수동 추출 경계에서 겹침. 기존 기하를 보존하고 종교시설 표기/배치 관찰만 연결하는 것이 안전함."
+    },
+    {
+      "id": "north/palace-parts-review",
+      "type": "existing_building_review",
+      "target_osm_ids": [
+        "way/1450066263",
+        "way/1450066264",
+        "way/1450066265"
+      ],
+      "status": "추정",
+      "description": "근상프리즘팰리스 2 표기 큰 외곽에 기존 3개 작은 OSM building 기하가 겹침. 단일 건물로 확정/재생성하지 않고 기존 기하를 보존."
+    },
+    {
+      "id": "north/masked-osm-review",
+      "type": "existing_building_review",
+      "target_osm_ids": [
+        "way/314952425",
+        "way/642900655",
+        "way/643041036",
+        "way/643041037",
+        "way/252996797"
+      ],
+      "status": "미확인",
+      "description": "OSM 건물/부분 기하가 항공 가림 영역에 있음. 공개 평면·항공 교차로 실지 외곽을 재확인하지 못함. 그림에 유지하더라도 OSM 단일 출처/내부 미확인 상태를 표시."
+    }
+  ],
+  "validation": {
+    "validated_on": "2026-09-30",
+    "json_parse": "passed",
+    "geometry_type": "26 closed WGS84 polygon rings",
+    "map_overlay_review": "completed; road bend/woobang parking corrected; unsupported green/playground/corner geometry removed",
+    "benchmark_count": 3,
+    "internal_geometry_issues": [],
+    "footprint_duplicate_review": "church and palace-2 kept as observation-only; four remaining added footprint candidates do not intersect OSM buildings per plan_builder check",
+    "viewscan_cells": 70,
+    "precise_survey_completed_cells": 0
+  }
+}

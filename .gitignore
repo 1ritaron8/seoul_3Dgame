@@ -1,0 +1,37 @@
+# Local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Unreal generated files
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# IDE and OS files
+.vs/
+*.sln
+*.VC.db
+*.VC.opendb
+*.suo
+*.user
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local prototype dependencies and generated previews
+node_modules/
+.npm-cache/
+work/
+exports/
+*.log
+
+# Python rebuild caches
+__pycache__/
+*.py[cod]
+
+# Discarded local building-layout study (2026-09-30)
+/authoring/sinyoung-blockout/

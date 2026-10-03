@@ -1,0 +1,12 @@
+{
+  "name": "korea2050-guil-plan",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "build:map": "node tools/build_2050_plan.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "description": "Fictional Korea 2050 2D design plan preserving Guil's existing planar anchors."
+}
