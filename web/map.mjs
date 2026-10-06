@@ -2,7 +2,7 @@ const SVG_NS = 'http://www.w3.org/2000/svg';
 const byId = (id) => document.getElementById(id);
 const svg = byId('map');
 const stage = byId('map-stage');
-const state = { plan: null, mode: 'ground', selectedId: null, fit: null, view: null, drag: null, dragged: false, labels: [], anchors: [], zoom: 1 };
+const state = { plan: null, mode: 'ground', selectedId: null, selectedRoadId: null, fit: null, view: null, drag: null, dragged: false, labels: [], anchors: [], zoom: 1 };
 const categoryOrder = ['landuse', 'surface', 'green', 'water', 'rail_area', 'road_surface', 'school', 'facility', 'unknown', 'road', 'path', 'railway', 'building'];
 
 function element(tag, attributes = {}, text = null) {
@@ -77,7 +77,21 @@ function featureNode(feature, className = feature.category) {
   }
   const path = geometryPath(feature.geometry);
   if (!path) return null;
-  return element('path', { d: path, class: `feature ${className}`, 'fill-rule': 'evenodd', 'data-feature-id': feature.id });
+  const node = element('path', { d: path, class: `feature ${className}`, 'fill-rule': 'evenodd', 'data-feature-id': feature.id });
+  if (feature.category==='building') {
+    if (feature.zoneId) node.dataset.zoneId=feature.zoneId;
+    if (feature.complexId) node.dataset.complexId=feature.complexId;
+    node.append(element('title',{},`${feature.name}${feature.complexAssignmentStatus==='official_membership_override_source_parcel_conflict' ? ' · 공식 단지 소속 보정 / 원자료 부지 외곽 충돌 미해결' : ''}`));
+  }
+  // ViewBox units are metres; CSS symbolic strokes must not override measured widths.
+  if (['road','road-edge','path'].includes(className) && Number.isFinite(feature.roadWidthM) && feature.roadWidthM > 0 && ['measured_estimate','official_actual'].includes(feature.roadWidthStatus)) {
+    node.style.vectorEffect = 'none';
+    node.style.strokeWidth = String(feature.roadWidthM + (className === 'road-edge' ? .25 : 0));
+    node.style.strokeDasharray = 'none';
+    node.style.strokeLinecap = 'butt';
+    node.dataset.widthM = String(feature.roadWidthM);
+  }
+  return node;
 }
 
 function renderMap() {
@@ -99,6 +113,8 @@ function renderMap() {
   const context = element('g', { class: 'feature-layer context-layer' });
   const zoneLayer = element('g', { class: 'zone-layer' });
   const features = element('g', { class: 'feature-layer' });
+  const transport = element('g', { class: 'feature-layer transport-layer' });
+  const surveyLayer = element('g', { class:'survey-layer' });
   const roofs = element('g', { class: 'roof-layer' });
   const labelLayer = element('g', { class: 'zone-label-layer' });
   const anchorLayer = element('g', { class: 'anchor-layer' });
@@ -107,7 +123,7 @@ function renderMap() {
   const baseCategories = new Set(['landuse', 'surface', 'green', 'water', 'rail_area', 'road_surface']);
   for (const feature of orderedFeatures) {
     if (!feature.geometry) continue;
-    const target = baseCategories.has(feature.category) ? context : features;
+    const target = baseCategories.has(feature.category) ? context : ['road','path','railway'].includes(feature.category) ? transport : features;
     if (feature.category === 'road' && ['LineString', 'MultiLineString'].includes(feature.geometry.type)) {
       const edge = featureNode(feature, 'road-edge'); if (edge) target.append(edge);
     }
@@ -115,6 +131,16 @@ function renderMap() {
     if (feature.category === 'building' && zonesById.get(feature.zoneId)?.kind === 'residential') {
       roofs.append(element('path', { d: geometryPath(feature.geometry), class: 'roof-design', 'fill-rule': 'evenodd' }));
     }
+  }
+  for (const surface of plan.roadSurvey?.surfaces || []) {
+    const node = element('path',{d:geometryPath(surface.geometry),class:`survey-surface ${surface.kind}`,'fill-rule':'evenodd','data-survey-id':surface.id});
+    surveyLayer.append(node);
+  }
+  for (const feature of plan.features) for (const section of feature.roadWidthSegments || []) {
+    if (!(section.widthM > 0) || !['measured_estimate','official_actual'].includes(section.status)) continue;
+    const node = element('path',{d:geometryPath(section.localGeometry),class:`survey-width-section ${section.widthKind}`,'data-section-id':section.id,'data-width-m':section.widthM});
+    node.style.strokeWidth=String(section.widthM);
+    surveyLayer.append(node);
   }
   for (const zone of plan.zones) {
     const node = element('path', { d: geometryPath(zone.geometry), class: `map-zone ${zone.kind}`, 'fill-rule': 'evenodd', 'data-zone-id': zone.id });
@@ -141,7 +167,9 @@ function renderMap() {
     group.append(dot, label); anchorLayer.append(group); state.anchors.push({ label, dot, point: anchor.point });
   }
   const selected = element('path', { id: 'selected-outline', class: 'selection-outline', 'fill-rule': 'evenodd', visibility: 'hidden' });
-  clipped.append(context, zoneLayer, features, roofs, selected);
+  const selectedRoad = element('path', {id:'selected-road-outline', class:'road-selection', visibility:'hidden'});
+  const roadCrossSections = element('g', {id:'selected-road-cross-sections',class:'road-cross-sections'});
+  clipped.append(context, zoneLayer, transport, surveyLayer, features, roofs, selected, selectedRoad, roadCrossSections);
   // Only geometry is clipped. Cartographic labels may extend beyond the planning boundary.
   svg.append(clipped, labelLayer, anchorLayer);
 }
@@ -250,12 +278,117 @@ function listContent(id, entries, fallback) {
   }
 }
 
+function selectRoad(id) {
+  const feature=state.plan?.features.find(entry=>entry.id===id && entry.roadWidthStatus);
+  const outline=byId('selected-road-outline');
+  const crossSections=byId('selected-road-cross-sections');
+  crossSections?.replaceChildren();
+  if (!feature) {
+    state.selectedRoadId=null; outline?.setAttribute('visibility','hidden');
+    byId('road-width-detail').textContent='구간을 선택하면 실제 폭과 별도 참조를 확인합니다.';
+    byId('road-width-references').replaceChildren();
+    return;
+  }
+  state.selectedRoadId=id;
+  outline.setAttribute('d',geometryPath(feature.geometry)); outline.setAttribute('visibility','visible');
+  const kind=feature.roadWidthKind==='carriageway' ? '차도' : feature.roadHighway==='cycleway' ? '자전거길' : '보행로';
+  const actual=feature.roadWidthM == null ? (feature.roadWidthSegments?.length || feature.roadCrossProfiles?.length ? '전 구간 단일 폭 미확정 · 부분 구간 추정값 있음' : '미측정') : `${feature.roadWidthM}m (${feature.roadWidthStatus==='official_actual' ? '공식 실폭' : '측정 추정'})`;
+  const range=feature.roadWidthRangeM ? ` · 범위 ${feature.roadWidthRangeM.join('–')}m` : '';
+  byId('road-width-detail').textContent=`${id} · 경계 안 길이 약 ${Math.round(feature.roadInsideLengthM)}m · ${kind} 폭 ${actual}${range}`;
+  const survey=state.plan.metadata.roadWidths;
+  const refs=survey.officialReferences.filter(ref=>feature.roadWidthOfficialReferenceIds?.includes(ref.id));
+  const notes=refs.map(ref=>`${ref.roadName} 등록 폭 ${ref.corridorWidthM}m · ${ref.id} · 행정 갱신 ${ref.sourceWorkTimestamp?.slice(0,8) || '시점 미상'} (실측일 아님) · 현재 ${kind} 폭 아님`);
+  const profileNotes=[];
+  const componentNames={mapped_road_boundary:'인도 포함 지도 도로면',left_walkway:'좌측 보도면',right_walkway:'우측 보도면',carriageway:'경계석 사이 차량공간'};
+  for (const profile of feature.roadCrossProfiles || []) {
+    profileNotes.push(`로드뷰 경계 배치 대조: 원본 선 ${profile.partIndex+1}번 부분·${profile.originalSegmentIndex+1}번 직선 시작부터 ${profile.startAlongSegmentM.toFixed(1)}–${profile.endAlongSegmentM.toFixed(1)}m (${(profile.endAlongSegmentM-profile.startAlongSegmentM).toFixed(0)}m 구간만·표시 단면 ${profile.samples.length}개). 좌우는 원본 선 진행 방향 기준입니다.`);
+    for (const component of profile.components) {
+      profileNotes.push(`${componentNames[component.kind]}: ${component.widthM==null ? '미검토 후보' : `약 ${component.widthM.toFixed(1)}m`} · ${component.rangeM ? `표본 범위 ${component.rangeM.map(value=>value.toFixed(2)).join('–')}m` : '실제 폭 미확정'} · 현장 실측/오차범위 아님`);
+    }
+    if (profile.reviewStatus==='curb_layout_visually_reviewed') {
+      profileNotes.push(`촬영 ${profile.review.imageryDate || '시점 미상'} · 확인 ${profile.review.observedOn}. 수치는 2025 공식 지도 기하에서 계산했으며 사진은 경계석 배치의 의미를 확인했습니다.`);
+      profileNotes.push(...profile.review.observations);
+    }
+  }
+  notes.push(...profileNotes);
+  for (const deferred of feature.roadWidthDeferrals || []) {
+    notes.push(`폭 검토 보류: ${deferred.summaryKo || `${deferred.id || feature.id} · ${deferred.reasons.join(' / ')}`}`);
+  }
+  const segments=feature.roadWidthSegments || [];
+  if (segments.length) {
+    notes.push(`이 길의 보도 기하 추정 ${segments.length}개 구간 · 약 ${Math.round(feature.roadEstimatedInsideLengthM)}m. 나머지 약 ${Math.round(feature.roadUnmeasuredInsideLengthM)}m는 미확인입니다.`);
+    for (const section of segments) notes.push(`경계 안 선 시작부터 ${section.startM.toFixed(1)}–${section.endM.toFixed(1)}m: 보도 폭 약 ${section.widthM.toFixed(1)}m · 관찰 범위 ${section.rangeM.map(value=>value.toFixed(1)).join('–')}m (통계 오차 아님)`);
+  }
+  const surfaceSections=feature.roadSurfaceSections || [];
+  if (surfaceSections.length) {
+    const length=surfaceSections.reduce((sum,section)=>sum+section.endM-section.startM,0);
+    notes.push(`지도 도로면 횡단폭 ${surfaceSections.length}구간 · 약 ${Math.round(length)}m. 2025년 A001 윤곽의 기하 추정이며 실제 차도폭은 미확정입니다. 파란 가로선은 계산한 횡단 위치입니다.`);
+    for (const section of surfaceSections) {
+      notes.push(`경계 안 선 시작부터 ${section.startM.toFixed(1)}–${section.endM.toFixed(1)}m: 도로면 약 ${section.widthM.toFixed(1)}m · 관찰 범위 ${section.rangeM.map(value=>value.toFixed(1)).join('–')}m (정확도·통계 오차 아님)`);
+      for (const sample of section.crossSections) {
+        const node=element('path',{d:linePath(sample.line),class:'road-cross-section','data-section-id':section.id,'data-width-m':sample.widthM});
+        node.append(element('title',{},`지도 도로면 약 ${sample.widthM.toFixed(1)}m · 실제 차도폭 미확정`));
+        crossSections.append(node);
+      }
+    }
+    notes.push('도로면 거리값은 EPSG:5186 투영좌표계의 미터이며, 원본 선을 행정경계 안으로 잘라 이어 센 거리입니다. 표시 소수점은 측량 정확도를 뜻하지 않습니다.');
+  }
+  for (const profile of feature.roadCrossProfiles || []) for (const sample of profile.samples) {
+    for (const [component,line] of [['carriageway',sample.carriagewayLineLocalM],['left_walkway',sample.leftWalkwayLineLocalM],['right_walkway',sample.rightWalkwayLineLocalM]]) {
+      if (!line) continue;
+      const width=profile.components.find(entry=>entry.kind===component).widthM;
+      const node=element('path',{d:linePath(line),class:`curb-cross-section ${component}`,'data-profile-id':profile.id,'data-component':component});
+      node.append(element('title',{},`${componentNames[component]} 약 ${width.toFixed(1)}m · ${(profile.endAlongSegmentM-profile.startAlongSegmentM).toFixed(0)}m 구간의 지도 추정`));
+      crossSections.append(node);
+    }
+  }
+  const officialSections=feature.roadWidthOfficialSections || [];
+  if (officialSections.length) {
+    const values=officialSections.flatMap(section=>section.sourceWidthRangeM);
+    notes.push(`2025 수치지도 경계석 외측/길어깨 폭 참조 ${officialSections.length}개 구간 · ${Math.min(...values)}–${Math.max(...values)}m. 순수 차도폭으로 확정한 값은 아닙니다.`);
+  }
+  for (const ref of survey.mapRepresentationReferences.filter(ref=>feature.roadWidthMapRepresentationEvidenceIds?.includes(ref.id))) notes.push(`기존 지도 표현 범위 ${ref.rangeM.join('–')}m · 차도·보도 분리 실측 아님`);
+  if (feature.roadWidthOfficialAssociationStatus==='multiple_width_references') notes.push('여러 등록 폭이 대응되어 위치별 폭 확인이 필요합니다.');
+  if (feature.roadLevelStatus==='bridge_tunnel_or_layer_alignment_unverified') notes.push('교량·터널·층위 대응은 추가 검증이 필요합니다.');
+  listContent('road-width-references',notes,'확인된 실제 폭 또는 대응 등록 폭 자료가 없습니다.');
+}
+
+function loadRoadSurvey(plan) {
+  const survey=plan.metadata?.roadWidths;
+  const roads=plan.features.filter(feature=>feature.roadWidthStatus);
+  const summary=survey?.summary;
+  const sections=survey?.sectionSummary;
+  const crossProfiles=survey?.crossProfileSummary;
+  byId('road-width-summary').textContent=summary ? `조사 대상: 차량도로 ${summary.roadLines}개 선 · 보행/자전거/계단 ${summary.pathLines}개 선. ${crossProfiles ? `차도·양측 보도 경계 배치 대조 ${crossProfiles.visuallyReviewedProfileCount}구간/${crossProfiles.reviewedNativeSectionLengthM}m (현장 실측 아님). ` : ''}${sections ? `정밀 도엽 ${plan.roadSurvey.tileIds.length}개 · 지도 도로면 횡단폭 ${sections.roadSurfaceReferenceSections || 0}구간/약 ${Math.round(sections.roadSurfaceReferenceLengthM || 0)}m · 보도 기하 추정 ${sections.estimatedWalkwaySections}구간/약 ${Math.round(sections.estimatedInsideLengthM)}m · 도로 폭 속성 참조 ${sections.officialWidthReferenceSections}구간. 도로 전체의 실제 폭 검증은 미완료입니다.` : `실제 폭 입력 ${survey.explicitWidthCount}/${survey.recordCount}개 선. 등록 폭 참조는 별도입니다.`}` : '도로 폭 조사가 아직 연결되지 않았습니다.';
+  const select=byId('road-select'); select.replaceChildren();
+  const prompt=document.createElement('option'); prompt.value=''; prompt.textContent='구간을 선택하세요'; select.append(prompt);
+  for (const road of roads.sort((a,b)=>(a.name||'').localeCompare(b.name||'','ko')||a.id.localeCompare(b.id))) {
+    const option=document.createElement('option'); option.value=road.id;
+    option.textContent=`${road.name || '이름 없는 길'} · ${road.roadHighway || road.category} · ${road.id}`;
+    select.append(option);
+  }
+  select.disabled=roads.length===0;
+}
+
 function selectZone(id) {
   const zone = state.plan?.zones.find((entry) => entry.id === id); if (!zone) return;
   state.selectedId = zone.id; byId('zone-select').value = zone.id;
   byId('zone-name').textContent = zone.name; byId('zone-description').textContent = zone.description || '선택한 구역의 미래 계획을 확인하실 수 있습니다.';
   listContent('preservation-list', zone.preservation, '구체적인 보존 요소는 추가 확인이 필요합니다.');
   listContent('future-list', zone.future, '세부 지상 계획은 아직 정하지 않았습니다.');
+  const architecture = zone.architectureIdentity || state.plan.zones.find(entry=>entry.kind==='residential' && zone.complexId && entry.complexId===zone.complexId)?.architectureIdentity;
+  byId('architecture-identity').hidden = !architecture;
+  byId('architecture-features').replaceChildren();
+  if (architecture) {
+    byId('architecture-name').textContent = architecture.name;
+    byId('architecture-family').textContent = `${architecture.familyName} · ${architecture.phaseLabel}`;
+    for (const feature of architecture.features) {
+      const label = document.createElement('dt'); label.textContent = feature.label;
+      const description = document.createElement('dd'); description.textContent = feature.description;
+      byId('architecture-features').append(label, description);
+    }
+    byId('architecture-note').textContent = architecture.note;
+  }
   listContent('underground-list', zone.underground, '구체적인 지하 시설 계획은 아직 정하지 않았습니다.');
   for (const node of svg.querySelectorAll('[data-zone-id]')) node.classList.toggle('is-selected', node.dataset.zoneId === zone.id);
   const outline = byId('selected-outline'); outline.setAttribute('d', geometryPath(zone.geometry)); outline.setAttribute('visibility', 'visible');
@@ -287,24 +420,27 @@ async function loadPlan() {
     const response = await fetch('/plan2050.json', { credentials: 'same-origin' });
     if (!response.ok) throw new Error(`계획 데이터를 불러오지 못했습니다. (${response.status})`);
     const plan = await response.json(); validatePlan(plan); state.plan = plan;
+    byId('road-map-note').textContent = plan.roadSurvey ? '2025 공식 도로·보도 윤곽 / 점선은 폭 미확인 중심선 / 선로는 기호 / 경계는 잠정 범위' : '경계는 계획용 잠정 범위입니다. 폭 미확인 중심선·선로는 기호입니다.';
     byId('residential-count').textContent = String(plan.stats?.residentialZones ?? plan.zones.filter((zone) => zone.kind === 'residential').length);
     byId('school-count').textContent = String(plan.stats?.schools ?? plan.zones.filter((zone) => zone.kind === 'school').length);
     byId('commercial-count').textContent = String(plan.stats?.commercialZones ?? plan.zones.filter((zone) => zone.kind === 'commercial').length);
     byId('building-count').textContent = String(plan.stats?.buildings ?? plan.features.filter((feature) => feature.category === 'building').length);
-    byId('data-status').textContent = `원자료 ${Number(plan.stats?.sourceFeatures ?? plan.features.length).toLocaleString('ko-KR')}개 요소를 바탕으로 작성했습니다.`;
+    byId('data-status').textContent = `원자료 ${Number(plan.stats?.sourceFeatures ?? plan.features.length).toLocaleString('ko-KR')}개 요소 보존${plan.roadSurvey ? ` · 정밀 지도 ${plan.roadSurvey.tileIds.length}개 도엽 반영` : ''}.`;
     const select = byId('zone-select'); select.replaceChildren();
     const prompt = document.createElement('option'); prompt.value = ''; prompt.textContent = '지도에서 구역을 선택하세요'; select.append(prompt);
     for (const zone of plan.zones) { const option = document.createElement('option'); option.value = zone.id; option.textContent = zone.name; select.append(option); }
     select.disabled = false;
     listContent('notices-list', plan.notices, '계획 경계와 미래 설계는 검토용 시나리오입니다.');
     byId('sources').replaceChildren();
-    for (const source of plan.sources || []) {
+    const roadSources=(plan.metadata?.roadWidths?.sources || []).flatMap(source=>source.url ? [{title:source.title,url:source.url},...(source.semanticSourceURL ? [{title:'도로 등록 폭 속성의 의미 · 주소정보누리집',url:source.semanticSourceURL}] : [])] : []);
+    for (const source of [...(plan.sources || []),...roadSources]) {
       let url; try { url = new URL(source.url, location.href); } catch { continue; }
       if (!['http:', 'https:'].includes(url.protocol)) continue;
       const link = document.createElement('a'); link.href = url.href; link.target = '_blank'; link.rel = 'noopener noreferrer'; link.textContent = `${source.title} ↗`; byId('sources').append(link);
     }
-    renderMap(); fitView(); setMode(state.mode);
+    renderMap(); fitView(); setMode(state.mode); loadRoadSurvey(plan);
     if (state.selectedId) selectZone(state.selectedId);
+    if (state.selectedRoadId) { byId('road-select').value=state.selectedRoadId; selectRoad(state.selectedRoadId); }
     byId('map-loading').hidden = true;
   } catch (error) {
     byId('map-loading').classList.add('has-error'); byId('retry-button').hidden = false;
@@ -316,6 +452,7 @@ async function loadPlan() {
 byId('ground-mode').addEventListener('click', () => setMode('ground'));
 byId('underground-mode').addEventListener('click', () => setMode('underground'));
 byId('zone-select').addEventListener('change', (event) => selectZone(event.target.value));
+byId('road-select').addEventListener('change', (event) => selectRoad(event.target.value));
 byId('zoom-in').addEventListener('click', () => zoomAt(1.35));
 byId('zoom-out').addEventListener('click', () => zoomAt(1 / 1.35));
 byId('fit-view').addEventListener('click', fitView);

@@ -1,0 +1,248 @@
+{
+  "schema": "guil-apartment-assets.v1",
+  "status": "glb_generated_and_local_roundtrip_tested_not_unreal_imported",
+  "generator": "Three.js 0.180.0 GLTFExporter",
+  "units": "metres",
+  "coordinateSystem": "right_handed_y_up",
+  "frontDirection": "-Z",
+  "pivot": "building_centre_at_ground_or_module_origin_no_map_placement",
+  "detailProfile": {
+    "id": "guil-exterior-detail.v1",
+    "units": "metres",
+    "window": {
+      "frameSectionM": 0.1,
+      "frameDepthM": 0.14,
+      "gasketSectionM": 0.018,
+      "sillHeightM": 0.055,
+      "sillDepthM": 0.32
+    },
+    "door": {
+      "outerFrameSectionM": 0.12,
+      "leafFrameSectionM": 0.07,
+      "leafDepthM": 0.1,
+      "thresholdHeightM": 0.025,
+      "leafTravelM": 1.5,
+      "readerWidthM": 0.3,
+      "readerHeightM": 0.62,
+      "readerCentreHeightM": 1.38
+    },
+    "balcony": {
+      "postSectionM": 0.045,
+      "maximumPostSpacingM": 1.6,
+      "basePlateWidthM": 0.1,
+      "basePlateHeightM": 0.02
+    },
+    "podium": {
+      "panelPitchM": 1.55,
+      "jointWidthM": 0.012,
+      "plinthHeightM": 0.28
+    }
+  },
+  "nominalBuildingDimensionsM": {
+    "length": 62,
+    "depth": 22,
+    "height": 78.4
+  },
+  "expectedUnrealDimensionsCm": {
+    "length": 6200,
+    "depth": 2200,
+    "height": 7840
+  },
+  "importChecks": {
+    "useGltfUnitConversionOnce": true,
+    "doNotApplyAnExtraActorScaleOf100": true,
+    "verifyDoorLeafCm": 148,
+    "verifyBuildingHeightCm": 7840
+  },
+  "geometry": "project_authored_fictional_exterior_with_named_materials_and_uv0_no_external_assets",
+  "excluded": [
+    "NGII_GIS",
+    "map_coordinates_and_georeferencing",
+    "roads_and_sidewalks",
+    "neighbouring_buildings",
+    "parking_and_site_landscape",
+    "third_party_photos_textures_logos",
+    "interior_and_collision"
+  ],
+  "entrance": {
+    "type": "communal_automatic_sliding_glass",
+    "keypadIncluded": true,
+    "browserDemoCode": "2050",
+    "authenticationImplemented": false,
+    "animationIncludedInGlb": false
+  },
+  "unfinished": [
+    "actual_UE5_import",
+    "collision_and_UE_door_logic",
+    "interiors",
+    "LOD_HLOD_and_120fps_profile",
+    "production_textures_and_lightmap_UV"
+  ],
+  "documents": [
+    "https://dev.epicgames.com/documentation/en-us/unreal-engine/importing-assets-using-interchange-in-unreal-engine",
+    "https://dev.epicgames.com/documentation/en-us/unreal-engine/units-of-measurement-in-unreal-engine"
+  ],
+  "assets": [
+    {
+      "id": "building",
+      "name": "SM_Guil2050_118_Exterior",
+      "filename": "guil2050_118_exterior.glb",
+      "pivotM": [
+        0,
+        0,
+        0
+      ],
+      "byteLength": 14866716,
+      "sourcePieces": 12857,
+      "mergedMeshCount": 61,
+      "triangleCount": 154332,
+      "boundsM": {
+        "min": [
+          -31.260000228881836,
+          -9.536743306171047e-8,
+          -12.399999618530273
+        ],
+        "max": [
+          31.260000228881836,
+          78.4000015258789,
+          12.399999618530273
+        ]
+      },
+      "materials": [
+        "M_Guil2050_wall",
+        "M_Guil2050_stone",
+        "M_Guil2050_bronze",
+        "M_Guil2050_gasket",
+        "M_Guil2050_glass",
+        "M_Guil2050_trim",
+        "M_Guil2050_railGlass",
+        "M_Guil2050_green",
+        "M_Guil2050_keypadDisplay"
+      ],
+      "roundTrip": {
+        "status": "passed",
+        "meshCount": 61,
+        "triangleCount": 154332,
+        "toleranceM": 0.0001
+      },
+      "sha256": "20288a1a962e0bbad2b9143d5cadd5722c4eec54cadf727a74085e72be9a5567"
+    },
+    {
+      "id": "entrance",
+      "name": "SM_Guil2050_DoubleEntrance",
+      "filename": "module_double_entrance.glb",
+      "pivotM": [
+        0,
+        0,
+        -11
+      ],
+      "byteLength": 131408,
+      "sourcePieces": 94,
+      "mergedMeshCount": 27,
+      "triangleCount": 1128,
+      "boundsM": {
+        "min": [
+          -3.1600000858306885,
+          -2.3841858265427618e-8,
+          -0.6085000038146973
+        ],
+        "max": [
+          3.1600000858306885,
+          3.4000000953674316,
+          0.019999995827674866
+        ]
+      },
+      "materials": [
+        "M_Guil2050_trim",
+        "M_Guil2050_bronze",
+        "M_Guil2050_glass",
+        "M_Guil2050_gasket",
+        "M_Guil2050_keypadDisplay"
+      ],
+      "roundTrip": {
+        "status": "passed",
+        "meshCount": 27,
+        "triangleCount": 1128,
+        "toleranceM": 0.0001
+      },
+      "sha256": "957cc4411ef47bc5cd86f6917a1b742c738e044ed673b6ad00417f5eb5eaa5f3"
+    },
+    {
+      "id": "window-bay",
+      "name": "SM_Guil2050_WindowBay",
+      "filename": "module_window_bay.glb",
+      "pivotM": [
+        -27.125,
+        4.8,
+        -11
+      ],
+      "byteLength": 29576,
+      "sourcePieces": 21,
+      "mergedMeshCount": 5,
+      "triangleCount": 252,
+      "boundsM": {
+        "min": [
+          -2.7499992847442627,
+          0.17249999940395355,
+          -0.35999980568885803
+        ],
+        "max": [
+          3.1500003337860107,
+          2.576000213623047,
+          -0.039999812841415405
+        ]
+      },
+      "materials": [
+        "M_Guil2050_trim",
+        "M_Guil2050_glass",
+        "M_Guil2050_gasket",
+        "M_Guil2050_bronze"
+      ],
+      "roundTrip": {
+        "status": "passed",
+        "meshCount": 5,
+        "triangleCount": 252,
+        "toleranceM": 0.0001
+      },
+      "sha256": "246cf662ae9151830cd4b5d31fbfef85639981094aedfe74eff7c5f7db556dab"
+    },
+    {
+      "id": "balcony-pair",
+      "name": "SM_Guil2050_BalconyPair",
+      "filename": "module_balcony_pair.glb",
+      "pivotM": [
+        -23.25,
+        4.8,
+        -11
+      ],
+      "byteLength": 34396,
+      "sourcePieces": 24,
+      "mergedMeshCount": 7,
+      "triangleCount": 288,
+      "boundsM": {
+        "min": [
+          -6.4275007247924805,
+          0.0399998240172863,
+          -1.3999998569488525
+        ],
+        "max": [
+          6.4275007247924805,
+          1.6499998569488525,
+          1.7881393432617188e-7
+        ]
+      },
+      "materials": [
+        "M_Guil2050_trim",
+        "M_Guil2050_railGlass",
+        "M_Guil2050_bronze"
+      ],
+      "roundTrip": {
+        "status": "passed",
+        "meshCount": 7,
+        "triangleCount": 288,
+        "toleranceM": 0.0001
+      },
+      "sha256": "1f1f795c53e4d1fa5ec44c93c9deebe4a386e10a5803f7f05f0d63c28c0df2c8"
+    }
+  ]
+}

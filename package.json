@@ -6,6 +6,8 @@
   "scripts": {
     "start": "node server.mjs",
     "build:map": "node tools/build_2050_plan.mjs",
+    "build:pilot": "node tools/build_pilot_scene.mjs",
+    "export:apartment": "node tools/export_apartment_assets.mjs",
     "test": "node --test tests/*.test.mjs"
   },
   "description": "Fictional Korea 2050 2D design plan preserving Guil's existing planar anchors."

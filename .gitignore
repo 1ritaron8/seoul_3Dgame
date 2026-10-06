@@ -26,7 +26,11 @@ Desktop.ini
 node_modules/
 .npm-cache/
 work/
-exports/
+exports/*
+!exports/guil2050_118/
+exports/guil2050_118/*
+!exports/guil2050_118/*.glb
+!exports/guil2050_118/manifest.json
 *.log
 
 # Python rebuild caches
@@ -35,3 +39,15 @@ __pycache__/
 
 # Discarded local building-layout study (2026-09-30)
 /authoring/sinyoung-blockout/
+
+# Local-only survey data and third-party map/road-view evidence.
+# Tracked 2050 JSON/SVG use a separate, survey-free Git snapshot.
+/docs/guil_2050_pilot3d.json
+/docs/guil_road_widths.json
+/docs/reference/guil_curb_reviews.json
+/docs/reference/guil_ngii_road_sections.json
+/docs/reference/guil_ngii_road_surfaces.geojson
+/docs/reference/guil_official_road_widths.json
+/docs/reference/guil_pilot_site_evidence.json
+/docs/reference/guil_road_cross_profile_candidates.json
+/docs/reference/road-width-evidence/

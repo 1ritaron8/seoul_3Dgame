@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#143b40">
+  <title>구일 2050 · 자이 2차 재건축 시안</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/pilot/style.css">
+  <script type="importmap">{"imports":{"three":"/runtime/three/three.module.js","three/addons/controls/OrbitControls.js":"/runtime/three/OrbitControls.js"}}</script>
+  <script type="module" src="/pilot/view.mjs"></script>
+</head>
+<body class="pilot-page">
+  <header class="masthead">
+    <a class="identity" href="/" aria-label="구일 2050 계획도로 돌아가기">
+      <span class="identity-mark" aria-hidden="true">G<span>2050</span></span>
+      <span class="identity-copy"><span class="eyebrow">KOREA · URBAN FUTURES</span><strong>구일 <span>2050</span></strong></span>
+    </a>
+    <div class="pilot-header-links"><span class="pilot-tag">2050 RECONSTRUCTION / 01</span><a href="/">2D 계획도 ↗</a></div>
+  </header>
+  <main class="pilot-workspace">
+    <aside class="pilot-sidebar" aria-label="3D 검증 기준과 임시 설계값">
+      <div class="eyebrow">자이 2차 · 기존 118동 자리</div>
+      <h1>동네는 그대로,<br><em>건축은 2050.</em></h1>
+      <p class="pilot-lead">기존 단지와 도로는 보존하고, 한 동의 크기·외관·지하주차장을 새로 설계한 시안입니다. 실제 자이 상품이나 재개발 계획을 복제한 모델은 아닙니다.</p>
+      <section class="pilot-architecture-info" aria-label="이 단지의 건축 성격">
+        <span class="eyebrow">G05 · 단지별 외관 기준</span>
+        <h2 id="architecture-name">생활 테라스형</h2>
+        <p id="architecture-summary">단지의 창작 외관 기준을 불러오고 있습니다.</p>
+        <details><summary>다른 단지와 무엇이 다른가요?</summary><ul id="architecture-features"></ul></details>
+        <a href="/">다른 단지의 외관 기준은 2D 지도에서 ↗</a>
+      </section>
+      <section class="pilot-access-info" aria-label="2050 동선 재배치 검토">
+        <span class="eyebrow">이번 배치 수정 · 평면 연결 검사</span>
+        <h2>도로 3 → 단지 → 도로 1</h2>
+        <p id="access-summary">보도 접점과 지상 진입 동선을 불러오고 있습니다.</p>
+        <ul id="access-checks"></ul>
+        <p id="access-warning" class="engineering-warning"></p>
+        <p id="access-assumptions">2050 창작 동선이며 현재 출입구·지형·도로 연결 승인과는 별개입니다.</p>
+      </section>
+      <section class="pilot-environment-info" aria-label="공식 현장 근거와 환경 비교">
+        <span class="eyebrow">1–5단계 · 근거와 가정 분리</span>
+        <h2>높이·지형 확인</h2>
+        <p id="site-building-evidence"></p>
+        <p id="site-terrain-evidence"></p>
+        <details><summary>일조·바람·배수 비교의 범위</summary>
+          <p id="environment-wind"></p>
+          <p id="environment-rain"></p>
+          <p>풍속·CFD·연속 일조시간·집수구/펌프 용량은 미검증입니다. 50·100mm/h는 가정 강우이며 현지 설계 강우가 아닙니다.</p>
+          <a href="https://www.gml.noaa.gov/grad/solcalc/solareqns.PDF" target="_blank" rel="noopener">태양 방향 근사식 · NOAA ↗</a>
+        </details>
+        <details><summary>다음 건물에 재사용할 외관 모듈</summary><p id="module-summary"></p><p>치수·반복 입면만 공통화했습니다. 다른 단지의 배치·안전·세대 평면을 그대로 복제하지 않습니다.</p></details>
+      </section>
+      <section class="pilot-engineering-info" aria-label="공학적 연동 검토">
+        <span class="eyebrow">건물 하나가 아닌 주변과의 관계</span>
+        <h2>공학 검토 · 미완료</h2>
+        <p id="engineering-summary" role="status">분야별 검토 상태와 지도상 간격을 불러오고 있습니다.</p>
+        <ul id="engineering-clearances"></ul>
+        <ul id="engineering-resolved"></ul>
+        <p id="engineering-warning" class="engineering-warning"></p>
+        <details><summary>검토할 8가지 관계</summary><ul id="engineering-checks"></ul></details>
+        <p id="engineering-assumptions">거리 계산은 실측·법정 이격·안전 판정이 아닙니다.</p>
+        <p>날짜별 태양 방향과 가정 높이로 그림자를 비교할 수 있지만 실제 일조 적합성·풍환경·구조 안전 판정은 아닙니다.</p>
+      </section>
+      <dl class="pilot-metrics">
+        <div><dt id="footprint-title">새 동 외곽 · 2050 설계값</dt><dd id="footprint-size">—</dd></div>
+        <div><dt>비교 높이 · 현재 건물의 측정값 아님</dt><dd><span id="height-value">78.4</span><small> m</small></dd></div>
+        <div><dt>층 구성 · 세대 평수/평면 미설계</dt><dd id="floor-count">—</dd></div>
+        <div><dt>사람 기준 · 눈높이</dt><dd>1.8 / 1.65<small> m</small></dd></div>
+      </dl>
+      <section class="height-design">
+        <label for="height-control">설계 높이 비교</label>
+        <input type="range" id="height-control" min="18" max="90" step="0.1" value="78.4" disabled>
+        <div class="height-range"><span>18 m</span><span>90 m</span></div>
+        <p>기본 78.4m·24층은 창작 시안입니다. 높이를 바꾸면 주거층 수와 창문 간격을 함께 계산하며 지도 원본에 저장하지 않습니다.</p>
+      </section>
+      <section class="pilot-road-info">
+        <h2>지하주차장 · 부지 내부 시안</h2>
+        <p id="parking-metrics">경사로·주차층의 시안 치수를 불러오고 있습니다.</p>
+        <p>기존 지하주차장이 있다는 뜻이 아닙니다. 지도상 차량 연결선만 추가했으며 실제 차도·회전 궤적·주차대수·구조·인허가는 미검증입니다.</p>
+      </section>
+      <section class="pilot-road-info">
+        <h2>확인된 구일로4길 부분</h2>
+        <div id="road-metrics">검토 단면을 불러오고 있습니다.</div>
+        <p>지도 기하 추정값입니다. 보도면의 시설물을 뺀 유효 통행폭이나 현장 실측값은 아닙니다.</p>
+      </section>
+      <details class="pilot-evidence" open>
+        <summary>보존한 것 · 아직 모르는 것</summary>
+        <ul>
+          <li>보존: 단지 위치·경계·소속, 지도 도로·보도와 검토 단면. 원본 118동 외곽은 비교 자료로 남깁니다.</li>
+          <li>창작: 새 동의 규모·4면 입면·로비·입구 광장·지하주차장 경사로. 현재 실물 외관과의 일치가 목표가 아닙니다.</li>
+          <li>평면 연결: 보도 22→광장→로비, 관리 통로, 도로 3→보도 23→서비스 통로→보도 22→도로 1. 보행 우선 교차 표시·별도 서비스 후보 면을 추가했습니다.</li>
+          <li>미확인: 세대별 평수·내부 평면, 지형 고도·법규·구조·주차대수·소방 활동 공간. 6m 차량선은 장애물 제외 유효폭 측정이 아닙니다.</li>
+          <li>주변 건물은 기본 평면 윤곽입니다. 높이 가정 비교를 켜면 공식 층수×가정 층고 모형이 보입니다. 실측 높이나 미래 주변 건물 설계가 아닙니다.</li>
+        </ul>
+      </details>
+      <p id="pilot-status" class="pilot-data-status" role="status">3D 자료와 기존 설치된 Three.js를 불러오고 있습니다.</p>
+      <p class="pilot-license">로컬 검토용 · GIS 재배포 권한 미확인 · Unreal 본게임이 아닌 크기 검증 화면</p>
+    </aside>
+    <section class="pilot-panel" aria-label="118동 주변 3D 검증 화면">
+      <div class="pilot-toolbar">
+        <div><span class="eyebrow">ONE METRE · ONE WORLD UNIT</span><h2>자이 2차 · 2050 한 동 시안</h2></div>
+        <div class="pilot-view-controls" role="group" aria-label="검증 시점">
+          <button type="button" id="view-orbit" aria-pressed="true" disabled>전체 입체</button>
+          <button type="button" id="view-eye" aria-pressed="false" disabled>사람 눈높이</button>
+          <button type="button" id="view-plan" aria-pressed="false" disabled>수직 평면</button>
+        </div>
+      </div>
+      <div class="pilot-design-controls" role="group" aria-label="건축 비교">
+        <button type="button" id="design-future" aria-pressed="true" disabled>2050 재건축 시안</button>
+        <button type="button" id="design-source" aria-pressed="false" disabled>원래 윤곽 비교</button>
+        <button type="button" id="parking-cutaway" aria-pressed="false" disabled>지하 구상 보기</button>
+        <button type="button" id="entrance-closeup" aria-pressed="false" disabled>입구 근접 · 1.65m</button>
+        <button type="button" id="entrance-keypad" disabled>공동현관 키패드 · E</button>
+        <span id="design-state">부지·도로 보존 / 새 건물은 창작 설계</span>
+      </div>
+      <div class="pilot-environment-controls" aria-label="환경 비교 조건">
+        <label for="sun-case">그림자 조건</label><select id="sun-case" disabled><option value="art">고정 조명 · 시각 효과</option></select>
+        <label class="neighbour-option"><input id="neighbour-masses" type="checkbox" disabled> 주변 높이 가정 비교</label>
+        <span id="solar-metrics">평지 가정 · 안전 판정 아님</span>
+      </div>
+      <div class="pilot-stage" id="pilot-stage">
+        <div class="pilot-loading" id="pilot-loading"><span>118동의 좌표를 입체로 옮기는 중입니다.</span></div>
+        <div class="pilot-view-badge"><span class="status-dot"></span><span id="view-label">전체 입체</span><span id="camera-height">—</span></div>
+        <div class="pilot-scope-badge">기하 검사만 완료 · 공학 검토 미완료 · 주변 높이 미확인</div>
+        <div id="measurement-labels" class="measurement-labels" aria-hidden="true"></div>
+        <div class="pilot-compass">N <span id="north-arrow">↑</span><small>+E / UP / −N</small></div>
+        <div id="view-help" class="pilot-help">드래그: 회전 · 휠: 확대 · 오른쪽 드래그: 이동</div>
+        <div id="entrance-state" class="entrance-state" role="status" hidden></div>
+      </div>
+      <div class="pilot-legend" aria-label="3D 표시 범례">
+        <span><i class="legend-pilot-building"></i>2050 한 동 · 창작 설계</span>
+        <span><i class="legend-pilot-footprint"></i>주변 건물 · 평면</span>
+        <span><i class="legend-pilot-road"></i>지도 도로면 · 보도 포함</span>
+        <span><i class="legend-pilot-walkway"></i>지도 보도면</span>
+        <span><i class="legend-pilot-section"></i>검토 차량공간 단면</span>
+        <span><i class="legend-pilot-access"></i>새 보행·관리 통로</span>
+        <span><i class="legend-pilot-vehicle"></i>새 차량 연결 · 미승인 시안</span>
+        <span><i class="legend-pilot-service"></i>서비스 후보 · 소방 궤적 미검증</span>
+        <span><i class="legend-pilot-crossing"></i>보행 우선 교차 시안</span>
+      </div>
+      <footer class="pilot-footer"><span>지하 보기는 지표·상부 건물을 숨긴 모식도입니다. 실제 굴착 단면이 아닙니다.</span><span>법규·최종 외관·120fps 검증 미완료</span></footer>
+    </section>
+  </main>
+  <dialog id="entrance-dialog" class="entrance-dialog" aria-labelledby="entrance-dialog-title">
+    <form id="entrance-form">
+      <p class="eyebrow">118 · SHARED LOBBY / LOCAL DEMO</p>
+      <h2 id="entrance-dialog-title">공동현관 출입</h2>
+      <p>시연 비밀번호 <strong>2050</strong> · 실제 보안 인증이 아닙니다.</p>
+      <label for="entrance-code">비밀번호</label>
+      <input id="entrance-code" type="password" inputmode="numeric" maxlength="6" autocomplete="off" aria-describedby="entrance-feedback">
+      <p id="entrance-feedback" role="status">숫자 4자리를 입력하십시오.</p>
+      <div class="entrance-number-pad" role="group" aria-label="숫자 키패드">
+        <button type="button" data-entrance-digit="1">1</button><button type="button" data-entrance-digit="2">2</button><button type="button" data-entrance-digit="3">3</button>
+        <button type="button" data-entrance-digit="4">4</button><button type="button" data-entrance-digit="5">5</button><button type="button" data-entrance-digit="6">6</button>
+        <button type="button" data-entrance-digit="7">7</button><button type="button" data-entrance-digit="8">8</button><button type="button" data-entrance-digit="9">9</button>
+        <button type="button" id="entrance-clear">지우기</button><button type="button" data-entrance-digit="0">0</button><button type="submit">확인</button>
+      </div>
+      <button type="button" id="entrance-cancel">닫기</button>
+    </form>
+  </dialog>
+</body>
+</html>
