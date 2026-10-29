@@ -1,0 +1,68 @@
+{
+  "status": "Blender GLB import and FBX geometry and five sign-texture round trips passed; UE import not yet tested",
+  "blenderVersion": "5.2.2 LTS",
+  "units": "metres in Blender; validate centimetres on Unreal import",
+  "glbImport": {
+    "meshObjects": 1206,
+    "triangles": 14862,
+    "boundsM": {
+      "min": [
+        -20.377939224243164,
+        -9.875541687011719,
+        -1.8250000476837158
+      ],
+      "max": [
+        24.178701400756836,
+        9.889423370361328,
+        18.260000228881836
+      ]
+    },
+    "materials": 287,
+    "images": 101,
+    "packedImages": 101,
+    "imageTextureNodes": 190
+  },
+  "fbxReimport": {
+    "meshObjects": 1206,
+    "triangles": 14862,
+    "boundsM": {
+      "min": [
+        -20.377939224243164,
+        -9.875543594360352,
+        -1.8250000476837158
+      ],
+      "max": [
+        24.178699493408203,
+        9.889423370361328,
+        18.260000228881836
+      ]
+    },
+    "materials": 287,
+    "images": 201,
+    "packedImages": 201,
+    "imageTextureNodes": 289
+  },
+  "checkedSignTextureSha256": {
+    "toast-title": [
+      "73dee0779c11732ef12aec605975eb268749e3d5ca913d92f1de5387aa0baafb"
+    ],
+    "pharmacy-title": [
+      "b2ff6e1ad868f5c9006d7cea7a563b80609bbac04070a4ccf19e776c48a6755c"
+    ],
+    "home-title": [
+      "8089cb445b1b22e587edcbc245c4187430c596fbeb3fd01549ee4af671e4bcc8"
+    ],
+    "mechanical-parking-warning-board": [
+      "70d21c9f02cb2645509d5cd935a9d6dec1dd11f671c4ffa877c108a6c2620800"
+    ],
+    "f01": [
+      "7e46acfae00cb3d3478ff3f7f0a5f61dc5d2a9ca317150f4ed7a6df96c2e98bb"
+    ]
+  },
+  "toleranceM": 0.005,
+  "limitations": [
+    "Photographic dimensions are estimates",
+    "Some shop names remain fictional",
+    "FBX material appearance, collision, LOD and Unreal import remain unverified"
+  ]
+}

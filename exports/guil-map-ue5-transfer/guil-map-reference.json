@@ -1,0 +1,64 @@
+{
+  "status": "Blender FBX geometry round-trip passed; Unreal import not tested",
+  "sourcePlanSha256": "f4081a9a33fa0f622ce7174fce5f2a3381291c5fba8d5c152a9e609f87ad7f43",
+  "units": "metres in Blender; Unreal lengths use centimetres",
+  "axes": "Blender X east, Y north, Z up; verify FBX axes in Unreal",
+  "sharedOriginLocalM": [
+    748.2076500000001,
+    763.5115000000001
+  ],
+  "clipExtentLocalM": [
+    -57.4868,
+    -17.5972,
+    1179.4692,
+    1734.1238
+  ],
+  "survey2025Included": true,
+  "segments": {
+    "Source_Building_Outlines": 769,
+    "Source_Road_Centrelines_Not_Width": 838,
+    "Source_School_Boundaries": 19,
+    "Source_Provisional_District_Boundary": 53,
+    "Shinyeong_Roof_Estimate": 4,
+    "NGII_2025_Road_Surface_Outlines": 7595,
+    "NGII_2025_Walkway_Outlines": 5580
+  },
+  "blender": {
+    "objects": 7,
+    "triangles": 29716,
+    "boundsM": {
+      "min": [
+        -805.7432250976562,
+        -781.1435546875,
+        0.019999999552965164
+      ],
+      "max": [
+        431.3163146972656,
+        970.6588134765625,
+        0.07000000029802322
+      ]
+    }
+  },
+  "fbxReimport": {
+    "objects": 7,
+    "triangles": 29716,
+    "boundsM": {
+      "min": [
+        -805.7432250976562,
+        -781.1435546875,
+        0.019999999552965164
+      ],
+      "max": [
+        431.3162841796875,
+        970.6588134765625,
+        0.07000000029802322
+      ]
+    }
+  },
+  "limitations": [
+    "Outline thickness is a visual symbol, not a measured road or wall width.",
+    "2025 road survey and 2026 map have different dates.",
+    "Reference lines are not a playable road, terrain or a final UE map.",
+    "The district boundary and Shinyeong roof outline are estimates, not surveyed boundaries."
+  ]
+}

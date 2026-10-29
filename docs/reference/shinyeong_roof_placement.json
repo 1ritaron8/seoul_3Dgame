@@ -1,0 +1,168 @@
+{
+  "sourcePlanSha256": "f4081a9a33fa0f622ce7174fce5f2a3381291c5fba8d5c152a9e609f87ad7f43",
+  "originLocalM": [
+    748.2076500000001,
+    763.5115000000001
+  ],
+  "landmark": {
+    "id": "south/shinyeong-footprint",
+    "polygons": [
+      [
+        [
+          [
+            -19.004693764255983,
+            -8.224786161243536
+          ],
+          [
+            -18.98365000000001,
+            7.775200000000041
+          ],
+          [
+            18.779867718148253,
+            -1.967321724435692
+          ],
+          [
+            18.770661071286266,
+            -8.967315669979756
+          ],
+          [
+            -19.004693764255983,
+            -8.224786161243536
+          ]
+        ]
+      ]
+    ],
+    "bounds": {
+      "minX": -19.004693764255983,
+      "maxX": 18.779867718148253,
+      "minZ": -8.967315669979756,
+      "maxZ": 7.775200000000041
+    },
+    "frontEdge": [
+      [
+        -19.004693764255983,
+        -8.224786161243536
+      ],
+      [
+        -18.98365000000001,
+        7.775200000000041
+      ]
+    ],
+    "southEdge": [
+      [
+        -18.98365000000001,
+        7.775200000000041
+      ],
+      [
+        18.779867718148253,
+        -1.967321724435692
+      ]
+    ],
+    "geometryStatus": "roof_reference_estimate_not_ground_survey",
+    "sourcePolygons": [
+      [
+        [
+          [
+            -19.00305000000003,
+            -6.974999999999909
+          ],
+          [
+            -18.98365000000001,
+            7.775200000000041
+          ],
+          [
+            19.003049999999917,
+            -2.0248999999998887
+          ],
+          [
+            18.995049999999992,
+            -7.775199999999927
+          ],
+          [
+            -19.00305000000003,
+            -6.974999999999909
+          ]
+        ]
+      ]
+    ],
+    "roofReferenceEvidence": {
+      "observedOn": "2026-09-30",
+      "referenceDocument": "docs/2050_신영상가_제작설계.md#2026-09-30-지도-거리재기와-신영상가-주변-미리보기",
+      "measurementKind": "map_UI_roof_line_distance_not_ground_wall_survey",
+      "adoptedDimensionsM": {
+        "westFront": 16,
+        "longSouth": 39,
+        "eastRear": 7
+      },
+      "primaryPlane": {
+        "service": "Kakao maximum-zoom aerial roof line",
+        "uiDistancesM": {
+          "westFront": 16,
+          "longSouth": 39,
+          "eastRear": 7
+        },
+        "displayPrecision": "integer_UI_rounded_not_metrological_precision",
+        "sourceURL": "https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&urlLevel=1&urlX=472672&urlY=1109020"
+      },
+      "comparison": {
+        "service": "Naver same roof line",
+        "uiDistancesM": {
+          "westFront": 14.6,
+          "longSouth": 39.2,
+          "eastRear": 7.5
+        },
+        "sourceURL": "https://map.naver.com/p/search/%EC%8B%A0%EC%98%81%EC%83%81%EA%B0%80?c=17.00,0,0,2,dh"
+      },
+      "observedCrossServiceSpanM": {
+        "westFront": [
+          14.6,
+          16
+        ],
+        "longSouth": [
+          39,
+          39.2
+        ],
+        "eastRear": [
+          7,
+          7.5
+        ]
+      },
+      "rangeStatus": "observed_UI_values_only_not_statistical_error_bounds_or_ground_dimensions",
+      "baselineComparison": {
+        "westFrontM": 14.750212757787546,
+        "longSouthM": 39.23048988860569,
+        "eastRearM": 5.7503055649243935,
+        "baselineFrontWithinObservedUISpan": true,
+        "interpretation": "Original front≈14.75m is within the14.6–16m cross-service UI values. Selecting16m is single-Kakao-plane consistency, not proof that the source front or ground wall was wrong."
+      },
+      "imageIndependence": "both services may use the same NGII imagery; independent image verification not established",
+      "reconstruction": "SW fixed at original estimated anchor; original west-up and long-south headings preserved; NW=SW+westUp*16,SE=SW+southUnit*39,NE=SE+westUp*7",
+      "anchorLocalM": [
+        729.224,
+        755.7363
+      ],
+      "anchorStatus": "original_visual_digitization_estimate_not_confirmed_ground_corner",
+      "limitations": [
+        "Roof line is not a surveyed ground wall: shadow, perspective/parallax and roof-wall displacement remain.",
+        "Map click placement and display rounding are approximate; more decimals do not imply accuracy.",
+        "Ground wall positions, entrances and vertical heights still require separate verification."
+      ],
+      "heightsUnchanged": {
+        "front": 17.8,
+        "rear": 10.8,
+        "frontFraction": 0.34210526315789475,
+        "status": "existing_photo_proportion_preview_values_not_new_measurements"
+      }
+    }
+  },
+  "frontView": {
+    "id": "front",
+    "name": "서측 정면",
+    "x": -28,
+    "z": 1,
+    "yaw": -1.5136268544818947,
+    "distance": 34,
+    "pitch": 0.38,
+    "positionStatus": "collision_free_demo_exterior_not_a_verified_public_viewpoint"
+  }
+}

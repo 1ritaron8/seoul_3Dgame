@@ -1,53 +1,59 @@
-# Local credentials
-.env
-.env.*
-!.env.example
-*.pem
-*.key
-
-# Unreal generated files
+# Unreal Engine: keep project, Config, Content and Source; ignore generated files.
 Binaries/
 DerivedDataCache/
 Intermediate/
 Saved/
-
-# IDE and OS files
 .vs/
 *.sln
 *.VC.db
 *.VC.opendb
 *.suo
 *.user
-.DS_Store
-Thumbs.db
-Desktop.ini
+*.log
+*.blend1
 
-# Local prototype dependencies and generated previews
+# Local dependencies, backups, credentials and obsolete web prototype.
 node_modules/
 .npm-cache/
-work/
-exports/*
-!exports/guil2050_118/
-exports/guil2050_118/*
-!exports/guil2050_118/*.glb
-!exports/guil2050_118/manifest.json
-*.log
-
-# Python rebuild caches
 __pycache__/
 *.py[cod]
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+work/
+/prototype/
+/tests/*.mjs
+/tools/*.mjs
+/tools/build_guil_ue_map_reference.py
+/tools/prepare_shinyeong_for_unreal.py
+/web/
+/package.json
+/package-lock.json
+/server.mjs
 
-# Discarded local building-layout study (2026-09-30)
-/authoring/sinyoung-blockout/
+# Keep only the two checked UE5 transfer packages in the repository.
+/exports/*
+!/exports/shinyeong-ue5-transfer/
+!/exports/guil-map-ue5-transfer/
 
-# Local-only survey data and third-party map/road-view evidence.
-# Tracked 2050 JSON/SVG use a separate, survey-free Git snapshot.
-/docs/guil_2050_pilot3d.json
-/docs/guil_road_widths.json
+# Existing local-only research, raw survey and superseded images.
+/docs/reference/2050_신영상가_제작설계.md
+/docs/reference/구로1동_3인칭_거리_시안.png
 /docs/reference/guil_curb_reviews.json
+/docs/reference/guil_legacy_scene_v13.json
 /docs/reference/guil_ngii_road_sections.json
 /docs/reference/guil_ngii_road_surfaces.geojson
 /docs/reference/guil_official_road_widths.json
 /docs/reference/guil_pilot_site_evidence.json
 /docs/reference/guil_road_cross_profile_candidates.json
 /docs/reference/road-width-evidence/
+/docs/guil_2050_plan.json
+/docs/guil_2050_pilot3d.json
+/docs/guil_road_widths.json
+/docs/구일_2050_계획도.svg
+/docs/구일_2050_제작계획.md
+
+.DS_Store
+Thumbs.db

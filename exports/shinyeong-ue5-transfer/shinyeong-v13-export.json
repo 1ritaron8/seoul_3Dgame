@@ -1,0 +1,42 @@
+{
+  "status": "legacy_visual_reference_not_final_UE_asset",
+  "source": "Preserved v13 authored exterior; 2026 shop labels partly substituted from prior observations.",
+  "units": "metres",
+  "axes": "X east, Y up, Z south",
+  "anchorLocalM": [
+    748.2076500000001,
+    763.5115000000001
+  ],
+  "boundsM": {
+    "min": [
+      -20.377939224243164,
+      -1.8250000476837158,
+      -9.889423725188593
+    ],
+    "max": [
+      24.178701166022147,
+      18.260000228881836,
+      9.875541687011719
+    ]
+  },
+  "meshes": 1206,
+  "triangles": 14862,
+  "texturedMeshes": 135,
+  "signPixelCheck": {
+    "visibleColored": 374784,
+    "mismatches": 0
+  },
+  "excluded": [
+    "original roadview photographs",
+    "roads",
+    "other buildings",
+    "building interior",
+    "playable gameplay",
+    "collision"
+  ],
+  "limitations": [
+    "Photo/roof-line estimates, not surveyed dimensions.",
+    "Some signs remain fictional.",
+    "Materials, dimensions and orientation require actual Unreal import verification."
+  ]
+}

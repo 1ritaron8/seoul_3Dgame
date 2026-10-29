@@ -1,0 +1,1673 @@
+{
+  "id": "sinyoung-2050-multiview-exterior-v13",
+  "year": 2050,
+  "renderObservedUpperEnvelope": true,
+  "buildings": [
+    {
+      "id": "sinyoung",
+      "name": "신영상가 전면부",
+      "x": 5,
+      "z": -4,
+      "width": 13,
+      "depth": 18,
+      "height": 17.8,
+      "color": "#b5afa0",
+      "kind": "landmark"
+    },
+    {
+      "id": "sinyoung-wing",
+      "name": "신영상가 낮은 옆길동",
+      "x": 18,
+      "z": -4,
+      "width": 25,
+      "depth": 18,
+      "height": 10.8,
+      "color": "#b5afa0",
+      "kind": "landmark-wing"
+    }
+  ],
+  "shops": [
+    {
+      "id": "toast",
+      "name": "오늘토스트",
+      "category": "맞춤 영양 토스트",
+      "sourceTenant": "이삭토스트",
+      "side": "west",
+      "x": 4.88,
+      "z": -2.6,
+      "width": 2.6,
+      "color": "#e4ddd0",
+      "ink": "#a53e43",
+      "futureService": "개인 영양 주문",
+      "futureDetail": "알레르기 설정 · 맞춤 조리",
+      "future": "이삭토스트 위치·독립 출입구·빨간 차양 유지. 2050년에는 개인 영양 설정을 반영한 주문과 조리를 제공하는 가상 점포.",
+      "dimensionStatus": "2026-01 front panorama: toast and pharmacy have comparable frontage widths. v11 retains their combined outer span and adjusts only the dividing boundary; absolute widths remain unmeasured photo-proportion estimates.",
+      "awning": true,
+      "awningColor": "#b65050"
+    },
+    {
+      "id": "pharmacy",
+      "name": "이웃약국",
+      "category": "처방 연동 · 맞춤 조제",
+      "sourceTenant": "약국",
+      "side": "west",
+      "x": 4.88,
+      "z": 0.15,
+      "width": 2.5,
+      "color": "#e1e5dc",
+      "ink": "#486e76",
+      "awning": true,
+      "awningColor": "#436381",
+      "futureService": "처방 연동 조제",
+      "futureDetail": "개인 복약 일정 · 수령 확인",
+      "future": "정문 왼쪽 약국의 흰 간판·푸른 차양 유지. 2050년 처방 연동 및 맞춤 조제 설정.",
+      "dimensionStatus": "v11 moves its toast-side boundary only; the main-entry-side end remains unchanged. Width is a relative photo estimate, not a measurement."
+    },
+    {
+      "id": "share",
+      "name": "구일 주거관리",
+      "category": "AI 주거상담 · 계약 · 관리",
+      "sourceTenant": "종합부동산",
+      "side": "west",
+      "x": 4.88,
+      "z": 5.35,
+      "width": 3.3,
+      "color": "#bd3448",
+      "lowerInfillColor": "#397cc2",
+      "awning": true,
+      "awningColor": "#ab5552",
+      "futureService": "AI 주거 상담",
+      "futureDetail": "매물 비교 · 계약 지원 · 집 관리",
+      "future": "네이버 2026.01 정면: 붉은 간판과 세로판·짧은 차양, 파란 하부 유리 필름을 구분. 기존 분홍색 하부와 큰 노란 안내판 해석을 폐기. 상호와 안내 문구만 2050 가상 설정.",
+      "dimensionStatus": "same unmeasured frontage retained; pane/film/handle dimensions are photo estimates"
+    },
+    {
+      "id": "home",
+      "name": "핏헤어",
+      "category": "두피 스캔 · 맞춤 커트",
+      "sourceTenant": "블루클럽",
+      "side": "west",
+      "x": 4.88,
+      "z": 8.9,
+      "width": 3.4,
+      "color": "#388198",
+      "futureService": "맞춤 헤어 예약",
+      "futureDetail": "두피 스캔 · 커트 시뮬레이션",
+      "future": "블루클럽 미용실 구획과 돌출된 파란 차양 유지. 2050년 두피 스캔과 개인 맞춤 커트 설정. 부동산이 아님.",
+      "awning": true,
+      "awningColor": "#326788"
+    },
+    {
+      "id": "housing",
+      "name": "신라 주거연결",
+      "category": "생활권 매칭 · 입주 지원",
+      "sourceTenant": "신라공인중개사",
+      "side": "west",
+      "x": 4.88,
+      "z": 12.4,
+      "width": 3.2,
+      "color": "#c8a544",
+      "futureService": "생활권 매칭",
+      "futureDetail": "출퇴근 · 돌봄 · 주거 조건",
+      "future": "모서리 양면을 쓰는 부동산 구획, 노란 하부 판넬·어두운 상부 유리·세로 간판 유지. 폭과 판넬 비율은 2026년 여러 정면 자료에 따른 비례 추정이며 실측이 아님. 이 면의 문짝 수는 미확인이라 손잡이를 임의로 추가하지 않음.",
+      "awning": true,
+      "awningColor": "#a95458"
+    },
+    {
+      "id": "housing-return",
+      "name": "신라 주거연결",
+      "category": "생활권 매칭 · 입주 지원",
+      "side": "south",
+      "x": 8.15,
+      "z": 14.12,
+      "width": 5.9,
+      "color": "#c8a544",
+      "future": "앞면과 같은 점포의 옆면 유리창. 모서리 점포를 둘로 나눈 것이 아님."
+    },
+    {
+      "id": "play",
+      "name": "구일플레이",
+      "category": "게임·미디어",
+      "side": "south",
+      "x": 13.1,
+      "z": 14.12,
+      "width": 3.5,
+      "color": "#5a648c",
+      "future": "놀이 점포 구획과 노란 차양 유지",
+      "awning": true,
+      "awningColor": "#d5b348"
+    },
+    {
+      "id": "snack",
+      "name": "골목분식",
+      "category": "분식",
+      "side": "south",
+      "x": 19.75,
+      "z": 14.12,
+      "width": 4.0,
+      "color": "#ad6b61",
+      "future": "공용 출입구 옆 분식점과 줄무늬 차양",
+      "awning": true,
+      "striped": true
+    },
+    {
+      "id": "noodle",
+      "name": "온기식당",
+      "category": "동네 식당",
+      "side": "south",
+      "x": 23.8,
+      "z": 14.12,
+      "width": 3.6,
+      "color": "#353b3a",
+      "sourceTenant": "남측 검은 간판 점포 — 업종 미확인",
+      "future": "2025.02 거리뷰에서 노란 점포 앞의 검은 간판·입구 확인. 정확한 폭·업종은 미확인."
+    },
+    {
+      "id": "daily",
+      "name": "구일생활",
+      "category": "생활·문구·완구",
+      "side": "south",
+      "x": 31.7,
+      "z": 14.12,
+      "width": 11.7,
+      "color": "#ebd52d",
+      "ink": "#304a76",
+      "style": "wide-yellow",
+      "sourceTenant": "노란 문구·완구 점포",
+      "future": "2025.02 남측 거리뷰: 긴 노란 외장, 진열창과 오른쪽 셔터를 하나의 점포 외장으로 보존. 세 점포로 임의 분할하지 않음. 내부 임대 구분은 미확인."
+    },
+    {
+      "id": "repair",
+      "name": "핏헤어 스튜디오",
+      "category": "두피 스캔 · 맞춤 커트",
+      "side": "south",
+      "x": 40.25,
+      "z": 14.12,
+      "width": 4.9,
+      "color": "#eeeceb",
+      "ink": "#50585b",
+      "style": "grey-salon",
+      "sourceTenant": "오늘도헤어",
+      "future": "2024.01 뒤 모서리와 2025.02 남측 거리뷰: 회색 몰딩, 상부 채광창, 오른쪽 유리문, 측면 회색 판넬·실외기. 미래 상호만 창작."
+    }
+  ],
+  "entrances": [
+    {
+      "id": "main-entry",
+      "type": "main",
+      "side": "west",
+      "x": 5.0,
+      "z": 2.55,
+      "width": 1.9,
+      "depth": 1.2,
+      "openingHeight": 3.05,
+      "exteriorSteps": 0,
+      "interiorStairTurn": "left",
+      "dimensionStatus": "width/depth are visual scale estimates; user confirmed no exterior stairs and stairs after turning left inside; internal flight not modelled"
+    },
+    {
+      "id": "corner-basement",
+      "type": "basement",
+      "x": 7.2,
+      "z": 15.13,
+      "width": 4.2,
+      "depth": 1.9,
+      "openingDirection": "west",
+      "steps": 11,
+      "riser": 0.16,
+      "dimensionStatus": "photo-proportion estimates; hidden stair count and depth unverified"
+    },
+    {
+      "id": "shared-entry",
+      "type": "shared",
+      "x": 16.4,
+      "z": 14.14,
+      "width": 2.2,
+      "depth": 2.1,
+      "openingHeight": 2.85,
+      "doorSymmetry": "equal left and right leaves, frames and handles; confirmed by user 2026-10-01",
+      "dimensionStatus": "symmetric door arrangement user-confirmed; total width, height and visible vestibule depth remain photo-proportion estimates"
+    }
+  ],
+  "facade": {
+    "source": "User front photo and confirmed level main door; Naver front 2026-01, south M6GQ1x0DW4L_tHORO-yU6g 2025-02, rear 8BC2Bz_xkhUGcJuwm_ghFA 2024-01; Kakao front 2026-07. Moved panorama positions, dragged horizontally and vertically on 2026-10-01. v11 reinspection on 2026-10-02: Naver D5WDNWyLdDugC6ATD9uW9Q front, M6GQ1x0DW4L_tHORO-yU6g south and ONl2w1SAtkhkRqV_XXLeSA rear, with dragging, upward/downward view and zoom; compared saved Kakao and user images. Different capture years are not one current-state survey.",
+    "confidence": "visible arrangement reconstructed across multiple positions, including the 205 apartment-side road; dimensions, hidden divisions, stair details and the depth/roof junction of the northern upper body remain estimates, not a 99-percent match",
+    "faceStatus": {
+      "west": "front arrangement observed; widths photo-proportion estimates",
+      "south": "multiple positions, zoom and upward view observed in 2021-07 and 2025-02; windows and upper green/white envelope separated; dimensions remain estimates",
+      "east": "rear corner observed 2024-01 and parking-side view 2021-07; grey return, vertical glazing and roof edge observed. User close-up confirms the silver frame base directly adjoining the tiled control wall/canopy, with no intervening passage. Thin vertical members are inside the same outer frame, not a second detached tower; use remains unresolved",
+      "north": "v12: 205 southwest and farther-east road positions in Naver 2025-02 expose lower windows, five visible window rows, narrow vertical glazing, bent metal pipe and the connection to the rear parking/frame corner. The old blanket lower-wall-occluded conclusion is discarded; it applied only to the northwest-road view. Northern upper height and depth remain provisional; southern low exterior and white/green band are retained rather than raising the whole wing indiscriminately. Hidden roof/interior connection remains unverified."
+    },
+    "northWindows": [
+      {
+        "id": "north-high-3a",
+        "x": 7.8,
+        "y": 8.5,
+        "w": 1.18,
+        "h": 1.72,
+        "sashOffset": -0.16
+      },
+      {
+        "id": "north-high-4a",
+        "x": 7.8,
+        "y": 11.72,
+        "w": 1.28,
+        "h": 1.71,
+        "sashOffset": -0.15
+      },
+      {
+        "id": "north-high-4b",
+        "x": 11.6,
+        "y": 11.72,
+        "w": 1.4,
+        "h": 1.79,
+        "sashOffset": 0.17
+      },
+      {
+        "id": "north-high-4c",
+        "x": 15.4,
+        "y": 11.72,
+        "w": 1.22,
+        "h": 1.77,
+        "sashOffset": -0.12
+      },
+      {
+        "id": "north-high-5a",
+        "x": 7.8,
+        "y": 14.9,
+        "w": 1.34,
+        "h": 1.72,
+        "sashOffset": -0.18
+      },
+      {
+        "id": "north-high-5b",
+        "x": 11.6,
+        "y": 14.9,
+        "w": 1.44,
+        "h": 1.81,
+        "sashOffset": 0.2
+      },
+      {
+        "id": "north-high-5c",
+        "x": 15.4,
+        "y": 14.9,
+        "w": 1.3,
+        "h": 1.72,
+        "sashOffset": -0.14
+      },
+      {
+        "id": "north-wing-1a",
+        "x": 37.1,
+        "y": 1.85,
+        "w": 1.68,
+        "h": 1.24,
+        "sashOffset": -0.24
+      },
+      {
+        "id": "north-wing-1b",
+        "x": 30.9,
+        "y": 1.85,
+        "w": 1.52,
+        "h": 1.2,
+        "sashOffset": 0.32
+      },
+      {
+        "id": "north-wing-1c",
+        "x": 24.9,
+        "y": 1.85,
+        "w": 1.5,
+        "h": 1.22,
+        "sashOffset": -0.26
+      },
+      {
+        "id": "north-wing-2a",
+        "x": 37.1,
+        "y": 5.3,
+        "w": 1.67,
+        "h": 1.75,
+        "sashOffset": 0.22
+      },
+      {
+        "id": "north-wing-2b",
+        "x": 30.9,
+        "y": 5.3,
+        "w": 1.53,
+        "h": 1.71,
+        "sashOffset": -0.25
+      },
+      {
+        "id": "north-wing-2c",
+        "x": 24.9,
+        "y": 5.3,
+        "w": 1.48,
+        "h": 1.73,
+        "sashOffset": 0.2
+      },
+      {
+        "id": "north-wing-2d",
+        "x": 20.9,
+        "y": 5.3,
+        "w": 0.73,
+        "h": 1.21,
+        "sashOffset": -0.12
+      },
+      {
+        "id": "north-wing-2e",
+        "x": 17.8,
+        "y": 5.3,
+        "w": 0.65,
+        "h": 1.18,
+        "sashOffset": 0.11
+      },
+      {
+        "id": "north-wing-3a",
+        "x": 37.1,
+        "y": 8.5,
+        "w": 1.57,
+        "h": 1.62,
+        "sashOffset": -0.18,
+        "airConditioner": {
+          "x": 37.1,
+          "y": 7.4
+        }
+      },
+      {
+        "id": "north-wing-3b",
+        "x": 30.9,
+        "y": 8.5,
+        "w": 1.46,
+        "h": 1.63,
+        "sashOffset": 0.26
+      },
+      {
+        "id": "north-wing-3c",
+        "x": 24.9,
+        "y": 8.5,
+        "w": 1.54,
+        "h": 1.66,
+        "sashOffset": -0.24,
+        "airConditioner": {
+          "x": 24.9,
+          "y": 7.4
+        }
+      },
+      {
+        "id": "north-wing-3d",
+        "x": 20.9,
+        "y": 8.5,
+        "w": 0.71,
+        "h": 1.22,
+        "sashOffset": 0.11
+      },
+      {
+        "id": "north-wing-3e",
+        "x": 17.8,
+        "y": 8.5,
+        "w": 0.64,
+        "h": 1.18,
+        "sashOffset": -0.1
+      },
+      {
+        "id": "north-wing-4a",
+        "x": 37.1,
+        "y": 11.72,
+        "w": 1.59,
+        "h": 1.6,
+        "sashOffset": -0.21,
+        "horizontalBarOffset": -0.29
+      },
+      {
+        "id": "north-wing-4b",
+        "x": 30.9,
+        "y": 11.72,
+        "w": 1.51,
+        "h": 1.58,
+        "sashOffset": 0.25
+      },
+      {
+        "id": "north-wing-4c",
+        "x": 24.9,
+        "y": 11.72,
+        "w": 1.56,
+        "h": 1.62,
+        "sashOffset": -0.2,
+        "horizontalBarOffset": -0.24
+      },
+      {
+        "id": "north-wing-4d",
+        "x": 20.9,
+        "y": 11.72,
+        "w": 0.68,
+        "h": 1.18,
+        "sashOffset": -0.12
+      },
+      {
+        "id": "north-wing-4e",
+        "x": 17.8,
+        "y": 11.72,
+        "w": 0.62,
+        "h": 1.15,
+        "sashOffset": 0.1
+      },
+      {
+        "id": "north-wing-5a",
+        "x": 37.1,
+        "y": 14.9,
+        "w": 1.57,
+        "h": 1.23,
+        "sashOffset": -0.18
+      },
+      {
+        "id": "north-wing-5b",
+        "x": 30.9,
+        "y": 14.9,
+        "w": 1.5,
+        "h": 1.24,
+        "sashOffset": 0.23
+      },
+      {
+        "id": "north-wing-5c",
+        "x": 24.9,
+        "y": 14.9,
+        "w": 1.54,
+        "h": 1.23,
+        "sashOffset": -0.2
+      },
+      {
+        "id": "north-wing-5d",
+        "x": 20.9,
+        "y": 14.9,
+        "w": 0.68,
+        "h": 0.82,
+        "sashOffset": 0.11
+      },
+      {
+        "id": "north-wing-5e",
+        "x": 17.8,
+        "y": 14.9,
+        "w": 0.6,
+        "h": 0.8,
+        "sashOffset": -0.09
+      }
+    ],
+    "northUpperPanels": [
+      {
+        "id": "north-clinic-board",
+        "x": 9.3,
+        "y": 16.28,
+        "w": 7.1,
+        "h": 0.88,
+        "text": "구일 이비인후과",
+        "color": "#235b86"
+      },
+      {
+        "id": "north-music-board",
+        "x": 15.0,
+        "y": 14.8,
+        "w": 4.5,
+        "h": 1.05,
+        "text": "온기 음악교실",
+        "color": "#514878"
+      },
+      {
+        "id": "north-learning-banner",
+        "x": 9.6,
+        "y": 11.0,
+        "w": 1.5,
+        "h": 4.5,
+        "text": "내일 배움교실",
+        "color": "#b92e50",
+        "vertical": true
+      }
+    ],
+    "northEvidence": {
+      "provider": "Naver",
+      "viewedDate": "2026-10-02",
+      "observations": [
+        {
+          "panoramaId": "m6c4_8UzsUBYzrEdV7zk3A",
+          "captureMonth": "2026-01",
+          "scope": "northwest-road upper fragments and boards; separate neighbour obscures this view's lower wall"
+        },
+        {
+          "panoramaId": "1vRlA4mkrEPX6H7bw0CYOw",
+          "captureMonth": "2025-02",
+          "scope": "205 southwest road: five visible window rows, broad and small openings, narrow vertical glazing, large bent metal pipe and smaller drainpipe"
+        },
+        {
+          "panoramaId": "8v781uc_dFBpIOe7FlJcSg",
+          "captureMonth": "2025-02",
+          "scope": "farther east on 205 road, looking south/up: northern tiled wall, narrow vertical glazing and adjoining mechanical-parking wall/steel-frame corner"
+        }
+      ],
+      "dimensionStatus": "arrangement and corner relationship observed; all widths, spacing, heights and the upper body's depth are unmeasured photo-proportion estimates. Window records are authored visible fragments, not a complete counted survey. Different capture dates are not a single current-state survey. Neighbour staircase is NOT assigned to Shinyeong."
+    },
+    "northVerticalGlazing": {
+      "id": "north-narrow-vertical-glazing",
+      "x": 40.75,
+      "y": 8.45,
+      "w": 0.82,
+      "h": 14.3,
+      "crossbars": 10,
+      "dimensionStatus": "continuous narrow exterior glazing observed near the east corner; width, height and bar count are estimates; no internal stairs inferred"
+    },
+    "northPipes": [
+      {
+        "id": "north-large-bent-pipe",
+        "x": 34.2,
+        "bottom": 3.25,
+        "top": 18.05,
+        "diameter": 0.28,
+        "bendToX": 36.05,
+        "bendY": 2.78,
+        "color": "#9aafb4"
+      },
+      {
+        "id": "north-small-drainpipe",
+        "x": 32.45,
+        "bottom": 0.7,
+        "top": 17.25,
+        "diameter": 0.08,
+        "color": "#c3c8bf"
+      }
+    ],
+    "northUpperVolume": {
+      "x": 18.0,
+      "z": -4.0,
+      "width": 25.0,
+      "depth": 8.0,
+      "baseHeight": 10.8,
+      "topHeight": 17.8,
+      "source": "Naver 1vRlA4mkrEPX6H7bw0CYOw and 8v781uc_dFBpIOe7FlJcSg, 2025-02: northern five-row tiled wall continues to the mechanical-parking/steel-frame corner. Do not shorten this wall solely from the south's two visible window rows.",
+      "dimensionStatus": "temporary northern upper shell. 17.8m reuses the existing high-front photo scale, not a height measurement. The 8-unit legacy depth, southern setback, concealed roof junction and finish of the unobserved inward wall are provisional. The separately observed southern white/green envelope is retained, not stretched to create an invented tall white gap."
+    },
+    "northInspection": {
+      "t": 0.4,
+      "out": 22.0,
+      "targetHeight": 8.8,
+      "status": "approximate 205-road-side inspection viewpoint, not an accurately geolocated panorama camera"
+    },
+    "northEastInspection": {
+      "t": -0.18,
+      "out": 11.0,
+      "targetT": 0.06,
+      "targetHeight": 8.8,
+      "status": "approximate northeast viewpoint aimed at the actual north/parking corner, not outside an extrapolated facade"
+    },
+    "mechanicalParking": {
+      "id": "rear-mechanical-parking",
+      "side": "east",
+      "t": 0.9,
+      "out": 0.06,
+      "width": 3.15,
+      "depth": 4.9,
+      "height": 3.4,
+      "baseHeight": 0.1,
+      "openingWidth": 2.48,
+      "openingHeight": 2.36,
+      "source": "User identified mechanical parking and supplied a rear close-up on 2026-10-01 showing no gap: silver frame base directly adjoins the tiled control wall and canopy. Naver 8BC2Bz_xkhUGcJuwm_ghFA 2024-01, uJmB4uG7JLoUGwThaU5Ljw 2025-02 and Kakao rear 2021-07 show the side wall and the metal entry around its corner.",
+      "observedExterior": "One contiguous rear exterior: main wall -> steel-frame bay with silver lower side panel -> tiled control wall with green curved canopy -> metal vehicle entry on the turned east-facing end. No detached enclosure or walkable gap is claimed. Structural/internal connection is unverified.",
+      "dimensionStatus": "v8 corrects the visible no-gap relationship and removes the arbitrary 2.60m setback. Width 3.15m and TOTAL rear projection 4.90m (including the frame bay), height, absolute wall station, door size and tile joints remain unmeasured photo estimates, not surveyed or a 99-percent match.",
+      "interiorStatus": "Closed static exterior only. Concealed parking pallets, lifting machinery, capacity, pit depth and operational state are unverified and not modelled. The adjoining vertical frame has an unknown use; a contiguous exterior does not prove shared machinery or function."
+    },
+    "rearVerticalFrame": {
+      "id": "rear-vertical-frame-unconfirmed-use",
+      "width": 1.06,
+      "depth": 2.2,
+      "height": 17.7,
+      "lowerPanelHeight": 2.6,
+      "beamHeights": [
+        3.45,
+        6.65,
+        9.85,
+        13.05,
+        16.25
+      ],
+      "topCover": {
+        "overhang": 0.13,
+        "height": 0.08,
+        "color": "#d9d5c7"
+      },
+      "attachment": "Inside the southwest portion of mechanicalParking's exterior envelope. Share its south-side plane and main-wall start; silver lower side panel ends exactly where the tiled control wall and canopy begin. No independent t/out offset.",
+      "source": "User rear close-up 2026-10-01 and Naver 8BC2Bz_xkhUGcJuwm_ghFA 2024-01: thicker outer posts/beams surround thin inner vertical members; silver vertically jointed base immediately beside the tiled control wall.",
+      "dimensionStatus": "v13: Naver ONl2w1SAtkhkRqV_XXLeSA 2024-01, upward rotation and zoom on 2026-10-03 show the frame reaching the high north roof. 17.70m plus parking base 0.10m aligns with the existing provisional 17.80m roof, not a measured height. Beam stations, cover, width, projection and lower panels are photo estimates; concealed structure/use remain unknown.",
+      "useStatus": "Unknown, including to user. No invented stair treads, elevator mechanism or emergency-escape function."
+    },
+    "rearEntry": {
+      "id": "observed-rear-glass-entry",
+      "side": "east",
+      "width": 1.35,
+      "openingHeight": 2.4,
+      "depth": 0.45,
+      "jambWidth": 0.055,
+      "frameGap": 0.07,
+      "doorLeaves": 2,
+      "source": "User confirms two door leaves on 2026-10-01. Naver ONl2w1SAtkhkRqV_XXLeSA, captured 2024-01, zoomed view: central meeting seam and a horizontal pull handle on each glass leaf. Grey salon return -> glazed double rear door under a short green canopy -> steel-frame bay with silver side panel and visible barred front -> tiled parking control wall and metal parking entry.",
+      "placement": "Immediately south of the steel-frame bay. Opening, jambs and grey salon return are fitted before the frame's shared south-edge station, never behind the silver panel or parking footprint.",
+      "dimensionStatus": "Two glass door leaves and two pull handles are confirmed; the old single-leaf/fixed-sidelight assumption is discarded. Overall width, height, recess depth, equal model leaf widths, handle, threshold and canopy dimensions are photo estimates, not measured.",
+      "accessStatus": "Closed exterior door and shallow dark recess only. No invented interior, circulation route or playable rear access."
+    },
+    "upperEnvelope": {
+      "id": "wing-upper-envelope",
+      "x": 18.05,
+      "z": -3.9,
+      "width": 24.9,
+      "depth": 17.9,
+      "baseHeight": 10.8,
+      "topHeight": 13.55,
+      "greenBandBottom": 11.25,
+      "greenBandTop": 12.62,
+      "opaqueBaseHeight": 0.45,
+      "opaqueCapHeight": 0.93,
+      "southGreenFraction": 0.49,
+      "source": "Naver south 2025-02 zoom/upward views and rear 2024-01; Kakao side 2021-07. White upper opaque envelope plus green framed glazing are visible, not just a thin canopy.",
+      "dimensionStatus": "separate visible upper envelope restored; height, depth, start and glazing divisions are unmeasured photo-proportion estimates; enclosed use/interior not inferred"
+    },
+    "rearWindows": [
+      {
+        "id": "rear-south-2",
+        "t": 0.25,
+        "y": 5.3,
+        "w": 1.2,
+        "h": 1.47,
+        "panel": {
+          "text": "마음배움",
+          "color": "#dec936",
+          "ink": "#624242",
+          "h": 0.72,
+          "yOffset": 0.25
+        }
+      },
+      {
+        "id": "rear-north-2",
+        "t": 0.61,
+        "y": 5.3,
+        "w": 1.06,
+        "h": 1.38,
+        "panel": {
+          "text": "배움센터",
+          "color": "#dec936",
+          "ink": "#624242",
+          "h": 0.67,
+          "yOffset": 0.25
+        }
+      },
+      {
+        "id": "rear-south-3",
+        "t": 0.25,
+        "y": 8.5,
+        "w": 1.14,
+        "h": 1.45,
+        "panel": {
+          "text": "언어랩",
+          "color": "#e8eeee",
+          "ink": "#43678c",
+          "h": 1.02,
+          "yOffset": 0.07
+        }
+      },
+      {
+        "id": "rear-north-3",
+        "t": 0.61,
+        "y": 8.5,
+        "w": 0.91,
+        "h": 1.4
+      },
+      {
+        "id": "rear-north-4",
+        "t": 0.61,
+        "y": 11.72,
+        "w": 0.92,
+        "h": 1.3,
+        "horizontalBarOffset": 0.13
+      }
+    ],
+    "rearGlazing": {
+      "id": "rear-narrow-glazing-strip",
+      "t": 0.92,
+      "y": 12.2,
+      "w": 0.49,
+      "h": 8.4,
+      "barFractions": [
+        0.14,
+        0.26,
+        0.52,
+        0.64,
+        0.84
+      ]
+    },
+    "rearCornerMarkers": {
+      "side": "east",
+      "t": -0.055,
+      "out": 0.36,
+      "boards": [
+        {
+          "id": "rear-salon-projecting-board",
+          "y": 5.6,
+          "w": 0.78,
+          "h": 3.25,
+          "text": "오늘헤어",
+          "color": "#e5e0ed",
+          "ink": "#555a69"
+        },
+        {
+          "id": "rear-upper-projecting-board",
+          "y": 8.55,
+          "w": 0.78,
+          "h": 2.12,
+          "text": "언어랩",
+          "color": "#c5a764",
+          "ink": "#596582"
+        }
+      ],
+      "pole": {
+        "y": 3.54,
+        "height": 0.62,
+        "radius": 0.15
+      }
+    },
+    "rearDetailEvidence": {
+      "provider": "Naver Roadview",
+      "panoramaId": "ONl2w1SAtkhkRqV_XXLeSA",
+      "capturedAt": "2024-01",
+      "observedOn": "2026-10-03",
+      "url": "https://map.naver.com/p/search/구로 신영상가?p=ONl2w1SAtkhkRqV_XXLeSA,-90,45.51,64.69,Float",
+      "localCapture": "shinyeong-rear-upper-precision-source-202401-20261003.png",
+      "dimensionStatus": "Observed relative arrangement: two left windows, three right windows, high narrow glazing, frame top near roof, projecting signs and cylindrical marker. All stations, widths, bar spacing, heights and cover dimensions remain photo estimates, not a 99-percent survey. Current survival of 2024 signs not independently confirmed."
+    },
+    "boundaryStrips": [
+      {
+        "id": "north-brick-post-boundary",
+        "side": "north",
+        "start": 0.1,
+        "end": 0.96,
+        "out": 1.55,
+        "height": 1.15,
+        "baseY": 0.1,
+        "picketSpacing": 0.18,
+        "postSpacing": 5.3,
+        "bedWidth": 1.05,
+        "postStyle": "brick",
+        "source": "Naver 1vRlA4mkrEPX6H7bw0CYOw 2025-02: black vertical fence and low brick posts in front of the north wall. Extent/stations/heights are unmeasured; visible boundary only, not a new playable collision."
+      },
+      {
+        "id": "south-apartment-ring-boundary",
+        "side": "south",
+        "start": 0.2,
+        "end": 0.96,
+        "out": 9.8,
+        "height": 0.86,
+        "baseY": 0.1,
+        "picketSpacing": 0.43,
+        "postSpacing": 3.3,
+        "bedWidth": 1.3,
+        "postStyle": "metal",
+        "rings": true,
+        "source": "Naver M6GQ1x0DW4L_tHORO-yU6g 2025-02: low black fence with rings belongs to the apartment planting strip across the south lane, NOT on the Shinyeong wall. Stations/depth/extent are unmeasured photo estimates; no new collision."
+      }
+    ],
+    "sideWindowColumns": [
+      7.0,
+      10.3,
+      13.6,
+      16.6,
+      20.0,
+      23.9,
+      27.8,
+      31.7,
+      35.6,
+      40.0
+    ],
+    "southWindows": [
+      {
+        "id": "south-high-2a",
+        "buildingId": "sinyoung",
+        "x": 7.0,
+        "y": 5.35,
+        "w": 2.02,
+        "h": 1.58,
+        "sashOffset": -0.34,
+        "horizontalBarOffset": -0.28,
+        "airConditioner": {
+          "x": 8.1,
+          "y": 4.75
+        }
+      },
+      {
+        "id": "south-high-2b",
+        "buildingId": "sinyoung",
+        "x": 10.3,
+        "y": 5.35,
+        "w": 1.89,
+        "h": 1.55,
+        "sashOffset": 0.27,
+        "horizontalBarOffset": -0.29,
+        "airConditioner": {
+          "x": 11.35,
+          "y": 4.79
+        }
+      },
+      {
+        "id": "south-high-2c",
+        "buildingId": "sinyoung",
+        "x": 13.6,
+        "y": 5.35,
+        "w": 1.76,
+        "h": 1.57,
+        "sashOffset": -0.23,
+        "horizontalBarOffset": -0.29,
+        "airConditioner": {
+          "x": 14.5,
+          "y": 4.83
+        }
+      },
+      {
+        "id": "south-high-2d",
+        "buildingId": "sinyoung",
+        "x": 16.6,
+        "y": 5.38,
+        "w": 1.16,
+        "h": 1.53,
+        "sashOffset": -0.17
+      },
+      {
+        "id": "south-high-3a",
+        "buildingId": "sinyoung",
+        "x": 7.0,
+        "y": 8.5,
+        "w": 2.03,
+        "h": 1.61,
+        "sashOffset": -0.36,
+        "horizontalBarOffset": -0.25
+      },
+      {
+        "id": "south-high-3b",
+        "buildingId": "sinyoung",
+        "x": 10.3,
+        "y": 8.52,
+        "w": 1.82,
+        "h": 1.6,
+        "sashOffset": 0.25,
+        "horizontalBarOffset": -0.31,
+        "airConditioner": {
+          "x": 11.35,
+          "y": 7.48
+        }
+      },
+      {
+        "id": "south-high-3c",
+        "buildingId": "sinyoung",
+        "x": 13.6,
+        "y": 8.52,
+        "w": 1.8,
+        "h": 1.65,
+        "sashOffset": -0.22,
+        "horizontalBarOffset": -0.26
+      },
+      {
+        "id": "south-high-3d",
+        "buildingId": "sinyoung",
+        "x": 16.6,
+        "y": 8.54,
+        "w": 1.21,
+        "h": 1.67,
+        "sashOffset": -0.18
+      },
+      {
+        "id": "south-high-4a",
+        "buildingId": "sinyoung",
+        "x": 7.0,
+        "y": 11.73,
+        "w": 2.08,
+        "h": 1.7,
+        "sashOffset": -0.34,
+        "horizontalBarOffset": -0.28
+      },
+      {
+        "id": "south-high-4b",
+        "buildingId": "sinyoung",
+        "x": 10.3,
+        "y": 11.72,
+        "w": 1.93,
+        "h": 1.63,
+        "sashOffset": 0.31,
+        "horizontalBarOffset": -0.24
+      },
+      {
+        "id": "south-high-4c",
+        "buildingId": "sinyoung",
+        "x": 13.6,
+        "y": 11.72,
+        "w": 1.8,
+        "h": 1.66,
+        "sashOffset": -0.22,
+        "horizontalBarOffset": -0.25
+      },
+      {
+        "id": "south-high-4d",
+        "buildingId": "sinyoung",
+        "x": 16.6,
+        "y": 11.74,
+        "w": 1.19,
+        "h": 1.69,
+        "sashOffset": -0.16
+      },
+      {
+        "id": "south-high-5a",
+        "buildingId": "sinyoung",
+        "x": 7.0,
+        "y": 14.9,
+        "w": 2.0,
+        "h": 1.65,
+        "sashOffset": -0.32,
+        "horizontalBarOffset": -0.25
+      },
+      {
+        "id": "south-high-5b",
+        "buildingId": "sinyoung",
+        "x": 10.3,
+        "y": 14.9,
+        "w": 1.94,
+        "h": 1.66,
+        "sashOffset": 0.3,
+        "horizontalBarOffset": -0.25
+      },
+      {
+        "id": "south-high-5c",
+        "buildingId": "sinyoung",
+        "x": 13.6,
+        "y": 14.9,
+        "w": 1.77,
+        "h": 1.66,
+        "sashOffset": -0.24,
+        "horizontalBarOffset": -0.25
+      },
+      {
+        "id": "south-high-5d",
+        "buildingId": "sinyoung",
+        "x": 16.6,
+        "y": 14.9,
+        "w": 1.21,
+        "h": 1.66,
+        "sashOffset": -0.18
+      },
+      {
+        "id": "south-wing-2a",
+        "buildingId": "sinyoung-wing",
+        "x": 20.0,
+        "y": 5.35,
+        "w": 1.57,
+        "h": 1.6,
+        "sashOffset": -0.23,
+        "horizontalBarOffset": -0.3
+      },
+      {
+        "id": "south-wing-2b",
+        "buildingId": "sinyoung-wing",
+        "x": 23.9,
+        "y": 5.35,
+        "w": 1.52,
+        "h": 1.58,
+        "sashOffset": -0.21,
+        "horizontalBarOffset": -0.3
+      },
+      {
+        "id": "south-wing-2c",
+        "buildingId": "sinyoung-wing",
+        "x": 27.8,
+        "y": 5.35,
+        "w": 1.64,
+        "h": 1.62,
+        "horizontalBarOffset": -0.36,
+        "panel": {
+          "text": "마음배움",
+          "color": "#e5ca2b",
+          "ink": "#554541",
+          "h": 0.79,
+          "yOffset": 0.27
+        }
+      },
+      {
+        "id": "south-wing-2d",
+        "buildingId": "sinyoung-wing",
+        "x": 31.7,
+        "y": 5.35,
+        "w": 1.61,
+        "h": 1.62,
+        "horizontalBarOffset": -0.36,
+        "panel": {
+          "text": "배움센터",
+          "color": "#e5ca2b",
+          "ink": "#554541",
+          "h": 0.79,
+          "yOffset": 0.27
+        }
+      },
+      {
+        "id": "south-wing-2e",
+        "buildingId": "sinyoung-wing",
+        "x": 35.6,
+        "y": 5.35,
+        "w": 1.65,
+        "h": 1.62,
+        "horizontalBarOffset": -0.36,
+        "panel": {
+          "text": "마음배움",
+          "color": "#e5ca2b",
+          "ink": "#554541",
+          "h": 0.79,
+          "yOffset": 0.27
+        }
+      },
+      {
+        "id": "south-wing-2f",
+        "buildingId": "sinyoung-wing",
+        "x": 40.0,
+        "y": 5.35,
+        "w": 1.72,
+        "h": 1.62,
+        "horizontalBarOffset": -0.36,
+        "panel": {
+          "text": "배움센터",
+          "color": "#e5ca2b",
+          "ink": "#554541",
+          "h": 0.79,
+          "yOffset": 0.27
+        }
+      },
+      {
+        "id": "south-wing-3a",
+        "buildingId": "sinyoung-wing",
+        "x": 20.0,
+        "y": 8.59,
+        "w": 1.57,
+        "h": 1.58,
+        "sashOffset": -0.2,
+        "horizontalBarOffset": -0.29,
+        "airConditioner": {
+          "x": 20.9,
+          "y": 7.7,
+          "w": 0.82,
+          "h": 1.36,
+          "d": 0.62,
+          "fanRows": [
+            -0.34,
+            0.34
+          ],
+          "pipePoints": [
+            [
+              21.31,
+              7.84,
+              14.68
+            ],
+            [
+              21.55,
+              7.84,
+              14.31
+            ],
+            [
+              21.55,
+              8.27,
+              14.31
+            ]
+          ],
+          "source": "Two vertically stacked fans visible in Kakao 2021-07 south-junction and Naver 2025-02 south survey. Dimensions and short visible pipe path are estimates; no hidden plant or plumbing inferred."
+        }
+      },
+      {
+        "id": "south-wing-3b",
+        "buildingId": "sinyoung-wing",
+        "x": 23.9,
+        "y": 8.63,
+        "w": 1.51,
+        "h": 1.56,
+        "sashOffset": -0.2,
+        "horizontalBarOffset": -0.3
+      },
+      {
+        "id": "south-wing-3c",
+        "buildingId": "sinyoung-wing",
+        "x": 27.8,
+        "y": 8.7,
+        "w": 1.69,
+        "h": 1.57,
+        "horizontalBarOffset": -0.4,
+        "panel": {
+          "text": "과학랩",
+          "color": "#e8eeea",
+          "ink": "#4b8b95",
+          "h": 0.83,
+          "yOffset": 0.12
+        }
+      },
+      {
+        "id": "south-wing-3d",
+        "buildingId": "sinyoung-wing",
+        "x": 31.7,
+        "y": 8.7,
+        "w": 1.65,
+        "h": 1.57,
+        "horizontalBarOffset": -0.4,
+        "panel": {
+          "text": "창의랩",
+          "color": "#e8eeea",
+          "ink": "#4b8b95",
+          "h": 0.83,
+          "yOffset": 0.12
+        }
+      },
+      {
+        "id": "south-wing-3e",
+        "buildingId": "sinyoung-wing",
+        "x": 35.6,
+        "y": 8.7,
+        "w": 1.66,
+        "h": 1.57,
+        "horizontalBarOffset": -0.4,
+        "panel": {
+          "text": "과학랩",
+          "color": "#e8eeea",
+          "ink": "#4b8b95",
+          "h": 0.83,
+          "yOffset": 0.12
+        }
+      },
+      {
+        "id": "south-wing-3f",
+        "buildingId": "sinyoung-wing",
+        "x": 40.0,
+        "y": 8.7,
+        "w": 1.71,
+        "h": 1.57,
+        "horizontalBarOffset": -0.4,
+        "panel": {
+          "text": "창의랩",
+          "color": "#e8eeea",
+          "ink": "#4b8b95",
+          "h": 0.83,
+          "yOffset": 0.12
+        }
+      }
+    ],
+    "frontWindowSlots": [
+      {
+        "u": -6.15,
+        "y": 10.15,
+        "w": 1.15,
+        "h": 2.1
+      },
+      {
+        "u": -4.95,
+        "y": 11.65,
+        "w": 1.55,
+        "h": 1.05
+      },
+      {
+        "u": -1.95,
+        "y": 9.35,
+        "w": 1.0,
+        "h": 1.65
+      },
+      {
+        "u": 1.25,
+        "y": 6.15,
+        "w": 1.0,
+        "h": 2.5
+      }
+    ],
+    "frontPanels": [
+      {
+        "id": "f01",
+        "u": -7.3,
+        "y": 14.55,
+        "w": 2.3,
+        "h": 2.35,
+        "text": "구일놀이",
+        "color": "#d0b32c",
+        "style": "poster",
+        "depth": 0.19
+      },
+      {
+        "id": "f02",
+        "u": -4.5,
+        "y": 14.05,
+        "w": 3.1,
+        "h": 0.7,
+        "text": "이웃 배움터",
+        "color": "#285a8d",
+        "depth": 0.12
+      },
+      {
+        "id": "f03",
+        "u": -5.1,
+        "y": 12.55,
+        "w": 6.75,
+        "h": 1.6,
+        "text": "동네가정의원",
+        "color": "#286747",
+        "depth": 0.22
+      },
+      {
+        "id": "f04",
+        "u": -6.2,
+        "y": 11.3,
+        "w": 4.1,
+        "h": 0.65,
+        "text": "구일 생활연구실",
+        "color": "#ebe6e7",
+        "ink": "#295b9a",
+        "depth": 0.12
+      },
+      {
+        "id": "f05",
+        "u": -0.35,
+        "y": 11.05,
+        "w": 1.75,
+        "h": 7.0,
+        "text": "바디핏스튜디오",
+        "color": "#eeece9",
+        "vertical": true,
+        "ink": "#202938",
+        "depth": 0.25
+      },
+      {
+        "id": "f06",
+        "u": 4.05,
+        "y": 13.25,
+        "w": 6.95,
+        "h": 2.8,
+        "text": "내일 배움교실",
+        "color": "#c82e4d",
+        "style": "banner",
+        "depth": 0.23
+      },
+      {
+        "id": "f07",
+        "u": 4.75,
+        "y": 10.5,
+        "w": 3.65,
+        "h": 2.2,
+        "text": "모모상점",
+        "color": "#e3e4e0",
+        "ink": "#3d685a",
+        "depth": 0.19
+      },
+      {
+        "id": "f08",
+        "u": 4.75,
+        "y": 8.7,
+        "w": 3.65,
+        "h": 1.0,
+        "text": "생활건강",
+        "color": "#427a58",
+        "depth": 0.13
+      },
+      {
+        "id": "f09",
+        "u": 4.75,
+        "y": 7.35,
+        "w": 3.65,
+        "h": 1.0,
+        "text": "미소치과",
+        "color": "#3199b8",
+        "depth": 0.16
+      },
+      {
+        "id": "f10",
+        "u": 8.15,
+        "y": 11.95,
+        "w": 1.1,
+        "h": 6.45,
+        "text": "이웃모임공간",
+        "color": "#65518c",
+        "vertical": true,
+        "depth": 0.24
+      },
+      {
+        "id": "f11",
+        "u": 8.15,
+        "y": 6.85,
+        "w": 1.1,
+        "h": 3.35,
+        "text": "온기음악",
+        "color": "#795685",
+        "vertical": true,
+        "depth": 0.2
+      },
+      {
+        "id": "f12",
+        "u": 6.98,
+        "y": 9.1,
+        "w": 0.65,
+        "h": 4.25,
+        "text": "건강",
+        "color": "#edc733",
+        "vertical": true,
+        "depth": 0.13
+      },
+      {
+        "id": "f13",
+        "u": 1.37,
+        "y": 7.05,
+        "w": 0.95,
+        "h": 3.15,
+        "text": "이웃약국",
+        "color": "#346e87",
+        "vertical": true,
+        "style": "cross",
+        "depth": 0.19
+      },
+      {
+        "id": "f14",
+        "u": -3.43,
+        "y": 9.0,
+        "w": 1.05,
+        "h": 5.25,
+        "text": "미소치과",
+        "color": "#237cab",
+        "vertical": true,
+        "depth": 0.18
+      },
+      {
+        "id": "f15",
+        "u": -5.02,
+        "y": 10.0,
+        "w": 1.5,
+        "h": 1.9,
+        "text": "손끝공방",
+        "color": "#e8cc31",
+        "style": "poster",
+        "depth": 0.17
+      },
+      {
+        "id": "f16",
+        "u": -7.6,
+        "y": 8.1,
+        "w": 1.45,
+        "h": 5.1,
+        "text": "온기음악",
+        "color": "#394a8b",
+        "vertical": true,
+        "depth": 0.19
+      },
+      {
+        "id": "f17",
+        "u": -5.05,
+        "y": 4.35,
+        "w": 7.1,
+        "h": 0.7,
+        "text": "구일 언어연구실",
+        "color": "#ecebe6",
+        "ink": "#333e45",
+        "depth": 0.24
+      },
+      {
+        "id": "f18",
+        "u": 4.45,
+        "y": 4.45,
+        "w": 7.5,
+        "h": 0.7,
+        "text": "구일 이비인후과",
+        "color": "#167e9b",
+        "style": "cross",
+        "depth": 0.24
+      },
+      {
+        "id": "f19",
+        "u": -0.15,
+        "y": 16.15,
+        "w": 13.8,
+        "h": 0.65,
+        "text": "구일 배움 · 생활 문화센터",
+        "color": "#d7d6c9",
+        "ink": "#263e42",
+        "style": "letters",
+        "depth": 0.11
+      },
+      {
+        "id": "f20",
+        "u": -6.15,
+        "y": 7.55,
+        "w": 0.65,
+        "h": 2.9,
+        "text": "치과",
+        "color": "#398cca",
+        "vertical": true,
+        "depth": 0.12
+      },
+      {
+        "id": "f21",
+        "u": -5.02,
+        "y": 7.37,
+        "w": 1.5,
+        "h": 3.2,
+        "text": "이지수학",
+        "color": "#2c3884",
+        "vertical": true,
+        "depth": 0.13
+      },
+      {
+        "id": "f22",
+        "u": -5.02,
+        "y": 5.32,
+        "w": 1.5,
+        "h": 0.8,
+        "text": "수학랩",
+        "color": "#eea3b5",
+        "ink": "#53343e",
+        "depth": 0.13
+      },
+      {
+        "id": "f23",
+        "u": -3.43,
+        "y": 5.77,
+        "w": 1.05,
+        "h": 0.9,
+        "text": "건강관리",
+        "color": "#e5e3d9",
+        "ink": "#536469",
+        "depth": 0.13
+      },
+      {
+        "id": "f24",
+        "u": -3.43,
+        "y": 5.0,
+        "w": 1.05,
+        "h": 0.5,
+        "text": "언어랩",
+        "color": "#444269",
+        "depth": 0.13
+      },
+      {
+        "id": "f25",
+        "u": -1.93,
+        "y": 11.03,
+        "w": 1.18,
+        "h": 1.35,
+        "text": "과학랩",
+        "color": "#ebece5",
+        "ink": "#557382",
+        "depth": 0.13
+      },
+      {
+        "id": "f26",
+        "u": -1.93,
+        "y": 7.62,
+        "w": 1.18,
+        "h": 1.5,
+        "text": "마음배움",
+        "color": "#deddd9",
+        "ink": "#34495b",
+        "style": "poster",
+        "depth": 0.12
+      },
+      {
+        "id": "f27",
+        "u": -1.93,
+        "y": 6.25,
+        "w": 1.18,
+        "h": 0.7,
+        "text": "이지수학",
+        "color": "#2353a1",
+        "depth": 0.14
+      },
+      {
+        "id": "f28",
+        "u": -1.93,
+        "y": 5.38,
+        "w": 1.18,
+        "h": 0.55,
+        "text": "배움센터",
+        "color": "#315787",
+        "depth": 0.13
+      },
+      {
+        "id": "f29",
+        "u": -0.35,
+        "y": 6.72,
+        "w": 1.75,
+        "h": 1.55,
+        "text": "스피치랩",
+        "color": "#de4586",
+        "style": "poster",
+        "depth": 0.19
+      },
+      {
+        "id": "f30",
+        "u": -0.35,
+        "y": 5.62,
+        "w": 1.75,
+        "h": 0.5,
+        "text": "골목분식",
+        "color": "#a34247",
+        "depth": 0.13
+      },
+      {
+        "id": "f31",
+        "u": -0.35,
+        "y": 5.02,
+        "w": 1.75,
+        "h": 0.6,
+        "text": "키친랩",
+        "color": "#e4ddd3",
+        "ink": "#98574f",
+        "depth": 0.14
+      },
+      {
+        "id": "f32",
+        "u": 1.37,
+        "y": 11.17,
+        "w": 0.8,
+        "h": 1.1,
+        "text": "이지",
+        "color": "#3578ae",
+        "vertical": true,
+        "depth": 0.14
+      },
+      {
+        "id": "f33",
+        "u": 1.37,
+        "y": 9.675,
+        "w": 0.8,
+        "h": 1.7,
+        "text": "수학랩",
+        "color": "#3f70b4",
+        "vertical": true,
+        "depth": 0.16
+      },
+      {
+        "id": "f34",
+        "u": 2.35,
+        "y": 10.4,
+        "w": 0.67,
+        "h": 2.2,
+        "text": "소통랩",
+        "color": "#ebca32",
+        "style": "poster",
+        "depth": 0.13
+      },
+      {
+        "id": "f35",
+        "u": 2.35,
+        "y": 8.45,
+        "w": 0.67,
+        "h": 1.5,
+        "text": "배움",
+        "color": "#e5c72e",
+        "vertical": true,
+        "depth": 0.13
+      },
+      {
+        "id": "f36",
+        "u": 2.35,
+        "y": 6.87,
+        "w": 0.67,
+        "h": 1.15,
+        "text": "내일",
+        "color": "#3b8d87",
+        "vertical": true,
+        "depth": 0.13
+      },
+      {
+        "id": "f37",
+        "u": 4.75,
+        "y": 6.28,
+        "w": 3.65,
+        "h": 0.85,
+        "text": "생활건강",
+        "color": "#3f816d",
+        "depth": 0.14
+      },
+      {
+        "id": "f38",
+        "u": 4.05,
+        "y": 15.05,
+        "w": 6.95,
+        "h": 0.55,
+        "text": "창의학습 · 미래연구",
+        "color": "#514b48",
+        "ink": "#e7c44d",
+        "depth": 0.15
+      }
+    ],
+    "cornerBlades": [
+      {
+        "id": "b01",
+        "y": 15.0,
+        "h": 3.0,
+        "text": "이웃의원",
+        "color": "#477e8d"
+      },
+      {
+        "id": "b02",
+        "y": 11.85,
+        "h": 2.5,
+        "text": "생활연구",
+        "color": "#c6a644"
+      },
+      {
+        "id": "b03",
+        "y": 8.75,
+        "h": 3.1,
+        "text": "미소치과",
+        "color": "#5397a5"
+      },
+      {
+        "id": "b04",
+        "y": 6.35,
+        "h": 1.2,
+        "text": "마을상점",
+        "color": "#c5b3ae"
+      }
+    ]
+  },
+  "terminal": {
+    "id": "daily-terminal",
+    "name": "구일생활 배송함",
+    "x": 31.65,
+    "z": 16.1,
+    "radius": 2.1
+  },
+  "landmarks": [],
+  "renderFutureDevices": false
+}

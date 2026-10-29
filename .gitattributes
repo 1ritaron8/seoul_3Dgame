@@ -1,6 +1,8 @@
-# Source SHA is used to match map data and embedded block observations across PCs.
-docs/guro1_plan_2d.geojson text eol=lf
-# Generator hashes must match the checked-out bytes on both Windows PCs.
-*.mjs text eol=lf
+# Keep source coordinate data byte-consistent across Windows PCs.
+*.geojson text eol=lf
 *.json text eol=lf
+*.fbx binary
+*.blend binary
 *.glb binary
+*.uasset binary
+*.umap binary
