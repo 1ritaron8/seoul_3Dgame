@@ -1,4 +1,4 @@
-# Unreal Engine: keep project, Config, Content and Source; ignore generated files.
+# Unreal Engine generated data: retain .uproject, Config, Content and Source.
 Binaries/
 DerivedDataCache/
 Intermediate/
@@ -12,7 +12,7 @@ Saved/
 *.log
 *.blend1
 
-# Local dependencies, backups, credentials and obsolete web prototype.
+# Local dependencies and private credentials.
 node_modules/
 .npm-cache/
 __pycache__/
@@ -23,22 +23,14 @@ __pycache__/
 *.pem
 *.key
 work/
-/prototype/
-/tests/*.mjs
-/tools/*.mjs
-/tools/build_guil_ue_map_reference.py
-/tools/prepare_shinyeong_for_unreal.py
-/web/
-/package.json
-/package-lock.json
-/server.mjs
 
-# Keep only the two checked UE5 transfer packages in the repository.
+# Only the current UE transfer and street-draft outputs are shared.
 /exports/*
-!/exports/shinyeong-ue5-transfer/
 !/exports/guil-map-ue5-transfer/
+!/exports/shinyeong-ue5-transfer/
+!/exports/guil-street-ue5/
 
-# Existing local-only research, raw survey and superseded images.
+# Original local-only survey and photo evidence, not part of the Git transfer.
 /docs/reference/2050_신영상가_제작설계.md
 /docs/reference/구로1동_3인칭_거리_시안.png
 /docs/reference/guil_curb_reviews.json
@@ -49,11 +41,7 @@ work/
 /docs/reference/guil_pilot_site_evidence.json
 /docs/reference/guil_road_cross_profile_candidates.json
 /docs/reference/road-width-evidence/
-/docs/guil_2050_plan.json
-/docs/guil_2050_pilot3d.json
 /docs/guil_road_widths.json
-/docs/구일_2050_계획도.svg
-/docs/구일_2050_제작계획.md
 
 .DS_Store
 Thumbs.db

@@ -1,0 +1,16 @@
+{
+  "street_meshes": 3,
+  "grouped_building_meshes": 6,
+  "material_slots": [
+    48,
+    48,
+    48,
+    48,
+    48,
+    47
+  ],
+  "below_grade_vertices_in_opening": 768,
+  "shared_axes_verified_in_blender": true,
+  "grouped_fbx_sha256": "d5947ab15be1273a4bcf9c6603ce726be453ea8b90fdbbce8c5f1eb1c3e564c5",
+  "limitations": "Unreal import, collision, materials and FPS untested"
+}

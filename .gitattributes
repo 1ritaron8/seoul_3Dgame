@@ -3,6 +3,6 @@
 *.json text eol=lf
 *.fbx binary
 *.blend binary
-*.glb binary
+*.png binary
 *.uasset binary
 *.umap binary

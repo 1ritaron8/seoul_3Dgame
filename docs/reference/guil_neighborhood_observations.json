@@ -1,0 +1,4078 @@
+{
+  "schema": "korea2050.shinyeong-neighborhood-preview.v1",
+  "sourcePlanSha256": "f4081a9a33fa0f622ce7174fce5f2a3381291c5fba8d5c152a9e609f87ad7f43",
+  "originLocalM": [
+    748.2076500000001,
+    763.5115000000001
+  ],
+  "bounds": {
+    "minX": -150,
+    "maxX": 150,
+    "minZ": -150,
+    "maxZ": 150
+  },
+  "coordinateConvention": "x=east-originE,z=-(north-originN),y=preview height; yaw0=north(-z), forward=(-sin(yaw),-cos(yaw))",
+  "geometryAndHeightLimit": "Only Shinyeong preview footprint adjusted from rounded map-UI roof lines; source snapshots and other building polygons preserved. Roof edges are not ground wall surveys. All heights, widths, terrain and access remain unverified estimates.",
+  "buildings": [
+    {
+      "id": "way/252997588",
+      "name": "112",
+      "source": {
+        "url": "https://www.openstreetmap.org/way/252997588",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "polygons": [
+        [
+          [
+            [
+              -156.10885000000007,
+              -27.647399999999948
+            ],
+            [
+              -155.2776500000001,
+              -7.8361999999999625
+            ],
+            [
+              -171.80585000000008,
+              -7.148099999999886
+            ],
+            [
+              -171.3283500000001,
+              4.217000000000098
+            ],
+            [
+              -142.42815000000007,
+              3.0183000000000675
+            ],
+            [
+              -143.72815000000003,
+              -28.157899999999927
+            ],
+            [
+              -156.10885000000007,
+              -27.647399999999948
+            ]
+          ]
+        ]
+      ],
+      "height": 36,
+      "heightStatus": "source_levels_times_preview_3m_unverified_estimate",
+      "heightEvidence": {
+        "levelsTag": "12",
+        "metresPerLevel": 3,
+        "basis": "Unverified source floor count × temporary preview storey height",
+        "source": {
+          "url": "https://www.openstreetmap.org/way/252997588",
+          "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        }
+      },
+      "floors": 12,
+      "floorsStatus": "source_tag_unverified",
+      "kind": "apartments",
+      "originalFootprintPreserved": true
+    },
+    {
+      "id": "way/252997589",
+      "name": "113",
+      "source": {
+        "url": "https://www.openstreetmap.org/way/252997589",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "polygons": [
+        [
+          [
+            [
+              -140.26155000000006,
+              9.067100000000096
+            ],
+            [
+              -139.69555000000003,
+              24.805000000000064
+            ],
+            [
+              -68.17925000000002,
+              22.252300000000105
+            ],
+            [
+              -68.74525000000006,
+              6.514400000000023
+            ],
+            [
+              -140.26155000000006,
+              9.067100000000096
+            ]
+          ]
+        ]
+      ],
+      "height": 36,
+      "heightStatus": "source_levels_times_preview_3m_unverified_estimate",
+      "heightEvidence": {
+        "levelsTag": "12",
+        "metresPerLevel": 3,
+        "basis": "Unverified source floor count × temporary preview storey height",
+        "source": {
+          "url": "https://www.openstreetmap.org/way/252997589",
+          "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        }
+      },
+      "floors": 12,
+      "floorsStatus": "source_tag_unverified",
+      "kind": "apartments",
+      "originalFootprintPreserved": true
+    },
+    {
+      "id": "way/252997590",
+      "name": "118",
+      "source": {
+        "url": "https://www.openstreetmap.org/way/252997590",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "polygons": [
+        [
+          [
+            [
+              -103.79155000000003,
+              71.95220000000006
+            ],
+            [
+              -103.41125000000011,
+              84.42720000000008
+            ],
+            [
+              -36.65265000000011,
+              82.37390000000005
+            ],
+            [
+              -37.04175000000009,
+              69.89900000000011
+            ],
+            [
+              -103.79155000000003,
+              71.95220000000006
+            ]
+          ]
+        ]
+      ],
+      "height": 45,
+      "heightStatus": "source_levels_times_preview_3m_unverified_estimate",
+      "heightEvidence": {
+        "levelsTag": "15",
+        "metresPerLevel": 3,
+        "basis": "Unverified source floor count × temporary preview storey height",
+        "source": {
+          "url": "https://www.openstreetmap.org/way/252997590",
+          "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        }
+      },
+      "floors": 15,
+      "floorsStatus": "source_tag_unverified",
+      "kind": "apartments",
+      "originalFootprintPreserved": true
+    },
+    {
+      "id": "way/252997591",
+      "name": "117",
+      "source": {
+        "url": "https://www.openstreetmap.org/way/252997591",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "polygons": [
+        [
+          [
+            [
+              -14.031350000000089,
+              73.9833000000001
+            ],
+            [
+              -13.757250000000113,
+              86.0476000000001
+            ],
+            [
+              47.13824999999997,
+              84.69350000000009
+            ],
+            [
+              46.872949999999946,
+              72.62930000000006
+            ],
+            [
+              -14.031350000000089,
+              73.9833000000001
+            ]
+          ]
+        ]
+      ],
+      "height": 36,
+      "heightStatus": "source_levels_times_preview_3m_unverified_estimate",
+      "heightEvidence": {
+        "levelsTag": "12",
+        "metresPerLevel": 3,
+        "basis": "Unverified source floor count × temporary preview storey height",
+        "source": {
+          "url": "https://www.openstreetmap.org/way/252997591",
+          "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        }
+      },
+      "floors": 12,
+      "floorsStatus": "source_tag_unverified",
+      "kind": "apartments",
+      "originalFootprintPreserved": true
+    },
+    {
+      "id": "way/252997592",
+      "name": "116",
+      "source": {
+        "url": "https://www.openstreetmap.org/way/252997592",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "polygons": [
+        [
+          [
+            [
+              54.380949999999984,
+              72.37400000000002
+            ],
+            [
+              54.619749999999954,
+              83.90550000000007
+            ],
+            [
+              115.10834999999997,
+              82.65140000000008
+            ],
+            [
+              114.86954999999989,
+              71.11980000000005
+            ],
+            [
+              54.380949999999984,
+              72.37400000000002
+            ]
+          ]
+        ]
+      ],
+      "height": 36,
+      "heightStatus": "source_levels_times_preview_3m_unverified_estimate",
+      "heightEvidence": {
+        "levelsTag": "12",
+        "metresPerLevel": 3,
+        "basis": "Unverified source floor count × temporary preview storey height",
+        "source": {
+          "url": "https://www.openstreetmap.org/way/252997592",
+          "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        }
+      },
+      "floors": 12,
+      "floorsStatus": "source_tag_unverified",
+      "kind": "apartments",
+      "originalFootprintPreserved": true
+    },
+    {
+      "id": "way/252997593",
+      "name": "208",
+      "source": {
+        "url": "https://www.openstreetmap.org/way/252997593",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "polygons": [
+        [
+          [
+            [
+              -22.83935000000008,
+              112.97300000000007
+            ],
+            [
+              -22.24685000000011,
+              129.52110000000005
+            ],
+            [
+              -51.03195000000005,
+              130.53110000000004
+            ],
+            [
+              -50.54565000000002,
+              144.17140000000006
+            ],
+            [
+              -18.532650000000103,
+              143.03930000000003
+            ],
+            [
+              -18.797950000000014,
+              135.47000000000003
+            ],
+            [
+              -9.538950000000114,
+              135.1482000000001
+            ],
+            [
+              -10.343650000000025,
+              112.52910000000008
+            ],
+            [
+              -22.83935000000008,
+              112.97300000000007
+            ]
+          ]
+        ]
+      ],
+      "height": 57,
+      "heightStatus": "source_height_tag_unverified_estimate",
+      "heightEvidence": {
+        "heightTag": "57",
+        "source": {
+          "url": "https://www.openstreetmap.org/way/252997593",
+          "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        }
+      },
+      "floors": 20,
+      "floorsStatus": "source_tag_unverified",
+      "kind": "apartments",
+      "originalFootprintPreserved": true
+    },
+    {
+      "id": "way/252997594",
+      "name": "209",
+      "source": {
+        "url": "https://www.openstreetmap.org/way/252997594",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "polygons": [
+        [
+          [
+            [
+              34.90784999999994,
+              109.68780000000004
+            ],
+            [
+              35.54454999999996,
+              131.19700000000012
+            ],
+            [
+              7.50224999999989,
+              132.01830000000007
+            ],
+            [
+              7.838249999999903,
+              143.4833000000001
+            ],
+            [
+              37.22484999999995,
+              142.61760000000004
+            ],
+            [
+              36.950649999999996,
+              133.41680000000008
+            ],
+            [
+              48.05794999999989,
+              133.0838000000001
+            ],
+            [
+              47.35044999999991,
+              109.32150000000001
+            ],
+            [
+              34.90784999999994,
+              109.68780000000004
+            ]
+          ]
+        ]
+      ],
+      "height": 57,
+      "heightStatus": "source_height_tag_unverified_estimate",
+      "heightEvidence": {
+        "heightTag": "57",
+        "source": {
+          "url": "https://www.openstreetmap.org/way/252997594",
+          "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        }
+      },
+      "floors": 20,
+      "floorsStatus": "source_tag_unverified",
+      "kind": "apartments",
+      "originalFootprintPreserved": true
+    },
+    {
+      "id": "way/252997595",
+      "name": "210",
+      "source": {
+        "url": "https://www.openstreetmap.org/way/252997595",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "polygons": [
+        [
+          [
+            [
+              91.2843499999999,
+              111.29710000000011
+            ],
+            [
+              92.13324999999998,
+              129.97620000000006
+            ],
+            [
+              70.44934999999998,
+              130.9529000000001
+            ],
+            [
+              70.97994999999992,
+              142.73970000000008
+            ],
+            [
+              94.06994999999995,
+              141.7075000000001
+            ],
+            [
+              93.65434999999991,
+              132.65100000000007
+            ],
+            [
+              104.37244999999996,
+              132.1626000000001
+            ],
+            [
+              103.40854999999999,
+              110.75330000000008
+            ],
+            [
+              91.2843499999999,
+              111.29710000000011
+            ]
+          ]
+        ]
+      ],
+      "height": 57,
+      "heightStatus": "source_height_tag_unverified_estimate",
+      "heightEvidence": {
+        "heightTag": "57",
+        "source": {
+          "url": "https://www.openstreetmap.org/way/252997595",
+          "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        }
+      },
+      "floors": 20,
+      "floorsStatus": "source_tag_unverified",
+      "kind": "apartments",
+      "originalFootprintPreserved": true
+    },
+    {
+      "id": "way/252997596",
+      "name": "114",
+      "source": {
+        "url": "https://www.openstreetmap.org/way/252997596",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "polygons": [
+        [
+          [
+            [
+              2.5234499999999116,
+              30.887100000000032
+            ],
+            [
+              2.8329499999999825,
+              42.729400000000055
+            ],
+            [
+              60.4297499999999,
+              41.47530000000006
+            ],
+            [
+              60.11144999999999,
+              29.943700000000035
+            ],
+            [
+              2.5234499999999116,
+              30.887100000000032
+            ]
+          ]
+        ]
+      ],
+      "height": 36,
+      "heightStatus": "source_levels_times_preview_3m_unverified_estimate",
+      "heightEvidence": {
+        "levelsTag": "12",
+        "metresPerLevel": 3,
+        "basis": "Unverified source floor count × temporary preview storey height",
+        "source": {
+          "url": "https://www.openstreetmap.org/way/252997596",
+          "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        }
+      },
+      "floors": 12,
+      "floorsStatus": "source_tag_unverified",
+      "kind": "apartments",
+      "originalFootprintPreserved": true
+    },
+    {
+      "id": "way/252997597",
+      "name": "115",
+      "source": {
+        "url": "https://www.openstreetmap.org/way/252997597",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "polygons": [
+        [
+          [
+            [
+              65.11674999999991,
+              13.118100000000027
+            ],
+            [
+              64.80724999999995,
+              25.27120000000002
+            ],
+            [
+              140.24114999999995,
+              22.774000000000115
+            ],
+            [
+              139.61334999999997,
+              10.931700000000092
+            ],
+            [
+              65.11674999999991,
+              13.118100000000027
+            ]
+          ]
+        ]
+      ],
+      "height": 36,
+      "heightStatus": "source_levels_times_preview_3m_unverified_estimate",
+      "heightEvidence": {
+        "levelsTag": "12",
+        "metresPerLevel": 3,
+        "basis": "Unverified source floor count × temporary preview storey height",
+        "source": {
+          "url": "https://www.openstreetmap.org/way/252997597",
+          "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        }
+      },
+      "floors": 12,
+      "floorsStatus": "source_tag_unverified",
+      "kind": "apartments",
+      "originalFootprintPreserved": true
+    },
+    {
+      "id": "way/252997598",
+      "name": "205",
+      "source": {
+        "url": "https://www.openstreetmap.org/way/252997598",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "polygons": [
+        [
+          [
+            [
+              1.5064499999999725,
+              -46.17109999999991
+            ],
+            [
+              1.9663499999999203,
+              -34.32879999999989
+            ],
+            [
+              62.693649999999934,
+              -36.68169999999998
+            ],
+            [
+              62.23384999999996,
+              -48.512899999999945
+            ],
+            [
+              1.5064499999999725,
+              -46.17109999999991
+            ]
+          ]
+        ]
+      ],
+      "height": 45,
+      "heightStatus": "source_levels_times_preview_3m_unverified_estimate",
+      "heightEvidence": {
+        "levelsTag": "15",
+        "metresPerLevel": 3,
+        "basis": "Unverified source floor count × temporary preview storey height",
+        "source": {
+          "url": "https://www.openstreetmap.org/way/252997598",
+          "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        }
+      },
+      "floors": 15,
+      "floorsStatus": "source_tag_unverified",
+      "kind": "apartments",
+      "originalFootprintPreserved": true
+    },
+    {
+      "id": "way/252997599",
+      "name": "206",
+      "source": {
+        "url": "https://www.openstreetmap.org/way/252997599",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "polygons": [
+        [
+          [
+            [
+              125.62304999999992,
+              -83.40719999999988
+            ],
+            [
+              127.17064999999991,
+              -50.75479999999993
+            ],
+            [
+              67.69024999999999,
+              -47.946899999999914
+            ],
+            [
+              68.20314999999994,
+              -37.00359999999989
+            ],
+            [
+              141.57655,
+              -40.46639999999991
+            ],
+            [
+              139.5071499999999,
+              -84.0619999999999
+            ],
+            [
+              125.62304999999992,
+              -83.40719999999988
+            ]
+          ]
+        ]
+      ],
+      "height": 45,
+      "heightStatus": "source_levels_times_preview_3m_unverified_estimate",
+      "heightEvidence": {
+        "levelsTag": "15",
+        "metresPerLevel": 3,
+        "basis": "Unverified source floor count × temporary preview storey height",
+        "source": {
+          "url": "https://www.openstreetmap.org/way/252997599",
+          "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        }
+      },
+      "floors": 15,
+      "floorsStatus": "source_tag_unverified",
+      "kind": "apartments",
+      "originalFootprintPreserved": true
+    },
+    {
+      "id": "way/252997604",
+      "name": null,
+      "source": {
+        "url": "https://www.openstreetmap.org/way/252997604",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "polygons": [
+        [
+          [
+            [
+              0.4894499999999198,
+              -72.15309999999988
+            ],
+            [
+              0.8255499999999074,
+              -60.94339999999988
+            ],
+            [
+              109.57234999999991,
+              -64.19539999999995
+            ],
+            [
+              109.2363499999999,
+              -75.39389999999992
+            ],
+            [
+              0.4894499999999198,
+              -72.15309999999988
+            ]
+          ]
+        ]
+      ],
+      "height": 24,
+      "heightStatus": "temporary_preview_massing_not_actual_height",
+      "heightEvidence": {
+        "basis": "No verified height; temporary massing for a planar-layout demo"
+      },
+      "floors": null,
+      "floorsStatus": "unverified",
+      "kind": "apartments",
+      "originalFootprintPreserved": true
+    },
+    {
+      "id": "way/252997605",
+      "name": "203",
+      "source": {
+        "url": "https://www.openstreetmap.org/way/252997605",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "polygons": [
+        [
+          [
+            [
+              -18.93945000000008,
+              -103.27379999999994
+            ],
+            [
+              -18.453050000000076,
+              -89.40049999999997
+            ],
+            [
+              44.46754999999996,
+              -91.59799999999996
+            ],
+            [
+              54.79654999999991,
+              -100.02189999999996
+            ],
+            [
+              53.629249999999956,
+              -132.92949999999996
+            ],
+            [
+              39.055349999999976,
+              -132.41899999999998
+            ],
+            [
+              40.01044999999999,
+              -105.33819999999992
+            ],
+            [
+              -18.93945000000008,
+              -103.27379999999994
+            ]
+          ]
+        ]
+      ],
+      "height": 45,
+      "heightStatus": "source_levels_times_preview_3m_unverified_estimate",
+      "heightEvidence": {
+        "levelsTag": "15",
+        "metresPerLevel": 3,
+        "basis": "Unverified source floor count × temporary preview storey height",
+        "source": {
+          "url": "https://www.openstreetmap.org/way/252997605",
+          "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        }
+      },
+      "floors": 15,
+      "floorsStatus": "source_tag_unverified",
+      "kind": "apartments",
+      "originalFootprintPreserved": true
+    },
+    {
+      "id": "way/252997606",
+      "name": "204",
+      "source": {
+        "url": "https://www.openstreetmap.org/way/252997606",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "polygons": [
+        [
+          [
+            [
+              59.67814999999996,
+              -105.77099999999996
+            ],
+            [
+              59.969949999999926,
+              -94.29499999999996
+            ],
+            [
+              127.32984999999996,
+              -96.03749999999991
+            ],
+            [
+              126.26864999999998,
+              -136.6253999999999
+            ],
+            [
+              112.26964999999996,
+              -136.27019999999993
+            ],
+            [
+              113.0212499999999,
+              -107.14729999999997
+            ],
+            [
+              59.67814999999996,
+              -105.77099999999996
+            ]
+          ]
+        ]
+      ],
+      "height": 45,
+      "heightStatus": "source_levels_times_preview_3m_unverified_estimate",
+      "heightEvidence": {
+        "levelsTag": "15",
+        "metresPerLevel": 3,
+        "basis": "Unverified source floor count × temporary preview storey height",
+        "source": {
+          "url": "https://www.openstreetmap.org/way/252997606",
+          "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        }
+      },
+      "floors": 15,
+      "floorsStatus": "source_tag_unverified",
+      "kind": "apartments",
+      "originalFootprintPreserved": true
+    },
+    {
+      "id": "way/252997607",
+      "name": "201",
+      "source": {
+        "url": "https://www.openstreetmap.org/way/252997607",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "polygons": [
+        [
+          [
+            [
+              -21.008750000000077,
+              -155.85939999999994
+            ],
+            [
+              -20.743450000000053,
+              -141.68639999999994
+            ],
+            [
+              40.602949999999964,
+              -142.81849999999997
+            ],
+            [
+              40.33764999999994,
+              -157.00259999999992
+            ],
+            [
+              -21.008750000000077,
+              -155.85939999999994
+            ]
+          ]
+        ]
+      ],
+      "height": 45,
+      "heightStatus": "source_levels_times_preview_3m_unverified_estimate",
+      "heightEvidence": {
+        "levelsTag": "15",
+        "metresPerLevel": 3,
+        "basis": "Unverified source floor count × temporary preview storey height",
+        "source": {
+          "url": "https://www.openstreetmap.org/way/252997607",
+          "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        }
+      },
+      "floors": 15,
+      "floorsStatus": "source_tag_unverified",
+      "kind": "apartments",
+      "originalFootprintPreserved": true
+    },
+    {
+      "id": "way/252997608",
+      "name": "202",
+      "source": {
+        "url": "https://www.openstreetmap.org/way/252997608",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "polygons": [
+        [
+          [
+            [
+              50.25994999999989,
+              -158.75619999999992
+            ],
+            [
+              50.55174999999997,
+              -145.03819999999996
+            ],
+            [
+              110.64244999999994,
+              -146.3033999999999
+            ],
+            [
+              110.35064999999997,
+              -160.02139999999997
+            ],
+            [
+              50.25994999999989,
+              -158.75619999999992
+            ]
+          ]
+        ]
+      ],
+      "height": 45,
+      "heightStatus": "source_levels_times_preview_3m_unverified_estimate",
+      "heightEvidence": {
+        "levelsTag": "15",
+        "metresPerLevel": 3,
+        "basis": "Unverified source floor count × temporary preview storey height",
+        "source": {
+          "url": "https://www.openstreetmap.org/way/252997608",
+          "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        }
+      },
+      "floors": 15,
+      "floorsStatus": "source_tag_unverified",
+      "kind": "apartments",
+      "originalFootprintPreserved": true
+    },
+    {
+      "id": "way/253000696",
+      "name": "109",
+      "source": {
+        "url": "https://www.openstreetmap.org/way/253000696",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "polygons": [
+        [
+          [
+            [
+              -154.34025000000008,
+              -115.56009999999992
+            ],
+            [
+              -154.11025000000006,
+              -101.96419999999989
+            ],
+            [
+              -73.48535000000004,
+              -103.27379999999994
+            ],
+            [
+              -73.70635000000004,
+              -116.86969999999997
+            ],
+            [
+              -154.34025000000008,
+              -115.56009999999992
+            ]
+          ]
+        ]
+      ],
+      "height": 36,
+      "heightStatus": "source_levels_times_preview_3m_unverified_estimate",
+      "heightEvidence": {
+        "levelsTag": "12",
+        "metresPerLevel": 3,
+        "basis": "Unverified source floor count × temporary preview storey height",
+        "source": {
+          "url": "https://www.openstreetmap.org/way/253000696",
+          "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        }
+      },
+      "floors": 12,
+      "floorsStatus": "source_tag_unverified",
+      "kind": "apartments",
+      "originalFootprintPreserved": true
+    },
+    {
+      "id": "way/253000697",
+      "name": "111",
+      "source": {
+        "url": "https://www.openstreetmap.org/way/253000697",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "polygons": [
+        [
+          [
+            [
+              -133.97395000000006,
+              -60.321899999999914
+            ],
+            [
+              -133.67325000000005,
+              -47.45849999999996
+            ],
+            [
+              -53.40205000000003,
+              -49.2897999999999
+            ],
+            [
+              -53.69385000000011,
+              -62.15319999999997
+            ],
+            [
+              -133.97395000000006,
+              -60.321899999999914
+            ]
+          ]
+        ]
+      ],
+      "height": 36,
+      "heightStatus": "source_levels_times_preview_3m_unverified_estimate",
+      "heightEvidence": {
+        "levelsTag": "12",
+        "metresPerLevel": 3,
+        "basis": "Unverified source floor count × temporary preview storey height",
+        "source": {
+          "url": "https://www.openstreetmap.org/way/253000697",
+          "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        }
+      },
+      "floors": 12,
+      "floorsStatus": "source_tag_unverified",
+      "kind": "apartments",
+      "originalFootprintPreserved": true
+    },
+    {
+      "id": "south/shinyeong-footprint",
+      "name": "신영상가",
+      "source": {
+        "url": "https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&urlLevel=1&urlX=472672&urlY=1109020",
+        "additional_urls": [
+          "https://place.map.kakao.com/14969389",
+          "https://map.naver.com/p/search/%EC%8B%A0%EC%98%81%EC%83%81%EA%B0%80?c=17.00,0,0,2,dh"
+        ],
+        "source_kind": "reference_map_visual_observation",
+        "observed_on": "2026-09-30",
+        "license": "reference_service_terms_not_OSM; publication_reuse_unreviewed"
+      },
+      "geometryStatus": "roof_reference_estimate_not_ground_survey",
+      "polygons": [
+        [
+          [
+            [
+              -19.004693764255983,
+              -8.224786161243536
+            ],
+            [
+              -18.98365000000001,
+              7.775200000000041
+            ],
+            [
+              18.779867718148253,
+              -1.967321724435692
+            ],
+            [
+              18.770661071286266,
+              -8.967315669979756
+            ],
+            [
+              -19.004693764255983,
+              -8.224786161243536
+            ]
+          ]
+        ]
+      ],
+      "height": 17.8,
+      "heightStatus": "photo_proportion_estimate_not_measured",
+      "heightEvidence": {
+        "file": "docs/2050_신영상가_제작설계.md",
+        "basis": "Existing photo-proportion design values, not a new metre measurement; west/front17.8m and rear10.8m; exact transition unverified"
+      },
+      "heightProfile": {
+        "front": 17.8,
+        "rear": 10.8,
+        "frontFraction": 0.34210526315789475,
+        "transitionStatus": "preview_only_unverified"
+      },
+      "floors": null,
+      "floorsStatus": "unverified",
+      "kind": "commercial",
+      "originalFootprintPreserved": false,
+      "sourcePolygons": [
+        [
+          [
+            [
+              -19.00305000000003,
+              -6.974999999999909
+            ],
+            [
+              -18.98365000000001,
+              7.775200000000041
+            ],
+            [
+              19.003049999999917,
+              -2.0248999999998887
+            ],
+            [
+              18.995049999999992,
+              -7.775199999999927
+            ],
+            [
+              -19.00305000000003,
+              -6.974999999999909
+            ]
+          ]
+        ]
+      ],
+      "sourceLocalGeometrySnapshot": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              729.2046,
+              770.4865
+            ],
+            [
+              729.224,
+              755.7363
+            ],
+            [
+              767.2107,
+              765.5364
+            ],
+            [
+              767.2027,
+              771.2867
+            ],
+            [
+              729.2046,
+              770.4865
+            ]
+          ]
+        ]
+      },
+      "sourceWgs84GeometrySnapshot": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.87624578,
+              37.49194214
+            ],
+            [
+              126.876246,
+              37.49180924
+            ],
+            [
+              126.87667555,
+              37.49189754
+            ],
+            [
+              126.87667546,
+              37.49194935
+            ],
+            [
+              126.87624578,
+              37.49194214
+            ]
+          ]
+        ]
+      },
+      "sourceGeometryStatus": "visual_digitized_estimate",
+      "roofReferenceEvidence": {
+        "observedOn": "2026-09-30",
+        "referenceDocument": "docs/2050_신영상가_제작설계.md#2026-09-30-지도-거리재기와-신영상가-주변-미리보기",
+        "measurementKind": "map_UI_roof_line_distance_not_ground_wall_survey",
+        "adoptedDimensionsM": {
+          "westFront": 16,
+          "longSouth": 39,
+          "eastRear": 7
+        },
+        "primaryPlane": {
+          "service": "Kakao maximum-zoom aerial roof line",
+          "uiDistancesM": {
+            "westFront": 16,
+            "longSouth": 39,
+            "eastRear": 7
+          },
+          "displayPrecision": "integer_UI_rounded_not_metrological_precision",
+          "sourceURL": "https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&urlLevel=1&urlX=472672&urlY=1109020"
+        },
+        "comparison": {
+          "service": "Naver same roof line",
+          "uiDistancesM": {
+            "westFront": 14.6,
+            "longSouth": 39.2,
+            "eastRear": 7.5
+          },
+          "sourceURL": "https://map.naver.com/p/search/%EC%8B%A0%EC%98%81%EC%83%81%EA%B0%80?c=17.00,0,0,2,dh"
+        },
+        "observedCrossServiceSpanM": {
+          "westFront": [
+            14.6,
+            16
+          ],
+          "longSouth": [
+            39,
+            39.2
+          ],
+          "eastRear": [
+            7,
+            7.5
+          ]
+        },
+        "rangeStatus": "observed_UI_values_only_not_statistical_error_bounds_or_ground_dimensions",
+        "baselineComparison": {
+          "westFrontM": 14.750212757787546,
+          "longSouthM": 39.23048988860569,
+          "eastRearM": 5.7503055649243935,
+          "baselineFrontWithinObservedUISpan": true,
+          "interpretation": "Original front≈14.75m is within the14.6–16m cross-service UI values. Selecting16m is single-Kakao-plane consistency, not proof that the source front or ground wall was wrong."
+        },
+        "imageIndependence": "both services may use the same NGII imagery; independent image verification not established",
+        "reconstruction": "SW fixed at original estimated anchor; original west-up and long-south headings preserved; NW=SW+westUp*16,SE=SW+southUnit*39,NE=SE+westUp*7",
+        "anchorLocalM": [
+          729.224,
+          755.7363
+        ],
+        "anchorStatus": "original_visual_digitization_estimate_not_confirmed_ground_corner",
+        "limitations": [
+          "Roof line is not a surveyed ground wall: shadow, perspective/parallax and roof-wall displacement remain.",
+          "Map click placement and display rounding are approximate; more decimals do not imply accuracy.",
+          "Ground wall positions, entrances and vertical heights still require separate verification."
+        ],
+        "heightsUnchanged": {
+          "front": 17.8,
+          "rear": 10.8,
+          "frontFraction": 0.34210526315789475,
+          "status": "existing_photo_proportion_preview_values_not_new_measurements"
+        }
+      }
+    }
+  ],
+  "roads": [
+    {
+      "id": "way/71503022",
+      "name": "남부순환로",
+      "source": {
+        "url": "https://www.openstreetmap.org/way/71503022",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_line_clipped_for_300m_preview",
+      "category": "road",
+      "lines": [
+        [
+          [
+            -150,
+            134.0352522752289
+          ],
+          [
+            -138.88487605150726,
+            150
+          ]
+        ]
+      ],
+      "width": 10,
+      "widthStatus": "temporary_symbolic_preview_width_not_measured",
+      "widthEvidence": {
+        "basis": "category-based display estimate; not a verified carriageway or public walkway"
+      },
+      "grade": {
+        "tunnel": null,
+        "bridge": null,
+        "layer": null,
+        "status": "source_topology_tags_not_verified_elevation"
+      },
+      "surface": true,
+      "sourceGeometryStatus": "source_mapped_not_surveyed"
+    },
+    {
+      "id": "way/252921539",
+      "name": "구일로4길",
+      "source": {
+        "url": "https://www.openstreetmap.org/way/252921539",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_line_clipped_for_300m_preview",
+      "category": "road",
+      "lines": [
+        [
+          [
+            -150,
+            72.64324596527695
+          ],
+          [
+            -35.06085000000007,
+            36.56960000000004
+          ],
+          [
+            -35.635650000000055,
+            0.4212000000001126
+          ],
+          [
+            -36.82955000000004,
+            -74.17309999999998
+          ],
+          [
+            -37.68735000000004,
+            -128.0904999999999
+          ],
+          [
+            -37.988050000000044,
+            -146.66969999999992
+          ]
+        ]
+      ],
+      "width": 8,
+      "widthStatus": "temporary_symbolic_preview_width_not_measured",
+      "widthEvidence": {
+        "basis": "category-based display estimate; not a verified carriageway or public walkway"
+      },
+      "grade": {
+        "tunnel": null,
+        "bridge": null,
+        "layer": null,
+        "status": "source_topology_tags_not_verified_elevation"
+      },
+      "surface": true,
+      "sourceGeometryStatus": "source_mapped_not_surveyed"
+    },
+    {
+      "id": "way/252921547",
+      "name": null,
+      "source": {
+        "url": "https://www.openstreetmap.org/way/252921547",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_line_clipped_for_300m_preview",
+      "category": "road",
+      "lines": [
+        [
+          [
+            -35.06085000000007,
+            36.56960000000004
+          ],
+          [
+            -29.241950000000088,
+            60.154300000000035
+          ],
+          [
+            -28.207250000000045,
+            95.3927000000001
+          ],
+          [
+            -65.66775000000007,
+            97.97870000000012
+          ],
+          [
+            -66.48619935748889,
+            150
+          ]
+        ]
+      ],
+      "width": 4.5,
+      "widthStatus": "temporary_symbolic_preview_width_not_measured",
+      "widthEvidence": {
+        "basis": "category-based display estimate; not a verified carriageway or public walkway"
+      },
+      "grade": {
+        "tunnel": null,
+        "bridge": null,
+        "layer": null,
+        "status": "source_topology_tags_not_verified_elevation"
+      },
+      "surface": true,
+      "sourceGeometryStatus": "source_mapped_not_surveyed"
+    },
+    {
+      "id": "way/252921552",
+      "name": null,
+      "source": {
+        "url": "https://www.openstreetmap.org/way/252921552",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_line_clipped_for_300m_preview",
+      "category": "road",
+      "lines": [
+        [
+          [
+            -53.70265000000006,
+            150
+          ],
+          [
+            -53.70265000000006,
+            121.81870000000004
+          ],
+          [
+            -34.45065000000011,
+            121.81870000000004
+          ],
+          [
+            -34.45065000000011,
+            111.4525000000001
+          ],
+          [
+            -3.74655000000007,
+            109.37700000000007
+          ],
+          [
+            -2.826570202194148,
+            150
+          ]
+        ]
+      ],
+      "width": 4.5,
+      "widthStatus": "temporary_symbolic_preview_width_not_measured",
+      "widthEvidence": {
+        "basis": "category-based display estimate; not a verified carriageway or public walkway"
+      },
+      "grade": {
+        "tunnel": null,
+        "bridge": null,
+        "layer": null,
+        "status": "source_topology_tags_not_verified_elevation"
+      },
+      "surface": true,
+      "sourceGeometryStatus": "source_mapped_not_surveyed"
+    },
+    {
+      "id": "way/252921553",
+      "name": null,
+      "source": {
+        "url": "https://www.openstreetmap.org/way/252921553",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_line_clipped_for_300m_preview",
+      "category": "road",
+      "lines": [
+        [
+          [
+            61.093935344827514,
+            150
+          ],
+          [
+            59.73114999999996,
+            126.99060000000009
+          ],
+          [
+            85.22654999999997,
+            125.95850000000007
+          ],
+          [
+            84.18304999999998,
+            106.79100000000005
+          ],
+          [
+            106.55674999999997,
+            105.7478000000001
+          ],
+          [
+            108.62937745662134,
+            150
+          ]
+        ]
+      ],
+      "width": 4.5,
+      "widthStatus": "temporary_symbolic_preview_width_not_measured",
+      "widthEvidence": {
+        "basis": "category-based display estimate; not a verified carriageway or public walkway"
+      },
+      "grade": {
+        "tunnel": null,
+        "bridge": null,
+        "layer": null,
+        "status": "source_topology_tags_not_verified_elevation"
+      },
+      "surface": true,
+      "sourceGeometryStatus": "source_mapped_not_surveyed"
+    },
+    {
+      "id": "way/252921554",
+      "name": null,
+      "source": {
+        "url": "https://www.openstreetmap.org/way/252921554",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_line_clipped_for_300m_preview",
+      "category": "road",
+      "lines": [
+        [
+          [
+            -29.241950000000088,
+            60.154300000000035
+          ],
+          [
+            -1.358850000000075,
+            59.06670000000008
+          ],
+          [
+            103.43504999999993,
+            54.97130000000004
+          ]
+        ]
+      ],
+      "width": 4.5,
+      "widthStatus": "temporary_symbolic_preview_width_not_measured",
+      "widthEvidence": {
+        "basis": "category-based display estimate; not a verified carriageway or public walkway"
+      },
+      "grade": {
+        "tunnel": null,
+        "bridge": null,
+        "layer": null,
+        "status": "source_topology_tags_not_verified_elevation"
+      },
+      "surface": true,
+      "sourceGeometryStatus": "source_mapped_not_surveyed"
+    },
+    {
+      "id": "way/252922850",
+      "name": null,
+      "source": {
+        "url": "https://www.openstreetmap.org/way/252922850",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_line_clipped_for_300m_preview",
+      "category": "road",
+      "lines": [
+        [
+          [
+            -142.95875,
+            -143.50659999999993
+          ],
+          [
+            -150,
+            -131.16748924333206
+          ]
+        ],
+        [
+          [
+            -150,
+            -64.63855199942384
+          ],
+          [
+            -141.6676500000001,
+            -43.89589999999998
+          ],
+          [
+            -138.61665000000005,
+            -36.31549999999993
+          ],
+          [
+            -51.07625000000007,
+            -38.668399999999906
+          ]
+        ]
+      ],
+      "width": 4.5,
+      "widthStatus": "temporary_symbolic_preview_width_not_measured",
+      "widthEvidence": {
+        "basis": "category-based display estimate; not a verified carriageway or public walkway"
+      },
+      "grade": {
+        "tunnel": null,
+        "bridge": null,
+        "layer": null,
+        "status": "source_topology_tags_not_verified_elevation"
+      },
+      "surface": true,
+      "sourceGeometryStatus": "source_mapped_not_surveyed"
+    },
+    {
+      "id": "way/252922852",
+      "name": null,
+      "source": {
+        "url": "https://www.openstreetmap.org/way/252922852",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_line_clipped_for_300m_preview",
+      "category": "road",
+      "lines": [
+        [
+          [
+            -141.6676500000001,
+            -43.89589999999998
+          ],
+          [
+            -150,
+            -43.56543705181741
+          ]
+        ]
+      ],
+      "width": 4.5,
+      "widthStatus": "temporary_symbolic_preview_width_not_measured",
+      "widthEvidence": {
+        "basis": "category-based display estimate; not a verified carriageway or public walkway"
+      },
+      "grade": {
+        "tunnel": null,
+        "bridge": null,
+        "layer": null,
+        "status": "source_topology_tags_not_verified_elevation"
+      },
+      "surface": true,
+      "sourceGeometryStatus": "source_mapped_not_surveyed"
+    },
+    {
+      "id": "way/252997600",
+      "name": null,
+      "source": {
+        "url": "https://www.openstreetmap.org/way/252997600",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_line_clipped_for_300m_preview",
+      "category": "road",
+      "lines": [
+        [
+          [
+            -36.82955000000004,
+            -74.17309999999998
+          ],
+          [
+            -3.1097500000000764,
+            -75.41609999999991
+          ],
+          [
+            113.94984999999997,
+            -79.75569999999993
+          ],
+          [
+            114.56885,
+            -58.87909999999988
+          ],
+          [
+            -1.8540500000000293,
+            -54.82809999999995
+          ]
+        ]
+      ],
+      "width": 4.5,
+      "widthStatus": "temporary_symbolic_preview_width_not_measured",
+      "widthEvidence": {
+        "basis": "category-based display estimate; not a verified carriageway or public walkway"
+      },
+      "grade": {
+        "tunnel": null,
+        "bridge": null,
+        "layer": null,
+        "status": "source_topology_tags_not_verified_elevation"
+      },
+      "surface": true,
+      "sourceGeometryStatus": "source_mapped_not_surveyed"
+    },
+    {
+      "id": "way/252997601",
+      "name": null,
+      "source": {
+        "url": "https://www.openstreetmap.org/way/252997601",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_line_clipped_for_300m_preview",
+      "category": "road",
+      "lines": [
+        [
+          [
+            -3.1097500000000764,
+            -75.41609999999991
+          ],
+          [
+            -1.8540500000000293,
+            -54.82809999999995
+          ],
+          [
+            -0.28875000000005,
+            -18.046999999999912
+          ],
+          [
+            107.06084999999996,
+            -21.476499999999987
+          ]
+        ]
+      ],
+      "width": 4.5,
+      "widthStatus": "temporary_symbolic_preview_width_not_measured",
+      "widthEvidence": {
+        "basis": "category-based display estimate; not a verified carriageway or public walkway"
+      },
+      "grade": {
+        "tunnel": null,
+        "bridge": null,
+        "layer": null,
+        "status": "source_topology_tags_not_verified_elevation"
+      },
+      "surface": true,
+      "sourceGeometryStatus": "source_mapped_not_surveyed"
+    },
+    {
+      "id": "way/252997602",
+      "name": null,
+      "source": {
+        "url": "https://www.openstreetmap.org/way/252997602",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_line_clipped_for_300m_preview",
+      "category": "road",
+      "lines": [
+        [
+          [
+            -37.68735000000004,
+            -128.0904999999999
+          ],
+          [
+            -27.526350000000093,
+            -127.75749999999994
+          ],
+          [
+            -27.526350000000093,
+            -131.49779999999998
+          ],
+          [
+            114.88725,
+            -139.59979999999996
+          ],
+          [
+            114.3487825337628,
+            -150
+          ]
+        ]
+      ],
+      "width": 4.5,
+      "widthStatus": "temporary_symbolic_preview_width_not_measured",
+      "widthEvidence": {
+        "basis": "category-based display estimate; not a verified carriageway or public walkway"
+      },
+      "grade": {
+        "tunnel": null,
+        "bridge": null,
+        "layer": null,
+        "status": "source_topology_tags_not_verified_elevation"
+      },
+      "surface": true,
+      "sourceGeometryStatus": "source_mapped_not_surveyed"
+    },
+    {
+      "id": "way/252997603",
+      "name": null,
+      "source": {
+        "url": "https://www.openstreetmap.org/way/252997603",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_line_clipped_for_300m_preview",
+      "category": "road",
+      "lines": [
+        [
+          [
+            114.88725,
+            -139.59979999999996
+          ],
+          [
+            137.42014999999992,
+            -139.28909999999996
+          ],
+          [
+            140.24114999999995,
+            -90.6656999999999
+          ],
+          [
+            122.08574999999996,
+            -88.17959999999994
+          ],
+          [
+            113.94984999999997,
+            -79.75569999999993
+          ]
+        ]
+      ],
+      "width": 4.5,
+      "widthStatus": "temporary_symbolic_preview_width_not_measured",
+      "widthEvidence": {
+        "basis": "category-based display estimate; not a verified carriageway or public walkway"
+      },
+      "grade": {
+        "tunnel": null,
+        "bridge": null,
+        "layer": null,
+        "status": "source_topology_tags_not_verified_elevation"
+      },
+      "surface": true,
+      "sourceGeometryStatus": "source_mapped_not_surveyed"
+    },
+    {
+      "id": "way/253000698",
+      "name": null,
+      "source": {
+        "url": "https://www.openstreetmap.org/way/253000698",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_line_clipped_for_300m_preview",
+      "category": "road",
+      "lines": [
+        [
+          [
+            -150,
+            -122.59624763484805
+          ],
+          [
+            -84.79595000000006,
+            -123.76199999999994
+          ]
+        ]
+      ],
+      "width": 4.5,
+      "widthStatus": "temporary_symbolic_preview_width_not_measured",
+      "widthEvidence": {
+        "basis": "category-based display estimate; not a verified carriageway or public walkway"
+      },
+      "grade": {
+        "tunnel": null,
+        "bridge": null,
+        "layer": null,
+        "status": "source_topology_tags_not_verified_elevation"
+      },
+      "surface": true,
+      "sourceGeometryStatus": "source_mapped_not_surveyed"
+    },
+    {
+      "id": "way/253001659",
+      "name": null,
+      "source": {
+        "url": "https://www.openstreetmap.org/way/253001659",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_line_clipped_for_300m_preview",
+      "category": "road",
+      "lines": [
+        [
+          [
+            -1.358850000000075,
+            59.06670000000008
+          ],
+          [
+            -2.490750000000048,
+            20.543100000000095
+          ],
+          [
+            55.27414999999996,
+            18.91160000000002
+          ]
+        ]
+      ],
+      "width": 4.5,
+      "widthStatus": "temporary_symbolic_preview_width_not_measured",
+      "widthEvidence": {
+        "basis": "category-based display estimate; not a verified carriageway or public walkway"
+      },
+      "grade": {
+        "tunnel": null,
+        "bridge": null,
+        "layer": null,
+        "status": "source_topology_tags_not_verified_elevation"
+      },
+      "surface": true,
+      "sourceGeometryStatus": "source_mapped_not_surveyed"
+    },
+    {
+      "id": "way/314952367",
+      "name": null,
+      "source": {
+        "url": "https://www.openstreetmap.org/way/314952367",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_line_clipped_for_300m_preview",
+      "category": "railway",
+      "lines": [
+        [
+          [
+            150,
+            130.80462440270458
+          ],
+          [
+            147.68724999999995,
+            136.84630000000004
+          ],
+          [
+            142.74220743006651,
+            150
+          ]
+        ]
+      ],
+      "width": 1.6,
+      "widthStatus": "temporary_symbolic_preview_width_not_measured",
+      "widthEvidence": {
+        "basis": "category-based display estimate; not a verified carriageway or public walkway"
+      },
+      "grade": {
+        "tunnel": null,
+        "bridge": null,
+        "layer": null,
+        "status": "source_topology_tags_not_verified_elevation"
+      },
+      "surface": true,
+      "sourceGeometryStatus": "source_mapped_not_surveyed"
+    },
+    {
+      "id": "way/314952383",
+      "name": null,
+      "source": {
+        "url": "https://www.openstreetmap.org/way/314952383",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_line_clipped_for_300m_preview",
+      "category": "railway",
+      "lines": [
+        [
+          [
+            148.43637516240278,
+            -150
+          ],
+          [
+            150,
+            -146.39901681366496
+          ]
+        ],
+        [
+          [
+            150,
+            142.634296026548
+          ],
+          [
+            147.12444858517313,
+            150
+          ]
+        ]
+      ],
+      "width": 1.6,
+      "widthStatus": "temporary_symbolic_preview_width_not_measured",
+      "widthEvidence": {
+        "basis": "category-based display estimate; not a verified carriageway or public walkway"
+      },
+      "grade": {
+        "tunnel": null,
+        "bridge": null,
+        "layer": null,
+        "status": "source_topology_tags_not_verified_elevation"
+      },
+      "surface": true,
+      "sourceGeometryStatus": "source_mapped_not_surveyed"
+    },
+    {
+      "id": "way/352239458",
+      "name": "남부순환로",
+      "source": {
+        "url": "https://www.openstreetmap.org/way/352239458",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_line_clipped_for_300m_preview",
+      "category": "road",
+      "lines": [
+        [
+          [
+            -125.22619190909586,
+            150
+          ],
+          [
+            -142.33095000000003,
+            124.27150000000006
+          ],
+          [
+            -150,
+            115.29268359255468
+          ]
+        ]
+      ],
+      "width": 10,
+      "widthStatus": "temporary_symbolic_preview_width_not_measured",
+      "widthEvidence": {
+        "basis": "category-based display estimate; not a verified carriageway or public walkway"
+      },
+      "grade": {
+        "tunnel": null,
+        "bridge": null,
+        "layer": null,
+        "status": "source_topology_tags_not_verified_elevation"
+      },
+      "surface": true,
+      "sourceGeometryStatus": "source_mapped_not_surveyed"
+    },
+    {
+      "id": "way/520810603",
+      "name": null,
+      "source": {
+        "url": "https://www.openstreetmap.org/way/520810603",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_line_clipped_for_300m_preview",
+      "category": "road",
+      "lines": [
+        [
+          [
+            -37.988050000000044,
+            -146.66969999999992
+          ],
+          [
+            -38.04106797152065,
+            -150
+          ]
+        ]
+      ],
+      "width": 7,
+      "widthStatus": "temporary_symbolic_preview_width_not_measured",
+      "widthEvidence": {
+        "basis": "category-based display estimate; not a verified carriageway or public walkway"
+      },
+      "grade": {
+        "tunnel": null,
+        "bridge": null,
+        "layer": null,
+        "status": "source_topology_tags_not_verified_elevation"
+      },
+      "surface": true,
+      "sourceGeometryStatus": "source_mapped_not_surveyed"
+    },
+    {
+      "id": "way/520810609",
+      "name": null,
+      "source": {
+        "url": "https://www.openstreetmap.org/way/520810609",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_line_clipped_for_300m_preview",
+      "category": "road",
+      "lines": [
+        [
+          [
+            -150,
+            -147.24210561091058
+          ],
+          [
+            -142.95875,
+            -143.50659999999993
+          ],
+          [
+            -37.988050000000044,
+            -146.66969999999992
+          ]
+        ]
+      ],
+      "width": 8,
+      "widthStatus": "temporary_symbolic_preview_width_not_measured",
+      "widthEvidence": {
+        "basis": "category-based display estimate; not a verified carriageway or public walkway"
+      },
+      "grade": {
+        "tunnel": null,
+        "bridge": null,
+        "layer": null,
+        "status": "source_topology_tags_not_verified_elevation"
+      },
+      "surface": true,
+      "sourceGeometryStatus": "source_mapped_not_surveyed"
+    },
+    {
+      "id": "way/555380145",
+      "name": "구일로",
+      "source": {
+        "url": "https://www.openstreetmap.org/way/555380145",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_line_clipped_for_300m_preview",
+      "category": "road",
+      "lines": [
+        [
+          [
+            -96.59809377723332,
+            150
+          ],
+          [
+            -108.23085000000003,
+            132.46230000000003
+          ],
+          [
+            -117.03005000000007,
+            120.34250000000009
+          ],
+          [
+            -124.51155000000006,
+            110.64230000000009
+          ],
+          [
+            -134.1861500000001,
+            99.07740000000013
+          ],
+          [
+            -150,
+            80.90704475350515
+          ]
+        ]
+      ],
+      "width": 10,
+      "widthStatus": "temporary_symbolic_preview_width_not_measured",
+      "widthEvidence": {
+        "basis": "category-based display estimate; not a verified carriageway or public walkway"
+      },
+      "grade": {
+        "tunnel": null,
+        "bridge": null,
+        "layer": null,
+        "status": "source_topology_tags_not_verified_elevation"
+      },
+      "surface": true,
+      "sourceGeometryStatus": "source_mapped_not_surveyed"
+    },
+    {
+      "id": "way/1019348673",
+      "name": null,
+      "source": {
+        "url": "https://www.openstreetmap.org/way/1019348673",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_line_clipped_for_300m_preview",
+      "category": "path",
+      "lines": [
+        [
+          [
+            -113.29942043382857,
+            150
+          ],
+          [
+            -116.39335000000005,
+            145.18140000000005
+          ],
+          [
+            -131.25015000000008,
+            124.83750000000009
+          ],
+          [
+            -150,
+            101.55495920665328
+          ]
+        ]
+      ],
+      "width": 2,
+      "widthStatus": "temporary_symbolic_preview_width_not_measured",
+      "widthEvidence": {
+        "basis": "category-based display estimate; not a verified carriageway or public walkway"
+      },
+      "grade": {
+        "tunnel": null,
+        "bridge": null,
+        "layer": null,
+        "status": "source_topology_tags_not_verified_elevation"
+      },
+      "surface": true,
+      "sourceGeometryStatus": "source_mapped_not_surveyed"
+    }
+  ],
+  "surfaces": [
+    {
+      "id": "way/311747059",
+      "name": "구로차량사업소",
+      "source": {
+        "url": "https://www.openstreetmap.org/way/311747059",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "category": "landuse",
+      "polygons": [
+        [
+          [
+            [
+              136.19094999999993,
+              479.78460000000007
+            ],
+            [
+              141.71804999999995,
+              485.25630000000007
+            ],
+            [
+              256.6375499999999,
+              484.9899000000001
+            ],
+            [
+              258.0171499999999,
+              488.8412000000001
+            ],
+            [
+              285.91795,
+              488.28620000000006
+            ],
+            [
+              299.5279499999999,
+              485.8889000000001
+            ],
+            [
+              307.74334999999996,
+              484.43500000000006
+            ],
+            [
+              305.18764999999985,
+              460.5950000000001
+            ],
+            [
+              283.67175,
+              24.39440000000002
+            ],
+            [
+              270.77815,
+              -44.273199999999974
+            ],
+            [
+              251.83565,
+              -403.5488
+            ],
+            [
+              240.3038499999999,
+              -472.40509999999995
+            ],
+            [
+              207.29154999999992,
+              -595.1343999999999
+            ],
+            [
+              207.3269499999999,
+              -616.4993999999999
+            ],
+            [
+              184.44034999999997,
+              -701.5708
+            ],
+            [
+              171.76774999999998,
+              -763.1795999999999
+            ],
+            [
+              120.5470499999999,
+              -781.4924999999998
+            ],
+            [
+              119.14974999999993,
+              -777.1084999999998
+            ],
+            [
+              118.59264999999994,
+              -775.3549
+            ],
+            [
+              106.09694999999999,
+              -779.9940999999999
+            ],
+            [
+              82.60014999999999,
+              -765.5990999999999
+            ],
+            [
+              87.87074999999993,
+              -697.2312
+            ],
+            [
+              14.95724999999993,
+              -693.1913
+            ],
+            [
+              27.426349999999957,
+              -471.96119999999996
+            ],
+            [
+              64.5950499999999,
+              -473.0709999999999
+            ],
+            [
+              67.23915,
+              -409.7863
+            ],
+            [
+              75.18934999999999,
+              -239.3658999999999
+            ],
+            [
+              84.28924999999992,
+              -241.78549999999996
+            ],
+            [
+              122.92584999999997,
+              -182.17439999999988
+            ],
+            [
+              137.95074999999997,
+              -158.4786999999999
+            ],
+            [
+              157.35304999999994,
+              -111.10949999999991
+            ],
+            [
+              163.61415,
+              -0.7774999999999181
+            ],
+            [
+              124.57074999999998,
+              98.53360000000009
+            ],
+            [
+              113.20704999999998,
+              99.89870000000008
+            ],
+            [
+              124.88024999999993,
+              266.9340000000001
+            ],
+            [
+              135.01474999999994,
+              412.4711000000001
+            ],
+            [
+              132.67125,
+              447.09900000000005
+            ],
+            [
+              136.19094999999993,
+              479.78460000000007
+            ]
+          ]
+        ]
+      ],
+      "viewPolygons": [
+        [
+          [
+            [
+              150,
+              150
+            ],
+            [
+              150,
+              -150
+            ],
+            [
+              141.42360326773507,
+              -150
+            ],
+            [
+              150,
+              -129.06139725238734
+            ],
+            [
+              150,
+              33.85155925367678
+            ],
+            [
+              124.57074999999998,
+              98.53360000000009
+            ],
+            [
+              113.20704999999998,
+              99.89870000000008
+            ],
+            [
+              116.7083607717949,
+              150
+            ],
+            [
+              150,
+              150
+            ]
+          ]
+        ]
+      ],
+      "sourcePolygonsPreserved": true,
+      "viewGeometryStatus": "clipped_for_preview_only_not_a_source_replacement"
+    },
+    {
+      "id": "way/439886809",
+      "name": "구일우성아파트",
+      "source": {
+        "url": "https://www.openstreetmap.org/way/439886809",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "category": "landuse",
+      "polygons": [
+        [
+          [
+            [
+              -53.74695000000008,
+              106.90200000000004
+            ],
+            [
+              -58.82305000000008,
+              109.28820000000007
+            ],
+            [
+              -60.01685000000009,
+              115.23710000000005
+            ],
+            [
+              -59.424350000000004,
+              181.60730000000012
+            ],
+            [
+              -17.285750000000007,
+              253.91520000000008
+            ],
+            [
+              -11.006950000000074,
+              257.4890000000001
+            ],
+            [
+              100.46374999999989,
+              254.81420000000008
+            ],
+            [
+              115.70084999999995,
+              254.5146000000001
+            ],
+            [
+              120.48514999999998,
+              249.7532000000001
+            ],
+            [
+              111.21724999999992,
+              104.8266000000001
+            ],
+            [
+              107.63564999999994,
+              102.14070000000004
+            ],
+            [
+              20.068649999999934,
+              102.74000000000012
+            ],
+            [
+              -53.74695000000008,
+              106.90200000000004
+            ]
+          ]
+        ]
+      ],
+      "viewPolygons": [
+        [
+          [
+            [
+              -53.74695000000008,
+              106.90200000000004
+            ],
+            [
+              -58.82305000000008,
+              109.28820000000007
+            ],
+            [
+              -60.01685000000009,
+              115.23710000000005
+            ],
+            [
+              -59.706514665015334,
+              150
+            ],
+            [
+              114.10604028321916,
+              150
+            ],
+            [
+              111.21724999999992,
+              104.8266000000001
+            ],
+            [
+              107.63564999999994,
+              102.14070000000004
+            ],
+            [
+              20.068649999999934,
+              102.74000000000012
+            ],
+            [
+              -53.74695000000008,
+              106.90200000000004
+            ]
+          ]
+        ]
+      ],
+      "sourcePolygonsPreserved": true,
+      "viewGeometryStatus": "clipped_for_preview_only_not_a_source_replacement"
+    },
+    {
+      "id": "way/439886810",
+      "name": "구로주공2차아파트",
+      "source": {
+        "url": "https://www.openstreetmap.org/way/439886810",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "category": "landuse",
+      "polygons": [
+        [
+          [
+            [
+              -122.3714500000001,
+              70.9534000000001
+            ],
+            [
+              -126.51015000000007,
+              78.07870000000003
+            ],
+            [
+              -77.94235000000003,
+              160.56420000000003
+            ],
+            [
+              -62.501850000000104,
+              180.44190000000003
+            ],
+            [
+              -62.501850000000104,
+              115.58120000000008
+            ],
+            [
+              -60.99845000000005,
+              108.45580000000007
+            ],
+            [
+              -56.47955000000002,
+              105.44810000000007
+            ],
+            [
+              18.450349999999958,
+              100.1984000000001
+            ],
+            [
+              106.93704999999989,
+              100.1984000000001
+            ],
+            [
+              112.57914999999991,
+              97.57910000000004
+            ],
+            [
+              121.24564999999996,
+              96.45820000000003
+            ],
+            [
+              161.46524999999997,
+              -1.210299999999961
+            ],
+            [
+              160.35984999999994,
+              -26.437599999999975
+            ],
+            [
+              78.07234999999991,
+              -5.28349999999989
+            ],
+            [
+              36.14594999999997,
+              6.092600000000061
+            ],
+            [
+              -18.82445000000007,
+              21.464300000000094
+            ],
+            [
+              -22.971950000000106,
+              26.714000000000055
+            ],
+            [
+              -22.591750000000047,
+              40.587400000000116
+            ],
+            [
+              -25.60735000000011,
+              45.8370000000001
+            ],
+            [
+              -112.58185000000003,
+              66.08100000000002
+            ],
+            [
+              -122.3714500000001,
+              70.9534000000001
+            ]
+          ]
+        ]
+      ],
+      "viewPolygons": [
+        [
+          [
+            [
+              -122.3714500000001,
+              70.9534000000001
+            ],
+            [
+              -126.51015000000007,
+              78.07870000000003
+            ],
+            [
+              -84.16259419758626,
+              150
+            ],
+            [
+              -62.501850000000104,
+              150
+            ],
+            [
+              -62.501850000000104,
+              115.58120000000008
+            ],
+            [
+              -60.99845000000005,
+              108.45580000000007
+            ],
+            [
+              -56.47955000000002,
+              105.44810000000007
+            ],
+            [
+              18.450349999999958,
+              100.1984000000001
+            ],
+            [
+              106.93704999999989,
+              100.1984000000001
+            ],
+            [
+              112.57914999999991,
+              97.57910000000004
+            ],
+            [
+              121.24564999999996,
+              96.45820000000003
+            ],
+            [
+              150,
+              26.631691706158108
+            ],
+            [
+              150,
+              -23.774336407291457
+            ],
+            [
+              78.07234999999991,
+              -5.28349999999989
+            ],
+            [
+              36.14594999999997,
+              6.092600000000061
+            ],
+            [
+              -18.82445000000007,
+              21.464300000000094
+            ],
+            [
+              -22.971950000000106,
+              26.714000000000055
+            ],
+            [
+              -22.591750000000047,
+              40.587400000000116
+            ],
+            [
+              -25.60735000000011,
+              45.8370000000001
+            ],
+            [
+              -112.58185000000003,
+              66.08100000000002
+            ],
+            [
+              -122.3714500000001,
+              70.9534000000001
+            ]
+          ]
+        ]
+      ],
+      "sourcePolygonsPreserved": true,
+      "viewGeometryStatus": "clipped_for_preview_only_not_a_source_replacement"
+    },
+    {
+      "id": "way/439886811",
+      "name": "현대 연예인아파트",
+      "source": {
+        "url": "https://www.openstreetmap.org/way/439886811",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "category": "landuse",
+      "polygons": [
+        [
+          [
+            [
+              -24.112750000000005,
+              -17.802799999999934
+            ],
+            [
+              -12.819850000000088,
+              -11.054799999999886
+            ],
+            [
+              111.05804999999998,
+              -16.681899999999928
+            ],
+            [
+              158.50275,
+              -28.679599999999937
+            ],
+            [
+              154.35514999999998,
+              -109.66669999999988
+            ],
+            [
+              136.28814999999997,
+              -155.7816999999999
+            ],
+            [
+              121.97964999999999,
+              -178.64499999999998
+            ],
+            [
+              -25.244750000000067,
+              -176.40309999999988
+            ],
+            [
+              -28.63175000000001,
+              -173.7727
+            ],
+            [
+              -24.112750000000005,
+              -17.802799999999934
+            ]
+          ]
+        ]
+      ],
+      "viewPolygons": [
+        [
+          [
+            [
+              -27.94297074643896,
+              -150
+            ],
+            [
+              -24.112750000000005,
+              -17.802799999999934
+            ],
+            [
+              -12.819850000000088,
+              -11.054799999999886
+            ],
+            [
+              111.05804999999998,
+              -16.681899999999928
+            ],
+            [
+              150,
+              -26.52944532150059
+            ],
+            [
+              150,
+              -120.78297510101277
+            ],
+            [
+              138.55331261303252,
+              -150
+            ],
+            [
+              -27.94297074643896,
+              -150
+            ]
+          ]
+        ]
+      ],
+      "sourcePolygonsPreserved": true,
+      "viewGeometryStatus": "clipped_for_preview_only_not_a_source_replacement"
+    },
+    {
+      "id": "way/439886812",
+      "name": "구로주공아파트",
+      "source": {
+        "url": "https://www.openstreetmap.org/way/439886812",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "category": "landuse",
+      "polygons": [
+        [
+          [
+            [
+              -247.62005000000005,
+              -149.6552999999999
+            ],
+            [
+              -240.84605000000005,
+              -13.740699999999947
+            ],
+            [
+              -198.30055000000004,
+              17.946000000000026
+            ],
+            [
+              -166.66785000000004,
+              42.507400000000075
+            ],
+            [
+              -148.02605000000005,
+              58.067800000000034
+            ],
+            [
+              -40.15465000000006,
+              31.44200000000012
+            ],
+            [
+              -44.673650000000066,
+              -159.02249999999992
+            ],
+            [
+              -45.80555000000004,
+              -176.83589999999992
+            ],
+            [
+              -43.541650000000004,
+              -191.08669999999995
+            ],
+            [
+              -40.90635000000009,
+              -203.2729999999999
+            ],
+            [
+              -29.613350000000082,
+              -200.08769999999993
+            ],
+            [
+              -32.24865000000011,
+              -190.70929999999998
+            ],
+            [
+              -28.295750000000112,
+              -185.83699999999988
+            ],
+            [
+              86.92454999999995,
+              -184.89359999999988
+            ],
+            [
+              110.27104999999995,
+              -195.01559999999995
+            ],
+            [
+              83.7232499999999,
+              -239.6323
+            ],
+            [
+              74.11934999999994,
+              -237.3903999999999
+            ],
+            [
+              65.05484999999999,
+              -402.59439999999995
+            ],
+            [
+              59.07674999999995,
+              -407.05600000000004
+            ],
+            [
+              -140.85405000000003,
+              -393.3713
+            ],
+            [
+              -144.14385000000004,
+              -388.90969999999993
+            ],
+            [
+              -135.76915000000008,
+              -207.67919999999992
+            ],
+            [
+              -133.08075000000008,
+              -185.06009999999992
+            ],
+            [
+              -139.66025000000002,
+              -174.0501999999999
+            ],
+            [
+              -146.23085000000003,
+              -167.20229999999992
+            ],
+            [
+              -148.6273500000001,
+              -158.57859999999994
+            ],
+            [
+              -172.23035000000004,
+              -153.5175999999999
+            ],
+            [
+              -247.62005000000005,
+              -149.6552999999999
+            ]
+          ]
+        ]
+      ],
+      "viewPolygons": [
+        [
+          [
+            [
+              -150,
+              -150
+            ],
+            [
+              -150,
+              56.4201344537546
+            ],
+            [
+              -148.02605000000005,
+              58.067800000000034
+            ],
+            [
+              -40.15465000000006,
+              31.44200000000012
+            ],
+            [
+              -44.459580304597466,
+              -150
+            ],
+            [
+              -150,
+              -150
+            ]
+          ]
+        ]
+      ],
+      "sourcePolygonsPreserved": true,
+      "viewGeometryStatus": "clipped_for_preview_only_not_a_source_replacement"
+    },
+    {
+      "id": "north/depot-visible-strip",
+      "name": "구로차량기지 북부 선로 띠",
+      "source": {
+        "url": "https://map.pstatic.net/nrb/styles/basic/1790162807/18/223461/101578.png",
+        "additional_urls": [],
+        "source_kind": "reference_map_visual_observation",
+        "observed_on": "2026-09-30",
+        "license": "reference_service_terms_not_OSM; publication_reuse_unreviewed"
+      },
+      "geometryStatus": "manual_trace_of_map_representation_not_surveyed",
+      "category": "rail_area",
+      "polygons": [
+        [
+          [
+            [
+              131.16784999999993,
+              -765.9209999999998
+            ],
+            [
+              103.17864999999995,
+              -591.1499999999999
+            ],
+            [
+              118.35384999999997,
+              -520.2958999999998
+            ],
+            [
+              138.27794999999992,
+              -392.7609
+            ],
+            [
+              146.8206499999999,
+              -246.32479999999998
+            ],
+            [
+              134.4841499999999,
+              -142.3966999999999
+            ],
+            [
+              204.70044999999993,
+              -142.3966999999999
+            ],
+            [
+              229.84214999999995,
+              -246.32479999999998
+            ],
+            [
+              237.90734999999995,
+              -411.65089999999987
+            ],
+            [
+              171.48474999999996,
+              -724.3563999999999
+            ],
+            [
+              131.16784999999993,
+              -765.9209999999998
+            ]
+          ]
+        ]
+      ],
+      "viewPolygons": [
+        [
+          [
+            [
+              150,
+              -150
+            ],
+            [
+              135.38667886803466,
+              -150
+            ],
+            [
+              134.4841499999999,
+              -142.3966999999999
+            ],
+            [
+              150,
+              -142.3966999999999
+            ],
+            [
+              150,
+              -150
+            ]
+          ]
+        ]
+      ],
+      "sourcePolygonsPreserved": true,
+      "viewGeometryStatus": "clipped_for_preview_only_not_a_source_replacement"
+    }
+  ],
+  "pois": [
+    {
+      "id": "node/368652981",
+      "name": "구로1동문고",
+      "source": {
+        "url": "https://www.openstreetmap.org/node/368652981",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "x": -69.56765000000007,
+      "z": -130.59879999999998,
+      "category": "facility",
+      "sourceTags": {
+        "amenity": "library",
+        "name": "구로1동문고",
+        "name:en": "Guro 1 Dong Library",
+        "name:ko": "구로1동문고",
+        "name:ko-Latn": "Guro 1 Dongmungo"
+      },
+      "status": "reference_point_not_footprint_entrance_or_current_use_confirmation"
+    },
+    {
+      "id": "node/368899838",
+      "name": "구로1동주민센터",
+      "source": {
+        "url": "https://www.openstreetmap.org/node/368899838",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "x": -60.98075000000006,
+      "z": -125.47119999999995,
+      "category": "facility",
+      "sourceTags": {
+        "amenity": "townhall",
+        "name": "구로1동주민센터",
+        "name:en": "Guro 1-dong Community Service Center",
+        "name:ko": "구로1동주민센터"
+      },
+      "status": "reference_point_not_footprint_entrance_or_current_use_confirmation"
+    },
+    {
+      "id": "node/7502323756",
+      "name": "초록약국",
+      "source": {
+        "url": "https://www.openstreetmap.org/node/7502323756",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "x": -12.06815000000006,
+      "z": -39.50079999999991,
+      "category": "facility",
+      "sourceTags": {
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "초록약국"
+      },
+      "status": "reference_point_not_footprint_entrance_or_current_use_confirmation"
+    },
+    {
+      "id": "node/7502323757",
+      "name": "환도약국",
+      "source": {
+        "url": "https://www.openstreetmap.org/node/7502323757",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "x": -16.81705000000011,
+      "z": -61.23199999999997,
+      "category": "facility",
+      "sourceTags": {
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "환도약국"
+      },
+      "status": "reference_point_not_footprint_entrance_or_current_use_confirmation"
+    },
+    {
+      "id": "node/7502323758",
+      "name": "덕인내과의원",
+      "source": {
+        "url": "https://www.openstreetmap.org/node/7502323758",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "x": -12.784450000000106,
+      "z": -27.447599999999966,
+      "category": "facility",
+      "sourceTags": {
+        "amenity": "doctors",
+        "healthcare": "doctor",
+        "name": "덕인내과의원"
+      },
+      "status": "reference_point_not_footprint_entrance_or_current_use_confirmation"
+    },
+    {
+      "id": "node/7502323759",
+      "name": "송소아과의원",
+      "source": {
+        "url": "https://www.openstreetmap.org/node/7502323759",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "x": -10.175650000000019,
+      "z": -55.56059999999991,
+      "category": "facility",
+      "sourceTags": {
+        "amenity": "doctors",
+        "healthcare": "doctor",
+        "name": "송소아과의원"
+      },
+      "status": "reference_point_not_footprint_entrance_or_current_use_confirmation"
+    },
+    {
+      "id": "node/7502323760",
+      "name": "이레축산",
+      "source": {
+        "url": "https://www.openstreetmap.org/node/7502323760",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "x": -17.52445,
+      "z": -35.016899999999964,
+      "category": "facility",
+      "sourceTags": {
+        "name": "이레축산",
+        "shop": "butcher"
+      },
+      "status": "reference_point_not_footprint_entrance_or_current_use_confirmation"
+    },
+    {
+      "id": "node/7502323761",
+      "name": "가위소리헤어",
+      "source": {
+        "url": "https://www.openstreetmap.org/node/7502323761",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "x": -9.220550000000003,
+      "z": -39.26769999999988,
+      "category": "facility",
+      "sourceTags": {
+        "name": "가위소리헤어",
+        "shop": "hairdresser"
+      },
+      "status": "reference_point_not_footprint_entrance_or_current_use_confirmation"
+    },
+    {
+      "id": "node/7502323762",
+      "name": "파리바게뜨",
+      "source": {
+        "url": "https://www.openstreetmap.org/node/7502323762",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "x": -18.70945000000006,
+      "z": -49.17879999999991,
+      "category": "facility",
+      "sourceTags": {
+        "alt_name:ko": "파리바게트",
+        "brand": "파리바게뜨",
+        "brand:en": "Paris Baguette",
+        "brand:ko": "파리바게뜨",
+        "brand:wikidata": "Q62605260",
+        "name": "파리바게뜨",
+        "name:en": "Paris Baguette",
+        "name:ko": "파리바게뜨",
+        "shop": "bakery"
+      },
+      "status": "reference_point_not_footprint_entrance_or_current_use_confirmation"
+    },
+    {
+      "id": "node/7502323763",
+      "name": "현대마트",
+      "source": {
+        "url": "https://www.openstreetmap.org/node/7502323763",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "x": -9.220550000000003,
+      "z": -52.73039999999992,
+      "category": "facility",
+      "sourceTags": {
+        "name": "현대마트",
+        "shop": "supermarket"
+      },
+      "status": "reference_point_not_footprint_entrance_or_current_use_confirmation"
+    },
+    {
+      "id": "node/7502323764",
+      "name": "해솔온누리약국",
+      "source": {
+        "url": "https://www.openstreetmap.org/node/7502323764",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "x": -14.376250000000027,
+      "z": -4.573199999999929,
+      "category": "facility",
+      "sourceTags": {
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "해솔온누리약국"
+      },
+      "status": "reference_point_not_footprint_entrance_or_current_use_confirmation"
+    },
+    {
+      "id": "node/7502323765",
+      "name": "블루클럽",
+      "source": {
+        "url": "https://www.openstreetmap.org/node/7502323765",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "x": -16.05645000000004,
+      "z": 4.11710000000005,
+      "category": "facility",
+      "sourceTags": {
+        "name": "블루클럽",
+        "shop": "hairdresser"
+      },
+      "status": "reference_point_not_footprint_entrance_or_current_use_confirmation"
+    },
+    {
+      "id": "node/7502323766",
+      "name": "김현정이비인후과의원",
+      "source": {
+        "url": "https://www.openstreetmap.org/node/7502323766",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "x": -4.984550000000013,
+      "z": 2.4412000000000944,
+      "category": "facility",
+      "sourceTags": {
+        "amenity": "doctors",
+        "healthcare": "doctor",
+        "name": "김현정이비인후과의원"
+      },
+      "status": "reference_point_not_footprint_entrance_or_current_use_confirmation"
+    },
+    {
+      "id": "node/7502323767",
+      "name": "장호준가정의학과의원",
+      "source": {
+        "url": "https://www.openstreetmap.org/node/7502323767",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "x": 16.82314999999994,
+      "z": -4.906199999999899,
+      "category": "facility",
+      "sourceTags": {
+        "amenity": "doctors",
+        "healthcare": "doctor",
+        "name": "장호준가정의학과의원"
+      },
+      "status": "reference_point_not_footprint_entrance_or_current_use_confirmation"
+    },
+    {
+      "id": "node/7502323768",
+      "name": "한결치과의원",
+      "source": {
+        "url": "https://www.openstreetmap.org/node/7502323768",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "x": 5.751249999999914,
+      "z": -3.563199999999938,
+      "category": "facility",
+      "sourceTags": {
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "한결치과의원"
+      },
+      "status": "reference_point_not_footprint_entrance_or_current_use_confirmation"
+    },
+    {
+      "id": "node/8440831297",
+      "name": "서울참빛교회",
+      "source": {
+        "url": "https://www.openstreetmap.org/node/8440831297",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "x": -57.13395000000003,
+      "z": -93.69569999999987,
+      "category": "facility",
+      "sourceTags": {
+        "amenity": "place_of_worship",
+        "name": "서울참빛교회",
+        "religion": "christian"
+      },
+      "status": "reference_point_not_footprint_entrance_or_current_use_confirmation"
+    },
+    {
+      "id": "node/8440831298",
+      "name": "우리은행",
+      "source": {
+        "url": "https://www.openstreetmap.org/node/8440831298",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "x": -56.5856500000001,
+      "z": -87.18069999999989,
+      "category": "facility",
+      "sourceTags": {
+        "amenity": "bank",
+        "brand": "우리은행",
+        "brand:en": "Woori Bank",
+        "brand:ko": "우리은행",
+        "brand:wikidata": "Q494369",
+        "brand:wikipedia": "en:Woori Bank",
+        "name": "우리은행",
+        "name:en": "Woori Bank",
+        "name:ko": "우리은행"
+      },
+      "status": "reference_point_not_footprint_entrance_or_current_use_confirmation"
+    },
+    {
+      "id": "node/8643271237",
+      "name": "포이스트 구일점",
+      "source": {
+        "url": "https://www.openstreetmap.org/node/8643271237",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "x": -53.12785000000008,
+      "z": -10.74409999999989,
+      "category": "facility",
+      "sourceTags": {
+        "amenity": "restaurant",
+        "cuisine": "vietnamese",
+        "delivery": "yes",
+        "name": "포이스트 구일점"
+      },
+      "status": "reference_point_not_footprint_entrance_or_current_use_confirmation"
+    },
+    {
+      "id": "node/8643281329",
+      "name": "브리즈커피",
+      "source": {
+        "url": "https://www.openstreetmap.org/node/8643281329",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "x": -54.76385000000005,
+      "z": -19.42319999999995,
+      "category": "facility",
+      "sourceTags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "delivery": "yes",
+        "name": "브리즈커피"
+      },
+      "status": "reference_point_not_footprint_entrance_or_current_use_confirmation"
+    },
+    {
+      "id": "node/11695717945",
+      "name": "구로주공.구일우성APT",
+      "source": {
+        "url": "https://www.openstreetmap.org/node/11695717945",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "x": -58.58425000000011,
+      "z": 50.90910000000008,
+      "category": "road",
+      "sourceTags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "구로주공.구일우성APT",
+        "network": "서울특별시 시내버스",
+        "network:ko": "서울특별시 시내버스",
+        "network:wikidata": "Q3724007",
+        "public_transport": "platform"
+      },
+      "status": "reference_point_not_footprint_entrance_or_current_use_confirmation"
+    },
+    {
+      "id": "node/11695717946",
+      "name": "구로주공APT",
+      "source": {
+        "url": "https://www.openstreetmap.org/node/11695717946",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "x": -66.41065000000003,
+      "z": 44.0612000000001,
+      "category": "road",
+      "sourceTags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "구로주공APT",
+        "network": "서울특별시 시내버스",
+        "network:ko": "서울특별시 시내버스",
+        "network:wikidata": "Q3724007",
+        "public_transport": "platform"
+      },
+      "status": "reference_point_not_footprint_entrance_or_current_use_confirmation"
+    },
+    {
+      "id": "node/11695717947",
+      "name": "구로1동주민센터.연예인APT",
+      "source": {
+        "url": "https://www.openstreetmap.org/node/11695717947",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "x": -33.85815000000002,
+      "z": -137.33569999999997,
+      "category": "road",
+      "sourceTags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "구로1동주민센터.연예인APT",
+        "network": "서울특별시 시내버스",
+        "network:ko": "서울특별시 시내버스",
+        "network:wikidata": "Q3724007",
+        "public_transport": "platform"
+      },
+      "status": "reference_point_not_footprint_entrance_or_current_use_confirmation"
+    },
+    {
+      "id": "node/11695717948",
+      "name": "구로1동주민센터.연예인APT",
+      "source": {
+        "url": "https://www.openstreetmap.org/node/11695717948",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "x": -41.36615000000006,
+      "z": -118.94519999999989,
+      "category": "road",
+      "sourceTags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "구로1동주민센터.연예인APT",
+        "network": "서울특별시 시내버스",
+        "network:ko": "서울특별시 시내버스",
+        "network:wikidata": "Q3724007",
+        "public_transport": "platform"
+      },
+      "status": "reference_point_not_footprint_entrance_or_current_use_confirmation"
+    },
+    {
+      "id": "node/13851196663",
+      "name": "블루클럽구일점",
+      "source": {
+        "url": "https://www.openstreetmap.org/node/13851196663",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "x": -0.6424500000000535,
+      "z": -0.4555999999998903,
+      "category": "facility",
+      "sourceTags": {
+        "addr:city": "구로구",
+        "addr:housenumber": "30",
+        "addr:province": "서울특별시",
+        "addr:street": "구일로4길",
+        "name": "블루클럽구일점",
+        "shop": "hairdresser"
+      },
+      "status": "reference_point_not_footprint_entrance_or_current_use_confirmation"
+    },
+    {
+      "id": "node/13851196709",
+      "name": "가위소리 헤어",
+      "source": {
+        "url": "https://www.openstreetmap.org/node/13851196709",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "x": 54.30134999999996,
+      "z": -89.11189999999988,
+      "category": "facility",
+      "sourceTags": {
+        "addr:city": "구로구",
+        "addr:housenumber": "46",
+        "addr:province": "서울특별시",
+        "addr:street": "구일로4길",
+        "name": "가위소리 헤어",
+        "shop": "hairdresser"
+      },
+      "status": "reference_point_not_footprint_entrance_or_current_use_confirmation"
+    },
+    {
+      "id": "node/13851196761",
+      "name": "머리좋아 기분좋은날",
+      "source": {
+        "url": "https://www.openstreetmap.org/node/13851196761",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "x": -57.83255000000008,
+      "z": -16.77069999999992,
+      "category": "facility",
+      "sourceTags": {
+        "addr:city": "구로구",
+        "addr:housenumber": "33",
+        "addr:province": "서울특별시",
+        "addr:street": "구일로4길",
+        "addr:unit": "종합상가 1층 113호",
+        "name": "머리좋아 기분좋은날",
+        "shop": "hairdresser"
+      },
+      "status": "reference_point_not_footprint_entrance_or_current_use_confirmation"
+    },
+    {
+      "id": "node/13851196864",
+      "name": "미 스킨케어",
+      "source": {
+        "url": "https://www.openstreetmap.org/node/13851196864",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "x": -57.83255000000008,
+      "z": -16.77069999999992,
+      "category": "facility",
+      "sourceTags": {
+        "addr:city": "구로구",
+        "addr:housenumber": "33",
+        "addr:province": "서울특별시",
+        "addr:street": "구일로4길",
+        "name": "미 스킨케어",
+        "shop": "hairdresser"
+      },
+      "status": "reference_point_not_footprint_entrance_or_current_use_confirmation"
+    },
+    {
+      "id": "node/13851196966",
+      "name": "오늘도 헤어",
+      "source": {
+        "url": "https://www.openstreetmap.org/node/13851196966",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "x": -0.6424500000000535,
+      "z": -0.4555999999998903,
+      "category": "facility",
+      "sourceTags": {
+        "addr:city": "구로구",
+        "addr:housenumber": "30",
+        "addr:province": "서울특별시",
+        "addr:street": "구일로4길",
+        "addr:unit": "신영상가 127,128호",
+        "name": "오늘도 헤어",
+        "shop": "hairdresser"
+      },
+      "status": "reference_point_not_footprint_entrance_or_current_use_confirmation"
+    },
+    {
+      "id": "node/13851197058",
+      "name": "언니네 쌀롱",
+      "source": {
+        "url": "https://www.openstreetmap.org/node/13851197058",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "x": -52.446950000000015,
+      "z": 16.170200000000023,
+      "category": "facility",
+      "sourceTags": {
+        "addr:city": "구로구",
+        "addr:housenumber": "29",
+        "addr:province": "서울특별시",
+        "addr:street": "구일로4길",
+        "addr:unit": "1층",
+        "name": "언니네 쌀롱",
+        "shop": "hairdresser"
+      },
+      "status": "reference_point_not_footprint_entrance_or_current_use_confirmation"
+    },
+    {
+      "id": "node/13851197369",
+      "name": "doo boon (두분)",
+      "source": {
+        "url": "https://www.openstreetmap.org/node/13851197369",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "x": 54.30134999999996,
+      "z": -89.11189999999988,
+      "category": "facility",
+      "sourceTags": {
+        "addr:city": "구로구",
+        "addr:housenumber": "46",
+        "addr:province": "서울특별시",
+        "addr:street": "구일로4길",
+        "addr:unit": "상가동 202호",
+        "name": "doo boon (두분)",
+        "shop": "hairdresser"
+      },
+      "status": "reference_point_not_footprint_entrance_or_current_use_confirmation"
+    },
+    {
+      "id": "node/13851197460",
+      "name": "네일썸",
+      "source": {
+        "url": "https://www.openstreetmap.org/node/13851197460",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "x": -57.83255000000008,
+      "z": -16.77069999999992,
+      "category": "facility",
+      "sourceTags": {
+        "addr:city": "구로구",
+        "addr:housenumber": "33",
+        "addr:province": "서울특별시",
+        "addr:street": "구일로4길",
+        "addr:unit": "종합상가 201호",
+        "name": "네일썸",
+        "shop": "hairdresser"
+      },
+      "status": "reference_point_not_footprint_entrance_or_current_use_confirmation"
+    },
+    {
+      "id": "node/13872630562",
+      "name": null,
+      "source": {
+        "url": "https://www.openstreetmap.org/node/13872630562",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "x": -59.4597500000001,
+      "z": -128.83409999999992,
+      "category": "facility",
+      "sourceTags": {
+        "addr:housenumber": "57",
+        "addr:street": "구일로4길",
+        "amenity": "waste_basket",
+        "check_date": "2026-01-03",
+        "operator": "서울특별시 구로구청 청소행정과",
+        "operator:phone": "+82 2 860 2918",
+        "operator:short": "구로구청",
+        "operator:type": "government"
+      },
+      "status": "reference_point_not_footprint_entrance_or_current_use_confirmation"
+    },
+    {
+      "id": "node/13947202986",
+      "name": "캣츠아이브로우",
+      "source": {
+        "url": "https://www.openstreetmap.org/node/13947202986",
+        "extract_url": "https://api.openstreetmap.org/api/0.6/map?bbox=126.867,37.4845,126.882,37.501",
+        "license": "ODbL-1.0",
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "geometryStatus": "source_mapped_not_surveyed",
+      "x": -14.561950000000024,
+      "z": -41.809299999999894,
+      "category": "facility",
+      "sourceTags": {
+        "addr:city": "서울특별시",
+        "addr:district": "구로구",
+        "addr:housenumber": "46",
+        "addr:street": "구일로4길",
+        "name": "캣츠아이브로우",
+        "shop": "beauty"
+      },
+      "status": "reference_point_not_footprint_entrance_or_current_use_confirmation"
+    }
+  ],
+  "spawn": {
+    "x": -28,
+    "z": 1,
+    "yaw": -1.5136268544818947,
+    "status": "collision_free_demo_position_not_a_verified_entrance_or_public_path"
+  },
+  "views": [
+    {
+      "id": "front",
+      "name": "서측 정면",
+      "x": -28,
+      "z": 1,
+      "yaw": -1.5136268544818947,
+      "distance": 34,
+      "pitch": 0.38,
+      "positionStatus": "collision_free_demo_exterior_not_a_verified_public_viewpoint"
+    },
+    {
+      "id": "south",
+      "name": "남측 옆길",
+      "x": 0,
+      "z": 22,
+      "yaw": 0.00497485430851234,
+      "distance": 42,
+      "pitch": 0.45,
+      "positionStatus": "collision_free_demo_exterior_not_a_verified_public_viewpoint"
+    },
+    {
+      "id": "overview",
+      "name": "주변 평면 배치",
+      "x": 63,
+      "z": 71.53589838486225,
+      "yaw": 0.718806061325421,
+      "distance": 125,
+      "pitch": 0.82,
+      "positionStatus": "collision_free_demo_exterior_not_a_verified_public_viewpoint"
+    }
+  ],
+  "landmark": {
+    "id": "south/shinyeong-footprint",
+    "polygons": [
+      [
+        [
+          [
+            -19.004693764255983,
+            -8.224786161243536
+          ],
+          [
+            -18.98365000000001,
+            7.775200000000041
+          ],
+          [
+            18.779867718148253,
+            -1.967321724435692
+          ],
+          [
+            18.770661071286266,
+            -8.967315669979756
+          ],
+          [
+            -19.004693764255983,
+            -8.224786161243536
+          ]
+        ]
+      ]
+    ],
+    "bounds": {
+      "minX": -19.004693764255983,
+      "maxX": 18.779867718148253,
+      "minZ": -8.967315669979756,
+      "maxZ": 7.775200000000041
+    },
+    "frontEdge": [
+      [
+        -19.004693764255983,
+        -8.224786161243536
+      ],
+      [
+        -18.98365000000001,
+        7.775200000000041
+      ]
+    ],
+    "southEdge": [
+      [
+        -18.98365000000001,
+        7.775200000000041
+      ],
+      [
+        18.779867718148253,
+        -1.967321724435692
+      ]
+    ],
+    "geometryStatus": "roof_reference_estimate_not_ground_survey",
+    "sourcePolygons": [
+      [
+        [
+          [
+            -19.00305000000003,
+            -6.974999999999909
+          ],
+          [
+            -18.98365000000001,
+            7.775200000000041
+          ],
+          [
+            19.003049999999917,
+            -2.0248999999998887
+          ],
+          [
+            18.995049999999992,
+            -7.775199999999927
+          ],
+          [
+            -19.00305000000003,
+            -6.974999999999909
+          ]
+        ]
+      ]
+    ],
+    "roofReferenceEvidence": {
+      "observedOn": "2026-09-30",
+      "referenceDocument": "docs/2050_신영상가_제작설계.md#2026-09-30-지도-거리재기와-신영상가-주변-미리보기",
+      "measurementKind": "map_UI_roof_line_distance_not_ground_wall_survey",
+      "adoptedDimensionsM": {
+        "westFront": 16,
+        "longSouth": 39,
+        "eastRear": 7
+      },
+      "primaryPlane": {
+        "service": "Kakao maximum-zoom aerial roof line",
+        "uiDistancesM": {
+          "westFront": 16,
+          "longSouth": 39,
+          "eastRear": 7
+        },
+        "displayPrecision": "integer_UI_rounded_not_metrological_precision",
+        "sourceURL": "https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&urlLevel=1&urlX=472672&urlY=1109020"
+      },
+      "comparison": {
+        "service": "Naver same roof line",
+        "uiDistancesM": {
+          "westFront": 14.6,
+          "longSouth": 39.2,
+          "eastRear": 7.5
+        },
+        "sourceURL": "https://map.naver.com/p/search/%EC%8B%A0%EC%98%81%EC%83%81%EA%B0%80?c=17.00,0,0,2,dh"
+      },
+      "observedCrossServiceSpanM": {
+        "westFront": [
+          14.6,
+          16
+        ],
+        "longSouth": [
+          39,
+          39.2
+        ],
+        "eastRear": [
+          7,
+          7.5
+        ]
+      },
+      "rangeStatus": "observed_UI_values_only_not_statistical_error_bounds_or_ground_dimensions",
+      "baselineComparison": {
+        "westFrontM": 14.750212757787546,
+        "longSouthM": 39.23048988860569,
+        "eastRearM": 5.7503055649243935,
+        "baselineFrontWithinObservedUISpan": true,
+        "interpretation": "Original front≈14.75m is within the14.6–16m cross-service UI values. Selecting16m is single-Kakao-plane consistency, not proof that the source front or ground wall was wrong."
+      },
+      "imageIndependence": "both services may use the same NGII imagery; independent image verification not established",
+      "reconstruction": "SW fixed at original estimated anchor; original west-up and long-south headings preserved; NW=SW+westUp*16,SE=SW+southUnit*39,NE=SE+westUp*7",
+      "anchorLocalM": [
+        729.224,
+        755.7363
+      ],
+      "anchorStatus": "original_visual_digitization_estimate_not_confirmed_ground_corner",
+      "limitations": [
+        "Roof line is not a surveyed ground wall: shadow, perspective/parallax and roof-wall displacement remain.",
+        "Map click placement and display rounding are approximate; more decimals do not imply accuracy.",
+        "Ground wall positions, entrances and vertical heights still require separate verification."
+      ],
+      "heightsUnchanged": {
+        "front": 17.8,
+        "rear": 10.8,
+        "frontFraction": 0.34210526315789475,
+        "status": "existing_photo_proportion_preview_values_not_new_measurements"
+      }
+    }
+  },
+  "shinyeongRoofReferenceApplied": true,
+  "counts": {
+    "buildings": 20,
+    "roads": 21,
+    "surfaces": 6,
+    "pois": 33
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "source_dataset_year": 2025,
+  "shared_origin_local_m": [
+    748.20765,
+    763.5115
+  ],
+  "source_plan_sha256": "f4081a9a33fa0f622ce7174fce5f2a3381291c5fba8d5c152a9e609f87ad7f43",
+  "clip_bounds_m": [
+    -65.0,
+    -55.0,
+    55.0,
+    55.0
+  ],
+  "blender_version": "5.2.2 LTS",
+  "fbx_export_axes": {
+    "forward": "-Y",
+    "up": "Z",
+    "note": "Matches global axis metadata of the retained Shinyeong reference FBX; UE conversion still requires validation."
+  },
+  "road_corridor": {
+    "source_feature_ids": [
+      "ngii/376120316/N1A_A0010000/1",
+      "ngii/376120316/N1A_A0010000/2"
+    ],
+    "source_area_m2_including_outside_clip": 5332.2567,
+    "clipped_top_area_m2": 2451.1957,
+    "mesh_faces": 35,
+    "mesh_vertices": 105
+  },
+  "walkway": {
+    "source_feature_ids": [
+      "ngii/376120316/N1A_A0033320/7",
+      "ngii/376120316/N1A_A0033320/9",
+      "ngii/376120316/N1A_A0033320/21",
+      "ngii/376120316/N1A_A0033320/22",
+      "ngii/376120316/N1A_A0033320/27",
+      "ngii/376120316/N1A_A0033320/31",
+      "ngii/376120316/N1A_A0033320/40",
+      "ngii/376120316/N1A_A0033320/42"
+    ],
+    "source_area_m2_including_outside_clip": 1710.4272,
+    "clipped_top_area_m2": 852.7448,
+    "mesh_faces": 199,
+    "mesh_vertices": 688
+  },
+  "cross_section_at_north_offset_0_m": {
+    "corridor_intervals_east_m": [
+      [
+        -40.20484091555479,
+        -20.883535627644566
+      ]
+    ],
+    "walkway_intervals_east_m": [
+      [
+        -40.20484091555479,
+        -37.10696293168732
+      ],
+      [
+        -25.08603661755963,
+        -20.883531351409456
+      ],
+      [
+        -62.12932388668809,
+        -61.40021998541081
+      ]
+    ],
+    "remaining_candidate_intervals_east_m": [
+      [
+        -37.10696293168732,
+        -25.08603661755963
+      ]
+    ],
+    "limitation": "A single east-west intersection of 2025 polygons; not a perpendicular width measurement or 2026 road survey."
+  },
+  "assumed_walkway_height_m": 0.12,
+  "unknown_ground_z_m": -0.12,
+  "reference_model_stair_mask_m": [
+    -19.1,
+    -10.1,
+    -13.9,
+    -6.5
+  ],
+  "limitations": [
+    "Road corridor includes walkway; it is not verified asphalt width.",
+    "2025 mapping is not a 2026 field survey.",
+    "Sidewalk height, paving and neutral ground are visual placeholders.",
+    "Roof-to-sidewalk gaps and inaccessible regions remain unverified.",
+    "Road corridor contains sidewalk polygons; raised sidewalk covers it visually and the reported area includes sidewalks.",
+    "Sidewalk is an open surface, not a closed curb solid or a validated collider.",
+    "Ground has a rectangular visual clearance based on the old model's below-grade geometry, not a surveyed stairwell.",
+    "Collisions, axis conversion, material appearance and placement in UE have not been tested."
+  ]
+}

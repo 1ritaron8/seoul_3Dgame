@@ -1,0 +1,47 @@
+{
+  "streetMeshes": 3,
+  "streetBoundsM": {
+    "min": [
+      -65.00000762939453,
+      -55.000003814697266,
+      -0.11999999731779099
+    ],
+    "max": [
+      55.000003814697266,
+      55.000003814697266,
+      0.11999999731779099
+    ]
+  },
+  "shinyeongMeshes": 1206,
+  "shinyeongBoundsM": {
+    "min": [
+      -20.377939224243164,
+      -9.875543594360352,
+      -1.8250000476837158
+    ],
+    "max": [
+      24.178699493408203,
+      9.889423370361328,
+      18.260000228881836
+    ]
+  },
+  "fbxAxisAndUnitMetadataMatch": true,
+  "fbxAxisAndUnitMetadata": {
+    "UpAxis": 2,
+    "UpAxisSign": 1,
+    "FrontAxis": 1,
+    "FrontAxisSign": 1,
+    "CoordAxis": 0,
+    "CoordAxisSign": -1,
+    "UnitScaleFactor": 1.0
+  },
+  "streetPackedTextureImages": [
+    "GuilRoad_Stylized",
+    "GuilWalkway_Stylized"
+  ],
+  "referenceBelowGradeMeshes": 34,
+  "stairMaskUncovered": true,
+  "sidewalkVerticalUvFaces": 91,
+  "upwardTopFaces": 147,
+  "checked": "FBX import and model bounds in Blender; not UE import, collision or a measured 2026 survey"
+}
