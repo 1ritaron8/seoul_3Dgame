@@ -1,0 +1,172 @@
+{
+  "coordinate_system": "BLENDER_METERS_X_EAST_Y_NORTH_Z_UP",
+  "schema_version": 1,
+  "position_semantics": "Foot height at each checkpoint. Curb transitions are abrupt, intermediate ground heights come from the actual mesh.",
+  "eye_height_m": 1.65,
+  "eye_height_status": "gameplay assumption, not a measured human or survey value",
+  "capsule_radius_m": 0.42,
+  "capsule_half_height_m": 0.96,
+  "door_targets_m": {
+    "front": [
+      -18.8371,
+      2.4028,
+      1.65
+    ],
+    "rear": [
+      18.7431,
+      5.65,
+      1.65
+    ]
+  },
+  "start_look_at": "front",
+  "finish_look_at": "rear",
+  "waypoints": [
+    {
+      "id": "opposite_sidewalk",
+      "position_m": [
+        -38.5,
+        2.4,
+        0.12
+      ]
+    },
+    {
+      "id": "opposite_curb",
+      "position_m": [
+        -37.39,
+        2.4,
+        0.12
+      ]
+    },
+    {
+      "id": "road_west",
+      "position_m": [
+        -37.07,
+        2.4,
+        0
+      ]
+    },
+    {
+      "id": "road_east",
+      "position_m": [
+        -25.37,
+        2.4,
+        0
+      ]
+    },
+    {
+      "id": "building_side_curb",
+      "position_m": [
+        -25.05,
+        2.4,
+        0.12
+      ]
+    },
+    {
+      "id": "front_door_view",
+      "position_m": [
+        -21.5,
+        2.4,
+        0.12
+      ]
+    },
+    {
+      "id": "southwest_approach",
+      "position_m": [
+        -21.5,
+        -12,
+        0.12
+      ]
+    },
+    {
+      "id": "south_curb",
+      "position_m": [
+        -20.41,
+        -12,
+        0.12
+      ]
+    },
+    {
+      "id": "south_neutral",
+      "position_m": [
+        -20.08,
+        -12,
+        -0.12
+      ]
+    },
+    {
+      "id": "south_lane_east",
+      "position_m": [
+        25.5,
+        -12,
+        -0.12
+      ]
+    },
+    {
+      "id": "rear_approach",
+      "position_m": [
+        25.5,
+        5.8923,
+        -0.12
+      ]
+    },
+    {
+      "id": "rear_door_view",
+      "position_m": [
+        21.6,
+        5.2,
+        -0.12
+      ]
+    }
+  ],
+  "door_source_objects": {
+    "front": [
+      "main-door-glazing"
+    ],
+    "rear": [
+      "rear-entry-glass-leaf-left",
+      "rear-entry-glass-leaf-right"
+    ]
+  },
+  "surface_heights_m": {
+    "walkway": 0.12,
+    "road_corridor": 0,
+    "neutral": -0.12
+  },
+  "known_hazards": [
+    {
+      "id": "west_road_crossing",
+      "note": "Crosses west road corridor eastward at y=2.4. No crosswalk feature or marked/safe crossing established. Do not label this a crosswalk."
+    },
+    {
+      "id": "southwest_stair_opening",
+      "bounds_xy_m": [
+        -19.1,
+        -10.1,
+        -13.9,
+        -6.5
+      ],
+      "note": "Keep route south of y=-10.1; source stair mesh includes vertices down to -1.825m."
+    },
+    {
+      "id": "rear_parking",
+      "note": "The route approaches the glazed rear leaves beside the reference parking structure. The door target lies on its left leaf to avoid the modeled center gap."
+    },
+    {
+      "id": "curb_steps",
+      "note": "Modeled surfaces change by .12m across west crossing, .24m at east edge of south sidewalk. No survey of curb ramps."
+    }
+  ],
+  "source_paths": [
+    "exports/shinyeong-ue5-transfer/shinyeong-v13.fbx",
+    "exports/shinyeong-ue5-transfer/shinyeong-v13-ue-groups.fbx",
+    "exports/guil-street-ue5/street_reference_2025.json",
+    "exports/guil-street-ue5/street_build_report.json",
+    "docs/reference/shinyeong_legacy_scene_v13.json"
+  ],
+  "limitations": [
+    "Coordinates are observations of the retained reference asset, not measured real-world door dimensions. Legacy asset includes 2050 labels.",
+    "2025 NGII surfaces are reference polygons, not a 2026 field survey. Surface heights are authoring assumptions.",
+    "South and rear route uses neutral ground without a mapped walkway. It demonstrates exterior circulation only.",
+    "Blender route checks are in qa_shinyeong_walk.json. Character step-up, input and full play require UE5."
+  ]
+}

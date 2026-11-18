@@ -1,0 +1,351 @@
+{
+  "status": "PASS_GEOMETRY_WITH_CURB_STEP_REQUIREMENT",
+  "blender_version": "5.2.2 LTS",
+  "contract_sha256": "ed8e623795a2e915ea65b9c21e5b7dfdc9c9a49e6a85ebf6c00effd717693365",
+  "source_bounds_m": {
+    "StreetDraft": {
+      "min": [
+        -65.00000762939453,
+        -55.000003814697266,
+        -0.11999999731779099
+      ],
+      "max": [
+        55.000003814697266,
+        55.000003814697266,
+        0.11999999731779099
+      ]
+    },
+    "ShinyeongReference": {
+      "min": [
+        -20.377939224243164,
+        -9.875545501708984,
+        -1.8250000476837158
+      ],
+      "max": [
+        24.178699493408203,
+        9.889425277709961,
+        18.260000228881836
+      ]
+    },
+    "BuildingGroupCenters": {
+      "min": [
+        -0.7990360260009766,
+        -2.6506823301315308,
+        5.245000190567225
+      ],
+      "max": [
+        2.433237075805664,
+        4.803273394703865,
+        9.130000114440918
+      ]
+    }
+  },
+  "route_horizontal_length_m": 100.25326948864794,
+  "street_sha256": "6e5ce5912f50624f1d3a4c56b60cdb0ef59e2e5bd6ef6082392bcc1bbf53aea9",
+  "building_sha256": "d5947ab15be1273a4bcf9c6603ce726be453ea8b90fdbbce8c5f1eb1c3e564c5",
+  "street_meshes": 3,
+  "building_meshes": 6,
+  "route_samples": 675,
+  "capsule_radius_m": 0.42,
+  "capsule_height_m": 1.92,
+  "route_spacing_max_m": 0.15,
+  "axis_spacing_max_m": 0.08,
+  "conservative_sampling_bound_m": 0.35500003933906554,
+  "building_minimum_sampled_surface_clearance_m": 0.6829610633850098,
+  "building_clearance_exceeds_sampling_allowance": true,
+  "minimum_sampled_surface_clearance_m_including_curbs": -0.23145986914634703,
+  "low_clearance_samples": [
+    {
+      "segment": "opposite_curb -> road_west",
+      "feet": [
+        -37.38999938964844,
+        2.4000000953674316,
+        0.1199999451637268
+      ],
+      "sampled_clearance_m": 0.029359297752380387,
+      "closest_triangle_point": [
+        -37.23043441772461,
+        2.407926559448242,
+        0.11999999731779099
+      ],
+      "obstacle_source": "street_curb"
+    },
+    {
+      "segment": "opposite_curb -> road_west",
+      "feet": [
+        -37.28333282470703,
+        2.4000000953674316,
+        0.12000006437301636
+      ],
+      "sampled_clearance_m": 0.0033594238758087314,
+      "closest_triangle_point": [
+        -37.23017120361328,
+        2.4026412963867188,
+        0.11999999731779099
+      ],
+      "obstacle_source": "street_curb"
+    },
+    {
+      "segment": "opposite_curb -> road_west",
+      "feet": [
+        -37.176666259765625,
+        2.4000000953674316,
+        0.0
+      ],
+      "sampled_clearance_m": -0.11530069828033446,
+      "closest_triangle_point": [
+        -37.22990798950195,
+        2.3973541259765625,
+        0.11999999731779099
+      ],
+      "obstacle_source": "street_curb"
+    },
+    {
+      "segment": "road_west -> road_east",
+      "feet": [
+        -37.06999969482422,
+        2.4000000953674316,
+        0.0
+      ],
+      "sampled_clearance_m": -0.0800743532180786,
+      "closest_triangle_point": [
+        -37.229644775390625,
+        2.392068862915039,
+        0.11999999731779099
+      ],
+      "obstacle_source": "street_curb"
+    },
+    {
+      "segment": "road_west -> road_east",
+      "feet": [
+        -36.91999816894531,
+        2.4000000953674316,
+        0.0
+      ],
+      "sampled_clearance_m": 0.01115022778511049,
+      "closest_triangle_point": [
+        -37.229278564453125,
+        2.384632110595703,
+        0.11999999731779099
+      ],
+      "obstacle_source": "street_curb"
+    },
+    {
+      "segment": "road_west -> road_east",
+      "feet": [
+        -25.520002365112305,
+        2.4000000953674316,
+        0.0
+      ],
+      "sampled_clearance_m": 0.010487006902694718,
+      "closest_triangle_point": [
+        -25.211658477783203,
+        2.4155924320220947,
+        0.11999999731779099
+      ],
+      "obstacle_source": "street_curb"
+    },
+    {
+      "segment": "road_east -> building_side_curb",
+      "feet": [
+        -25.3700008392334,
+        2.4000000953674316,
+        0.0
+      ],
+      "sampled_clearance_m": -0.08050291061401366,
+      "closest_triangle_point": [
+        -25.211275100708008,
+        2.4080264568328857,
+        0.11999999731779099
+      ],
+      "obstacle_source": "street_curb"
+    },
+    {
+      "segment": "road_east -> building_side_curb",
+      "feet": [
+        -25.26333236694336,
+        2.4000000953674316,
+        0.0
+      ],
+      "sampled_clearance_m": -0.1154590082168579,
+      "closest_triangle_point": [
+        -25.21100425720215,
+        2.40264630317688,
+        0.11999999731779099
+      ],
+      "obstacle_source": "street_curb"
+    },
+    {
+      "segment": "road_east -> building_side_curb",
+      "feet": [
+        -25.156665802001953,
+        2.4000000953674316,
+        0.12000000476837158
+      ],
+      "sampled_clearance_m": 0.003474371433258072,
+      "closest_triangle_point": [
+        -25.210731506347656,
+        2.397266149520874,
+        0.11999999731779099
+      ],
+      "obstacle_source": "street_curb"
+    },
+    {
+      "segment": "building_side_curb -> front_door_view",
+      "feet": [
+        -25.049999237060547,
+        2.4000000953674316,
+        0.12000000476837158
+      ],
+      "sampled_clearance_m": 0.029681043624877945,
+      "closest_triangle_point": [
+        -25.210458755493164,
+        2.391885995864868,
+        0.11999999731779099
+      ],
+      "obstacle_source": "street_curb"
+    },
+    {
+      "segment": "south_curb -> south_neutral",
+      "feet": [
+        -20.40999984741211,
+        -12.0,
+        0.12000006437301636
+      ],
+      "sampled_clearance_m": 0.030734287500381485,
+      "closest_triangle_point": [
+        -20.246641159057617,
+        -11.991323471069336,
+        0.11999999731779099
+      ],
+      "obstacle_source": "street_curb"
+    },
+    {
+      "segment": "south_curb -> south_neutral",
+      "feet": [
+        -20.299999237060547,
+        -12.0,
+        0.12000003457069397
+      ],
+      "sampled_clearance_m": 0.0034244823455810702,
+      "closest_triangle_point": [
+        -20.2463321685791,
+        -11.997150421142578,
+        0.11999999731779099
+      ],
+      "obstacle_source": "street_curb"
+    },
+    {
+      "segment": "south_curb -> south_neutral",
+      "feet": [
+        -20.190000534057617,
+        -12.0,
+        -0.12000000476837158
+      ],
+      "sampled_clearance_m": -0.23145986914634703,
+      "closest_triangle_point": [
+        -20.246023178100586,
+        -12.002975463867188,
+        0.11999999731779099
+      ],
+      "obstacle_source": "street_curb"
+    },
+    {
+      "segment": "south_neutral -> south_lane_east",
+      "feet": [
+        -20.079999923706055,
+        -12.0,
+        -0.12000000476837158
+      ],
+      "sampled_clearance_m": -0.17517749786376952,
+      "closest_triangle_point": [
+        -20.245712280273438,
+        -12.00880241394043,
+        0.11999999731779099
+      ],
+      "obstacle_source": "street_curb"
+    },
+    {
+      "segment": "south_neutral -> south_lane_east",
+      "feet": [
+        -19.93006706237793,
+        -12.0,
+        -0.12000000476837158
+      ],
+      "sampled_clearance_m": -0.0566181969642639,
+      "closest_triangle_point": [
+        -20.245290756225586,
+        -12.016743659973145,
+        0.11999999731779099
+      ],
+      "obstacle_source": "street_curb"
+    }
+  ],
+  "support_errors": [],
+  "support_footprint_8_rays_missing": [],
+  "support_footprint_max_height_range_m": 0.24000012874603271,
+  "maximum_adjacent_support_step_m": 0.24000003933906555,
+  "door_sightlines": {
+    "opposite_to_front": {
+      "eye": [
+        -38.5,
+        2.4000000953674316,
+        1.7699999809265137
+      ],
+      "target": [
+        -18.837099075317383,
+        2.4028000831604004,
+        1.649999976158142
+      ],
+      "first_hit": [
+        -18.8945369720459,
+        2.402791976928711,
+        1.6503504514694214
+      ],
+      "target_visible_within_20cm": true
+    },
+    "front": {
+      "eye": [
+        -21.5,
+        2.4000000953674316,
+        1.7699999809265137
+      ],
+      "target": [
+        -18.837099075317383,
+        2.4028000831604004,
+        1.649999976158142
+      ],
+      "first_hit": [
+        -18.8945369720459,
+        2.4027397632598877,
+        1.6525882482528687
+      ],
+      "target_visible_within_20cm": true
+    },
+    "rear": {
+      "eye": [
+        21.600000381469727,
+        5.199999809265137,
+        1.5299999713897705
+      ],
+      "target": [
+        18.743099212646484,
+        5.650000095367432,
+        1.649999976158142
+      ],
+      "first_hit": [
+        18.742525100708008,
+        5.65009069442749,
+        1.6500240564346313
+      ],
+      "target_visible_within_20cm": true
+    }
+  },
+  "stair_opening_street_overlap": [],
+  "limitations": [
+    "Modeled geometry estimates, not surveyed physical dimensions.",
+    "Unreal collision and character simulation untested; curb traversal requires step handling.",
+    "Exterior door approach only; interior passage is not verified.",
+    "Static capsules overlap curb steps; these are reported separately from building obstacles."
+  ]
+}

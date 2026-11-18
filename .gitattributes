@@ -1,6 +1,7 @@
 # Keep source coordinate data byte-consistent across Windows PCs.
 *.geojson text eol=lf
 *.json text eol=lf
+*.cmd text eol=crlf
 *.fbx binary
 *.blend binary
 *.png binary

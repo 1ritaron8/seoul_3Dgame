@@ -1,4 +1,24 @@
-# UE5 에디터 수동 FBX 가져오기
+# UE5에서 신영상가 보행 레벨 열기
+
+집에서 바로 걸으려면 저장소 루트의 [Play-Guil.cmd](../Play-Guil.cmd)를 실행합니다. 실행 파일이 UE5를 찾는 순서, 처음 받기와 오류 확인은 [집 작업 인수인계](집_작업_인수인계.md)에 정리했습니다.
+
+## 에디터 메뉴로 직접 실행
+
+1. 설치된 UE5에서 [Guil2026.uproject](../Guil2026/Guil2026.uproject)를 엽니다. 버전 선택 창이 뜨면 설치된 UE5를 선택합니다. C++ 컴파일이 필요 없는 프로젝트입니다. 최초 실행 화면은 빈 레벨입니다.
+2. 콘텐츠 브라우저의 **Add → Add Feature or Content Pack → Blueprint → First Person → Add to Project**에서 엔진에 포함된 기본 1인칭 캐릭터와 조작을 추가합니다. 변형을 선택하는 버전에서는 **None**을 고릅니다. 이미 기본 First Person Blueprint 프로젝트를 사용한다면 거기서도 다음 단계를 실행할 수 있습니다. 그 경우 Python Editor Script Plugin과 Editor Scripting Utilities를 활성화합니다. 제공한 프로젝트에는 필요한 플러그인 설정이 들어 있습니다. [Epic First Person 템플릿](https://dev.epicgames.com/documentation/unreal-engine/first-person-template-in-unreal-engine)
+3. **File → Execute Python Script**에서 저장소의 [tools/build_shinyeong_walk.py](../tools/build_shinyeong_walk.py)를 선택합니다. 에디터의 Output Log에 `Walking map saved`가 나오면 생성이 끝난 상태입니다. 입력은 UE5에 내장된 Python으로 처리합니다. [Epic 에디터 Python 실행](https://dev.epicgames.com/documentation/unreal-engine/scripting-the-unreal-editor-using-python)
+4. **Play** 옆 메뉴에서 **Selected Viewport**, **Spawn Player At → Default Player Start**로 실행합니다. 화면을 클릭하고 WASD와 마우스로 이동합니다. 정면의 약국 옆 정문까지 걸은 뒤 오른쪽으로 돌아 지하계단을 지나고, 상가를 왼쪽에 두고 뒤쪽 양개문까지 걷습니다. Esc로 에디터에 돌아갑니다.
+
+기본 팩이 목록에 없고 설치된 엔진에서 **Games → First Person → Blueprint** 프로젝트를 만들 수 있으면 그 프로젝트에서 3~4단계를 사용합니다. [Epic 프로젝트 생성 안내](https://dev.epicgames.com/documentation/unreal-engine/create-your-first-project-in-unreal-engine)
+
+## 저장 및 확인
+
+- 레벨 경로는 `/Game/GuilWalk/ShinyeongWalk`입니다. 성공하면 프로젝트 안에 `Content/GuilWalk/ShinyeongWalk.umap`이 생깁니다. 제공한 프로젝트가 처음의 빈 시작 맵을 사용 중이면 다음 실행 때 이 레벨을 열도록 설정합니다. 콘텐츠 브라우저에서 해당 레벨을 더블클릭해도 됩니다.
+- 첫 생성 때 거리 1개와 건물 6개를 같은 원점에 배치하고 삼각형에 보행 충돌을 설정합니다. 에디터는 각 메시의 실제 범위로 좌표축·미터 배율을 확인한 뒤 템플릿 캐릭터의 캡슐과 최대 단차를 읽습니다. 바닥·캡슐 이동·두 문을 보는 시선·시작 방향 검사를 통과하면 지도를 저장합니다.
+- 저장된 판을 다시 실행하면 기존 레벨을 엽니다. 편집 중인 레벨을 저장하라는 메시지가 뜨면 저장 후 다시 실행합니다. 최초 생성 도중 오류가 나면 Output Log를 확인합니다. FBX를 가져온 뒤의 오류는 프로젝트의 `Saved/GuilWalk_*.json`에도 기록됩니다. 처음 생성한 일부 FBX 자산은 해당 실행의 `/Game/GuilImports/Run_…`에 남을 수 있습니다.
+- 이 PC에서 직접 검증한 범위는 Blender의 모델 형상·동선과 오프라인 Python 검사입니다. 실제 Unreal 에디터 저장·입력·단차 통과·프레임은 UE5에서 확인해야 합니다. 생성기 작성에는 UE 5.6의 저장 및 충돌 조회 API를 기준으로 사용했습니다. [Blender 결과](../exports/guil-street-ue5/walk/qa_shinyeong_walk.json) · [Epic 맵 저장 API](https://dev.epicgames.com/documentation/en-us/unreal-engine/python-api/class/EditorLoadingAndSavingUtils?application_version=5.6) · [Epic 충돌 조회 API](https://dev.epicgames.com/documentation/en-us/unreal-engine/python-api/class/SystemLibrary?application_version=5.6)
+
+## FBX만 가져오는 기존 도구
 
 이 도구는 사용자가 만든 UE5 First Person Blueprint 프로젝트에 **거리 Static Mesh와 분할된 신영상가 참고 메시들**을 가져옵니다. UE 프로젝트 생성·레벨 구성·배치·캐릭터 구현·플레이 검증을 수행하지 않습니다.
 
@@ -45,4 +65,4 @@ FBX의 재질·텍스처 가져오기를 요청합니다. 신영상가에 재질
 - [EditorAssetLibrary (UE 5.6)](https://dev.epicgames.com/documentation/en-us/unreal-engine/python-api/class/EditorAssetLibrary?application_version=5.6): 대상 폴더·자산 존재 확인, Editor Scripting Utilities 의존성.
 - [FBX 가져오기 오류](https://dev.epicgames.com/documentation/unreal-engine/fbx-import-errors-in-unreal-engine): Static Mesh의 재질 수 제한과 분할 안내.
 
-문서 확인일: 2026-11-03. 문서 버전은 호환성 기준이며 이 PC에 해당 버전이 설치되어 있다는 의미는 아닙니다.
+FBX 가져오기 API는 2026-11-03, 보행 레벨 API는 2026-11-18에 확인했습니다.

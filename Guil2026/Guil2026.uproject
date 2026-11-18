@@ -1,0 +1,10 @@
+{
+  "FileVersion": 3,
+  "Category": "Games",
+  "Description": "First-person walk through Guil, Seoul.",
+  "Plugins": [
+    { "Name": "EnhancedInput", "Enabled": true },
+    { "Name": "PythonScriptPlugin", "Enabled": true, "TargetAllowList": ["Editor"] },
+    { "Name": "EditorScriptingUtilities", "Enabled": true, "TargetAllowList": ["Editor"] }
+  ]
+}
